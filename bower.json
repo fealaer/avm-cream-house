@@ -6,9 +6,11 @@
     "supersonic": "1.x",
 	  "ionic": "master",
 	  "lodash": "latest",
+	  "restangular": "latest",
 	  "ngstorage": "latest",
 	  "font-awesome": "latest",
 	  "angular-fontawesome": "latest",
-	  "ui-router-extras": "latest"
+	  "ui-router-extras": "latest",
+	  "fastclick": "latest"
   }
 }
