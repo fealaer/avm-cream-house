@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "angular": "1.3.x",
-    "supersonic": "1.x"
+    "supersonic": "1.x",
+	  "ionic": "master",
+	  "lodash": "latest",
+	  "ngstorage": "latest",
+	  "font-awesome": "latest",
+	  "angular-fontawesome": "latest",
+	  "ui-router-extras": "latest"
   }
 }
