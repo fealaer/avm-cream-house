@@ -1,0 +1,31 @@
+<ion-view title="Drinks">
+	<ion-nav-buttons side="right">
+		<filter-button default-filter="defaultFilter" current-filter="search"
+		               modal-template="app/components/drinksFilter.modal.html"></filter-button>
+		<button class="button button-icon icon ion-ios7-search-strong" ng-click="doSomething()"></button>
+	</ion-nav-buttons>
+	<ion-content has-tabs>
+		<div class="item-thumbnail-left item item-complex item-in-list"
+		     collection-repeat="item in items | filter:search track by item.id"
+		     collection-item-width="'100%'"
+		     collection-item-height="100">
+			<a class="item-content" ui-sref="tabs.drinks.item({id: item.id})">
+				<img ng-src="{{'/images/small/' + item.id + '.png'}}">
+				<h2>{{item.name[lang]}}</h2>
+				<h4><i class="fa fa-star gold-star"></i> {{item.rate.rate | number:1}} (<i class="fa fa-user"></i> {{item.rate.based | number}}) <i class="fa fa-comment"></i> {{item.totalComments | number}}</h4>
+				<h3><strong>Rs.</strong> {{item.price | number}}</h3>
+			</a>
+			<div class="list-buttons">
+				<button
+					class="button button-icon button-clear"
+					ng-class="{'button-stable': !item.isTried, 'button-balanced': item.isTried}"
+					ng-disabled="item.isTried"
+					ng-click="toTry(item); $event.stopPropagation();"><fa name="check" size="large"></fa></button>
+				<button
+					class="button button-icon button-clear"
+					ng-class="{'button-stable': !item.isSaved, 'button-positive': item.isSaved}"
+					ng-click="toSave(item); $event.stopPropagation();"><fa name="bookmark" size="large"></fa></button>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,21 @@
+<div class="rating-box">
+	<div class="score-container">
+		<div class="score">{{rate.rate | number:1}}</div>
+		<div class="score-container-star-rating">
+			<angular-ratings ng-model="rate.rate" readonly="true" class="small-stars" aria-label=" Rated {{rate.rate | number:1}} stars out of five stars "></angular-ratings>
+		</div>
+		<div class="reviews-stats"><i class="icon ion-ios7-people"></i> <span class="reviews-num">{{rate.based | number}}</span> total</div>
+	</div>
+	<div class="rating-histogram">
+		<div class="rating-bar-container five"><span class="bar-label"> <span class="star-tiny star-full"></span>5 </span>
+			<span class="bar" style="width:{{rate.ratings.five / max * 100}}%"></span> <span class="bar-number">{{rate.ratings.five | number}}</span></div>
+		<div class="rating-bar-container four"><span class="bar-label"> <span class="star-tiny star-full"></span>4 </span>
+			<span class="bar" style="width:{{rate.ratings.four / max * 100}}%"></span> <span class="bar-number">{{rate.ratings.four | number}}</span></div>
+		<div class="rating-bar-container three"><span class="bar-label"> <span class="star-tiny star-full"></span>3 </span>
+			<span class="bar" style="width:{{rate.ratings.three / max * 100}}%"></span> <span class="bar-number">{{rate.ratings.three | number}}</span></div>
+		<div class="rating-bar-container two"><span class="bar-label"> <span class="star-tiny star-full"></span>2 </span>
+			<span class="bar" style="width:{{rate.ratings.two / max * 100}}%"></span> <span class="bar-number">{{rate.ratings.two | number}}</span></div>
+		<div class="rating-bar-container one"><span class="bar-label"> <span class="star-tiny star-full"></span>1 </span>
+			<span class="bar" style="width:{{rate.ratings.one / max * 100}}%"></span> <span class="bar-number">{{rate.ratings.one | number}}</span></div>
+	</div>
+</div>

@@ -1,0 +1,65 @@
+<ion-view title="{{item.name[lang]}}">
+	<ion-nav-buttons side="left">
+		<button class="button button-icon ion-chevron-left" ui-sref="tabs.drinks.list"></button>
+	</ion-nav-buttons>
+
+	<ion-content>
+		<div class="list card">
+			<div class="item item-body">
+				<div class="card-image-wrapper">
+					<div class="item-buttons">
+						<button
+							class="button button-icon button-clear"
+							ng-class="{'button-stable': !item.isTried, 'button-balanced': item.isTried}"
+							ng-disabled="item.isTried"
+							ng-click="toTry(item); $event.stopPropagation();"><fa name="check" size="large"></fa></button>
+						<button
+							class="button button-icon button-clear"
+							ng-class="{'button-stable': !item.isSaved, 'button-positive': item.isSaved}"
+							ng-click="toSave(item); $event.stopPropagation();"><fa name="bookmark" size="large"></fa></button>
+					</div>
+					<img class="card-image" ng-src="{{'/images/' + item.id + '.png'}}">
+				</div>
+				<div ng-controller="InfoTabsCtrl">
+					<div class="item tabs tabs-secondary tabs-icon-top">
+						<a class="tab-item" href ng-click="setTab('info')"
+						   ng-class="{active: isSet('info')}">
+							<i class="icon ion-information-circled"></i>
+							Info
+						</a>
+						<a class="tab-item" href ng-click="setTab('rate')"
+						   ng-class="{active: isSet('rate')}">
+							<i class="icon ion-ios7-star"></i>
+							{{item.rate.rate}}
+						</a>
+						<a class="tab-item" href ng-click="setTab('comments')"
+						   ng-class="{active: isSet('comments')}">
+							<i class="icon ion-chatbox"></i>
+							{{item.totalComments}}
+						</a>
+						<a class="tab-item" href ng-click="setTab('ingredients')"
+						   ng-class="{active: isSet('ingredients')}">
+							<i class="icon ion-aperture"></i>
+							{{item.ingredients.length}}
+						</a>
+					</div>
+					<div ng-show="isSet('info')">
+						<p ng-show="item.properties.density">Density: {{item.properties.density | join:', '}}</p>
+						<p ng-show="item.properties.flavor">Flavor: {{item.properties.flavor | join:', '}}</p>
+					</div>
+					<div ng-show="isSet('rate')">
+						<rating-view data-rate="item.rate"></rating-view>
+					</div>
+					<div ng-show="isSet('comments')">
+						<blockquote ng-repeat="comment in item.comments">{{comment}}</blockquote>
+					</div>
+					<div ng-show="isSet('ingredients')">
+						<ul>
+							<li ng-repeat="ingredient in item.ingredients">{{ingredient}}</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

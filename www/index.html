@@ -6,11 +6,21 @@
 
   <title>AVM Cream House</title>
 
+  <!--<link rel="stylesheet" href="/components/supersonic/css/supersonic.css">-->
+  <!--<link rel="stylesheet" href="/stylesheets/application.css">-->
+  <!--<link rel="import" href="/components/supersonic/components/import.html">-->
+
   <script src="http://localhost/cordova.js"></script>
   <script src="/components/steroids-js/steroids.js"></script>
+  <!--<script src="/components/angular/angular.js"></script>-->
+  <!--<script src="/components/supersonic/supersonic.js"></script>-->
+  <!--<script src="/components/webcomponentsjs/webcomponents.js"></script>-->
 
 	<link rel="stylesheet" href="/components/ionic/release/css/ionic.min.css"/>
 	<link rel="stylesheet" href="/stylesheets/application.css"/>
+	<link rel="stylesheet" href="/components/font-awesome/css/font-awesome.min.css"/>
+	<!--<link rel="stylesheet" href="/app/components/ratingButtons.directive.css"/>-->
+	<link rel="stylesheet" href="/app/components/ratingView.directive.css"/>
 
 	<!--ionic.bundle.js is a concatenation of: ionic.js, angular.js, angular-animate.js, angular-ui-router.js, and ionic-angular.js-->
 	<script src="/components/ionic/release/js/ionic.bundle.js"></script>
@@ -30,10 +40,33 @@
 	<!--components-->
 	<script src="/app/components/libs.js"></script>
 	<script src="/app/components/config.js"></script>
+	<!--<script src="/app/components/data.service.js"></script>-->
+	<script src="/app/components/infoTabs.controller.js"></script>
+	<script src="/app/components/join.filter.js"></script>
+	<!--<script src="/app/components/ratingButtons.directive.js"></script>-->
+	<script src="/app/components/ratingView.directive.js"></script>
 	<script src="/app/components/settings.service.js"></script>
+	<!--<script src="/app/components/filterButton.directive.js"></script>-->
+	<script src="/app/components/listFilter.service.js"></script>
+	<script src="/app/components/utils.service.js"></script>
 
 	<!--modules-->
 	<script src="/app/modules/config.js"></script>
+	<script src="/app/modules/tabs/config.js"></script>
+	<script src="/app/modules/tabs/routes.js"></script>
+	<script src="/app/modules/tabs/tabs.controller.js"></script>
+	<script src="/app/modules/tabs/drinks/config.js"></script>
+	<script src="/app/modules/tabs/drinks/routes.js"></script>
+	<script src="/app/modules/tabs/drinks/drinks.service.js"></script>
+	<script src="/app/modules/tabs/drinks/ratings.service.js"></script>
+	<script src="/app/modules/tabs/drinks/item.controller.js"></script>
+	<script src="/app/modules/tabs/drinks/list.controller.js"></script>
+	<script src="/app/modules/tabs/drinks/drinks.controller.js"></script>
+	<!--<script src="/app/modules/tabs/ingredients/config.js"></script>-->
+	<!--<script src="/app/modules/tabs/ingredients/routes.js"></script>-->
+	<!--<script src="/app/modules/tabs/ingredients/ingredients.service.js"></script>-->
+	<!--<script src="/app/modules/tabs/ingredients/item.controller.js"></script>-->
+	<!--<script src="/app/modules/tabs/ingredients/list.controller.js"></script>-->
 	<!--Always last-->
 	<script src="/app/bootstrap.js"></script>
 	<!-- endbuild -->
@@ -41,10 +74,7 @@
 <body>
 <ion-pane>
 	<ion-nav-bar class="nav-title-slide-ios7 bar-positive">
-		<ion-nav-back-button class="button-icon ion-chevron-left">
-		</ion-nav-back-button>
 	</ion-nav-bar>
-
 	<ion-nav-view animation="slide-left-right"></ion-nav-view>
 	<ion-footer-bar class="bar-stable">
 		<h1 class="title">Buy stuff!</h1>

@@ -1,0 +1,219 @@
+.rating-box .reviewers-small {
+    top: 3px
+}
+
+.reviews .rating-box {
+    display: inline-block
+}
+
+.rating-box {
+    white-space: nowrap
+}
+
+.rating-box .score-container, .rating-box .rating-histogram {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top
+}
+
+.rating-box .score-container {
+    padding: 20px;
+    text-align: center;
+    width: 150px
+}
+
+.rating-box .rating-histogram {
+    width: 170px
+}
+
+.score-container .score {
+    color: #333;
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 64px
+}
+
+.score-container .reviews-stats {
+    color: #8d8d8d
+}
+
+.score-container-star-rating {
+    height: 24px;
+    margin: 0 0 8px 2px
+}
+
+.rating-box .rating-histogram {
+    padding: 20px 20px 20px 30px
+}
+
+.rating-box .rating-bar-container {
+    color: #737373;
+    height: 23px;
+    font-weight: 400;
+    position: relative;
+    width: 100%
+}
+
+.rating-box .bar-label {
+    font-size: 11px;
+    left: -30px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 4px
+}
+
+.rating-box .bar-number {
+    color: #333;
+    font-size: 11px;
+    left: 5px;
+    position: absolute;
+    top: 4px
+}
+
+.rating-bar-container .bar {
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -webkit-transition: width .25s ease;
+    -moz-transition: width .25s ease;
+    -o-transition: width .25s ease;
+    transition: width .25s ease;
+    display: inline-block;
+    height: 100%;
+    padding: 0;
+}
+
+.rating-bar-container.five .bar {
+    background: #88b131
+}
+
+.rating-bar-container.four .bar {
+    background: #99cc00
+}
+
+.rating-bar-container.three .bar {
+    background: #ffcf02
+}
+
+.rating-bar-container.two .bar {
+    background: #ff9f02
+}
+
+.rating-bar-container.one .bar {
+    background: #ff6f31
+}
+
+.review-info-star-rating {
+    height: 18px;
+    margin-top: -1px
+}
+
+.star-rating {
+    height: 24px
+}
+
+.star-tiny, .star-small {
+    display: inline-block
+}
+
+.star-tiny {
+    height: 16px;
+    position: relative;
+    top: -1px;
+    width: 16px;
+    vertical-align: middle
+}
+
+.star-tiny.star-full {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAdElEQVQoz2P4//8/AzmYgWKN6KC4uDgBhGF8UjQ+AGGSNEJt+w/FCXg1AhUUAHEDEB8A4g9IGj9AxUByBdg0LkBSjAsvwOpUApoX4PUjUMEFLJouEAwcSjTCFB+AYjAfr0agAgNo/AUgGRQAFTOgbpIjFQMAtcfKBD81ItYAAAAASUVORK5CYII=)
+}
+
+.star-tiny.star-empty {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAcklEQVQoz2P4//8/AzmYgWKN6KC4uFgYhGF8UjTqgjBJGqG2GUOxMF6NQAViQCwFxGpAbICk0QAqBpITw6ZRAUkxLqyA1akENCvg9SNQgRYWTVoEA4cSjTDFalAM5uPVCFTABY0/ASSDBKBiXNRNcqRiADBao1Bj6dJdAAAAAElFTkSuQmCC)
+}
+
+.star-small {
+    height: 32px;
+    width: 32px
+}
+
+.star-small.star-full {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAtElEQVQoz+2S0Q2AIAwFGYERHMVRGMGEBRjJERzBETqCGyCYQghRbKn8aXI/St8hD+W9VyNRv4AtaD3WWhNprZEKIDJEgLv3iBkhgEIAnwpC4FyEJ+YuQRicMHAJuMBW7T7/BX5zuDbOTBTBfhNGZacIdKckzmhSBx2SK5xVMkOSw9m36OH2NG8TV2AIAiMROILASQRrFbYh5btVIkglQ3nW2A2kkiWCoz7jm44OluBrfsErJ8j79BUPTQO5AAAAAElFTkSuQmCC)
+}
+
+.star-small.star-empty {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAsElEQVQoz+2SsQqAIBCGhaCtSWhwFRqCg6BH8/0xjTNEyu683Aq+pbz/M3+V9171RP0CtqD2OOd0pLZGKoBIFwHufkd0DwFkAvhUEAKnLDwxNQnC4IiBc8AElmL311/gN4Nr48xIEaw3YVRWimBolMSZgdRBg+QMZ5XMkFzh7Fv0cHuqt4kr0ASBlggMQWAkAluELUj+zkoEqWTIzxq7gVSyRLCVZ3zT0cYSfM0veOUA7SaWETdHTzIAAAAASUVORK5CYII=)
+}
+
+.write-star-rating-container {
+    display: inline-block;
+    cursor: pointer
+}
+
+.star-rating-editable-container {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAsElEQVQoz+2SsQqAIBCGhaCtSWhwFRqCg6BH8/0xjTNEyu683Aq+pbz/M3+V9171RP0CtqD2OOd0pLZGKoBIFwHufkd0DwFkAvhUEAKnLDwxNQnC4IiBc8AElmL311/gN4Nr48xIEaw3YVRWimBolMSZgdRBg+QMZ5XMkFzh7Fv0cHuqt4kr0ASBlggMQWAkAluELUj+zkoEqWTIzxq7gVSyRLCVZ3zT0cYSfM0veOUA7SaWETdHTzIAAAAASUVORK5CYII=) top left repeat-x;
+    height: 24px;
+    left: -1px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 1px;
+    width: 120px
+}
+
+.star-common {
+    display: block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    width: 24px;
+    z-index: 30
+}
+
+.small-star .star-rating-editable-container {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAsElEQVQoz+2SsQqAIBCGhaCtSWhwFRqCg6BH8/0xjTNEyu683Aq+pbz/M3+V9171RP0CtqD2OOd0pLZGKoBIFwHufkd0DwFkAvhUEAKnLDwxNQnC4IiBc8AElmL311/gN4Nr48xIEaw3YVRWimBolMSZgdRBg+QMZ5XMkFzh7Fv0cHuqt4kr0ASBlggMQWAkAluELUj+zkoEqWTIzxq7gVSyRLCVZ3zT0cYSfM0veOUA7SaWETdHTzIAAAAASUVORK5CYII=) top left repeat-x;
+    height: 24px;
+    width: 120px
+}
+
+.small-star .star-common {
+    height: 24px;
+    line-height: 24px;
+    width: 24px
+}
+
+.small-star .star-common:hover {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAtElEQVQoz+2S0Q2AIAwFGYERHMVRGMGEBRjJERzBETqCGyCYQghRbKn8aXI/St8hD+W9VyNRv4AtaD3WWhNprZEKIDJEgLv3iBkhgEIAnwpC4FyEJ+YuQRicMHAJuMBW7T7/BX5zuDbOTBTBfhNGZacIdKckzmhSBx2SK5xVMkOSw9m36OH2NG8TV2AIAiMROILASQRrFbYh5btVIkglQ3nW2A2kkiWCoz7jm44OluBrfsErJ8j79BUPTQO5AAAAAElFTkSuQmCC) left center repeat-x;
+    left: 0px;
+    z-index: 20
+}
+
+.star-rating-non-editable-container {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAcklEQVQoz2P4//8/AzmYgWKN6KC4uFgYhGF8UjTqgjBJGqG2GUOxMF6NQAViQCwFxGpAbICk0QAqBpITw6ZRAUkxLqyA1akENCvg9SNQgRYWTVoEA4cSjTDFalAM5uPVCFTABY0/ASSDBKBiXNRNcqRiADBao1Bj6dJdAAAAAElFTkSuQmCC) top left repeat-x;
+    left: -1px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 1px
+}
+
+.current-rating {
+    display: block;
+    position: absolute
+}
+
+.small-star.star-rating-non-editable-container {
+    height: 24px;
+    width: 120px
+}
+
+.small-star .current-rating {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAtElEQVQoz+2S0Q2AIAwFGYERHMVRGMGEBRjJERzBETqCGyCYQghRbKn8aXI/St8hD+W9VyNRv4AtaD3WWhNprZEKIDJEgLv3iBkhgEIAnwpC4FyEJ+YuQRicMHAJuMBW7T7/BX5zuDbOTBTBfhNGZacIdKckzmhSBx2SK5xVMkOSw9m36OH2NG8TV2AIAiMROILASQRrFbYh5btVIkglQ3nW2A2kkiWCoz7jm44OluBrfsErJ8j79BUPTQO5AAAAAElFTkSuQmCC) left bottom;
+    height: 24px
+}

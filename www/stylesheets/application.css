@@ -1,0 +1,37 @@
+ion-nav-view {
+    background-color: #ffffff;
+}
+
+.card-image-wrapper {
+    box-shadow: 0 0 3px rgba(0,0,0,.15);
+}
+
+.card-image {
+    display: block;
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-in-list {
+    width: 100%;
+}
+
+.item-buttons {
+    position: absolute;
+    top: 21px;
+    right: 25px;
+    z-index: 15;
+}
+
+.list-buttons {
+    position: absolute;
+    top: 23px;
+    right: 12px;
+    z-index: 15;
+}
+
+.item-buttons button:disabled, .list-buttons button:disabled {
+    opacity: 1;
+}
