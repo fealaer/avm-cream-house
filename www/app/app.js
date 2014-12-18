@@ -59,6 +59,8 @@ angular.module('avm', [
 		// Make $state global
 		$rootScope.$state = $state;
 
+		$rootScope.lang = 'en';
+
 		// Log app info
 		$log.info('AVM ' + $settings.version +
 			'; Debug: ' + $settings.debug +
