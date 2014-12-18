@@ -141,7 +141,7 @@ angular.module('avm.tabs.drinks')
 			{
 				"id": "cashew_nut",
 				"name": {
-					"en": "Сashew Nut Drink",
+					"en": "Cashew Nut Drink",
 					"ru": "Напиток с Кешью"
 				},
 				"propeties": {
@@ -432,7 +432,7 @@ angular.module('avm.tabs.drinks')
 			{
 				"id": "mangosteen",
 				"name": {
-					"en": "Мangosteen Juice",
+					"en": "Mangosteen Juice",
 					"ru": "Сок из Мангустина"
 				},
 				"propeties": {
