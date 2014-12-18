@@ -62,6 +62,7 @@
 	<script src="/app/modules/tabs/drinks/item.controller.js"></script>
 	<script src="/app/modules/tabs/drinks/list.controller.js"></script>
 	<script src="/app/modules/tabs/drinks/drinks.controller.js"></script>
+	<!--<script src="/app/modules/tabs/drinks/filter.controller.js"></script>-->
 	<!--<script src="/app/modules/tabs/ingredients/config.js"></script>-->
 	<!--<script src="/app/modules/tabs/ingredients/routes.js"></script>-->
 	<!--<script src="/app/modules/tabs/ingredients/ingredients.service.js"></script>-->
@@ -72,13 +73,25 @@
 	<!-- endbuild -->
 </head>
 <body>
-<ion-pane>
-	<ion-nav-bar class="nav-title-slide-ios7 bar-positive">
-	</ion-nav-bar>
-	<ion-nav-view animation="slide-left-right"></ion-nav-view>
-	<ion-footer-bar class="bar-stable">
-		<h1 class="title">Buy stuff!</h1>
-	</ion-footer-bar>
-</ion-pane>
+<ion-side-menus>
+	<!-- Center content -->
+	<ion-side-menu-content>
+		<ion-nav-bar class="nav-title-slide-ios7 bar-positive">
+		</ion-nav-bar>
+		<ion-nav-view animation="slide-left-right"></ion-nav-view>
+		<ion-footer-bar class="bar-stable">
+			<h1 class="title">Buy stuff!</h1>
+		</ion-footer-bar>
+	</ion-side-menu-content>
+
+	<!-- Left menu -->
+	<ion-side-menu side="left">
+	</ion-side-menu>
+
+	<!-- Right menu -->
+	<ion-side-menu side="right">
+		<div ui-view="rightSlider"></div>
+	</ion-side-menu>
+</ion-side-menus>
 </body>
 </html>

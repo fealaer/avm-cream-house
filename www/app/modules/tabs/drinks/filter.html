@@ -1,0 +1,40 @@
+<ion-header-bar align-title="center" class="bar-calm">
+	<h1 class="title">Filter</h1>
+</ion-header-bar>
+<ion-content>
+	<div class="list">
+		<label class="item item-input item-select">
+			<div class="input-label">Order by</div>
+			<select ng-model="newOrder.by" ng-options="order.value as order.label for order in orderBy">
+			</select>
+		</label>
+		<ion-checkbox ng-model="newOrder.reverse">Reverse order</ion-checkbox>
+		<div class="item item-divider">Filter by</div>
+		<label class="item item-input item-floating-label">
+			<span class="input-label">Name</span>
+			<input type="text" placeholder="Name" ng-model="newFilter.name[lang]">
+		</label>
+		<label class="item item-input item-select">
+			<div class="input-label">Flavor</div>
+			<select ng-model="newFilter.properties.flavor">
+				<option value="" ng-selected>All</option>
+				<option value="sweet">Sweet</option>
+				<option value="sour">Sour</option>
+			</select>
+		</label>
+		<label class="item item-input item-select">
+			<div class="input-label">Density</div>
+			<select ng-model="newFilter.properties.density">
+				<option value="" ng-selected>All</option>
+				<option value="liquid">Liquid</option>
+				<option value="?">?</option>
+			</select>
+		</label>
+	</div>
+</ion-content>
+<ion-footer-bar align-title="left">
+	<div class="button-bar">
+		<button class="button button-stable button-clear" ng-click="resetFilter()">Reset</button>
+		<button class="button button-balanced button-clear" ng-click="applyFilter()">Apply</button>
+	</div>
+</ion-footer-bar>

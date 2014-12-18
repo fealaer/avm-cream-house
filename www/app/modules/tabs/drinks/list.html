@@ -1,12 +1,10 @@
 <ion-view title="Drinks">
 	<ion-nav-buttons side="right">
-		<filter-button default-filter="defaultFilter" current-filter="search"
-		               modal-template="app/components/drinksFilter.modal.html"></filter-button>
-		<button class="button button-icon icon ion-ios7-search-strong" ng-click="doSomething()"></button>
+		<button class="button button-icon icon ion-ios7-search-strong" ng-click="openFilter()"></button>
 	</ion-nav-buttons>
 	<ion-content has-tabs>
 		<div class="item-thumbnail-left item item-complex item-in-list"
-		     collection-repeat="item in items | filter:search track by item.id"
+		     collection-repeat="item in items | filter:search.filter | orderBy:search.order.by:search.order.reverse track by item.id"
 		     collection-item-width="'100%'"
 		     collection-item-height="100">
 			<a class="item-content" ui-sref="tabs.drinks.item({id: item.id})">
