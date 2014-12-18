@@ -16,6 +16,7 @@ ion-nav-view {
 
 .item-in-list {
     width: 100%;
+    border-right: 0;
 }
 
 .item-buttons {
