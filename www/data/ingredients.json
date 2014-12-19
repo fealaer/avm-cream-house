@@ -114,12 +114,12 @@
 			"ru": "Баиль"
 		},
 		"description": {
-			"en": "http://en.wikipedia.org/wiki/Aegle_marmelos",
-			"ru": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B8%D0%BB%D1%8C"
-		},
-		"wiki": {
 			"en": "Aegle marmelos, commonly known as bael is a species of tree native to India. It is present throughout Southeast Asia as a naturalized species. The tree is considered to be sacred by Hindus. Its fruits are used in traditional medicine and as a food throughout its range.",
 			"ru": "Баиль — медленнорастущее дерево высотой 12-15 м высотой с овальными листьями 4-10 см длиной 2-5 см шириной. Плод круглый или продолговатый, диаметром 5-20 см, с тонкой деревянистой оболочкой, серо-зелёной, когда плод недозрелый, и желтоватой, когда он созревает. Внутри плода находится центральное ядро и 8-20 треугольных сегментов, с тонкими тёмно-оранжевыми стенами, заполненных бледно-оранжевой душистой тестообразной сладкой, чуть вяжущей, мякотью."
+		},
+		"wiki": {
+			"en": "http://en.wikipedia.org/wiki/Aegle_marmelos",
+			"ru": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B8%D0%BB%D1%8C"
 		},
 		"nutrition_facts": {
 			"energy": 137,

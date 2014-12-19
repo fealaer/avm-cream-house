@@ -1,0 +1,22 @@
+<ion-view title="Ingredients">>
+	<ion-nav-buttons side="right">
+		<button class="button button-icon icon ion-ios7-search-strong" ng-click="openFilter()"></button>
+	</ion-nav-buttons>
+	<ion-content has-tabs>
+		<div class="item-thumbnail-left item item-complex item-in-list"
+		     collection-repeat="item in items | filter:search.filter | orderBy:search.order.by:search.order.reverse track by item.id"
+		     collection-item-width="'100%'"
+		     collection-item-height="100">
+			<a class="item-content" ui-sref="tabs.ingredients.item({id: item.id})">
+				<img ng-src="{{'/images/small/' + item.id + '.png'}}">
+				<h2>&nbsp;</h2>
+				<h2>{{item.name[lang]}}</h2>
+			</a>
+			<div class="list-buttons">
+				<button
+					class="button button-icon button-clear button-stable"
+					ng-click="drinksWith(item); $event.stopPropagation();"><fa name="glass" size="large"></fa></button>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
