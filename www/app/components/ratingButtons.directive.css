@@ -1,0 +1,33 @@
+.ratings-buttons {
+    overflow: hidden;
+    padding: 0;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.ratings-buttons li {
+    float: left;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    vertical-align: top;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.small-stars .ratings-buttons li {
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 0;
+}
+
+.ratings-buttons li.active {
+    color: gold;
+}
+

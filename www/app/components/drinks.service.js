@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('avm.tabs.drinks')
-	.service('drinksService', function ($q, $filter, ratingService) {
+angular.module('avm.components')
+	.service('drinksService', function ($q, $filter, ratingService, userService) {
 		var self = this;
 		var initialised = false;
 
@@ -795,7 +795,13 @@ angular.module('avm.tabs.drinks')
 			if (!initialised) {
 				ratingService.getAll().then(function (ratings) {
 					_.merge(drinks, ratings);
-					initialised = true;
+					userService.getUser().then(function (user) {
+						_.each(drinks, function (drink) {
+							drink.isTried = _.contains(user.tried, drink.id);
+							drink.isSaved = _.contains(user.saved, drink.id);
+						});
+						initialised = true;
+					});
 				});
 			}
 		};

@@ -1,0 +1,20 @@
+<ion-modal-view>
+	<ion-header-bar class="bar-balanced">
+		<h1 class="title">You've just tried {{item.name[lang]}}!</h1>
+	</ion-header-bar>
+	<ion-content>
+		<div class="list card">
+			<div class="item item-body">
+				<h3>How it was?!</h3>
+				<p>Please rate it and leave some comment about it. It'll help other people to choose their drinks!</p>
+				<rating-buttons ng-model="data.rate"></rating-buttons>
+				You'll rate it with {{data.rate}} stars!
+				<textarea placeholder="Comment" rows="2" ng-model="data.comment"></textarea>
+				<div class="button-bar">
+					<button class="button button-stable" ng-click="cancel()">Cancel</button>
+					<button class="button button-balanced" ng-click="save()">Save</button>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-modal-view>

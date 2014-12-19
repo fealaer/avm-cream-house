@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('avm.tabs.drinks')
+angular.module('avm.components')
 	.service('ratingService', function ($q, $filter) {
 		var self = this;
 		var ratings = [

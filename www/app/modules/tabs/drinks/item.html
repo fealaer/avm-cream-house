@@ -30,10 +30,8 @@
 						</a>
 						<a class="tab-item" href ng-click="setTab('rate')"
 						   ng-class="{active: isSet('rate')}">
-							<i class="icon ion-ios7-star"></i>
-							{{item.rate.rate}}
-							<i class="icon ion-chatbox"></i>
-							{{item.totalComments}}
+							<i class="icon ion-ios7-people"></i>
+							<fa name="star"></fa>{{item.rate.rate|number:1}} <fa name="comment"></fa> {{item.totalComments}}
 						</a>
 					</div>
 					<div ng-show="isSet('info')">
