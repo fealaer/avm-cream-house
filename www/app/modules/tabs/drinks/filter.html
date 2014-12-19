@@ -15,6 +15,22 @@
 			<input type="text" placeholder="Name" ng-model="newFilter.name[lang]">
 		</label>
 		<label class="item item-input item-select">
+			<div class="input-label">Tasted</div>
+			<select ng-model="newFilter.isTried">
+				<option value="" ng-selected>All</option>
+				<option value="true">Yes</option>
+				<option value="false">No</option>
+			</select>
+		</label>
+		<label class="item item-input item-select">
+			<div class="input-label">Bookmarked</div>
+			<select ng-model="newFilter.isSaved">
+				<option value="" ng-selected>All</option>
+				<option value="true">Yes</option>
+				<option value="false">No</option>
+			</select>
+		</label>
+		<label class="item item-input item-select">
 			<div class="input-label">Flavor</div>
 			<select ng-model="newFilter.properties.flavor">
 				<option value="" ng-selected>All</option>
