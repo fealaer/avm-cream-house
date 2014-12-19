@@ -3,4 +3,4 @@
 module.exports =
 
   rootView:
-    location: "http://localhost/index.html"
+    location: "http://localhost/index.html#/tabs/drinks"
