@@ -6,7 +6,8 @@
 	<ion-content>
 		<div class="list card">
 			<div class="item item-body">
-				<div class="card-image-wrapper">
+				<div>
+					<span class="item-price"><strong>Rs.</strong> {{item.price | number}}</span>
 					<div class="item-buttons">
 						<button
 							class="button button-icon button-clear"
@@ -21,7 +22,7 @@
 					<img class="card-image" ng-src="{{'/images/' + item.id + '.png'}}">
 				</div>
 				<div ng-controller="InfoTabsCtrl">
-					<div class="item tabs tabs-secondary tabs-icon-top">
+					<div class="item tabs tabs-secondary tabs-icon-top secondary-tabs-in-item">
 						<a class="tab-item" href ng-click="setTab('info')"
 						   ng-class="{active: isSet('info')}">
 							<i class="icon ion-information-circled"></i>
@@ -31,32 +32,32 @@
 						   ng-class="{active: isSet('rate')}">
 							<i class="icon ion-ios7-star"></i>
 							{{item.rate.rate}}
-						</a>
-						<a class="tab-item" href ng-click="setTab('comments')"
-						   ng-class="{active: isSet('comments')}">
 							<i class="icon ion-chatbox"></i>
 							{{item.totalComments}}
 						</a>
-						<a class="tab-item" href ng-click="setTab('ingredients')"
-						   ng-class="{active: isSet('ingredients')}">
-							<i class="icon ion-aperture"></i>
-							{{item.ingredients.length}}
-						</a>
 					</div>
 					<div ng-show="isSet('info')">
-						<p ng-show="item.properties.density">Density: {{item.properties.density | join:', '}}</p>
-						<p ng-show="item.properties.flavor">Flavor: {{item.properties.flavor | join:', '}}</p>
+						<ul class="list list-in-tabs">
+							<div class="item item-divider" ng-show="item.properties">
+								Properties
+							</div>
+							<li class="item" ng-show="item.properties.flavor">
+								Flavor: {{item.properties.flavor | join:', '}}
+							</li>
+							<li class="item" ng-show="item.properties.density">
+								Density: {{item.properties.density | join:', '}}
+							</li>
+							<div class="item item-divider">
+								Ingredients
+							</div>
+							<li ng-repeat="ingredient in item.ingredients" class="item">
+								{{ingredient}}
+							</li>
+						</ul>
 					</div>
 					<div ng-show="isSet('rate')">
 						<rating-view data-rate="item.rate"></rating-view>
-					</div>
-					<div ng-show="isSet('comments')">
 						<blockquote ng-repeat="comment in item.comments">{{comment}}</blockquote>
-					</div>
-					<div ng-show="isSet('ingredients')">
-						<ul>
-							<li ng-repeat="ingredient in item.ingredients">{{ingredient}}</li>
-						</ul>
 					</div>
 				</div>
 			</div>

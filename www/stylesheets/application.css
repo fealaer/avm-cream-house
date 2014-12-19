@@ -21,9 +21,18 @@ ion-nav-view {
 
 .item-buttons {
     position: absolute;
-    top: 21px;
-    right: 25px;
+    top: 5px;
+    right: 11px;
     z-index: 15;
+}
+
+.item-price {
+    position: absolute;
+    top: 21px;
+    left: 16px;
+    z-index: 15;
+    font-size: 1.33333333em;
+    line-height: .75em;
 }
 
 .list-buttons {
@@ -35,4 +44,14 @@ ion-nav-view {
 
 .item-buttons button:disabled, .list-buttons button:disabled {
     opacity: 1;
+}
+
+.list-in-tabs {
+    padding-top: 20px;
+}
+
+.secondary-tabs-in-item {
+    -webkit-box-shadow: 0 3px 2px -2px rgba(0,0,0,.15) !important;
+    -moz-box-shadow: 0 3px 2px -2px rgba(0,0,0,.15) !important;
+    box-shadow: 0 3px 2px -2px rgba(0,0,0,.15) !important;
 }
