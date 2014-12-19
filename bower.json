@@ -10,7 +10,6 @@
 	  "ngstorage": "latest",
 	  "font-awesome": "latest",
 	  "angular-fontawesome": "latest",
-	  "ui-router-extras": "latest",
 	  "fastclick": "latest"
   }
 }
