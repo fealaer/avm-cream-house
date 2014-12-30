@@ -10,5 +10,7 @@ angular.module('avm.tabs.drinks')
 			$scope.search = angular.copy(listFilter.get('drinks'));
 		}
 
-		setFilter();
+		$scope.$on('$ionicView.afterEnter', function() {
+			setFilter();
+		});
 	});
