@@ -14,11 +14,6 @@ angular.module('avm.tabs.ingredients')
 						templateUrl: "app/modules/tabs/ingredients/filter.html",
 						controller: 'FilterCtrl'
 					}
-				},
-				resolve: {
-					items: function (ingredientsService) {
-						return ingredientsService.getAll();
-					}
 				}
 			})
 			.state('tabs.ingredients.item', {

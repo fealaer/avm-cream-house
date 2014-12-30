@@ -7,6 +7,11 @@ angular.module('avm.tabs')
 				url: "/tabs",
 				abstract: true,
 				templateUrl: "app/modules/tabs/tabs.html",
-				controller: "TabsCtrl"
+				controller: "TabsCtrl",
+				resolve: {
+					ingredients: function (ingredientsService) {
+						return ingredientsService.getAll();
+					}
+				}
 			});
 	});
