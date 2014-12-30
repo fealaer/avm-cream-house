@@ -48,8 +48,17 @@
 							<div class="item item-divider">
 								Ingredients
 							</div>
-							<li ng-repeat="ingredient in item.ingredients" class="item">
-								{{ingredient}}
+							<li ng-repeat="ingredient in ingredients | filter:usedIngredients | orderBy:'name'" class="item-thumbnail-left item item-complex item-in-list">
+									<a class="item-content" ui-sref="tabs.ingredients.item({id: ingredient.id})">
+										<img ng-src="{{'/images/small/' + ingredient.id + '.png'}}">
+										<h2>&nbsp;</h2>
+										<h2>{{ingredient.name[lang]}}</h2>
+									</a>
+									<div class="list-buttons">
+										<button
+											class="button button-icon button-clear button-stable"
+											ng-click="drinksWith(ingredient); $event.stopPropagation();"><fa name="glass" size="large"></fa></button>
+									</div>
 							</li>
 						</ul>
 					</div>
