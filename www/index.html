@@ -14,7 +14,7 @@
   <script src="/components/steroids-js/steroids.js"></script>
   <!--<script src="/components/angular/angular.js"></script>-->
   <script src="/components/supersonic/supersonic.js"></script>
-  <!--<script src="/components/webcomponentsjs/webcomponents.js"></script>-->
+  <script src="/components/webcomponentsjs/webcomponents.js"></script>
 
 	<link rel="stylesheet" href="/components/ionic/release/css/ionic.min.css"/>
 	<link rel="stylesheet" href="/stylesheets/application.css"/>
@@ -52,6 +52,7 @@
 	<script src="/app/components/ratings.service.js"></script>
 	<script src="/app/components/ingredients.service.js"></script>
 	<script src="/app/components/user.service.js"></script>
+	<script src="/app/components/filter.controller.js"></script>
 
 	<!--modules-->
 	<script src="/app/modules/config.js"></script>
@@ -62,11 +63,11 @@
 	<script src="/app/modules/tabs/drinks/routes.js"></script>
 	<script src="/app/modules/tabs/drinks/item.controller.js"></script>
 	<script src="/app/modules/tabs/drinks/list.controller.js"></script>
-	<script src="/app/modules/tabs/drinks/filter.controller.js"></script>
 	<script src="/app/modules/tabs/ingredients/config.js"></script>
 	<script src="/app/modules/tabs/ingredients/routes.js"></script>
 	<script src="/app/modules/tabs/ingredients/item.controller.js"></script>
 	<script src="/app/modules/tabs/ingredients/list.controller.js"></script>
+
 	<!--Always last-->
 	<script src="/app/bootstrap.js"></script>
 	<!-- endbuild -->
@@ -75,7 +76,7 @@
 <ion-side-menus>
 	<!-- Center content -->
 	<ion-side-menu-content>
-		<ion-nav-bar class="nav-title-slide-ios7 bar-positive">
+		<ion-nav-bar align-title="center" class="nav-title-slide-ios7 bar-positive">
 		</ion-nav-bar>
 		<ion-nav-view animation="slide-left-right"></ion-nav-view>
 		<ion-footer-bar class="bar-stable">

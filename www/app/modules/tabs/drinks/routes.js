@@ -12,7 +12,7 @@ angular.module('avm.tabs.drinks')
 					},
 					'rightSlider@': {
 						templateUrl: "app/modules/tabs/drinks/filter.html",
-						controller: 'DrinksFilterCtrl'
+						controller: 'FilterCtrl'
 					}
 				},
 				resolve: {

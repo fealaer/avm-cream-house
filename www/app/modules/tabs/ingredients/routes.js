@@ -9,6 +9,10 @@ angular.module('avm.tabs.ingredients')
 					'ingredients@tabs': {
 						templateUrl: "app/modules/tabs/ingredients/list.html",
 						controller: 'IngredientsListCtrl'
+					},
+					'rightSlider@': {
+						templateUrl: "app/modules/tabs/ingredients/filter.html",
+						controller: 'FilterCtrl'
 					}
 				},
 				resolve: {

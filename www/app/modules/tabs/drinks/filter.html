@@ -32,18 +32,12 @@
 		</label>
 		<label class="item item-input item-select">
 			<div class="input-label">Flavor</div>
-			<select ng-model="newFilter.properties.flavor">
-				<option value="" ng-selected>All</option>
-				<option value="sweet">Sweet</option>
-				<option value="sour">Sour</option>
+			<select ng-model="newFilter.properties.flavor" ng-options="flavor.value as flavor.label for flavor in flavors">
 			</select>
 		</label>
 		<label class="item item-input item-select">
 			<div class="input-label">Density</div>
-			<select ng-model="newFilter.properties.density">
-				<option value="" ng-selected>All</option>
-				<option value="liquid">Liquid</option>
-				<option value="?">?</option>
+			<select ng-model="newFilter.properties.density" ng-options="density.value as density.label for density in densities">
 			</select>
 		</label>
 	</div>
