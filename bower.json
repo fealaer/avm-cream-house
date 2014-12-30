@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "supersonic": "1.x",
-	  "ionic": "master",
+	  "ionic": "v1.0.0-beta.14",
 	  "lodash": "latest",
 	  "restangular": "latest",
 	  "ngstorage": "latest",
