@@ -11,8 +11,4 @@ angular.module('avm.tabs.ingredients')
 		}
 
 		setFilter();
-
-		$scope.drinksWith = function (item) {
-
-		}
 	});

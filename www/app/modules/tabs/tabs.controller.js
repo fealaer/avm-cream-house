@@ -1,5 +1,5 @@
 angular.module('avm.tabs')
-	.controller('TabsCtrl', function($scope, $ionicSideMenuDelegate, $ionicModal) {
+	.controller('TabsCtrl', function($rootScope, $scope, $ionicSideMenuDelegate, $ionicModal, listFilter, $state) {
 		$scope.openFilter = function () {
 			$ionicSideMenuDelegate.toggleRight();
 		};
@@ -17,6 +17,20 @@ angular.module('avm.tabs')
 
 		$scope.toSave = function (item) {
 			item.isSaved = !item.isSaved;
+		};
+
+		$scope.drinksWith = function (item) {
+			var filter = {
+				filter: {
+					ingredients: [item.id]
+				},
+				order: {
+					by: 'name.' + $rootScope.lang,
+					reverse: false
+				}
+			};
+			listFilter.set('drinks', filter);
+			$state.go('tabs.drinks');
 		};
 
 		$scope.save = function () {
