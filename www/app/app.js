@@ -67,9 +67,9 @@ angular.module('avm', [
 			'; Build Date: ' + $settings.buildDate);
 
 		// Clear $http cache every 10 sec.
-		$interval(function () {
-			$cacheFactory.get('$http').removeAll();
-		}, 10000, 0, false);
+//		$interval(function () {
+//			$cacheFactory.get('$http').removeAll();
+//		}, 10000, 0, false);
 
 		// Show loading on state changes
 		(function () {
