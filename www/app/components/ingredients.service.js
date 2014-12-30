@@ -25,10 +25,10 @@ angular.module('avm.components')
 					"protein": 21.22,
 					"water": 4.70,
 					"vitamins": ["E", "B"],
-					"metals": ["Calcium", "Magnesium", "Phosphorus", "Potassium"]
+					"minerals": ["Calcium", "Magnesium", "Phosphorus", "Potassium"]
 				},
 				"properties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -52,7 +52,7 @@ angular.module('avm.components')
 					"protein": 0.2,
 					"water": 87.3,
 					"vitamins": ["A", "C"],
-					"metals": ["Calcium", "Phosphorus"]
+					"minerals": ["Calcium", "Phosphorus"]
 				},
 				"properties": {
 					"flavor": ["?"]
@@ -79,10 +79,10 @@ angular.module('avm.components')
 					"protein": 0.26,
 					"water": 85.56,
 					"vitamins": ["C"],
-					"metals": ["Potassium"]
+					"minerals": ["Potassium"]
 				},
 				"properties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -106,10 +106,10 @@ angular.module('avm.components')
 					"protein": 1.4,
 					"water": 86.35,
 					"vitamins": ["A", "B5", "C", "E"],
-					"metals": ["Manganese", "Potassium"]
+					"minerals": ["Manganese", "Potassium"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -133,10 +133,10 @@ angular.module('avm.components')
 					"protein": 1.8,
 					"water": 61.5,
 					"vitamins": ["A", "B", "C"],
-					"metals": ["Calcium", "Potassium"]
+					"minerals": ["Calcium", "Potassium"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -160,10 +160,10 @@ angular.module('avm.components')
 					"protein": 1.09,
 					"water": 74.91,
 					"vitamins": ["B2","B5", "B6", "B9","C"],
-					"metals": ["Magnesium", "Manganese","Potassium"]
+					"minerals": ["Magnesium", "Manganese","Potassium"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -187,10 +187,10 @@ angular.module('avm.components')
 					"protein": 1.68,
 					"water": 80,
 					"vitamins": ["B5","B6","B9","C"],
-					"metals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium","Sodium","Zinc"]
+					"minerals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium","Sodium","Zinc"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -214,10 +214,10 @@ angular.module('avm.components')
 					"protein": 0.84,
 					"water": 95,
 					"vitamins": ["B1","B2","B5","B9","C","K"],
-					"metals": ["Magnesium","Potassium","Zinc"]
+					"minerals": ["Magnesium","Potassium","Zinc"]
 				},
 				"propeties": {
-					"flavor": ["bitter"]
+					"flavor": ["Bitter"]
 				}
 			},
 			{
@@ -241,10 +241,10 @@ angular.module('avm.components')
 					"protein": 0.84,
 					"water": 90,
 					"vitamins": ["A","B3","B6","B9","C"],
-					"metals": ["Manganese","Potassium"]
+					"minerals": ["Manganese","Potassium"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -268,10 +268,10 @@ angular.module('avm.components')
 					"protein": 0.93,
 					"water": 89,
 					"vitamins": ["A","B1","B2","B3","B5","B6","B9","C","E"],
-					"metals": ["Manganese","Potassium","Sodium"]
+					"minerals": ["Manganese","Potassium","Sodium"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -295,10 +295,10 @@ angular.module('avm.components')
 					"protein": 0.15,
 					"water": 86,
 					"vitamins": ["C"],
-					"metals": ["Iron","Phosphorus"]
+					"minerals": ["Iron","Phosphorus"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -322,10 +322,10 @@ angular.module('avm.components')
 					"protein": 18.22,
 					"water": 10,
 					"vitamins": ["B1","B2","B3","B5","B6","E"],
-					"metals": ["Potassium","Copper","Iron","Magnesium","Manganese","Phosphorus","Selenium","Zinc"]
+					"minerals": ["Potassium","Copper","Iron","Magnesium","Manganese","Phosphorus","Selenium","Zinc"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -349,10 +349,10 @@ angular.module('avm.components')
 					"protein": 5.0,
 					"water": 75,
 					"vitamins": ["C"],
-					"metals": ["Magnesium","Calcium","Iron"]
+					"minerals": ["Magnesium","Calcium","Iron"]
 				},
 				"propeties": {
-					"flavor": ["sour", "sweet"]
+					"flavor": ["Sour", "Sweet"]
 				}
 			},
 			{
@@ -376,10 +376,10 @@ angular.module('avm.components')
 					"protein": 0.65,
 					"water": 96,
 					"vitamins": ["B5","K"],
-					"metals": ["Magnesium","Manganese"]
+					"minerals": ["Magnesium","Manganese"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 
@@ -404,7 +404,7 @@ angular.module('avm.components')
 					"protein": 6.1,
 					"water": 66.3,
 					"vitamins": [" A"],
-					"metals": ["Calcium","Phosphorus","Iron"]
+					"minerals": ["Calcium","Phosphorus","Iron"]
 				},
 				"propeties": {
 					"flavor": [""]
@@ -431,10 +431,10 @@ angular.module('avm.components')
 					"protein": 68,
 					"water": 20,
 					"vitamins": ["C"],
-					"metals": ["Calcium","Phosphorous"]
+					"minerals": ["Calcium","Phosphorous"]
 				},
 				"propeties": {
-					"flavor": ["sour", "sweet"]
+					"flavor": ["Sour", "Sweet"]
 				}
 			},
 			{
@@ -458,10 +458,10 @@ angular.module('avm.components')
 					"protein": 2.45,
 					"water": 20.53,
 					"vitamins": ["B1","B2","B3","B5","B6","B9"],
-					"metals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium"]
+					"minerals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 
@@ -486,10 +486,10 @@ angular.module('avm.components')
 					"protein": 1.1,
 					"water": 87,
 					"vitamins": ["C"],
-					"metals": ["Iron" ]
+					"minerals": ["Iron" ]
 				},
 				"propeties": {
-					"flavor": ["sour", "sweet"]
+					"flavor": ["Sour", "Sweet"]
 				}
 			},
 			{
@@ -513,10 +513,10 @@ angular.module('avm.components')
 					"protein": 1.47,
 					"water": 65,
 					"vitamins": ["B1","B2","B3","B5","B6","B9","C"],
-					"metals": ["Magnesium","Manganese","Phosphorus","Potassium"]
+					"minerals": ["Magnesium","Manganese","Phosphorus","Potassium"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -540,10 +540,10 @@ angular.module('avm.components')
 					"protein": 3.3,
 					"water": 33,
 					"vitamins": ["B1","B2","B3","B6","B9","K"],
-					"metals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","PotassiumZ","inc"]
+					"minerals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","PotassiumZ","inc"]
 				},
 				"propeties": {
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				}
 			},
 			{
@@ -567,16 +567,12 @@ angular.module('avm.components')
 					"protein": 8.98,
 					"water": 15,
 					"vitamins": ["B2","B3","B5","B6"],
-					"metals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","Potassium","Zinc"]
+					"minerals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","Potassium","Zinc"]
 				},
 				"propeties": {
-					"flavor": ["burning"]
+					"flavor": ["Pungency"]
 				}
 			},
-
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
 			{
 				"id": "gotukola",
 				"name": {
@@ -597,11 +593,11 @@ angular.module('avm.components')
 					"fat": "?",
 					"protein": "?",
 					"water": "?",
-					"vitamins": ["?"],
-					"metals": ["?"]
+					"vitamins": ["C","B1","B2","B3"],
+					"minerals": ["Calcium","Magnesium","Manganese","Phosphorus","Potassium","Selenium","Zinc"]
 				},
 				"propeties": {
-					"flavor": ["?"]
+					"flavor": ["Bitter","Sweet"]
 				}
 			},
 			{
@@ -611,24 +607,24 @@ angular.module('avm.components')
 					"ru": "Грейпфрут"
 				},
 				"description": {
-					"en": "?",
-					"ru": "?"
+					"en": "The grapefruit (Citrus × paradisi) is a subtropical citrus tree known for its sour to semi-sweet fruit, an 18th-century hybrid first bred in Barbados. When found, it was named the Forbidden fruit;and it has also been misidentified with the pomelo or shaddock, one of the parents of this hybrid, the other being sweet orange.",
+					"ru": "Грейпфру́т (Citrus paradisi — субтропическое вечнозелёное дерево рода цитрус семейства рутовых (Rutaceae), а также его плод, достигающий в диаметре 10—15 см. Первым поведал миру о грейпфруте валлийский ботаник-священник Гриффитс Хьюджес в 1750 году. Он назвал фрукт «запретным плодом», позднее грейпфрут стали называть «маленьким шеддоком» из-за его сходства с помело, которое тогда называли шеддоком (по фамилии английского капитана Шеддока, завезшего его в XVII веке на остров Барбадос), а в 1814 году на Ямайке торговцы переименовали плод в грейпфрут. После 1880 г. начался быстрый рост промышленного производства этой культуры в США, затем в странах Карибского бассейна, Бразилии, Израиле и ЮАР), а в XX веке грейпфрут занял ведущее место на мировом фруктовом рынке."
 				},
 				"wiki": {
 					"en": "http://en.wikipedia.org/wiki/Grapefruit",
 					"ru": "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B5%D0%B9%D0%BF%D1%84%D1%80%D1%83%D1%82"
 				},
 				"nutrition_facts": {
-					"energy": "?",
-					"carbohydrates": "?",
-					"fat": "?",
-					"protein": "?",
-					"water": "?",
-					"vitamins": ["?"],
-					"metals": ["?"]
+					"energy": "33",
+					"carbohydrates": "8.41",
+					"fat": "0.10",
+					"protein": "0.69",
+					"water": "90,48",
+					"vitamins": ["B5","C"],
+					"minerals": ["Magnesium","Potassium"]
 				},
 				"propeties": {
-					"flavor": ["?"]
+					"flavor": ["Bitter","Sweet"]
 				}
 			},
 			{
@@ -638,26 +634,30 @@ angular.module('avm.components')
 					"ru": "Виноград"
 				},
 				"description": {
-					"en": "?",
-					"ru": "?"
+					"en": "A grape is a fruiting berry of the deciduous woody vines of the botanical genus Vitis. Grapes can be eaten raw or they can be used for making wine, jam, juice, jelly, grape seed extract, raisins, vinegar, and grape seed oil. Grapes are a non-climacteric type of fruit, generally occurring in clusters.",
+					"ru": "Виногра́д — плоды винограда культурного и некоторых других растений рода Виноград, в зрелом виде представляющие собой сладкие ягоды. Ценный пищевой продукт и сырьё для виноделия. Плоды винограда, а также продукты его переработки обладают ценными лечебными, вкусовыми и пищевыми качествами."
 				},
 				"wiki": {
 					"en": "http://en.wikipedia.org/wiki/Grape",
 					"ru": "https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4_(%D1%8F%D0%B3%D0%BE%D0%B4%D0%B0)"
 				},
 				"nutrition_facts": {
-					"energy": "?",
-					"carbohydrates": "?",
-					"fat": "?",
-					"protein": "?",
-					"water": "?",
-					"vitamins": ["?"],
-					"metals": ["?"]
+					"energy": "69",
+					"carbohydrates": "18.1",
+					"fat": "0.16",
+					"protein": "0.72",
+					"water": "85",
+					"vitamins": ["B1","B2","B6","K"],
+					"minerals": ["Potassium"]
 				},
 				"propeties": {
-					"flavor": ["?"]
+					"flavor": ["Sweet"]
 				}
 			},
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
 			{
 				"id": "guava",
 				"name": {
@@ -679,7 +679,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -706,7 +706,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -733,7 +733,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -760,7 +760,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -787,7 +787,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -814,7 +814,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -841,7 +841,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -868,7 +868,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -895,7 +895,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -922,7 +922,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -949,7 +949,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -976,7 +976,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1003,7 +1003,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1030,7 +1030,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1057,7 +1057,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1084,7 +1084,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1111,7 +1111,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1138,7 +1138,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1165,7 +1165,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1192,7 +1192,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1219,7 +1219,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1246,7 +1246,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1273,7 +1273,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1300,7 +1300,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1327,7 +1327,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1354,7 +1354,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1381,7 +1381,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1408,7 +1408,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1435,7 +1435,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1462,7 +1462,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1489,7 +1489,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1516,7 +1516,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1543,7 +1543,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1570,7 +1570,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1597,7 +1597,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1624,7 +1624,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1651,7 +1651,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1678,7 +1678,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1705,7 +1705,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1732,7 +1732,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]
@@ -1759,7 +1759,7 @@ angular.module('avm.components')
 					"protein": "?",
 					"water": "?",
 					"vitamins": ["?"],
-					"metals": ["?"]
+					"minerals": ["?"]
 				},
 				"propeties": {
 					"flavor": ["?"]

@@ -9,12 +9,12 @@ angular.module('avm.components')
 			{
 				"id": "almond",
 				"name": {
-					"en": "Almond Juice",
-					"ru": "Сок из Миндаля"
+					"en": "Almond Drink",
+					"ru": "Напиток с Миндалем"
 				},
 				"properties": {
 					"density": "liquid",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["almond"]
 			},
@@ -38,7 +38,7 @@ angular.module('avm.components')
 				},
 				"properties": {
 					"density": "liquid",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["apple"]
 			},
@@ -50,7 +50,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "thick",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["apricot"]
 			},
@@ -62,7 +62,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "thick",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["baeli_fruit"]
 			},
@@ -74,7 +74,7 @@ angular.module('avm.components')
 				},
 				"properties": {
 					"density": "thick",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["banana"]
 			},
@@ -86,7 +86,7 @@ angular.module('avm.components')
 				},
 				"properties": {
 					"density": "liquid",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["beetroot"]
 			},
@@ -98,7 +98,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "liquid",
-					"flavor": ["bitter"]
+					"flavor": ["Bitter"]
 				},
 				"ingredients": ["bitter_gourd"]
 			},
@@ -110,7 +110,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "liquid",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["cantaloupe"]
 			},
@@ -122,7 +122,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "liquid",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["carrot"]
 			},
@@ -134,19 +134,19 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "liquid",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["cashew_apple"]
 			},
 			{
 				"id": "cashew_nut",
 				"name": {
-					"en": "Cashew Nut Drink",
+					"en": "Сashew Nut Drink",
 					"ru": "Напиток с Кешью"
 				},
 				"propeties": {
 					"density": "thick",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["cashew_nut"]
 			},
@@ -158,7 +158,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "liquid",
-					"flavor": ["sour", "sweet"]
+					"flavor": ["Sour", "Sweet"]
 				},
 				"ingredients": ["cocoa_fruit"]
 			},
@@ -171,7 +171,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "liquid",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["cucumber"]
 			},
@@ -195,7 +195,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "thick",
-					"flavor": ["sour", "sweet"]
+					"flavor": ["Sour", "Sweet"]
 				},
 				"ingredients": ["custard_apple"]
 			},
@@ -207,7 +207,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "thick",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["dates"]
 			},
@@ -219,7 +219,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "liquid",
-					"flavor": ["sour", "sweet"]
+					"flavor": ["Sour", "Sweet"]
 				},
 				"ingredients": ["dragon_fruit"]
 			},
@@ -231,7 +231,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "thick",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["durian"]
 			},
@@ -243,7 +243,7 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "liquid",
-					"flavor": ["sweet"]
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["fig"]
 			},
@@ -255,12 +255,10 @@ angular.module('avm.components')
 				},
 				"propeties": {
 					"density": "liquid",
-					"flavor": ["burning"]
+					"flavor": ["Pungency"]
 				},
 				"ingredients": ["ginger"]
 			},
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 			{
 				"id": "gotukola",
 				"name": {
@@ -268,8 +266,8 @@ angular.module('avm.components')
 					"ru": "Сок из Центеллы"
 				},
 				"propeties": {
-					"density": "",
-					"flavor": [""]
+					"density": "liquid",
+					"flavor": ["Bitter","Sweet"]
 				},
 				"ingredients": ["gotukola"]
 			},
@@ -280,8 +278,8 @@ angular.module('avm.components')
 					"ru": "Сок из Грейпфрута"
 				},
 				"propeties": {
-					"density": "",
-					"flavor": [""]
+					"density": "liquid",
+					"flavor": ["Bitter","Sweet"]
 				},
 				"ingredients": ["grapefruit"]
 			},
@@ -292,11 +290,15 @@ angular.module('avm.components')
 					"ru": "Сок из Винограда"
 				},
 				"propeties": {
-					"density": "",
-					"flavor": [""]
+					"density": "liquid",
+					"flavor": ["Sweet"]
 				},
 				"ingredients": ["grapes"]
 			},
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
 			{
 				"id": "guava",
 				"name": {
@@ -305,7 +307,7 @@ angular.module('avm.components')
 				},
 				"properties": {
 					"density": "thick",
-					"flavor": ["sour"]
+					"flavor": ["Sour"]
 				},
 				"ingredients": ["guava"]
 			},
@@ -528,8 +530,8 @@ angular.module('avm.components')
 			{
 				"id": "peanut",
 				"name": {
-					"en": "Peanut Juice",
-					"ru": "Сок из Арахиса"
+					"en": "Peanut Drink",
+					"ru": "Напиток с Арахисом"
 				},
 				"propeties": {
 					"density": "",
