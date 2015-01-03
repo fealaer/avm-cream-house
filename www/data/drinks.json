@@ -6,7 +6,7 @@
 			"ru": "Напиток с Миндалем"
 		},
 		"properties": {
-			"density": "liquid",
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["almond"]
@@ -18,7 +18,7 @@
 			"ru": "Сок из Амбареллы"
 		},
 		"properties": {
-			"density": "liquid",
+			"density": "Creamy",
 			"flavor": [""]
 		},
 		"ingredients": ["ambarella"]
@@ -30,7 +30,7 @@
 			"ru": "Сок из Яблок"
 		},
 		"properties": {
-			"density": "liquid",
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["apple"]
@@ -41,8 +41,8 @@
 			"en": "Apricot Juice",
 			"ru": "Сок из Абрикоса"
 		},
-		"propeties": {
-			"density": "thick",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["apricot"]
@@ -53,8 +53,8 @@
 			"en": "Baeli Fruit Juice",
 			"ru": "Сок из Баиля"
 		},
-		"propeties": {
-			"density": "thick",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["baeli_fruit"]
@@ -66,7 +66,7 @@
 			"ru": "Сок из Банана"
 		},
 		"properties": {
-			"density": "thick",
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["banana"]
@@ -78,7 +78,7 @@
 			"ru": "Сок из Свеклы"
 		},
 		"properties": {
-			"density": "liquid",
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["beetroot"]
@@ -89,8 +89,8 @@
 			"en": "Bitter Gourd Juice",
 			"ru": "Сок из Горького огурца"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Bitter"]
 		},
 		"ingredients": ["bitter_gourd"]
@@ -101,8 +101,8 @@
 			"en": "Cantaloupe Juice",
 			"ru": "Сок из Канталупы"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["cantaloupe"]
@@ -113,8 +113,8 @@
 			"en": "Carrot Juice",
 			"ru": "Сок из Моркови"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["carrot"]
@@ -125,8 +125,8 @@
 			"en": "Cashew Fruit Juice",
 			"ru": "Сок из Яблока Кешью"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["cashew_apple"]
@@ -137,8 +137,8 @@
 			"en": "Сashew Nut Drink",
 			"ru": "Напиток с Кешью"
 		},
-		"propeties": {
-			"density": "thick",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["cashew_nut"]
@@ -149,8 +149,8 @@
 			"en": "Cocoa Fruit Juice",
 			"ru": "Сок из Какао"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sour", "Sweet"]
 		},
 		"ingredients": ["cocoa_fruit"]
@@ -162,8 +162,8 @@
 			"en": "Cucumber Juice",
 			"ru": "Сок из Огурца"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["cucumber"]
@@ -174,7 +174,7 @@
 			"en": "Curry leaf Juice",
 			"ru": "Сок из Листьев Карри"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -186,8 +186,8 @@
 			"en": "Custard Apple Juice",
 			"ru": "Сок из Черимойи"
 		},
-		"propeties": {
-			"density": "thick",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sour", "Sweet"]
 		},
 		"ingredients": ["custard_apple"]
@@ -198,8 +198,8 @@
 			"en": "Dates Juice",
 			"ru": "Сок из Фиников"
 		},
-		"propeties": {
-			"density": "thick",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["dates"]
@@ -210,8 +210,8 @@
 			"en": "Dragon Fruit Juice",
 			"ru": "Сок из Питайи"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sour", "Sweet"]
 		},
 		"ingredients": ["dragon_fruit"]
@@ -222,8 +222,8 @@
 			"en": "Durian Juice",
 			"ru": "Сок из Дуриана"
 		},
-		"propeties": {
-			"density": "thick",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["durian"]
@@ -234,8 +234,8 @@
 			"en": "Fig Juice",
 			"ru": "Сок из Инжира"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["fig"]
@@ -246,8 +246,8 @@
 			"en": "Ginger Juice",
 			"ru": "Сок из Имбиря"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Pungency"]
 		},
 		"ingredients": ["ginger"]
@@ -258,8 +258,8 @@
 			"en": "Gotukola Juice",
 			"ru": "Сок из Центеллы"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Bitter","Sweet"]
 		},
 		"ingredients": ["gotukola"]
@@ -270,8 +270,8 @@
 			"en": "Grapefruit Juice",
 			"ru": "Сок из Грейпфрута"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Bitter","Sweet"]
 		},
 		"ingredients": ["grapefruit"]
@@ -282,8 +282,8 @@
 			"en": "Grapes Juice",
 			"ru": "Сок из Винограда"
 		},
-		"propeties": {
-			"density": "liquid",
+		"properties": {
+			"density": "Creamy",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["grapes"]
@@ -299,7 +299,7 @@
 			"ru": "Сок из Гуавы"
 		},
 		"properties": {
-			"density": "thick",
+			"density": "Creamy",
 			"flavor": ["Sour"]
 		},
 		"ingredients": ["guava"]
@@ -310,7 +310,7 @@
 			"en": "Jackfruit Juice",
 			"ru": "Сок из Джекфрута"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -322,7 +322,7 @@
 			"en": "Jambu Juice",
 			"ru": "Сок из Джамбу"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -334,7 +334,7 @@
 			"en": "Kirala Juice",
 			"ru": "Сок из Киралы"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -358,7 +358,7 @@
 			"en": "Lawulu Juice",
 			"ru": "Сок из Лавулу"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -394,7 +394,7 @@
 			"en": "Lovi Juice",
 			"ru": "Сок из Лови"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -406,7 +406,7 @@
 			"en": "Mandarin Juice",
 			"ru": "Сок из Мандарина"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -430,7 +430,7 @@
 			"en": "Mangosteen Juice",
 			"ru": "Сок из Мангустина"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -442,7 +442,7 @@
 			"en": "Naminan Juice",
 			"ru": "Сок из Наминана"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -454,7 +454,7 @@
 			"en": "Nelli Juice",
 			"ru": "Сок из Нелли"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -478,7 +478,7 @@
 			"en": "Palm fruit Juice",
 			"ru": "Сок из Пальмировой пальмы"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -514,7 +514,7 @@
 			"en": "Peach Juice",
 			"ru": "Сок из Персика"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -526,7 +526,7 @@
 			"en": "Peanut Drink",
 			"ru": "Напиток с Арахисом"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -538,7 +538,7 @@
 			"en": "Pear Juice",
 			"ru": "Сок из Груши"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -550,7 +550,7 @@
 			"en": "Pineapple Juice",
 			"ru": "Сок из Ананаса"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -562,7 +562,7 @@
 			"en": "Pomegranate Juice",
 			"ru": "Сок из Граната"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -574,7 +574,7 @@
 			"en": "Raisin Juice",
 			"ru": "Сок из Изюма"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -586,7 +586,7 @@
 			"en": "Rambutan Juice",
 			"ru": "Сок из Рамбутана"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -598,7 +598,7 @@
 			"en": "Sapodilla Juice",
 			"ru": "Сок из Саподиллы"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -610,7 +610,7 @@
 			"en": "Silver Melon Juice",
 			"ru": "Сок из Серебрянной Дыни"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -622,7 +622,7 @@
 			"en": "Sour Orange Juice",
 			"ru": "Сок из Кислого Апельсина"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -634,7 +634,7 @@
 			"en": "Sour Guava Juice",
 			"ru": "Сок из Кислой Гуавы"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -646,7 +646,7 @@
 			"en": "Soursop Annona Juice",
 			"ru": "Сок из Анноны"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -658,7 +658,7 @@
 			"en": "Starfruit Juice",
 			"ru": "Сок из Карамболи"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -670,7 +670,7 @@
 			"en": "Strawberry Juice",
 			"ru": "Сок из Клубники"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -682,7 +682,7 @@
 			"en": "Sugar Cane Juice",
 			"ru": "Сок из Сахарного тросника"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -694,7 +694,7 @@
 			"en": "Sweet Coconut Juice",
 			"ru": "Сок из Сладкого Кокоса"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -706,7 +706,7 @@
 			"en": "Sweet Melon Juice",
 			"ru": "Сок из Сладкой Дыни"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -718,7 +718,7 @@
 			"en": "Tamarind Juice",
 			"ru": "Сок из Тамаринда"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -730,7 +730,7 @@
 			"en": "Tangerine Juice",
 			"ru": "Сок из Тангерина"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -742,7 +742,7 @@
 			"en": "Tomato Juice",
 			"ru": "Сок из Помидоров"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -754,7 +754,7 @@
 			"en": "Veralu Juice",
 			"ru": "Сок из Вералу"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},
@@ -778,7 +778,7 @@
 			"en": "Woodapple Juice",
 			"ru": "Сок из Деревянного Яблока"
 		},
-		"propeties": {
+		"properties": {
 			"density": "",
 			"flavor": [""]
 		},

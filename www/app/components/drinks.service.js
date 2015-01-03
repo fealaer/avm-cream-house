@@ -13,7 +13,7 @@ angular.module('avm.components')
 					"ru": "Напиток с Миндалем"
 				},
 				"properties": {
-					"density": "liquid",
+					"density": "Liquid",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["almond"]
@@ -25,7 +25,7 @@ angular.module('avm.components')
 					"ru": "Сок из Амбареллы"
 				},
 				"properties": {
-					"density": "liquid",
+					"density": "Liquid",
 					"flavor": [""]
 				},
 				"ingredients": ["ambarella"]
@@ -37,7 +37,7 @@ angular.module('avm.components')
 					"ru": "Сок из Яблок"
 				},
 				"properties": {
-					"density": "liquid",
+					"density": "Liquid",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["apple"]
@@ -48,8 +48,8 @@ angular.module('avm.components')
 					"en": "Apricot Juice",
 					"ru": "Сок из Абрикоса"
 				},
-				"propeties": {
-					"density": "thick",
+				"properties": {
+					"density": "Creamy",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["apricot"]
@@ -60,8 +60,8 @@ angular.module('avm.components')
 					"en": "Baeli Fruit Juice",
 					"ru": "Сок из Баиля"
 				},
-				"propeties": {
-					"density": "thick",
+				"properties": {
+					"density": "Creamy",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["baeli_fruit"]
@@ -73,7 +73,7 @@ angular.module('avm.components')
 					"ru": "Сок из Банана"
 				},
 				"properties": {
-					"density": "thick",
+					"density": "Creamy",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["banana"]
@@ -85,7 +85,7 @@ angular.module('avm.components')
 					"ru": "Сок из Свеклы"
 				},
 				"properties": {
-					"density": "liquid",
+					"density": "Liquid",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["beetroot"]
@@ -96,8 +96,8 @@ angular.module('avm.components')
 					"en": "Bitter Gourd Juice",
 					"ru": "Сок из Горького огурца"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Bitter"]
 				},
 				"ingredients": ["bitter_gourd"]
@@ -108,8 +108,8 @@ angular.module('avm.components')
 					"en": "Cantaloupe Juice",
 					"ru": "Сок из Канталупы"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["cantaloupe"]
@@ -120,8 +120,8 @@ angular.module('avm.components')
 					"en": "Carrot Juice",
 					"ru": "Сок из Моркови"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["carrot"]
@@ -132,8 +132,8 @@ angular.module('avm.components')
 					"en": "Cashew Fruit Juice",
 					"ru": "Сок из Яблока Кешью"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["cashew_apple"]
@@ -144,8 +144,8 @@ angular.module('avm.components')
 					"en": "Сashew Nut Drink",
 					"ru": "Напиток с Кешью"
 				},
-				"propeties": {
-					"density": "thick",
+				"properties": {
+					"density": "Creamy",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["cashew_nut"]
@@ -156,8 +156,8 @@ angular.module('avm.components')
 					"en": "Cocoa Fruit Juice",
 					"ru": "Сок из Какао"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Sour", "Sweet"]
 				},
 				"ingredients": ["cocoa_fruit"]
@@ -169,8 +169,8 @@ angular.module('avm.components')
 					"en": "Cucumber Juice",
 					"ru": "Сок из Огурца"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["cucumber"]
@@ -181,7 +181,7 @@ angular.module('avm.components')
 					"en": "Curry leaf Juice",
 					"ru": "Сок из Листьев Карри"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -193,8 +193,8 @@ angular.module('avm.components')
 					"en": "Custard Apple Juice",
 					"ru": "Сок из Черимойи"
 				},
-				"propeties": {
-					"density": "thick",
+				"properties": {
+					"density": "Creamy",
 					"flavor": ["Sour", "Sweet"]
 				},
 				"ingredients": ["custard_apple"]
@@ -205,8 +205,8 @@ angular.module('avm.components')
 					"en": "Dates Juice",
 					"ru": "Сок из Фиников"
 				},
-				"propeties": {
-					"density": "thick",
+				"properties": {
+					"density": "Creamy",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["dates"]
@@ -217,8 +217,8 @@ angular.module('avm.components')
 					"en": "Dragon Fruit Juice",
 					"ru": "Сок из Питайи"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Sour", "Sweet"]
 				},
 				"ingredients": ["dragon_fruit"]
@@ -229,8 +229,8 @@ angular.module('avm.components')
 					"en": "Durian Juice",
 					"ru": "Сок из Дуриана"
 				},
-				"propeties": {
-					"density": "thick",
+				"properties": {
+					"density": "Creamy",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["durian"]
@@ -241,8 +241,8 @@ angular.module('avm.components')
 					"en": "Fig Juice",
 					"ru": "Сок из Инжира"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["fig"]
@@ -253,8 +253,8 @@ angular.module('avm.components')
 					"en": "Ginger Juice",
 					"ru": "Сок из Имбиря"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Pungency"]
 				},
 				"ingredients": ["ginger"]
@@ -265,8 +265,8 @@ angular.module('avm.components')
 					"en": "Gotukola Juice",
 					"ru": "Сок из Центеллы"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Bitter","Sweet"]
 				},
 				"ingredients": ["gotukola"]
@@ -277,8 +277,8 @@ angular.module('avm.components')
 					"en": "Grapefruit Juice",
 					"ru": "Сок из Грейпфрута"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Bitter","Sweet"]
 				},
 				"ingredients": ["grapefruit"]
@@ -289,8 +289,8 @@ angular.module('avm.components')
 					"en": "Grapes Juice",
 					"ru": "Сок из Винограда"
 				},
-				"propeties": {
-					"density": "liquid",
+				"properties": {
+					"density": "Liquid",
 					"flavor": ["Sweet"]
 				},
 				"ingredients": ["grapes"]
@@ -306,7 +306,7 @@ angular.module('avm.components')
 					"ru": "Сок из Гуавы"
 				},
 				"properties": {
-					"density": "thick",
+					"density": "Creamy",
 					"flavor": ["Sour"]
 				},
 				"ingredients": ["guava"]
@@ -317,7 +317,7 @@ angular.module('avm.components')
 					"en": "Jackfruit Juice",
 					"ru": "Сок из Джекфрута"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -329,7 +329,7 @@ angular.module('avm.components')
 					"en": "Jambu Juice",
 					"ru": "Сок из Джамбу"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -341,7 +341,7 @@ angular.module('avm.components')
 					"en": "Kirala Juice",
 					"ru": "Сок из Киралы"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -365,7 +365,7 @@ angular.module('avm.components')
 					"en": "Lawulu Juice",
 					"ru": "Сок из Лавулу"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -401,7 +401,7 @@ angular.module('avm.components')
 					"en": "Lovi Juice",
 					"ru": "Сок из Лови"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -413,7 +413,7 @@ angular.module('avm.components')
 					"en": "Mandarin Juice",
 					"ru": "Сок из Мандарина"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -437,7 +437,7 @@ angular.module('avm.components')
 					"en": "Mangosteen Juice",
 					"ru": "Сок из Мангустина"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -449,7 +449,7 @@ angular.module('avm.components')
 					"en": "Naminan Juice",
 					"ru": "Сок из Наминана"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -461,7 +461,7 @@ angular.module('avm.components')
 					"en": "Nelli Juice",
 					"ru": "Сок из Нелли"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -485,7 +485,7 @@ angular.module('avm.components')
 					"en": "Palm fruit Juice",
 					"ru": "Сок из Пальмировой пальмы"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -521,7 +521,7 @@ angular.module('avm.components')
 					"en": "Peach Juice",
 					"ru": "Сок из Персика"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -533,7 +533,7 @@ angular.module('avm.components')
 					"en": "Peanut Drink",
 					"ru": "Напиток с Арахисом"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -545,7 +545,7 @@ angular.module('avm.components')
 					"en": "Pear Juice",
 					"ru": "Сок из Груши"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -557,7 +557,7 @@ angular.module('avm.components')
 					"en": "Pineapple Juice",
 					"ru": "Сок из Ананаса"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -569,7 +569,7 @@ angular.module('avm.components')
 					"en": "Pomegranate Juice",
 					"ru": "Сок из Граната"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -581,7 +581,7 @@ angular.module('avm.components')
 					"en": "Raisin Juice",
 					"ru": "Сок из Изюма"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -593,7 +593,7 @@ angular.module('avm.components')
 					"en": "Rambutan Juice",
 					"ru": "Сок из Рамбутана"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -605,7 +605,7 @@ angular.module('avm.components')
 					"en": "Sapodilla Juice",
 					"ru": "Сок из Саподиллы"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -617,7 +617,7 @@ angular.module('avm.components')
 					"en": "Silver Melon Juice",
 					"ru": "Сок из Серебрянной Дыни"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -629,7 +629,7 @@ angular.module('avm.components')
 					"en": "Sour Orange Juice",
 					"ru": "Сок из Кислого Апельсина"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -641,7 +641,7 @@ angular.module('avm.components')
 					"en": "Sour Guava Juice",
 					"ru": "Сок из Кислой Гуавы"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -653,7 +653,7 @@ angular.module('avm.components')
 					"en": "Soursop Annona Juice",
 					"ru": "Сок из Анноны"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -665,7 +665,7 @@ angular.module('avm.components')
 					"en": "Starfruit Juice",
 					"ru": "Сок из Карамболи"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -677,7 +677,7 @@ angular.module('avm.components')
 					"en": "Strawberry Juice",
 					"ru": "Сок из Клубники"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -689,7 +689,7 @@ angular.module('avm.components')
 					"en": "Sugar Cane Juice",
 					"ru": "Сок из Сахарного тросника"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -701,7 +701,7 @@ angular.module('avm.components')
 					"en": "Sweet Coconut Juice",
 					"ru": "Сок из Сладкого Кокоса"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -713,7 +713,7 @@ angular.module('avm.components')
 					"en": "Sweet Melon Juice",
 					"ru": "Сок из Сладкой Дыни"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -725,7 +725,7 @@ angular.module('avm.components')
 					"en": "Tamarind Juice",
 					"ru": "Сок из Тамаринда"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -737,7 +737,7 @@ angular.module('avm.components')
 					"en": "Tangerine Juice",
 					"ru": "Сок из Тангерина"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -749,7 +749,7 @@ angular.module('avm.components')
 					"en": "Tomato Juice",
 					"ru": "Сок из Помидоров"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -761,7 +761,7 @@ angular.module('avm.components')
 					"en": "Veralu Juice",
 					"ru": "Сок из Вералу"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},
@@ -785,7 +785,7 @@ angular.module('avm.components')
 					"en": "Woodapple Juice",
 					"ru": "Сок из Деревянного Яблока"
 				},
-				"propeties": {
+				"properties": {
 					"density": "",
 					"flavor": [""]
 				},

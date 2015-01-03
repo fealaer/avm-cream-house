@@ -108,7 +108,7 @@ angular.module('avm.components')
 					"vitamins": ["A", "B5", "C", "E"],
 					"minerals": ["Manganese", "Potassium"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -135,7 +135,7 @@ angular.module('avm.components')
 					"vitamins": ["A", "B", "C"],
 					"minerals": ["Calcium", "Potassium"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -162,7 +162,7 @@ angular.module('avm.components')
 					"vitamins": ["B2","B5", "B6", "B9","C"],
 					"minerals": ["Magnesium", "Manganese","Potassium"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -189,7 +189,7 @@ angular.module('avm.components')
 					"vitamins": ["B5","B6","B9","C"],
 					"minerals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium","Sodium","Zinc"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -216,7 +216,7 @@ angular.module('avm.components')
 					"vitamins": ["B1","B2","B5","B9","C","K"],
 					"minerals": ["Magnesium","Potassium","Zinc"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Bitter"]
 				}
 			},
@@ -243,7 +243,7 @@ angular.module('avm.components')
 					"vitamins": ["A","B3","B6","B9","C"],
 					"minerals": ["Manganese","Potassium"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -270,7 +270,7 @@ angular.module('avm.components')
 					"vitamins": ["A","B1","B2","B3","B5","B6","B9","C","E"],
 					"minerals": ["Manganese","Potassium","Sodium"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -297,7 +297,7 @@ angular.module('avm.components')
 					"vitamins": ["C"],
 					"minerals": ["Iron","Phosphorus"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -324,7 +324,7 @@ angular.module('avm.components')
 					"vitamins": ["B1","B2","B3","B5","B6","E"],
 					"minerals": ["Potassium","Copper","Iron","Magnesium","Manganese","Phosphorus","Selenium","Zinc"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -351,7 +351,7 @@ angular.module('avm.components')
 					"vitamins": ["C"],
 					"minerals": ["Magnesium","Calcium","Iron"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sour", "Sweet"]
 				}
 			},
@@ -378,7 +378,7 @@ angular.module('avm.components')
 					"vitamins": ["B5","K"],
 					"minerals": ["Magnesium","Manganese"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -406,7 +406,7 @@ angular.module('avm.components')
 					"vitamins": [" A"],
 					"minerals": ["Calcium","Phosphorus","Iron"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": [""]
 				}
 			},
@@ -433,7 +433,7 @@ angular.module('avm.components')
 					"vitamins": ["C"],
 					"minerals": ["Calcium","Phosphorous"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sour", "Sweet"]
 				}
 			},
@@ -460,7 +460,7 @@ angular.module('avm.components')
 					"vitamins": ["B1","B2","B3","B5","B6","B9"],
 					"minerals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -488,7 +488,7 @@ angular.module('avm.components')
 					"vitamins": ["C"],
 					"minerals": ["Iron" ]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sour", "Sweet"]
 				}
 			},
@@ -515,7 +515,7 @@ angular.module('avm.components')
 					"vitamins": ["B1","B2","B3","B5","B6","B9","C"],
 					"minerals": ["Magnesium","Manganese","Phosphorus","Potassium"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -542,7 +542,7 @@ angular.module('avm.components')
 					"vitamins": ["B1","B2","B3","B6","B9","K"],
 					"minerals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","PotassiumZ","inc"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -569,7 +569,7 @@ angular.module('avm.components')
 					"vitamins": ["B2","B3","B5","B6"],
 					"minerals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","Potassium","Zinc"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Pungency"]
 				}
 			},
@@ -596,7 +596,7 @@ angular.module('avm.components')
 					"vitamins": ["C","B1","B2","B3"],
 					"minerals": ["Calcium","Magnesium","Manganese","Phosphorus","Potassium","Selenium","Zinc"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Bitter","Sweet"]
 				}
 			},
@@ -623,7 +623,7 @@ angular.module('avm.components')
 					"vitamins": ["B5","C"],
 					"minerals": ["Magnesium","Potassium"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Bitter","Sweet"]
 				}
 			},
@@ -650,7 +650,7 @@ angular.module('avm.components')
 					"vitamins": ["B1","B2","B6","K"],
 					"minerals": ["Potassium"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["Sweet"]
 				}
 			},
@@ -681,7 +681,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -708,7 +708,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -735,7 +735,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -762,7 +762,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -789,7 +789,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -816,7 +816,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -843,7 +843,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -870,7 +870,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -897,7 +897,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -924,7 +924,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -951,7 +951,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -978,7 +978,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1005,7 +1005,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1032,7 +1032,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1059,7 +1059,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1086,7 +1086,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1113,7 +1113,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1140,7 +1140,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1167,7 +1167,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1194,7 +1194,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1221,7 +1221,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1248,7 +1248,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1275,7 +1275,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1302,7 +1302,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1329,7 +1329,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1356,7 +1356,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1383,7 +1383,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1410,7 +1410,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1437,7 +1437,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1464,7 +1464,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1491,7 +1491,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1518,7 +1518,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1545,7 +1545,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1572,7 +1572,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1599,7 +1599,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1626,7 +1626,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1653,7 +1653,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1680,7 +1680,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1707,7 +1707,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1734,7 +1734,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			},
@@ -1761,7 +1761,7 @@ angular.module('avm.components')
 					"vitamins": ["?"],
 					"minerals": ["?"]
 				},
-				"propeties": {
+				"properties": {
 					"flavor": ["?"]
 				}
 			}
