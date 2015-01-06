@@ -1,26 +1,26 @@
 'use strict';
 
-angular.module('avm.tabs.ingredients')
+angular.module('avm.menu.ingredients')
 	.config(function ($stateProvider) {
 		$stateProvider
-			.state('tabs.ingredients', {
+			.state('menu.ingredients', {
 				url: "/ingredients",
 				views: {
-					'ingredients@tabs': {
-						templateUrl: "app/modules/tabs/ingredients/list.html",
+					'ingredients@menu': {
+						templateUrl: "app/modules/menu/ingredients/list.html",
 						controller: 'IngredientsListCtrl'
 					},
 					'rightSlider@': {
-						templateUrl: "app/modules/tabs/ingredients/filter.html",
+						templateUrl: "app/modules/menu/ingredients/filter.html",
 						controller: 'FilterCtrl'
 					}
 				}
 			})
-			.state('tabs.ingredients.item', {
+			.state('menu.ingredients.item', {
 				url: '/{id:[a-z_]+}',
 				views: {
-					'ingredients@tabs': {
-						templateUrl: "app/modules/tabs/ingredients/item.html",
+					'ingredients@menu': {
+						templateUrl: "app/modules/menu/ingredients/item.html",
 						controller: 'IngredientsItemCtrl'
 					}
 				},

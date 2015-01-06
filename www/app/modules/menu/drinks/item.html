@@ -1,6 +1,6 @@
 <ion-view title="{{item.name[lang]}}">
 	<ion-nav-buttons side="left">
-		<button class="button button-icon ion-chevron-left" ui-sref="tabs.drinks"></button>
+		<button class="button button-icon ion-chevron-left" ui-sref="menu.drinks"></button>
 	</ion-nav-buttons>
 
 	<ion-content>
@@ -19,7 +19,7 @@
 							ng-class="{'button-stable': !item.isSaved, 'button-positive': item.isSaved}"
 							ng-click="toSave(item); $event.stopPropagation();"><fa name="bookmark" size="large"></fa></button>
 					</div>
-					<img class="card-image" ng-src="{{'/images/' + item.id + '.png'}}">
+					<img class="card-image" ng-src="{{'/images/menu/' + item.id + '.png'}}">
 				</div>
 				<div ng-controller="InfoTabsCtrl">
 					<div class="item tabs tabs-secondary tabs-icon-top secondary-tabs-in-item tabs-positive">
@@ -49,7 +49,7 @@
 								Ingredients
 							</div>
 							<li ng-repeat="ingredient in ingredients | filter:usedIngredients | orderBy:'name'" class="item-thumbnail-left item item-complex">
-									<a class="item-content" ui-sref="tabs.ingredients.item({id: ingredient.id})">
+									<a class="item-content" ui-sref="menu.ingredients.item({id: ingredient.id})">
 										<img ng-src="{{'/images/small/' + ingredient.id + '.png'}}">
 										<h2 class="vert-centred">{{ingredient.name[lang]}}</h2>
 									</a>

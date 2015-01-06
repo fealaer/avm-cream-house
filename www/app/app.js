@@ -49,7 +49,7 @@ angular.module('avm', [
 //			.hashPrefix('!');
 
 		// Configure default router
-		$urlRouterProvider.otherwise('/tabs/drinks');
+		$urlRouterProvider.otherwise('/menu/drinks');
 	})
 
 	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state) {

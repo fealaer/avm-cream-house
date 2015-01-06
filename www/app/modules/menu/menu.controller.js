@@ -1,5 +1,5 @@
-angular.module('avm.tabs')
-	.controller('TabsCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state) {
+angular.module('avm.menu')
+	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state) {
 		var defData = {
 			rate: 2,
 			comment: ''
@@ -26,7 +26,7 @@ angular.module('avm.tabs')
 				}
 			};
 			listFilter.set('drinks', filter);
-			$state.go('tabs.drinks');
+			$state.go('menu.drinks');
 		};
 
 		$scope.save = function () {

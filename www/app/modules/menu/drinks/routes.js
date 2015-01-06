@@ -1,17 +1,17 @@
 'use strict';
 
-angular.module('avm.tabs.drinks')
+angular.module('avm.menu.drinks')
 	.config(function ($stateProvider) {
 		$stateProvider
-			.state('tabs.drinks', {
+			.state('menu.drinks', {
 				url: "/drinks",
 				views: {
-					'drinks@tabs': {
-						templateUrl: "app/modules/tabs/drinks/list.html",
+					'drinks@menu': {
+						templateUrl: "app/modules/menu/drinks/list.html",
 						controller: 'DrinksListCtrl'
 					},
 					'rightSlider@': {
-						templateUrl: "app/modules/tabs/drinks/filter.html",
+						templateUrl: "app/modules/menu/drinks/filter.html",
 						controller: 'FilterCtrl'
 					}
 				},
@@ -21,11 +21,11 @@ angular.module('avm.tabs.drinks')
 					}
 				}
 			})
-			.state('tabs.drinks.item', {
+			.state('menu.drinks.item', {
 				url: '/{id:[a-z_]+}',
 				views: {
-					'drinks@tabs': {
-						templateUrl: "app/modules/tabs/drinks/item.html",
+					'drinks@menu': {
+						templateUrl: "app/modules/menu/drinks/item.html",
 						controller: 'DrinksItemCtrl'
 					}
 				},

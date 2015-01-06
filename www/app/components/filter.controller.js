@@ -2,7 +2,7 @@
 
 angular.module('avm.components')
 	.controller('FilterCtrl', function ($rootScope, $scope, $filter, $state, listFilter, utils, $ionicSideMenuDelegate, ingredients) {
-		var listName = $state.includes('tabs.drinks') ? 'drinks' : 'ingredients';
+		var listName = $state.includes('menu.drinks') ? 'drinks' : 'ingredients';
 		var defFilter = {
 			filter: {
 				name: {

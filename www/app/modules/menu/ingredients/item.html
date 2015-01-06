@@ -1,6 +1,6 @@
 <ion-view title="{{item.name[lang]}}">
 	<ion-nav-buttons side="left">
-		<button class="button button-icon ion-chevron-left" ui-sref="tabs.ingredients"></button>
+		<button class="button button-icon ion-chevron-left" ui-sref="menu.ingredients"></button>
 	</ion-nav-buttons>
 
 	<ion-content>
@@ -12,7 +12,7 @@
 							class="button button-icon button-clear button-stable"
 							ng-click="drinksWith(item); $event.stopPropagation();"><i class="icon ion-ios-pint"></i></button>
 					</div>
-					<img class="card-image" ng-src="{{'/images/' + item.id + '.png'}}">
+					<img class="card-image" ng-src="{{'/images/menu/' + item.id + '.png'}}">
 				</div>
 				<ul class="list">
 					<div class="item item-divider" ng-show="item.properties.flavor">

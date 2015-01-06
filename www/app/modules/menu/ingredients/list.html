@@ -10,8 +10,8 @@
 		     collection-repeat="item in items | filter:search.filter | orderBy:search.order.by:search.order.reverse track by item.id"
 		     collection-item-width="'100%'"
 		     collection-item-height="100">
-			<a class="item-content" ui-sref="tabs.ingredients.item({id: item.id})">
-				<img ng-src="{{'/images/small/' + item.id + '.png'}}">
+			<a class="item-content" ui-sref="menu.ingredients.item({id: item.id})">
+				<img ng-src="{{'/images/menu/small/' + item.id + '.png'}}">
 				<h2 class="vert-centred">{{item.name[lang]}}</h2>
 			</a>
 			<div class="list-buttons">

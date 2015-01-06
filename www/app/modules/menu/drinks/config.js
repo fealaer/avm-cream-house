@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('avm.tabs.drinks', [
+angular.module('avm.menu.drinks', [
 	'avm.libs',
 	'avm.components'
 ]);

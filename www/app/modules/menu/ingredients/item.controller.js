@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('avm.tabs.ingredients')
+angular.module('avm.menu.ingredients')
 	.controller('IngredientsItemCtrl', function ($scope, item) {
 		$scope.item = item;
 	});
