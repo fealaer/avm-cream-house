@@ -59,6 +59,17 @@ angular.module('avm', [
 		// Make $state global
 		$rootScope.$state = $state;
 
+    $rootScope.languages = [
+      {
+        value: 'en',
+        label: 'English'
+      },
+      {
+        value: 'ru',
+        label: 'Русский'
+      }
+    ];
+
 		$rootScope.lang = 'en';
 
 		// Log app info
