@@ -55,3 +55,8 @@ ion-nav-view {
     -moz-box-shadow: 0 3px 2px -2px rgba(0,0,0,.15) !important;
     box-shadow: 0 3px 2px -2px rgba(0,0,0,.15) !important;
 }
+
+.vert-centred {
+    line-height: 80px;
+    height: 80px;
+}

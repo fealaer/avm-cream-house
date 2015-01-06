@@ -51,8 +51,7 @@
 							<li ng-repeat="ingredient in ingredients | filter:usedIngredients | orderBy:'name'" class="item-thumbnail-left item item-complex">
 									<a class="item-content" ui-sref="tabs.ingredients.item({id: ingredient.id})">
 										<img ng-src="{{'/images/small/' + ingredient.id + '.png'}}">
-										<h2>&nbsp;</h2>
-										<h2>{{ingredient.name[lang]}}</h2>
+										<h2 class="vert-centred">{{ingredient.name[lang]}}</h2>
 									</a>
 									<div class="list-buttons">
 										<button
