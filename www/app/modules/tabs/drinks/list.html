@@ -10,7 +10,7 @@
 			<a class="item-content" ui-sref="tabs.drinks.item({id: item.id})">
 				<img ng-src="{{'/images/small/' + item.id + '.png'}}">
 				<h2>{{item.name[lang]}}</h2>
-				<h4><i class="fa fa-star gold-star"></i> {{item.rate.rate | number:1}} (<i class="fa fa-user"></i> {{item.rate.based | number}}) <i class="fa fa-comment"></i> {{item.totalComments | number}}</h4>
+				<h4><i class="icon ion-android-star"></i> {{item.rate.rate | number:1}} (<i class="icon ion-person"></i> {{item.rate.based | number}}) <i class="icon ion-ios-chatbubble"></i> {{item.totalComments | number}}</h4>
 				<h3><strong>Rs.</strong> {{item.price | number}}</h3>
 			</a>
 			<div class="list-buttons">

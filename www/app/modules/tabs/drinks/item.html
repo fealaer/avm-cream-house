@@ -22,7 +22,7 @@
 					<img class="card-image" ng-src="{{'/images/' + item.id + '.png'}}">
 				</div>
 				<div ng-controller="InfoTabsCtrl">
-					<div class="item tabs tabs-secondary tabs-icon-top secondary-tabs-in-item">
+					<div class="item tabs tabs-secondary tabs-icon-top secondary-tabs-in-item tabs-positive">
 						<a class="tab-item" href ng-click="setTab('info')"
 						   ng-class="{active: isSet('info')}">
 							<i class="icon ion-information-circled"></i>
@@ -48,7 +48,7 @@
 							<div class="item item-divider">
 								Ingredients
 							</div>
-							<li ng-repeat="ingredient in ingredients | filter:usedIngredients | orderBy:'name'" class="item-thumbnail-left item item-complex item-in-list">
+							<li ng-repeat="ingredient in ingredients | filter:usedIngredients | orderBy:'name'" class="item-thumbnail-left item item-complex">
 									<a class="item-content" ui-sref="tabs.ingredients.item({id: ingredient.id})">
 										<img ng-src="{{'/images/small/' + ingredient.id + '.png'}}">
 										<h2>&nbsp;</h2>
@@ -57,7 +57,7 @@
 									<div class="list-buttons">
 										<button
 											class="button button-icon button-clear button-stable"
-											ng-click="drinksWith(ingredient); $event.stopPropagation();"><fa name="glass" size="large"></fa></button>
+											ng-click="drinksWith(ingredient); $event.stopPropagation();"><i class="icon ion-ios-pint"></i></button>
 									</div>
 							</li>
 						</ul>
