@@ -2,5 +2,6 @@
 
 angular.module('avm.modules', [
 	'avm.components',
-	'avm.menu'
+	'avm.menu',
+  'avm.about'
 ]);
