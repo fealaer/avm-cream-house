@@ -50,7 +50,7 @@
 							</div>
 							<li ng-repeat="ingredient in ingredients | filter:usedIngredients | orderBy:'name'" class="item-thumbnail-left item item-complex">
 									<a class="item-content" ui-sref="menu.ingredients.item({id: ingredient.id})">
-										<img ng-src="{{'/images/small/' + ingredient.id + '.png'}}">
+										<img ng-src="{{'/images/menu/small/' + ingredient.id + '.png'}}">
 										<h2 class="vert-centred">{{ingredient.name[lang]}}</h2>
 									</a>
 									<div class="list-buttons">
