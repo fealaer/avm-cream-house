@@ -4,12 +4,18 @@
   "private": true,
   "dependencies": {
     "supersonic": "1.x",
-	  "ionic": "v1.0.0-beta.14",
-	  "lodash": "latest",
-	  "restangular": "latest",
-	  "ngstorage": "latest",
-	  "font-awesome": "latest",
-	  "angular-fontawesome": "latest",
-	  "fastclick": "latest"
+    "ionic": "v1.0.0-beta.14",
+    "lodash": "latest",
+    "restangular": "latest",
+    "ngstorage": "latest",
+    "font-awesome": "latest",
+    "angular-fontawesome": "latest",
+    "fastclick": "latest",
+    "angular": "latest",
+    "angular-animate": "latest",
+    "angular-aria": "latest",
+    "angular-sanitize": "latest",
+    "angular-ui-router": "latest",
+    "ionicons": "~2.0.0"
   }
 }

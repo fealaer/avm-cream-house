@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="avm">
 <head>
   <meta charset="utf8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -10,23 +10,28 @@
   <!--<link rel="stylesheet" href="/stylesheets/application.css">-->
   <!--<link rel="import" href="/components/supersonic/components/import.html">-->
 
-  <script src="http://localhost/cordova.js"></script>
-  <script src="/components/steroids-js/steroids.js"></script>
-  <!--<script src="/components/angular/angular.js"></script>-->
-  <script src="/components/supersonic/supersonic.js"></script>
-  <script src="/components/webcomponentsjs/webcomponents.js"></script>
-
 	<link rel="stylesheet" href="/components/ionic/release/css/ionic.min.css"/>
+	<link rel="stylesheet" href="/components/ionicons/css/ionicons.min.css"/>
 	<link rel="stylesheet" href="/stylesheets/application.css"/>
 	<link rel="stylesheet" href="/components/font-awesome/css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="/app/components/ratingButtons.directive.css"/>
 	<link rel="stylesheet" href="/app/components/ratingView.directive.css"/>
 
-	<!--ionic.bundle.js is a concatenation of: ionic.js, angular.js, angular-animate.js, angular-ui-router.js, and ionic-angular.js-->
-	<script src="/components/ionic/release/js/ionic.bundle.js"></script>
 	<script src="/components/lodash/dist/lodash.js"></script>
 	<script src="/components/fastclick/lib/fastclick.js"></script>
-	<script src="/components/ui-router-extras/release/ct-ui-router-extras.js"></script>
+
+	<script src="/components/_angular_/angular.js"></script>
+	<script src="/components/angular-sanitize/angular-sanitize.js"></script>
+	<script src="/components/angular-animate/angular-animate.js"></script>
+	<script src="/components/angular-aria/angular-aria.js"></script>
+	<script src="/components/angular-ui-router/release/angular-ui-router.js"></script>
+
+	<script src="/components/ionic/release/js/ionic.js"></script>
+	<script src="/components/ionic/release/js/ionic-angular.js"></script>
+
+
+	<!--ionic.bundle.js is a concatenation of: ionic.js, angular.js, angular-animate.js, angular-ui-router.js, and ionic-angular.js-->
+	<!--<script src="/components/ionic/release/js/ionic.bundle.js"></script>-->
 	<script src="/components/angular-fontawesome/dist/angular-fontawesome.min.js"></script>
 	<script src="/components/ngstorage/ngStorage.js"></script>
 	<script src="/components/restangular/dist/restangular.js"></script>
@@ -69,8 +74,13 @@
 	<script src="/app/modules/tabs/ingredients/list.controller.js"></script>
 
 	<!--Always last-->
-	<script src="/app/bootstrap.js"></script>
+	<!--<script src="/app/bootstrap.js"></script>-->
 	<!-- endbuild -->
+
+	<script src="/components/steroids-js/steroids.js"></script>
+	<script src="/components/supersonic/supersonic.js"></script>
+	<script src="/components/webcomponentsjs/webcomponents.js"></script>
+	<script src="http://localhost/cordova.js"></script>
 </head>
 <body>
 <ion-side-menus>
