@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('avm.components')
-	.controller('FilterCtrl', function ($rootScope, $scope, $filter, $state, listFilter, utils, $ionicSideMenuDelegate) {
+	.controller('FilterCtrl', function ($rootScope, $scope, $filter, $state, listFilter, utils, $ionicSideMenuDelegate, ingredients) {
 		var listName = $state.includes('tabs.drinks') ? 'drinks' : 'ingredients';
 		var defFilter = {
 			filter: {
@@ -16,7 +16,8 @@ angular.module('avm.components')
 				nutrition_facts: {
 					vitamins: '',
 					minerals: ''
-				}
+				},
+				ingredients: ''
 			},
 			order: {
 				by: 'name.' + $rootScope.lang,
@@ -77,10 +78,13 @@ angular.module('avm.components')
 			{value: 'Bromine', label: 'Bromine'}
 		];
 
+		$scope.ingredients = angular.copy(ingredients);
+		$scope.ingredients.unshift({id: '', name: {'en': 'Any', 'ru': 'Любой'}});
+
 		function extendDeep(dst) {
-			angular.forEach(arguments, function(obj) {
+			angular.forEach(arguments, function (obj) {
 				if (obj !== dst) {
-					angular.forEach(obj, function(value, key) {
+					angular.forEach(obj, function (value, key) {
 						if (dst[key] && dst[key].constructor && dst[key].constructor === Object) {
 							extendDeep(dst[key], value);
 						} else {

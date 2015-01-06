@@ -40,6 +40,11 @@
 			<select ng-model="newFilter.properties.density" ng-options="density.value as density.label for density in densities">
 			</select>
 		</label>
+		<label class="item item-input item-select">
+			<div class="input-label">Ingredient</div>
+			<select ng-model="newFilter.ingredients" ng-options="ingredient.id as ingredient.name[lang] for ingredient in ingredients">
+			</select>
+		</label>
 	</div>
 </ion-content>
 <ion-footer-bar align-title="left">
