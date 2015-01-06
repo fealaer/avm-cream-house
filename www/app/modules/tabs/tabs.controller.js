@@ -1,9 +1,5 @@
 angular.module('avm.tabs')
-	.controller('TabsCtrl', function($rootScope, $scope, $ionicSideMenuDelegate, $ionicModal, listFilter, $state) {
-		$scope.openFilter = function () {
-			$ionicSideMenuDelegate.toggleRight();
-		};
-
+	.controller('TabsCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state) {
 		var defData = {
 			rate: 2,
 			comment: ''
