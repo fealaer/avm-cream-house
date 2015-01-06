@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html ng-app="avm">
 <head>
-  <meta charset="utf8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <title>AVM Cream House</title>
+	<title>AVM Cream House</title>
 
-  <!--<link rel="stylesheet" href="/components/supersonic/css/supersonic.css">-->
-  <!--<link rel="stylesheet" href="/stylesheets/application.css">-->
-  <!--<link rel="import" href="/components/supersonic/components/import.html">-->
+	<!--<link rel="stylesheet" href="/components/supersonic/css/supersonic.css">-->
+	<!--<link rel="stylesheet" href="/stylesheets/application.css">-->
+	<!--<link rel="import" href="/components/supersonic/components/import.html">-->
 
 	<link rel="stylesheet" href="/components/ionic/release/css/ionic.min.css"/>
 	<link rel="stylesheet" href="/components/ionicons/css/ionicons.min.css"/>
@@ -96,6 +96,34 @@
 
 	<!-- Left menu -->
 	<ion-side-menu side="left">
+		<ion-content>
+			<div class="list">
+				<a class="item item-thumbnail-left" href="#">
+					<img src="/images/small/apple.png">
+
+					<h2>User Name</h2>
+
+					<p>user@email.com</p>
+				</a>
+				<label class="item item-input item-select">
+					<div class="input-label">Language</div>
+					<select ng-model="lang" ng-options="language.value as language.label for language in languages">
+					</select>
+				</label>
+				<a class="item item-icon-right" href="#">
+					Menu
+					<i class="icon ion-chevron-right"></i>
+				</a>
+				<a class="item item-icon-right" href="#">
+					AVM Cream House
+					<i class="icon ion-chevron-right"></i>
+				</a>
+			</div>
+		</ion-content>
+		<ion-footer-bar align-title="left">
+			<button class="button button-icon icon ion-help-circled"></button>
+			<div class="title">Helps and Feedback</div>
+		</ion-footer-bar>
 	</ion-side-menu>
 
 	<!-- Right menu -->
