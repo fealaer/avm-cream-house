@@ -110,7 +110,7 @@
 					<select ng-model="lang" ng-options="language.value as language.label for language in languages">
 					</select>
 				</label>
-				<a class="item item-icon-right" ui-sref="menu" menu-toggle="left" ui-sref-active="item-positive">
+				<a class="item item-icon-right" ui-sref="menu.drinks" menu-toggle="left" ng-class="{'item-positive': $state.includes('menu')}">
 					Menu
 					<i class="icon ion-chevron-right"></i>
 				</a>
