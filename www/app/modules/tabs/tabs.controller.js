@@ -22,7 +22,7 @@ angular.module('avm.tabs')
 		$scope.drinksWith = function (item) {
 			var filter = {
 				filter: {
-					ingredients: [item.id]
+					ingredients: item.id
 				},
 				order: {
 					by: 'name.' + $rootScope.lang,
