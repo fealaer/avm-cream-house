@@ -6,7 +6,9 @@
 	<ion-content>
 		<div class="list card">
 			<div class="item item-body">
-				<img class="full-image" src="/images/about/map.png">
+				<a ng-click="openMap()">
+					<img class="full-image" src="/images/about/map.png">
+				</a>
 				<p>
 					<strong>AVM Cream House</strong> is a cafe opposite the bus station in the Weligama town centre.
 				</p>
@@ -14,15 +16,6 @@
 					There's a huge range of fresh fruit flavours and tasty local food.
 				</p>
 			</div>
-			<div class="item item-divider item-icon-left">
-				<i class="icon ion-location"></i>
-				Location
-			</div>
-			<a class="item item-icon-right" href="geo:5.973343,80.429260">
-				3 Samaraweera Place
-				<p>Weligama, Sri Lanka</p>
-				<i class="icon ion-map"></i>
-			</a>
 			<div class="item item-divider item-icon-left">
 				<i class="icon ion-android-time"></i>
 				Open hours
@@ -32,20 +25,49 @@
 				<p>except on Fridays from 11:30 to 13:30</p>
 			</div>
 			<div class="item item-divider item-icon-left">
+				<i class="icon ion-location"></i>
+				Location
+			</div>
+			<a class="item item-icon-right" ng-click="openMap()">
+				3 Samaraweera Place
+				<p>Weligama, Sri Lanka</p>
+				<i class="icon ion-map"></i>
+			</a>
+			<div class="item item-divider item-icon-left">
 				<i class="icon ion-person"></i>
 				Contacts
 			</div>
-			<a class="item item-icon-right" href="tel:0414904546">
-				0414904546
+			<a class="item item-icon-right" ng-click="callTo('+94414904546')">
+				+94414904546
 				<i class="icon ion-android-call"></i>
 			</a>
-			<a class="item item-icon-right" href="mailto:avmfresh1@yahoo.com">
+			<a class="item item-icon-right" ng-click="mailTo('avmfresh1@yahoo.com')">
 				avmfresh1@yahoo.com
 				<i class="icon ion-at"></i>
 			</a>
-			<a class="item item-icon-right" href="mailto:avmfresh1@gmail.com">
+			<a class="item item-icon-right" ng-click="mailTo('avmfresh1@gmail.com')">
 				avmfresh1@gmail.com
 				<i class="icon ion-at"></i>
+			</a>
+			<div class="item item-divider item-icon-left">
+				<i class="icon ion-android-share-alt"></i>
+				Social
+			</div>
+			<a class="item item-icon-right" ng-click="foursquare()">
+				Foursquare
+				<i class="icon ion-social-foursquare"></i>
+			</a>
+			<a class="item item-icon-right" ng-click="googleplus()">
+				Google Plus
+				<i class="icon ion-social-googleplus"></i>
+			</a>
+			<a class="item item-icon-right" ng-click="tripadvisor()">
+				TripAdvisor
+				<i class="icon ion-earth"></i>
+			</a>
+			<a class="item item-icon-right" ng-click="lonelyplanet()">
+				LonelyPlanet
+			<i class="icon ion-earth"></i>
 			</a>
 		</div>
 	</ion-content>
