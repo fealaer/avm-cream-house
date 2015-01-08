@@ -43,10 +43,16 @@
 			<div class="item" ng-show="item.nutrition_facts.minerals">
 				<strong>Minerals:</strong> {{item.nutrition_facts.minerals | join:', '}}
 			</div>
+			<div class="item item-divider">
+				Description
+			</div>
 			<div class="item item-body">
 				{{item.description[lang]}}
-				<button class="button button-block button-stable">More</button>
 			</div>
+			<a class="item item-icon-right" ng-show="item.wiki" ng-click="wiki(item.wiki)">
+				More information on Wikipedia
+				<i class="icon icon-wikipedia"></i>
+			</a>
 		</div>
 	</ion-content>
 </ion-view>
