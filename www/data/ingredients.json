@@ -353,7 +353,7 @@
 	{
 		"id": "cucumber",
 		"name": {
-			"en": "Сucumber",
+			"en": "Cucumber",
 			"ru": "Огурец"
 		},
 		"description": {
@@ -408,7 +408,7 @@
 	{
 		"id": "custard_apple",
 		"name": {
-			"en": "Сustard Apple",
+			"en": "Custard Apple",
 			"ru": "Черимойя"
 		},
 		"description": {

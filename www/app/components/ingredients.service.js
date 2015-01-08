@@ -358,7 +358,7 @@ angular.module('avm.components')
 			{
 				"id": "cucumber",
 				"name": {
-					"en": "Сucumber",
+					"en": "Cucumber",
 					"ru": "Огурец"
 				},
 				"description": {
@@ -413,7 +413,7 @@ angular.module('avm.components')
 			{
 				"id": "custard_apple",
 				"name": {
-					"en": "Сustard Apple",
+					"en": "Custard Apple",
 					"ru": "Черимойя"
 				},
 				"description": {
