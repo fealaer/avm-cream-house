@@ -1,33 +1,41 @@
 'use strict';
 
 angular.module('avm.components')
-	.service('listFilter', function ($rootScope) {
-		var self = this;
+  .service('listFilter', function ($rootScope) {
+    var self = this;
 
-		var filters = {
-			drinks: {},
-			ingredients: {}
-		};
+    var defFilter = {
+      filter: {},
+      order: {
+        by: 'name.' + $rootScope.lang,
+        reverse: false
+      }
+    };
 
-		/**
-		 * Retrieves current filter by listName
-		 * @param listName
-		 * @returns {*}
-		 */
-		self.get = function (listName) {
-			return filters[listName] || {};
-		};
+    var filters = {
+      drinks: defFilter,
+      ingredients: defFilter
+    };
 
-		/**
-		 * Set up filter for listName
-		 * @param listName
-		 * @param filter
-		 * @returns {*}
-		 */
-		self.set = function (listName, filter) {
-			if (listName && filter) {
-				filters[listName] = filter;
-				$rootScope.$broadcast('filterChanged');
-			}
-		};
-	});
+    /**
+     * Retrieves current filter by listName
+     * @param listName
+     * @returns {*}
+     */
+    self.get = function (listName) {
+      return filters[listName] || defFilter;
+    };
+
+    /**
+     * Set up filter for listName
+     * @param listName
+     * @param filter
+     * @returns {*}
+     */
+    self.set = function (listName, filter) {
+      if (listName && filter) {
+        filters[listName] = filter;
+        $rootScope.$broadcast('filterChanged');
+      }
+    };
+  });
