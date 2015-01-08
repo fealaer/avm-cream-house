@@ -6,7 +6,7 @@
 			"ru": "Напиток с Миндалем"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["almond"]
@@ -18,7 +18,7 @@
 			"ru": "Сок из Амбареллы"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": [""]
 		},
 		"ingredients": ["ambarella"]
@@ -30,7 +30,7 @@
 			"ru": "Сок из Яблок"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["apple"]
@@ -78,7 +78,7 @@
 			"ru": "Сок из Свеклы"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["beetroot"]
@@ -90,7 +90,7 @@
 			"ru": "Сок из Горького огурца"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Bitter"]
 		},
 		"ingredients": ["bitter_gourd"]
@@ -102,7 +102,7 @@
 			"ru": "Сок из Канталупы"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["cantaloupe"]
@@ -114,7 +114,7 @@
 			"ru": "Сок из Моркови"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["carrot"]
@@ -126,7 +126,7 @@
 			"ru": "Сок из Яблока Кешью"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["cashew_apple"]
@@ -150,7 +150,7 @@
 			"ru": "Сок из Какао"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sour", "Sweet"]
 		},
 		"ingredients": ["cocoa_fruit"]
@@ -163,7 +163,7 @@
 			"ru": "Сок из Огурца"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["cucumber"]
@@ -211,7 +211,7 @@
 			"ru": "Сок из Питайи"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sour", "Sweet"]
 		},
 		"ingredients": ["dragon_fruit"]
@@ -235,7 +235,7 @@
 			"ru": "Сок из Инжира"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["fig"]
@@ -247,7 +247,7 @@
 			"ru": "Сок из Имбиря"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Pungency"]
 		},
 		"ingredients": ["ginger"]
@@ -259,8 +259,8 @@
 			"ru": "Сок из Центеллы"
 		},
 		"properties": {
-			"density": "Creamy",
-			"flavor": ["Bitter","Sweet"]
+			"density": "Liquid",
+			"flavor": ["Bitter", "Sweet"]
 		},
 		"ingredients": ["gotukola"]
 	},
@@ -271,8 +271,8 @@
 			"ru": "Сок из Грейпфрута"
 		},
 		"properties": {
-			"density": "Creamy",
-			"flavor": ["Bitter","Sweet"]
+			"density": "Liquid",
+			"flavor": ["Bitter", "Sweet"]
 		},
 		"ingredients": ["grapefruit"]
 	},
@@ -283,7 +283,7 @@
 			"ru": "Сок из Винограда"
 		},
 		"properties": {
-			"density": "Creamy",
+			"density": "Liquid",
 			"flavor": ["Sweet"]
 		},
 		"ingredients": ["grapes"]
