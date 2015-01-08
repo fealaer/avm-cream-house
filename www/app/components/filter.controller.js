@@ -6,8 +6,7 @@ angular.module('avm.components')
 		var defFilter = {
 			filter: {
 				name: {
-					en: '',
-					ru: ''
+					'$': ''
 				},
 				properties: {
 					density: '',
