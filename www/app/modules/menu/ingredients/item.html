@@ -6,49 +6,45 @@
 	<ion-content>
 		<div class="list card">
 			<div class="item item-body">
-				<div>
-					<div class="item-buttons">
-						<button
-							class="button button-icon button-clear button-stable"
-							ng-click="drinksWith(item); $event.stopPropagation();"><i class="icon ion-ios-pint"></i></button>
-					</div>
-					<img class="card-image" ng-src="{{'/images/menu/' + item.id + '.png'}}">
+				<div class="item-buttons">
+					<button
+						class="button button-icon button-clear button-stable"
+						ng-click="drinksWith(item); $event.stopPropagation();"><i class="icon ion-ios-pint"></i></button>
 				</div>
-				<ul class="list">
-					<div class="item item-divider" ng-show="item.properties.flavor">
-						Flavor
-					</div>
-					<li class="item" ng-show="item.properties.flavor">
-						{{item.properties.flavor | join:', '}}
-					</li>
-					<div class="item item-divider">
-						Nutrition Facts
-					</div>
-					<li class="item" ng-show="item.nutrition_facts.energy">
-						Energy: {{item.nutrition_facts.energy | join:', '}} kcal
-					</li>
-					<li class="item" ng-show="item.nutrition_facts.carbohydrates">
-						Carbohydrates: {{item.nutrition_facts.carbohydrates | join:', '}} g
-					</li>
-					<li class="item" ng-show="item.nutrition_facts.fat">
-						Fat: {{item.nutrition_facts.fat | join:', '}} g
-					</li>
-					<li class="item" ng-show="item.nutrition_facts.protein">
-						Protein: {{item.nutrition_facts.protein | join:', '}} g
-					</li>
-					<li class="item" ng-show="item.nutrition_facts.water">
-						Water: {{item.nutrition_facts.water | join:', '}} g
-					</li>
-					<li class="item" ng-show="item.nutrition_facts.vitamins">
-						Vitamins: {{item.nutrition_facts.vitamins | join:', '}}
-					</li>
-					<li class="item" ng-show="item.nutrition_facts.minerals">
-						Minerals: {{item.nutrition_facts.minerals | join:', '}}
-					</li>
-				</ul>
-				<p>
-					{{item.description[lang]}}
-				</p>
+				<img class="card-image" ng-src="{{'/images/menu/' + item.id + '.png'}}">
+			</div>
+			<div class="item item-divider" ng-show="item.properties">
+				Properties
+			</div>
+			<div class="item" ng-show="item.properties.flavor">
+				<strong>Flavor:</strong> {{item.properties.flavor | join:', '}}
+			</div>
+			<div class="item item-divider">
+				Nutrition Facts
+			</div>
+			<div class="item" ng-show="item.nutrition_facts.energy">
+				<strong>Energy:</strong> {{item.nutrition_facts.energy | join:', '}} kcal
+			</div>
+			<div class="item" ng-show="item.nutrition_facts.carbohydrates">
+				<strong>Carbohydrates:</strong> {{item.nutrition_facts.carbohydrates | join:', '}} g
+			</div>
+			<div class="item" ng-show="item.nutrition_facts.fat">
+				<strong>Fat:</strong> {{item.nutrition_facts.fat | join:', '}} g
+			</div>
+			<div class="item" ng-show="item.nutrition_facts.protein">
+				<strong>Protein:</strong> {{item.nutrition_facts.protein | join:', '}} g
+			</div>
+			<div class="item" ng-show="item.nutrition_facts.water">
+				<strong>Water:</strong> {{item.nutrition_facts.water | join:', '}} g
+			</div>
+			<div class="item" ng-show="item.nutrition_facts.vitamins">
+				<strong>Vitamins:</strong> {{item.nutrition_facts.vitamins | join:', '}}
+			</div>
+			<div class="item" ng-show="item.nutrition_facts.minerals">
+				<strong>Minerals:</strong> {{item.nutrition_facts.minerals | join:', '}}
+			</div>
+			<div class="item item-body">
+				{{item.description[lang]}}
 				<button class="button button-block button-stable">More</button>
 			</div>
 		</div>

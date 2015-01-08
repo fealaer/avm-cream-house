@@ -60,3 +60,10 @@ ion-nav-view {
     line-height: 80px;
     height: 80px;
 }
+
+.sm-padding {
+    line-height: 10px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
