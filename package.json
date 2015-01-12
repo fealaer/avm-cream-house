@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
+    "grunt-angular-gettext": "^2.0.1",
     "grunt-steroids": "1.x"
   }
 }
