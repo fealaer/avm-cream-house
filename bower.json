@@ -16,6 +16,7 @@
     "angular-aria": "latest",
     "angular-sanitize": "latest",
     "angular-ui-router": "latest",
-    "ionicons": "~2.0.0"
+    "ionicons": "~2.0.0",
+    "angular-gettext": "~2.0.0"
   }
 }
