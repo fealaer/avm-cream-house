@@ -52,7 +52,7 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/menu/drinks');
 	})
 
-	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state) {
+	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog) {
 
 		// Make $settings global
 		$rootScope.$settings = $settings;
@@ -70,7 +70,8 @@ angular.module('avm', [
       }
     ];
 
-		$rootScope.lang = 'en';
+    // todo set up user's language
+    $rootScope.lang = gettextCatalog.currentLanguage;
 
 		// Log app info
 		$log.info('AVM ' + $settings.version +
@@ -114,7 +115,15 @@ angular.module('avm', [
 //				$window.ga('send', 'pageview', { page: $location.path() });
 //			}
 //		});
-	});
+	})
+  .controller('LeftMenuCtrl', function($rootScope, $scope, gettextCatalog) {
+    $scope.leftMenu = {lang: gettextCatalog.currentLanguage};
+
+    $scope.changeLang = function () {
+      gettextCatalog.setCurrentLanguage($scope.leftMenu.lang);
+      $rootScope.lang = gettextCatalog.currentLanguage;
+    }
+  });
 
 
 //	// Init intercom

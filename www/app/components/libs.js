@@ -5,5 +5,6 @@ angular.module('avm.libs', [
 	'ui.router',
 	'restangular',
 	'ngStorage',
-	'picardy.fontawesome'
+	'picardy.fontawesome',
+  'gettext'
 ]);
