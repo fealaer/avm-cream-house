@@ -10,40 +10,40 @@ msgid_plural "{{$count}} stars!"
 msgstr[0] ""
 msgstr[1] ""
 
-#: www/index.html:130
+#: www/index.html:127
 msgid "About App"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:20
-#: www/app/modules/menu/drinks/filter.html:28
+#: www/app/modules/menu/drinks/filter.html:25
+#: www/app/modules/menu/drinks/filter.html:33
 msgid "All"
 msgstr ""
 
-#: www/app/components/filter.controller.js:33
-#: www/app/components/filter.controller.js:39
+#: www/app/components/filter.controller.js:44
 #: www/app/components/filter.controller.js:50
-#: www/app/components/filter.controller.js:63
+#: www/app/components/filter.controller.js:61
+#: www/app/components/filter.controller.js:74
 msgid "Any"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:53
-#: www/app/modules/menu/ingredients/filter.html:34
+#: www/app/modules/menu/drinks/filter.html:58
+#: www/app/modules/menu/ingredients/filter.html:39
 msgid "Apply"
 msgstr ""
 
-#: www/app/components/filter.controller.js:42
+#: www/app/components/filter.controller.js:53
 msgid "Bitter"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:26
+#: www/app/modules/menu/drinks/filter.html:31
 msgid "Bookmarked"
 msgstr ""
 
-#: www/app/components/filter.controller.js:77
+#: www/app/components/filter.controller.js:88
 msgid "Bromine"
 msgstr ""
 
-#: www/app/components/filter.controller.js:67
+#: www/app/components/filter.controller.js:78
 msgid "Calcium"
 msgstr ""
 
@@ -55,7 +55,7 @@ msgstr ""
 msgid "Carbohydrates"
 msgstr ""
 
-#: www/app/components/filter.controller.js:65
+#: www/app/components/filter.controller.js:76
 msgid "Chlorine"
 msgstr ""
 
@@ -71,15 +71,15 @@ msgstr ""
 msgid "Contacts"
 msgstr ""
 
-#: www/app/components/filter.controller.js:73
+#: www/app/components/filter.controller.js:84
 msgid "Copper"
 msgstr ""
 
-#: www/app/components/filter.controller.js:34
+#: www/app/components/filter.controller.js:45
 msgid "Creamy"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:39
+#: www/app/modules/menu/drinks/filter.html:44
 #: www/app/modules/menu/drinks/item.html:55
 msgid "Density"
 msgstr ""
@@ -114,14 +114,14 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:12
-#: www/app/modules/menu/ingredients/filter.html:8
+#: www/app/modules/menu/drinks/filter.html:17
+#: www/app/modules/menu/ingredients/filter.html:13
 msgid "Filter by"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:34
+#: www/app/modules/menu/drinks/filter.html:39
 #: www/app/modules/menu/drinks/item.html:52
-#: www/app/modules/menu/ingredients/filter.html:14
+#: www/app/modules/menu/ingredients/filter.html:19
 #: www/app/modules/menu/ingredients/item.html:20
 msgid "Flavor"
 msgstr ""
@@ -134,7 +134,7 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:44
+#: www/app/modules/menu/drinks/filter.html:49
 msgid "Ingredient"
 msgstr ""
 
@@ -144,19 +144,19 @@ msgstr ""
 msgid "Ingredients"
 msgstr ""
 
-#: www/app/components/filter.controller.js:74
+#: www/app/components/filter.controller.js:85
 msgid "Iodine"
 msgstr ""
 
-#: www/app/components/filter.controller.js:71
+#: www/app/components/filter.controller.js:82
 msgid "Iron"
 msgstr ""
 
-#: www/index.html:114
+#: www/index.html:111
 msgid "Language"
 msgstr ""
 
-#: www/app/components/filter.controller.js:35
+#: www/app/components/filter.controller.js:46
 msgid "Liquid"
 msgstr ""
 
@@ -164,24 +164,24 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: www/app/components/filter.controller.js:69
+#: www/app/components/filter.controller.js:80
 msgid "Magnesium"
 msgstr ""
 
-#: www/app/components/filter.controller.js:72
+#: www/app/components/filter.controller.js:83
 msgid "Manganese"
 msgstr ""
 
-#: www/index.html:119
+#: www/index.html:116
 msgid "Menu"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/filter.html:25
+#: www/app/modules/menu/ingredients/filter.html:30
 #: www/app/modules/menu/ingredients/item.html:44
 msgid "Minerals"
 msgstr ""
 
-#: www/app/components/filter.controller.js:76
+#: www/app/components/filter.controller.js:87
 msgid "Molybdenum"
 msgstr ""
 
@@ -189,20 +189,20 @@ msgstr ""
 msgid "More"
 msgstr ""
 
-#: www/app/components/filter.controller.js:27
-#: www/app/modules/menu/drinks/filter.html:14
-#: www/app/modules/menu/drinks/filter.html:15
-#: www/app/modules/menu/ingredients/filter.html:10
-#: www/app/modules/menu/ingredients/filter.html:11
+#: www/app/components/filter.controller.js:38
+#: www/app/modules/menu/drinks/filter.html:19
+#: www/app/modules/menu/drinks/filter.html:20
+#: www/app/modules/menu/ingredients/filter.html:15
+#: www/app/modules/menu/ingredients/filter.html:16
 msgid "Name"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:22
-#: www/app/modules/menu/drinks/filter.html:30
+#: www/app/modules/menu/drinks/filter.html:27
+#: www/app/modules/menu/drinks/filter.html:35
 msgid "No"
 msgstr ""
 
-#: www/app/components/filter.controller.js:46
+#: www/app/components/filter.controller.js:57
 msgid "Numbing"
 msgstr ""
 
@@ -226,7 +226,7 @@ msgstr ""
 msgid "Order by"
 msgstr ""
 
-#: www/app/components/filter.controller.js:68
+#: www/app/components/filter.controller.js:79
 msgid "Phosphorus"
 msgstr ""
 
@@ -234,11 +234,11 @@ msgstr ""
 msgid "Please rate it and leave some comment about it. It'll help other people to choose their drinks!"
 msgstr ""
 
-#: www/app/components/filter.controller.js:64
+#: www/app/components/filter.controller.js:75
 msgid "Potassium"
 msgstr ""
 
-#: www/app/components/filter.controller.js:28
+#: www/app/components/filter.controller.js:39
 msgid "Price"
 msgstr ""
 
@@ -251,29 +251,29 @@ msgstr ""
 msgid "Protein"
 msgstr ""
 
-#: www/app/components/filter.controller.js:45
+#: www/app/components/filter.controller.js:56
 msgid "Pungency"
 msgstr ""
 
-#: www/app/components/filter.controller.js:29
+#: www/app/components/filter.controller.js:40
 msgid "Rating"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:52
-#: www/app/modules/menu/ingredients/filter.html:33
+#: www/app/modules/menu/drinks/filter.html:57
+#: www/app/modules/menu/ingredients/filter.html:38
 msgid "Reset"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:11
-#: www/app/modules/menu/ingredients/filter.html:7
+#: www/app/modules/menu/drinks/filter.html:15
+#: www/app/modules/menu/ingredients/filter.html:11
 msgid "Reverse order"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/filter.html:18
+#: www/app/modules/menu/ingredients/filter.html:23
 msgid "Rich in"
 msgstr ""
 
-#: www/app/components/filter.controller.js:43
+#: www/app/components/filter.controller.js:54
 msgid "Salty"
 msgstr ""
 
@@ -281,7 +281,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: www/app/components/filter.controller.js:75
+#: www/app/components/filter.controller.js:86
 msgid "Selenium"
 msgstr ""
 
@@ -289,27 +289,27 @@ msgstr ""
 msgid "Social"
 msgstr ""
 
-#: www/app/components/filter.controller.js:66
+#: www/app/components/filter.controller.js:77
 msgid "Sodium"
 msgstr ""
 
-#: www/app/components/filter.controller.js:41
+#: www/app/components/filter.controller.js:52
 msgid "Sour"
 msgstr ""
 
-#: www/app/components/filter.controller.js:40
+#: www/app/components/filter.controller.js:51
 msgid "Sweet"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:18
+#: www/app/modules/menu/drinks/filter.html:23
 msgid "Tasted"
 msgstr ""
 
-#: www/app/components/filter.controller.js:44
+#: www/app/components/filter.controller.js:55
 msgid "Umami"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/filter.html:20
+#: www/app/modules/menu/ingredients/filter.html:25
 msgid "Vitamin"
 msgstr ""
 
@@ -321,8 +321,8 @@ msgstr ""
 msgid "Water"
 msgstr ""
 
-#: www/app/modules/menu/drinks/filter.html:21
-#: www/app/modules/menu/drinks/filter.html:29
+#: www/app/modules/menu/drinks/filter.html:26
+#: www/app/modules/menu/drinks/filter.html:34
 msgid "Yes"
 msgstr ""
 
@@ -334,7 +334,7 @@ msgstr ""
 msgid "You've just tried {{item.name[lang]}}!"
 msgstr ""
 
-#: www/app/components/filter.controller.js:70
+#: www/app/components/filter.controller.js:81
 msgid "Zinc"
 msgstr ""
 

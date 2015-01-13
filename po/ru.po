@@ -20,40 +20,40 @@ msgstr[0] "1 звезду!"
 msgstr[1] "{{$count}} звезды!"
 msgstr[2] "{{$count}} звезд!"
 
-#: www/index.html:130
+#: www/index.html:127
 msgid "About App"
 msgstr "О Приложении"
 
-#: www/app/modules/menu/drinks/filter.html:20
-#: www/app/modules/menu/drinks/filter.html:28
+#: www/app/modules/menu/drinks/filter.html:25
+#: www/app/modules/menu/drinks/filter.html:33
 msgid "All"
 msgstr "﻿Все"
 
-#: www/app/components/filter.controller.js:33
-#: www/app/components/filter.controller.js:39
+#: www/app/components/filter.controller.js:44
 #: www/app/components/filter.controller.js:50
-#: www/app/components/filter.controller.js:63
+#: www/app/components/filter.controller.js:61
+#: www/app/components/filter.controller.js:74
 msgid "Any"
 msgstr "Любой"
 
-#: www/app/modules/menu/drinks/filter.html:53
-#: www/app/modules/menu/ingredients/filter.html:34
+#: www/app/modules/menu/drinks/filter.html:58
+#: www/app/modules/menu/ingredients/filter.html:39
 msgid "Apply"
 msgstr "﻿Применить"
 
-#: www/app/components/filter.controller.js:42
+#: www/app/components/filter.controller.js:53
 msgid "Bitter"
 msgstr "Горький"
 
-#: www/app/modules/menu/drinks/filter.html:26
+#: www/app/modules/menu/drinks/filter.html:31
 msgid "Bookmarked"
 msgstr "В закладках"
 
-#: www/app/components/filter.controller.js:77
+#: www/app/components/filter.controller.js:88
 msgid "Bromine"
 msgstr "Бром"
 
-#: www/app/components/filter.controller.js:67
+#: www/app/components/filter.controller.js:78
 msgid "Calcium"
 msgstr "Кальций"
 
@@ -65,7 +65,7 @@ msgstr "Отмена"
 msgid "Carbohydrates"
 msgstr "Углеводы"
 
-#: www/app/components/filter.controller.js:65
+#: www/app/components/filter.controller.js:76
 msgid "Chlorine"
 msgstr "Хлор"
 
@@ -81,15 +81,15 @@ msgstr "﻿Комментарии"
 msgid "Contacts"
 msgstr "﻿Контакты"
 
-#: www/app/components/filter.controller.js:73
+#: www/app/components/filter.controller.js:84
 msgid "Copper"
 msgstr "Медь"
 
-#: www/app/components/filter.controller.js:34
+#: www/app/components/filter.controller.js:45
 msgid "Creamy"
 msgstr "Густой"
 
-#: www/app/modules/menu/drinks/filter.html:39
+#: www/app/modules/menu/drinks/filter.html:44
 #: www/app/modules/menu/drinks/item.html:55
 msgid "Density"
 msgstr "﻿Плотность"
@@ -123,14 +123,14 @@ msgstr "Жиры"
 msgid "Filter"
 msgstr "﻿Фильтр"
 
-#: www/app/modules/menu/drinks/filter.html:12
-#: www/app/modules/menu/ingredients/filter.html:8
+#: www/app/modules/menu/drinks/filter.html:17
+#: www/app/modules/menu/ingredients/filter.html:13
 msgid "Filter by"
 msgstr "Фильтровать по"
 
-#: www/app/modules/menu/drinks/filter.html:34
+#: www/app/modules/menu/drinks/filter.html:39
 #: www/app/modules/menu/drinks/item.html:52
-#: www/app/modules/menu/ingredients/filter.html:14
+#: www/app/modules/menu/ingredients/filter.html:19
 #: www/app/modules/menu/ingredients/item.html:20
 msgid "Flavor"
 msgstr "Вкус"
@@ -147,7 +147,7 @@ msgstr ""
 msgid "Info"
 msgstr "Информация"
 
-#: www/app/modules/menu/drinks/filter.html:44
+#: www/app/modules/menu/drinks/filter.html:49
 msgid "Ingredient"
 msgstr "Ингридиент"
 
@@ -157,19 +157,19 @@ msgstr "Ингридиент"
 msgid "Ingredients"
 msgstr "Ингридиенты"
 
-#: www/app/components/filter.controller.js:74
+#: www/app/components/filter.controller.js:85
 msgid "Iodine"
 msgstr "Йод"
 
-#: www/app/components/filter.controller.js:71
+#: www/app/components/filter.controller.js:82
 msgid "Iron"
 msgstr "Железо"
 
-#: www/index.html:114
+#: www/index.html:111
 msgid "Language"
 msgstr "Язык"
 
-#: www/app/components/filter.controller.js:35
+#: www/app/components/filter.controller.js:46
 msgid "Liquid"
 msgstr "Жидкий"
 
@@ -177,24 +177,24 @@ msgstr "Жидкий"
 msgid "Location"
 msgstr "Местополежение"
 
-#: www/app/components/filter.controller.js:69
+#: www/app/components/filter.controller.js:80
 msgid "Magnesium"
 msgstr "Магний"
 
-#: www/app/components/filter.controller.js:72
+#: www/app/components/filter.controller.js:83
 msgid "Manganese"
 msgstr "Марганец"
 
-#: www/index.html:119
+#: www/index.html:116
 msgid "Menu"
 msgstr "Меню"
 
-#: www/app/modules/menu/ingredients/filter.html:25
+#: www/app/modules/menu/ingredients/filter.html:30
 #: www/app/modules/menu/ingredients/item.html:44
 msgid "Minerals"
 msgstr "Минералы"
 
-#: www/app/components/filter.controller.js:76
+#: www/app/components/filter.controller.js:87
 msgid "Molybdenum"
 msgstr "Молибден"
 
@@ -202,20 +202,20 @@ msgstr "Молибден"
 msgid "More"
 msgstr "Ещё"
 
-#: www/app/components/filter.controller.js:27
-#: www/app/modules/menu/drinks/filter.html:14
-#: www/app/modules/menu/drinks/filter.html:15
-#: www/app/modules/menu/ingredients/filter.html:10
-#: www/app/modules/menu/ingredients/filter.html:11
+#: www/app/components/filter.controller.js:38
+#: www/app/modules/menu/drinks/filter.html:19
+#: www/app/modules/menu/drinks/filter.html:20
+#: www/app/modules/menu/ingredients/filter.html:15
+#: www/app/modules/menu/ingredients/filter.html:16
 msgid "Name"
 msgstr "Название"
 
-#: www/app/modules/menu/drinks/filter.html:22
-#: www/app/modules/menu/drinks/filter.html:30
+#: www/app/modules/menu/drinks/filter.html:27
+#: www/app/modules/menu/drinks/filter.html:35
 msgid "No"
 msgstr "Нет"
 
-#: www/app/components/filter.controller.js:46
+#: www/app/components/filter.controller.js:57
 msgid "Numbing"
 msgstr "Вяжущий"
 
@@ -239,7 +239,7 @@ msgstr "Сортировка"
 msgid "Order by"
 msgstr "Сортировать по"
 
-#: www/app/components/filter.controller.js:68
+#: www/app/components/filter.controller.js:79
 msgid "Phosphorus"
 msgstr "Фосфор"
 
@@ -251,11 +251,11 @@ msgstr ""
 "Пожалуйста, оцените этот напиток и оставьте комментарий. Это поможет другим "
 "в их выборе!"
 
-#: www/app/components/filter.controller.js:64
+#: www/app/components/filter.controller.js:75
 msgid "Potassium"
 msgstr "Калий"
 
-#: www/app/components/filter.controller.js:28
+#: www/app/components/filter.controller.js:39
 msgid "Price"
 msgstr "Цена"
 
@@ -268,29 +268,29 @@ msgstr "Свойства"
 msgid "Protein"
 msgstr "Белок"
 
-#: www/app/components/filter.controller.js:45
+#: www/app/components/filter.controller.js:56
 msgid "Pungency"
 msgstr "Острый"
 
-#: www/app/components/filter.controller.js:29
+#: www/app/components/filter.controller.js:40
 msgid "Rating"
 msgstr "Рейтинг"
 
-#: www/app/modules/menu/drinks/filter.html:52
-#: www/app/modules/menu/ingredients/filter.html:33
+#: www/app/modules/menu/drinks/filter.html:57
+#: www/app/modules/menu/ingredients/filter.html:38
 msgid "Reset"
 msgstr "Сбросить"
 
-#: www/app/modules/menu/drinks/filter.html:11
-#: www/app/modules/menu/ingredients/filter.html:7
+#: www/app/modules/menu/drinks/filter.html:15
+#: www/app/modules/menu/ingredients/filter.html:11
 msgid "Reverse order"
 msgstr "Обратный порядок"
 
-#: www/app/modules/menu/ingredients/filter.html:18
+#: www/app/modules/menu/ingredients/filter.html:23
 msgid "Rich in"
 msgstr "Богат"
 
-#: www/app/components/filter.controller.js:43
+#: www/app/components/filter.controller.js:54
 msgid "Salty"
 msgstr "Соленый"
 
@@ -298,7 +298,7 @@ msgstr "Соленый"
 msgid "Save"
 msgstr "Сохранить"
 
-#: www/app/components/filter.controller.js:75
+#: www/app/components/filter.controller.js:86
 msgid "Selenium"
 msgstr "Селен"
 
@@ -306,27 +306,27 @@ msgstr "Селен"
 msgid "Social"
 msgstr "Социальные"
 
-#: www/app/components/filter.controller.js:66
+#: www/app/components/filter.controller.js:77
 msgid "Sodium"
 msgstr "Натрий"
 
-#: www/app/components/filter.controller.js:41
+#: www/app/components/filter.controller.js:52
 msgid "Sour"
 msgstr "Кислый"
 
-#: www/app/components/filter.controller.js:40
+#: www/app/components/filter.controller.js:51
 msgid "Sweet"
 msgstr "Сладкий"
 
-#: www/app/modules/menu/drinks/filter.html:18
+#: www/app/modules/menu/drinks/filter.html:23
 msgid "Tasted"
 msgstr "Пробовал"
 
-#: www/app/components/filter.controller.js:44
+#: www/app/components/filter.controller.js:55
 msgid "Umami"
 msgstr "Умами"
 
-#: www/app/modules/menu/ingredients/filter.html:20
+#: www/app/modules/menu/ingredients/filter.html:25
 msgid "Vitamin"
 msgstr "Витамин"
 
@@ -338,8 +338,8 @@ msgstr "Витамины"
 msgid "Water"
 msgstr "Вода"
 
-#: www/app/modules/menu/drinks/filter.html:21
-#: www/app/modules/menu/drinks/filter.html:29
+#: www/app/modules/menu/drinks/filter.html:26
+#: www/app/modules/menu/drinks/filter.html:34
 msgid "Yes"
 msgstr "Да"
 
@@ -351,7 +351,7 @@ msgstr "Вы оценили на"
 msgid "You've just tried {{item.name[lang]}}!"
 msgstr "Вы попробовали {{item.name[lang]}}!"
 
-#: www/app/components/filter.controller.js:70
+#: www/app/components/filter.controller.js:81
 msgid "Zinc"
 msgstr "Цинк"
 
