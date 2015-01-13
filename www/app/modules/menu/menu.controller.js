@@ -1,5 +1,5 @@
 angular.module('avm.menu')
-	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state) {
+	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state, gettextCatalog) {
 		var defData = {
 			rate: 2,
 			comment: ''
@@ -21,7 +21,7 @@ angular.module('avm.menu')
 					ingredients: item.id
 				},
 				order: {
-					by: 'name.' + $rootScope.lang,
+					by: 'name.' + gettextCatalog.currentLanguage,
 					reverse: false
 				}
 			};

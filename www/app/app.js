@@ -59,21 +59,14 @@ angular.module('avm', [
 		// Make $state global
 		$rootScope.$state = $state;
 
-    $rootScope.languages = [
-      {
-        value: 'en',
-        label: 'English'
-      },
-      {
-        value: 'ru',
-        label: 'Русский'
-      }
-    ];
+    $rootScope.$on('gettextLanguageChanged', function () {
+      $rootScope.lang = angular.copy(gettextCatalog.currentLanguage);
+    });
 
     // todo set up user's language
-    $rootScope.lang = gettextCatalog.currentLanguage;
+    $rootScope.lang = angular.copy(gettextCatalog.currentLanguage);
 
-		// Log app info
+    // Log app info
 		$log.info('AVM ' + $settings.version +
 			'; Debug: ' + $settings.debug +
 			'; Build Date: ' + $settings.buildDate);
@@ -116,12 +109,23 @@ angular.module('avm', [
 //			}
 //		});
 	})
-  .controller('LeftMenuCtrl', function($rootScope, $scope, gettextCatalog) {
+  .controller('LeftMenuCtrl', function($scope, gettextCatalog, $ionicSideMenuDelegate) {
+    $scope.languages = [
+      {
+        value: 'en',
+        label: 'English'
+      },
+      {
+        value: 'ru',
+        label: 'Русский'
+      }
+    ];
+
     $scope.leftMenu = {lang: gettextCatalog.currentLanguage};
 
     $scope.changeLang = function () {
       gettextCatalog.setCurrentLanguage($scope.leftMenu.lang);
-      $rootScope.lang = gettextCatalog.currentLanguage;
+      $ionicSideMenuDelegate.toggleLeft();
     }
   });
 

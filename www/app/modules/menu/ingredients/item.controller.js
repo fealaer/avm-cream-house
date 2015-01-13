@@ -1,9 +1,9 @@
 'use strict';
 
 angular.module('avm.menu.ingredients')
-	.controller('IngredientsItemCtrl', function ($rootScope, $scope, item) {
+	.controller('IngredientsItemCtrl', function ($rootScope, $scope, item, gettextCatalog) {
 		$scope.item = item;
-    var lang = $rootScope.lang;
+    var lang = gettextCatalog.currentLanguage;
 
     $scope.wiki = function (wiki) {
       var url;

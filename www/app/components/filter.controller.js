@@ -19,63 +19,75 @@ angular.module('avm.components')
 				ingredients: ''
 			},
 			order: {
-				by: 'name.' + $rootScope.lang,
+				by: 'name.' + gettextCatalog.currentLanguage,
 				reverse: false
 			}
 		};
-		$scope.orderBy = [
-			{value: 'name.' + $rootScope.lang, label: gettextCatalog.getString('Name')},
-			{value: 'price', label: gettextCatalog.getString('Price')},
-			{value: 'rate.rate', label: gettextCatalog.getString('Rating')}
-		];
 
-		$scope.densities = [
-			{value: '', label: gettextCatalog.getString('Any')},
-			{value: 'Creamy', label: gettextCatalog.getString('Creamy')},
-			{value: 'Liquid', label: gettextCatalog.getString('Liquid')}
-		];
+    $rootScope.$on('gettextLanguageChanged', function () {
+      setUpLists();
+    });
+    $scope.orderBy = [];
+    $scope.densities = [];
+    $scope.flavors = [];
+    $scope.vitamins = [];
+    $scope.minerals = [];
 
-		$scope.flavors = [
-			{value: '', label: gettextCatalog.getString('Any')},
-			{value: 'Sweet', label: gettextCatalog.getString('Sweet')},
-			{value: 'Sour', label: gettextCatalog.getString('Sour')},
-			{value: 'Bitter', label: gettextCatalog.getString('Bitter')},
-			{value: 'Salty', label: gettextCatalog.getString('Salty')},
-			{value: 'Umami', label: gettextCatalog.getString('Umami')},
-			{value: 'Pungency', label: gettextCatalog.getString('Pungency')},
-			{value: 'Numbing', label: gettextCatalog.getString('Numbing')}
-		];
+    function setUpLists() {
+      $scope.orderBy = [
+        {value: 'name.' + gettextCatalog.currentLanguage, label: gettextCatalog.getString('Name')},
+        {value: 'price', label: gettextCatalog.getString('Price')},
+        {value: 'rate.rate', label: gettextCatalog.getString('Rating')}
+      ];
 
-		$scope.vitamins = [
-			{value: '', label: gettextCatalog.getString('Any')},
-			{value: 'A', label: 'A'},
-			{value: 'B', label: 'B'},
-			{value: 'C', label: 'C'},
-			{value: 'D', label: 'D'},
-			{value: 'E', label: 'E'},
-			{value: 'K', label: 'K'},
-			{value: 'N', label: 'N'},
-			{value: 'P', label: 'P'},
-			{value: 'U', label: 'U'}
-		];
+      $scope.densities = [
+        {value: '', label: gettextCatalog.getString('Any')},
+        {value: 'Creamy', label: gettextCatalog.getString('Creamy')},
+        {value: 'Liquid', label: gettextCatalog.getString('Liquid')}
+      ];
 
-		$scope.minerals = [
-			{value: '', label: gettextCatalog.getString('Any')},
-			{value: 'Potassium', label: gettextCatalog.getString('Potassium')},
-			{value: 'Chlorine', label: gettextCatalog.getString('Chlorine')},
-			{value: 'Sodium', label: gettextCatalog.getString('Sodium')},
-			{value: 'Calcium', label: gettextCatalog.getString('Calcium')},
-			{value: 'Phosphorus', label: gettextCatalog.getString('Phosphorus')},
-			{value: 'Magnesium', label: gettextCatalog.getString('Magnesium')},
-			{value: 'Zinc', label: gettextCatalog.getString('Zinc')},
-			{value: 'Iron', label: gettextCatalog.getString('Iron')},
-			{value: 'Manganese', label: gettextCatalog.getString('Manganese')},
-			{value: 'Copper', label: gettextCatalog.getString('Copper')},
-			{value: 'Iodine', label: gettextCatalog.getString('Iodine')},
-			{value: 'Selenium', label: gettextCatalog.getString('Selenium')},
-			{value: 'Molybdenum', label: gettextCatalog.getString('Molybdenum')},
-			{value: 'Bromine', label: gettextCatalog.getString('Bromine')}
-		];
+      $scope.flavors = [
+        {value: '', label: gettextCatalog.getString('Any')},
+        {value: 'Sweet', label: gettextCatalog.getString('Sweet')},
+        {value: 'Sour', label: gettextCatalog.getString('Sour')},
+        {value: 'Bitter', label: gettextCatalog.getString('Bitter')},
+        {value: 'Salty', label: gettextCatalog.getString('Salty')},
+        {value: 'Umami', label: gettextCatalog.getString('Umami')},
+        {value: 'Pungency', label: gettextCatalog.getString('Pungency')},
+        {value: 'Numbing', label: gettextCatalog.getString('Numbing')}
+      ];
+
+      $scope.vitamins = [
+        {value: '', label: gettextCatalog.getString('Any')},
+        {value: 'A', label: 'A'},
+        {value: 'B', label: 'B'},
+        {value: 'C', label: 'C'},
+        {value: 'D', label: 'D'},
+        {value: 'E', label: 'E'},
+        {value: 'K', label: 'K'},
+        {value: 'N', label: 'N'},
+        {value: 'P', label: 'P'},
+        {value: 'U', label: 'U'}
+      ];
+
+      $scope.minerals = [
+        {value: '', label: gettextCatalog.getString('Any')},
+        {value: 'Potassium', label: gettextCatalog.getString('Potassium')},
+        {value: 'Chlorine', label: gettextCatalog.getString('Chlorine')},
+        {value: 'Sodium', label: gettextCatalog.getString('Sodium')},
+        {value: 'Calcium', label: gettextCatalog.getString('Calcium')},
+        {value: 'Phosphorus', label: gettextCatalog.getString('Phosphorus')},
+        {value: 'Magnesium', label: gettextCatalog.getString('Magnesium')},
+        {value: 'Zinc', label: gettextCatalog.getString('Zinc')},
+        {value: 'Iron', label: gettextCatalog.getString('Iron')},
+        {value: 'Manganese', label: gettextCatalog.getString('Manganese')},
+        {value: 'Copper', label: gettextCatalog.getString('Copper')},
+        {value: 'Iodine', label: gettextCatalog.getString('Iodine')},
+        {value: 'Selenium', label: gettextCatalog.getString('Selenium')},
+        {value: 'Molybdenum', label: gettextCatalog.getString('Molybdenum')},
+        {value: 'Bromine', label: gettextCatalog.getString('Bromine')}
+      ];
+    }
 
 		$scope.ingredients = angular.copy(ingredients);
 		$scope.ingredients.unshift({id: '', name: {'en': 'Any', 'ru': 'Любой'}});
@@ -129,6 +141,7 @@ angular.module('avm.components')
 		}
 
 		refresh();
+    setUpLists();
 
 		$scope.$on('filterChanged', function () {
 			refresh();
