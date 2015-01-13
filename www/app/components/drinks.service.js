@@ -141,7 +141,7 @@ angular.module('avm.components')
 			{
 				"id": "cashew_nut",
 				"name": {
-					"en": "Сashew Nut Drink",
+					"en": "Cashew Nut Drink",
 					"ru": "Напиток с Кешью"
 				},
 				"properties": {
@@ -471,7 +471,7 @@ angular.module('avm.components')
 				"id": "orange",
 				"name": {
 					"en": "Orange Juice",
-					"ru": "Апельсиновый сок"
+					"ru": "Сок из Апельсина"
 				},
 				"properties": {
 					"density": "",

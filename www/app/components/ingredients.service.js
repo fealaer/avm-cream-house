@@ -1040,7 +1040,7 @@ angular.module('avm.components')
 				"id": "orange",
 				"name": {
 					"en": "Orange",
-					"ru": "Апельсиновый"
+					"ru": "Апельсин"
 				},
 				"description": {
 					"en": "?",
