@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: www/app/components/tryDrink.modal.html:11
+msgid "1 star!"
+msgid_plural "{{$count}} stars!"
+msgstr[0] "1 звезду!"
+msgstr[1] "{{$count}} звезды!"
+msgstr[2] "{{$count}} звезд!"
+
+#: www/index.html:130
+msgid "About App"
+msgstr "О Приложении"
+
+#: www/app/modules/menu/drinks/filter.html:20
+#: www/app/modules/menu/drinks/filter.html:28
+msgid "All"
+msgstr "﻿Все"
+
+#: www/app/components/filter.controller.js:33
+#: www/app/components/filter.controller.js:39
+#: www/app/components/filter.controller.js:50
+#: www/app/components/filter.controller.js:63
+msgid "Any"
+msgstr "Любой"
+
+#: www/app/modules/menu/drinks/filter.html:53
+#: www/app/modules/menu/ingredients/filter.html:34
+msgid "Apply"
+msgstr "﻿Применить"
+
+#: www/app/components/filter.controller.js:42
+msgid "Bitter"
+msgstr "Горький"
+
+#: www/app/modules/menu/drinks/filter.html:26
+msgid "Bookmarked"
+msgstr "В закладках"
+
+#: www/app/components/filter.controller.js:77
+msgid "Bromine"
+msgstr "Бром"
+
+#: www/app/components/filter.controller.js:67
+msgid "Calcium"
+msgstr "Кальций"
+
+#: www/app/components/tryDrink.modal.html:14
+msgid "Cancel"
+msgstr "Отмена"
+
+#: www/app/modules/menu/ingredients/item.html:29
+msgid "Carbohydrates"
+msgstr "Углеводы"
+
+#: www/app/components/filter.controller.js:65
+msgid "Chlorine"
+msgstr "Хлор"
+
+#: www/app/components/tryDrink.modal.html:12
+msgid "Comment"
+msgstr "Комментарий"
+
+#: www/app/modules/menu/drinks/item.html:80
+msgid "Comments"
+msgstr "﻿Комментарии"
+
+#: www/app/modules/about/about.html:38
+msgid "Contacts"
+msgstr "﻿Контакты"
+
+#: www/app/components/filter.controller.js:73
+msgid "Copper"
+msgstr "Медь"
+
+#: www/app/components/filter.controller.js:34
+msgid "Creamy"
+msgstr "Густой"
+
+#: www/app/modules/menu/drinks/filter.html:39
+#: www/app/modules/menu/drinks/item.html:55
+msgid "Density"
+msgstr "﻿Плотность"
+
+#: www/app/modules/menu/ingredients/item.html:47
+msgid "Description"
+msgstr "Описание"
+
+#: www/app/components/tryDrink.modal.html:8
+msgid "Do you like it?"
+msgstr "Вам понравилось?"
+
+#: www/app/modules/menu/drinks/list.html:1 www/app/modules/menu/menu.html:2
+msgid "Drinks"
+msgstr "Напитки"
+
+#: www/app/modules/menu/ingredients/item.html:26
+msgid "Energy"
+msgstr "Энергетическая ценность"
+
+#: www/app/modules/about/about.html:24
+msgid "Everyday from 6:30 to 21:00"
+msgstr "﻿Ежедневно с 6:30 до 21:00"
+
+#: www/app/modules/menu/ingredients/item.html:32
+msgid "Fat"
+msgstr "Жиры"
+
+#: www/app/modules/menu/drinks/filter.html:2
+#: www/app/modules/menu/ingredients/filter.html:2
+msgid "Filter"
+msgstr "﻿Фильтр"
+
+#: www/app/modules/menu/drinks/filter.html:12
+#: www/app/modules/menu/ingredients/filter.html:8
+msgid "Filter by"
+msgstr "Фильтровать по"
+
+#: www/app/modules/menu/drinks/filter.html:34
+#: www/app/modules/menu/drinks/item.html:52
+#: www/app/modules/menu/ingredients/filter.html:14
+#: www/app/modules/menu/ingredients/item.html:20
+msgid "Flavor"
+msgstr "Вкус"
+
+#: www/app/modules/about/about.html:15
+msgid ""
+"Here you will find a huge range of drinks from any fresh fruit, as well as "
+"delicious local dishes."
+msgstr ""
+"Тут вы найдете огромный ассортимент напитков из любых свежих фруктов, а "
+"также вкуснейшие блюда местной кухни."
+
+#: www/app/modules/menu/drinks/item.html:33
+msgid "Info"
+msgstr "Информация"
+
+#: www/app/modules/menu/drinks/filter.html:44
+msgid "Ingredient"
+msgstr "Ингридиент"
+
+#: www/app/modules/menu/drinks/item.html:58
+#: www/app/modules/menu/ingredients/list.html:1
+#: www/app/modules/menu/menu.html:5
+msgid "Ingredients"
+msgstr "Ингридиенты"
+
+#: www/app/components/filter.controller.js:74
+msgid "Iodine"
+msgstr "Йод"
+
+#: www/app/components/filter.controller.js:71
+msgid "Iron"
+msgstr "Железо"
+
+#: www/index.html:114
+msgid "Language"
+msgstr "Язык"
+
+#: www/app/components/filter.controller.js:35
+msgid "Liquid"
+msgstr "Жидкий"
+
+#: www/app/modules/about/about.html:29
+msgid "Location"
+msgstr "Местополежение"
+
+#: www/app/components/filter.controller.js:69
+msgid "Magnesium"
+msgstr "Магний"
+
+#: www/app/components/filter.controller.js:72
+msgid "Manganese"
+msgstr "Марганец"
+
+#: www/index.html:119
+msgid "Menu"
+msgstr "Меню"
+
+#: www/app/modules/menu/ingredients/filter.html:25
+#: www/app/modules/menu/ingredients/item.html:44
+msgid "Minerals"
+msgstr "Минералы"
+
+#: www/app/components/filter.controller.js:76
+msgid "Molybdenum"
+msgstr "Молибден"
+
+#: www/app/modules/menu/drinks/item.html:88
+msgid "More"
+msgstr "Ещё"
+
+#: www/app/components/filter.controller.js:27
+#: www/app/modules/menu/drinks/filter.html:14
+#: www/app/modules/menu/drinks/filter.html:15
+#: www/app/modules/menu/ingredients/filter.html:10
+#: www/app/modules/menu/ingredients/filter.html:11
+msgid "Name"
+msgstr "Название"
+
+#: www/app/modules/menu/drinks/filter.html:22
+#: www/app/modules/menu/drinks/filter.html:30
+msgid "No"
+msgstr "Нет"
+
+#: www/app/components/filter.controller.js:46
+msgid "Numbing"
+msgstr "Вяжущий"
+
+#: www/app/modules/menu/ingredients/item.html:23
+msgid "Nutrition Facts"
+msgstr "Пищевая ценность"
+
+#: www/app/modules/about/about.html:21
+msgid "Open hours"
+msgstr "Рабочие часы"
+
+#: www/app/modules/menu/ingredients/item.html:53
+msgid "Open on Wikipedia"
+msgstr "Открыть в Википедии"
+
+#: www/app/modules/menu/ingredients/filter.html:6
+msgid "Order"
+msgstr "Сортировка"
+
+#: www/app/modules/menu/drinks/filter.html:7
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: www/app/components/filter.controller.js:68
+msgid "Phosphorus"
+msgstr "Фосфор"
+
+#: www/app/components/tryDrink.modal.html:9
+msgid ""
+"Please rate it and leave some comment about it. It'll help other people to "
+"choose their drinks!"
+msgstr ""
+"Пожалуйста, оцените этот напиток и оставьте комментарий. Это поможет другим "
+"в их выборе!"
+
+#: www/app/components/filter.controller.js:64
+msgid "Potassium"
+msgstr "Калий"
+
+#: www/app/components/filter.controller.js:28
+msgid "Price"
+msgstr "Цена"
+
+#: www/app/modules/menu/drinks/item.html:49
+#: www/app/modules/menu/ingredients/item.html:17
+msgid "Properties"
+msgstr "Свойства"
+
+#: www/app/modules/menu/ingredients/item.html:35
+msgid "Protein"
+msgstr "Белок"
+
+#: www/app/components/filter.controller.js:45
+msgid "Pungency"
+msgstr "Острый"
+
+#: www/app/components/filter.controller.js:29
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: www/app/modules/menu/drinks/filter.html:52
+#: www/app/modules/menu/ingredients/filter.html:33
+msgid "Reset"
+msgstr "Сбросить"
+
+#: www/app/modules/menu/drinks/filter.html:11
+#: www/app/modules/menu/ingredients/filter.html:7
+msgid "Reverse order"
+msgstr "Обратный порядок"
+
+#: www/app/modules/menu/ingredients/filter.html:18
+msgid "Rich in"
+msgstr "Богат"
+
+#: www/app/components/filter.controller.js:43
+msgid "Salty"
+msgstr "Соленый"
+
+#: www/app/components/tryDrink.modal.html:15
+msgid "Save"
+msgstr "Сохранить"
+
+#: www/app/components/filter.controller.js:75
+msgid "Selenium"
+msgstr "Селен"
+
+#: www/app/modules/about/about.html:54
+msgid "Social"
+msgstr "Социальные"
+
+#: www/app/components/filter.controller.js:66
+msgid "Sodium"
+msgstr "Натрий"
+
+#: www/app/components/filter.controller.js:41
+msgid "Sour"
+msgstr "Кислый"
+
+#: www/app/components/filter.controller.js:40
+msgid "Sweet"
+msgstr "Сладкий"
+
+#: www/app/modules/menu/drinks/filter.html:18
+msgid "Tasted"
+msgstr "Пробовал"
+
+#: www/app/components/filter.controller.js:44
+msgid "Umami"
+msgstr "Умами"
+
+#: www/app/modules/menu/ingredients/filter.html:20
+msgid "Vitamin"
+msgstr "Витамин"
+
+#: www/app/modules/menu/ingredients/item.html:41
+msgid "Vitamins"
+msgstr "Витамины"
+
+#: www/app/modules/menu/ingredients/item.html:38
+msgid "Water"
+msgstr "Вода"
+
+#: www/app/modules/menu/drinks/filter.html:21
+#: www/app/modules/menu/drinks/filter.html:29
+msgid "Yes"
+msgstr "Да"
+
+#: www/app/components/tryDrink.modal.html:11
+msgid "You'll rate it with"
+msgstr "Вы оценили на"
+
+#: www/app/components/tryDrink.modal.html:3
+msgid "You've just tried {{item.name[lang]}}!"
+msgstr "Вы попробовали {{item.name[lang]}}!"
+
+#: www/app/components/filter.controller.js:70
+msgid "Zinc"
+msgstr "Цинк"
+
+#: www/app/modules/about/about.html:25
+msgid "except on Fridays from 11:30 to 13:30"
+msgstr "кроме Пятницы с 11:30 до 13:30"
+
+#: www/app/modules/about/about.html:13
+msgid "is a cafe opposite the bus station in the Weligama town centre."
+msgstr " - это кафе через дорогу от автобусной станции в центре Велигамы."
+
+#: www/app/components/ratingView.directive.html:7
+msgid "total"
+msgstr "всего"
+
+#~ msgid "About"
+#~ msgstr "Об"
+
+#~ msgid "You'll rate it with {{data.rate}} stars!"
+#~ msgstr "Вы собираетесь оценить это в {{data.rate}} звезд!"
+
+#~ msgid "Helps and Feedback"
+#~ msgstr "Помощь и Обратная связь"
+
+#~ msgid "More information on Wikipedia"
+#~ msgstr "Открыть в Википедии"
+
+#~ msgid "Do you like it?!"
+#~ msgstr "Вам понравилось?"
+
+#~ msgid "There's a huge range of fresh fruit flavours and tasty local food."
+#~ msgstr ""
+#~ "Тут вы найдете огромный ассортимент напитков из свежих фруктов, а так же "
+#~ "вкуснейшие блюда местной кухни."

@@ -1,0 +1,351 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: www/app/components/tryDrink.modal.html:11
+msgid "1 star!"
+msgid_plural "{{$count}} stars!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: www/index.html:130
+msgid "About App"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:20
+#: www/app/modules/menu/drinks/filter.html:28
+msgid "All"
+msgstr ""
+
+#: www/app/components/filter.controller.js:33
+#: www/app/components/filter.controller.js:39
+#: www/app/components/filter.controller.js:50
+#: www/app/components/filter.controller.js:63
+msgid "Any"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:53
+#: www/app/modules/menu/ingredients/filter.html:34
+msgid "Apply"
+msgstr ""
+
+#: www/app/components/filter.controller.js:42
+msgid "Bitter"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:26
+msgid "Bookmarked"
+msgstr ""
+
+#: www/app/components/filter.controller.js:77
+msgid "Bromine"
+msgstr ""
+
+#: www/app/components/filter.controller.js:67
+msgid "Calcium"
+msgstr ""
+
+#: www/app/components/tryDrink.modal.html:14
+msgid "Cancel"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/item.html:29
+msgid "Carbohydrates"
+msgstr ""
+
+#: www/app/components/filter.controller.js:65
+msgid "Chlorine"
+msgstr ""
+
+#: www/app/components/tryDrink.modal.html:12
+msgid "Comment"
+msgstr ""
+
+#: www/app/modules/menu/drinks/item.html:80
+msgid "Comments"
+msgstr ""
+
+#: www/app/modules/about/about.html:38
+msgid "Contacts"
+msgstr ""
+
+#: www/app/components/filter.controller.js:73
+msgid "Copper"
+msgstr ""
+
+#: www/app/components/filter.controller.js:34
+msgid "Creamy"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:39
+#: www/app/modules/menu/drinks/item.html:55
+msgid "Density"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/item.html:47
+msgid "Description"
+msgstr ""
+
+#: www/app/components/tryDrink.modal.html:8
+msgid "Do you like it?"
+msgstr ""
+
+#: www/app/modules/menu/drinks/list.html:1
+#: www/app/modules/menu/menu.html:2
+msgid "Drinks"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/item.html:26
+msgid "Energy"
+msgstr ""
+
+#: www/app/modules/about/about.html:24
+msgid "Everyday from 6:30 to 21:00"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/item.html:32
+msgid "Fat"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:2
+#: www/app/modules/menu/ingredients/filter.html:2
+msgid "Filter"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:12
+#: www/app/modules/menu/ingredients/filter.html:8
+msgid "Filter by"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:34
+#: www/app/modules/menu/drinks/item.html:52
+#: www/app/modules/menu/ingredients/filter.html:14
+#: www/app/modules/menu/ingredients/item.html:20
+msgid "Flavor"
+msgstr ""
+
+#: www/app/modules/about/about.html:15
+msgid "Here you will find a huge range of drinks from any fresh fruit, as well as delicious local dishes."
+msgstr ""
+
+#: www/app/modules/menu/drinks/item.html:33
+msgid "Info"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:44
+msgid "Ingredient"
+msgstr ""
+
+#: www/app/modules/menu/drinks/item.html:58
+#: www/app/modules/menu/ingredients/list.html:1
+#: www/app/modules/menu/menu.html:5
+msgid "Ingredients"
+msgstr ""
+
+#: www/app/components/filter.controller.js:74
+msgid "Iodine"
+msgstr ""
+
+#: www/app/components/filter.controller.js:71
+msgid "Iron"
+msgstr ""
+
+#: www/index.html:114
+msgid "Language"
+msgstr ""
+
+#: www/app/components/filter.controller.js:35
+msgid "Liquid"
+msgstr ""
+
+#: www/app/modules/about/about.html:29
+msgid "Location"
+msgstr ""
+
+#: www/app/components/filter.controller.js:69
+msgid "Magnesium"
+msgstr ""
+
+#: www/app/components/filter.controller.js:72
+msgid "Manganese"
+msgstr ""
+
+#: www/index.html:119
+msgid "Menu"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/filter.html:25
+#: www/app/modules/menu/ingredients/item.html:44
+msgid "Minerals"
+msgstr ""
+
+#: www/app/components/filter.controller.js:76
+msgid "Molybdenum"
+msgstr ""
+
+#: www/app/modules/menu/drinks/item.html:88
+msgid "More"
+msgstr ""
+
+#: www/app/components/filter.controller.js:27
+#: www/app/modules/menu/drinks/filter.html:14
+#: www/app/modules/menu/drinks/filter.html:15
+#: www/app/modules/menu/ingredients/filter.html:10
+#: www/app/modules/menu/ingredients/filter.html:11
+msgid "Name"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:22
+#: www/app/modules/menu/drinks/filter.html:30
+msgid "No"
+msgstr ""
+
+#: www/app/components/filter.controller.js:46
+msgid "Numbing"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/item.html:23
+msgid "Nutrition Facts"
+msgstr ""
+
+#: www/app/modules/about/about.html:21
+msgid "Open hours"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/item.html:53
+msgid "Open on Wikipedia"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/filter.html:6
+msgid "Order"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:7
+msgid "Order by"
+msgstr ""
+
+#: www/app/components/filter.controller.js:68
+msgid "Phosphorus"
+msgstr ""
+
+#: www/app/components/tryDrink.modal.html:9
+msgid "Please rate it and leave some comment about it. It'll help other people to choose their drinks!"
+msgstr ""
+
+#: www/app/components/filter.controller.js:64
+msgid "Potassium"
+msgstr ""
+
+#: www/app/components/filter.controller.js:28
+msgid "Price"
+msgstr ""
+
+#: www/app/modules/menu/drinks/item.html:49
+#: www/app/modules/menu/ingredients/item.html:17
+msgid "Properties"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/item.html:35
+msgid "Protein"
+msgstr ""
+
+#: www/app/components/filter.controller.js:45
+msgid "Pungency"
+msgstr ""
+
+#: www/app/components/filter.controller.js:29
+msgid "Rating"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:52
+#: www/app/modules/menu/ingredients/filter.html:33
+msgid "Reset"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:11
+#: www/app/modules/menu/ingredients/filter.html:7
+msgid "Reverse order"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/filter.html:18
+msgid "Rich in"
+msgstr ""
+
+#: www/app/components/filter.controller.js:43
+msgid "Salty"
+msgstr ""
+
+#: www/app/components/tryDrink.modal.html:15
+msgid "Save"
+msgstr ""
+
+#: www/app/components/filter.controller.js:75
+msgid "Selenium"
+msgstr ""
+
+#: www/app/modules/about/about.html:54
+msgid "Social"
+msgstr ""
+
+#: www/app/components/filter.controller.js:66
+msgid "Sodium"
+msgstr ""
+
+#: www/app/components/filter.controller.js:41
+msgid "Sour"
+msgstr ""
+
+#: www/app/components/filter.controller.js:40
+msgid "Sweet"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:18
+msgid "Tasted"
+msgstr ""
+
+#: www/app/components/filter.controller.js:44
+msgid "Umami"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/filter.html:20
+msgid "Vitamin"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/item.html:41
+msgid "Vitamins"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/item.html:38
+msgid "Water"
+msgstr ""
+
+#: www/app/modules/menu/drinks/filter.html:21
+#: www/app/modules/menu/drinks/filter.html:29
+msgid "Yes"
+msgstr ""
+
+#: www/app/components/tryDrink.modal.html:11
+msgid "You'll rate it with"
+msgstr ""
+
+#: www/app/components/tryDrink.modal.html:3
+msgid "You've just tried {{item.name[lang]}}!"
+msgstr ""
+
+#: www/app/components/filter.controller.js:70
+msgid "Zinc"
+msgstr ""
+
+#: www/app/modules/about/about.html:25
+msgid "except on Fridays from 11:30 to 13:30"
+msgstr ""
+
+#: www/app/modules/about/about.html:13
+msgid "is a cafe opposite the bus station in the Weligama town centre."
+msgstr ""
+
+#: www/app/components/ratingView.directive.html:7
+msgid "total"
+msgstr ""
