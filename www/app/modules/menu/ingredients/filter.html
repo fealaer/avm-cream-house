@@ -4,7 +4,12 @@
 <ion-content class="has-header">
 	<div class="list">
 		<div class="item item-divider" translate>Order</div>
-		<ion-checkbox ng-model="newOrder.reverse" translate>Reverse order</ion-checkbox>
+		<div class="item item-checkbox">
+			<label class="checkbox">
+				<input type="checkbox" ng-model="newOrder.reverse">
+			</label>
+			<translate>Reverse order</translate>
+		</div>
 		<div class="item item-divider" translate>Filter by</div>
 		<label class="item item-input item-floating-label">
 			<span class="input-label" translate>Name</span>
@@ -30,7 +35,7 @@
 </ion-content>
 <ion-footer-bar align-title="left">
 	<div class="button-bar">
-		<button class="button button-stable button-clear" ng-click="resetFilter()" translate>Reset</button>
+		<button class="button button-dark button-clear" ng-click="resetFilter()" translate>Reset</button>
 		<button class="button button-balanced button-clear" ng-click="applyFilter()" translate>Apply</button>
 	</div>
 </ion-footer-bar>
