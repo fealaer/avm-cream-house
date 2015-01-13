@@ -1,16 +1,20 @@
 'use strict';
 
 angular.module('avm.components')
-	.filter('join', function () {
-		return function (array, splitter) {
-			if (array && splitter) {
-				if (_.isArray(array)) {
-					return array.join(splitter);
-				} else {
-					return array;
-				}
-			} else {
-				return '';
-			}
-		};
-	});
+  .filter('join', function (gettextCatalog) {
+    return function (array, splitter) {
+      if (array && splitter) {
+        if (_.isArray(array)) {
+          return _.map(array, function(a) {
+            return gettextCatalog.getString(a);
+          }).join(splitter);
+        } else if (_.isString(array)) {
+          return gettextCatalog.getString(array);
+        } else {
+          return gettextCatalog.getString(array.toString());
+        }
+      } else {
+        return '';
+      }
+    };
+  });
