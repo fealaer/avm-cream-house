@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('avm.components')
-	.controller('FilterCtrl', function ($rootScope, $scope, $filter, $state, listFilter, utils, $ionicSideMenuDelegate, ingredients) {
+	.controller('FilterCtrl', function ($rootScope, $scope, $filter, $state, listFilter, utils, $ionicSideMenuDelegate, ingredients, gettextCatalog) {
 		var listName = $state.includes('menu.drinks') ? 'drinks' : 'ingredients';
 		var defFilter = {
 			filter: {
@@ -24,30 +24,30 @@ angular.module('avm.components')
 			}
 		};
 		$scope.orderBy = [
-			{value: 'name.' + $rootScope.lang, label: 'Name'},
-			{value: 'price', label: 'Price'},
-			{value: 'rate.rate', label: 'Rating'}
+			{value: 'name.' + $rootScope.lang, label: gettextCatalog.getString('Name')},
+			{value: 'price', label: gettextCatalog.getString('Price')},
+			{value: 'rate.rate', label: gettextCatalog.getString('Rating')}
 		];
 
 		$scope.densities = [
-			{value: '', label: 'Any'},
-			{value: 'Creamy', label: 'Creamy'},
-			{value: 'Liquid', label: 'Liquid'}
+			{value: '', label: gettextCatalog.getString('Any')},
+			{value: 'Creamy', label: gettextCatalog.getString('Creamy')},
+			{value: 'Liquid', label: gettextCatalog.getString('Liquid')}
 		];
 
 		$scope.flavors = [
-			{value: '', label: 'Any'},
-			{value: 'Sweet', label: 'Sweet'},
-			{value: 'Sour', label: 'Sour'},
-			{value: 'Bitter', label: 'Bitter'},
-			{value: 'Salty', label: 'Salty'},
-			{value: 'Umami', label: 'Umami'},
-			{value: 'Pungency', label: 'Pungency'},
-			{value: 'Numbing', label: 'Numbing'}
+			{value: '', label: gettextCatalog.getString('Any')},
+			{value: 'Sweet', label: gettextCatalog.getString('Sweet')},
+			{value: 'Sour', label: gettextCatalog.getString('Sour')},
+			{value: 'Bitter', label: gettextCatalog.getString('Bitter')},
+			{value: 'Salty', label: gettextCatalog.getString('Salty')},
+			{value: 'Umami', label: gettextCatalog.getString('Umami')},
+			{value: 'Pungency', label: gettextCatalog.getString('Pungency')},
+			{value: 'Numbing', label: gettextCatalog.getString('Numbing')}
 		];
 
 		$scope.vitamins = [
-			{value: '', label: 'Any'},
+			{value: '', label: gettextCatalog.getString('Any')},
 			{value: 'A', label: 'A'},
 			{value: 'B', label: 'B'},
 			{value: 'C', label: 'C'},
@@ -60,21 +60,21 @@ angular.module('avm.components')
 		];
 
 		$scope.minerals = [
-			{value: '', label: 'Any'},
-			{value: 'Potassium', label: 'Potassium'},
-			{value: 'Chlorine', label: 'Chlorine'},
-			{value: 'Sodium', label: 'Sodium'},
-			{value: 'Calcium', label: 'Calcium'},
-			{value: 'Phosphorus', label: 'Phosphorus'},
-			{value: 'Magnesium', label: 'Magnesium'},
-			{value: 'Zinc', label: 'Zinc'},
-			{value: 'Iron', label: 'Iron'},
-			{value: 'Manganese', label: 'Manganese'},
-			{value: 'Copper', label: 'Copper'},
-			{value: 'Iodine', label: 'Iodine'},
-			{value: 'Selenium', label: 'Selenium'},
-			{value: 'Molybdenum', label: 'Molybdenum'},
-			{value: 'Bromine', label: 'Bromine'}
+			{value: '', label: gettextCatalog.getString('Any')},
+			{value: 'Potassium', label: gettextCatalog.getString('Potassium')},
+			{value: 'Chlorine', label: gettextCatalog.getString('Chlorine')},
+			{value: 'Sodium', label: gettextCatalog.getString('Sodium')},
+			{value: 'Calcium', label: gettextCatalog.getString('Calcium')},
+			{value: 'Phosphorus', label: gettextCatalog.getString('Phosphorus')},
+			{value: 'Magnesium', label: gettextCatalog.getString('Magnesium')},
+			{value: 'Zinc', label: gettextCatalog.getString('Zinc')},
+			{value: 'Iron', label: gettextCatalog.getString('Iron')},
+			{value: 'Manganese', label: gettextCatalog.getString('Manganese')},
+			{value: 'Copper', label: gettextCatalog.getString('Copper')},
+			{value: 'Iodine', label: gettextCatalog.getString('Iodine')},
+			{value: 'Selenium', label: gettextCatalog.getString('Selenium')},
+			{value: 'Molybdenum', label: gettextCatalog.getString('Molybdenum')},
+			{value: 'Bromine', label: gettextCatalog.getString('Bromine')}
 		];
 
 		$scope.ingredients = angular.copy(ingredients);

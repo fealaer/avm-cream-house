@@ -1,47 +1,47 @@
 <header align-title="center" class="bar bar-header bar-positive">
-	<h1 class="title">Filter</h1>
+	<h1 class="title" translate>Filter</h1>
 </header>
 <ion-content class="has-header">
 	<div class="list">
 		<label class="item item-input item-select">
-			<div class="input-label">Order by</div>
+			<div class="input-label" translate>Order by</div>
 			<select ng-model="newOrder.by" ng-options="order.value as order.label for order in orderBy">
 			</select>
 		</label>
-		<ion-checkbox ng-model="newOrder.reverse">Reverse order</ion-checkbox>
-		<div class="item item-divider">Filter by</div>
+		<ion-checkbox ng-model="newOrder.reverse" translate>Reverse order</ion-checkbox>
+		<div class="item item-divider" translate>Filter by</div>
 		<label class="item item-input item-floating-label">
-			<span class="input-label">Name</span>
-			<input type="text" placeholder="Name" ng-model="newFilter.name['$']">
+			<span class="input-label" translate>Name</span>
+			<input type="text" placeholder="{{'Name' | translate}}" ng-model="newFilter.name['$']">
 		</label>
 		<label class="item item-input item-select">
-			<div class="input-label">Tasted</div>
+			<div class="input-label" translate>Tasted</div>
 			<select ng-model="newFilter.isTried">
-				<option value="" ng-selected>All</option>
-				<option value="true">Yes</option>
-				<option value="false">No</option>
+				<option value="" ng-selected translate>All</option>
+				<option value="true" translate>Yes</option>
+				<option value="false" translate>No</option>
 			</select>
 		</label>
 		<label class="item item-input item-select">
-			<div class="input-label">Bookmarked</div>
+			<div class="input-label" translate>Bookmarked</div>
 			<select ng-model="newFilter.isSaved">
-				<option value="" ng-selected>All</option>
-				<option value="true">Yes</option>
-				<option value="false">No</option>
+				<option value="" ng-selected translate>All</option>
+				<option value="true" translate>Yes</option>
+				<option value="false" translate>No</option>
 			</select>
 		</label>
 		<label class="item item-input item-select">
-			<div class="input-label">Flavor</div>
+			<div class="input-label" translate>Flavor</div>
 			<select ng-model="newFilter.properties.flavor" ng-options="flavor.value as flavor.label for flavor in flavors">
 			</select>
 		</label>
 		<label class="item item-input item-select">
-			<div class="input-label">Density</div>
+			<div class="input-label" translate>Density</div>
 			<select ng-model="newFilter.properties.density" ng-options="density.value as density.label for density in densities">
 			</select>
 		</label>
 		<label class="item item-input item-select">
-			<div class="input-label">Ingredient</div>
+			<div class="input-label" translate>Ingredient</div>
 			<select ng-model="newFilter.ingredients" ng-options="ingredient.id as ingredient.name[lang] for ingredient in ingredients">
 			</select>
 		</label>
@@ -49,7 +49,7 @@
 </ion-content>
 <ion-footer-bar align-title="left">
 	<div class="button-bar">
-		<button class="button button-stable button-clear" ng-click="resetFilter()">Reset</button>
-		<button class="button button-balanced button-clear" ng-click="applyFilter()">Apply</button>
+		<button class="button button-stable button-clear" ng-click="resetFilter()" translate>Reset</button>
+		<button class="button button-balanced button-clear" ng-click="applyFilter()" translate>Apply</button>
 	</div>
 </ion-footer-bar>

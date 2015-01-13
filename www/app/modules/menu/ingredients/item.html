@@ -14,43 +14,43 @@
 				<img class="card-image" ng-src="{{'/images/menu/' + item.id + '.png'}}">
 			</div>
 			<div class="item item-divider" ng-show="item.properties">
-				Properties
+				<translate>Properties</translate>
 			</div>
 			<div class="item" ng-show="item.properties.flavor">
-				<strong>Flavor:</strong> {{item.properties.flavor | join:', '}}
+				<strong><translate>Flavor</translate>:</strong> {{item.properties.flavor | join:', '}}
 			</div>
 			<div class="item item-divider">
-				Nutrition Facts
+				<translate>Nutrition Facts</translate>
 			</div>
 			<div class="item" ng-show="item.nutrition_facts.energy">
-				<strong>Energy:</strong> {{item.nutrition_facts.energy | join:', '}} kcal
+				<strong><translate>Energy</translate>:</strong> {{item.nutrition_facts.energy | join:', '}} kcal
 			</div>
 			<div class="item" ng-show="item.nutrition_facts.carbohydrates">
-				<strong>Carbohydrates:</strong> {{item.nutrition_facts.carbohydrates | join:', '}} g
+				<strong><translate>Carbohydrates</translate>:</strong> {{item.nutrition_facts.carbohydrates | join:', '}} g
 			</div>
 			<div class="item" ng-show="item.nutrition_facts.fat">
-				<strong>Fat:</strong> {{item.nutrition_facts.fat | join:', '}} g
+				<strong><translate>Fat</translate>:</strong> {{item.nutrition_facts.fat | join:', '}} g
 			</div>
 			<div class="item" ng-show="item.nutrition_facts.protein">
-				<strong>Protein:</strong> {{item.nutrition_facts.protein | join:', '}} g
+				<strong><translate>Protein</translate>:</strong> {{item.nutrition_facts.protein | join:', '}} g
 			</div>
 			<div class="item" ng-show="item.nutrition_facts.water">
-				<strong>Water:</strong> {{item.nutrition_facts.water | join:', '}} g
+				<strong><translate>Water</translate>:</strong> {{item.nutrition_facts.water | join:', '}} g
 			</div>
-			<div class="item" ng-show="item.nutrition_facts.vitamins">
-				<strong>Vitamins:</strong> {{item.nutrition_facts.vitamins | join:', '}}
+			<div class="item item-body" ng-show="item.nutrition_facts.vitamins">
+				<strong><translate>Vitamins</translate>:</strong> {{item.nutrition_facts.vitamins | join:', '}}
 			</div>
-			<div class="item" ng-show="item.nutrition_facts.minerals">
-				<strong>Minerals:</strong> {{item.nutrition_facts.minerals | join:', '}}
+			<div class="item item-body" ng-show="item.nutrition_facts.minerals">
+				<strong><translate>Minerals</translate>:</strong> {{item.nutrition_facts.minerals | join:', '}}
 			</div>
 			<div class="item item-divider">
-				Description
+				<translate>Description</translate>
 			</div>
 			<div class="item item-body">
 				{{item.description[lang]}}
 			</div>
 			<a class="item item-icon-right" ng-show="item.wiki" ng-click="wiki(item.wiki)">
-				More information on Wikipedia
+				<translate>Open on Wikipedia</translate>
 				<i class="icon icon-wikipedia"></i>
 			</a>
 		</div>
