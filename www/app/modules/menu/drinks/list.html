@@ -5,7 +5,7 @@
 	<ion-nav-buttons side="right">
 		<button class="button button-icon ion-ios7-search-strong" menu-toggle="right"></button>
 	</ion-nav-buttons>
-	<ion-content has-tabs>
+	<ion-content has-tabs delegate-handle="drinks-list">
 		<div class="item-thumbnail-left item item-complex item-in-list"
 		     collection-repeat="item in items | filter:search.filter | orderBy:search.order.by:search.order.reverse track by item.id"
 		     collection-item-width="'100%'"

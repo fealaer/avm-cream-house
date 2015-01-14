@@ -35,7 +35,7 @@ angular.module('avm.components')
     self.set = function (listName, filter) {
       if (listName && filter) {
         filters[listName] = filter;
-        $rootScope.$broadcast('filterChanged');
+        $rootScope.$broadcast('filterChanged', listName);
       }
     };
 
@@ -50,10 +50,11 @@ angular.module('avm.components')
       };
       if (~filters.drinks.order.by.indexOf('name.')) {
         filters.drinks.order.by = by;
+        $rootScope.$broadcast('filterChanged', 'drinks');
       }
       if (~filters.ingredients.order.by.indexOf('name.')) {
         filters.ingredients.order.by = by;
+        $rootScope.$broadcast('filterChanged', 'ingredients');
       }
-      $rootScope.$broadcast('filterChanged');
     });
   });
