@@ -1,10 +1,12 @@
 'use strict';
 
 angular.module('avm.menu.drinks')
-	.controller('DrinksListCtrl', function ($scope, items, listFilter, $ionicSideMenuDelegate) {
+	.controller('DrinksListCtrl', function ($scope, $state, items, listFilter) {
 		$scope.items = items;
 		$scope.$on('filterChanged', function() {
-			setFilter();
+      if ($state.is('menu.drinks')) {
+        setFilter();
+      }
 		});
 		function setFilter() {
 			$scope.search = angular.copy(listFilter.get('drinks'));

@@ -1,14 +1,18 @@
 'use strict';
 
 angular.module('avm.menu.ingredients')
-	.controller('IngredientsListCtrl', function ($scope, ingredients, listFilter) {
+	.controller('IngredientsListCtrl', function ($scope, $state, ingredients, listFilter) {
 		$scope.items = ingredients;
 		$scope.$on('filterChanged', function() {
-			setFilter();
+      if ($state.is('menu.ingredients')) {
+        setFilter();
+      }
 		});
 		function setFilter() {
 			$scope.search = angular.copy(listFilter.get('ingredients'));
 		}
 
-		setFilter();
+    $scope.$on('$ionicView.afterEnter', function() {
+      setFilter();
+    });
 	});
