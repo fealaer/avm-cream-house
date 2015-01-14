@@ -143,7 +143,9 @@ angular.module('avm.components')
 		refresh();
     setUpLists();
 
-		$scope.$on('filterChanged', function () {
-			refresh();
+		$scope.$on('filterChanged', function (event, _listName_) {
+      if (listName === _listName_) {
+        refresh();
+      }
 		});
 	});
