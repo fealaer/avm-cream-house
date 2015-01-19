@@ -11,9 +11,6 @@ angular.module('avm', [
 		// Configure logging
 		$logProvider.debugEnabled($settings.debug);
 
-		// Configure localization
-//		localeProvider.setLocalesBasePath('/app/locales');
-
 		// Configure Restangular
 		(function () {
 			RestangularProvider.setBaseUrl($settings.apiURL);
@@ -42,11 +39,6 @@ angular.module('avm', [
 				};
 			});
 		})();
-
-		// Configure routes
-//		$locationProvider
-//			.html5Mode(true)
-//			.hashPrefix('!');
 
 		// Configure default router
 		$urlRouterProvider.otherwise('/menu/drinks');
@@ -133,19 +125,4 @@ angular.module('avm', [
 //	// Init intercom
 //	.run(function (intercom) {
 //		intercom.init();
-//	});
-
-// Set lang
-//	.run(function ($acceptLanguage) {
-//		var currentLang = {};
-
-//		$acceptLanguage.$init();
-//		currentLang = $acceptLanguage.$get();
-//		Restangular.addFullRequestInterceptor(acceptLanguageRequestInterceptor);
-//
-//		if (currentLang && currentLang.language) {
-//			locale.setLocale(currentLang.language);
-//		} else {
-//			locale.setLocale($settings.defaultLocale);
-//		}
 //	});
