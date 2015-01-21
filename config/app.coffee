@@ -5,10 +5,10 @@ module.exports =
     name: "avm-cream-house"
 
   # steroidsAppId and steroidsApiKey headers are required by Supersonic Data
-  # network:
-  #   extraResponseHeaders:
-  #     "Access-Control-Allow-Origin": "*"
-  #     "Access-Control-Allow-Headers": "Content-Type, X-Requested-With, steroidsAppId, steroidsApiKey"
+  network:
+     extraResponseHeaders:
+       "Access-Control-Allow-Origin": "*"
+       "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, X-CSRF-TOKEN, x-csrf-token, steroidsAppId, steroidsApiKey"
 
   webView:
     viewsIgnoreStatusBar: false
