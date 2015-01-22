@@ -6,7 +6,7 @@ angular.module('avm', [
 ])
 
 	.config(function ($settings, $logProvider, $locationProvider, $urlRouterProvider, //                    localeProvider,
-                    RestangularProvider, $stateProvider) {
+                    RestangularProvider) {
 
 		// Configure logging
 		$logProvider.debugEnabled($settings.debug);
@@ -41,10 +41,10 @@ angular.module('avm', [
 		})();
 
 		// Configure default router
-		$urlRouterProvider.otherwise('/menu/drinks');
+		$urlRouterProvider.otherwise('/account/login');
 	})
 
-	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog) {
+	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager) {
 
 		// Make $settings global
 		$rootScope.$settings = $settings;
@@ -100,26 +100,10 @@ angular.module('avm', [
 //				$window.ga('send', 'pageview', { page: $location.path() });
 //			}
 //		});
-	})
-  .controller('LeftMenuCtrl', function($scope, gettextCatalog, $ionicSideMenuDelegate) {
-    $scope.languages = [
-      {
-        value: 'en',
-        label: 'English'
-      },
-      {
-        value: 'ru',
-        label: 'Русский'
-      }
-    ];
 
-    $scope.leftMenu = {lang: gettextCatalog.currentLanguage};
-
-    $scope.changeLang = function () {
-      gettextCatalog.setCurrentLanguage($scope.leftMenu.lang);
-      $ionicSideMenuDelegate.toggleLeft();
-    }
-  });
+    // Set permission check on state loading.
+    accessManager.init();
+	});
 
 
 //	// Init intercom
