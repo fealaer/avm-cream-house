@@ -1,0 +1,16 @@
+
+<ion-side-menus>
+	<!-- Center content -->
+	<ion-side-menu-content>
+		<ion-nav-bar align-title="center" class="nav-title-slide-ios7 bar-positive">
+		</ion-nav-bar>
+		<ion-nav-view animation="slide-left-right"></ion-nav-view>
+		<ion-footer-bar class="bar-stable">
+			<h1 class="title">Buy stuff!</h1>
+		</ion-footer-bar>
+	</ion-side-menu-content>
+
+	<!-- Left menu -->
+	<ion-side-menu side="left" ng-include="'/app/modules/leftMenu.html'" ng-controller="LeftMenuCtrl" expose-aside-when="large">
+	</ion-side-menu>
+</ion-side-menus>
