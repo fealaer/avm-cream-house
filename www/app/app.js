@@ -41,7 +41,7 @@ angular.module('avm', [
 		})();
 
 		// Configure default router
-		$urlRouterProvider.otherwise('/account/login');
+		$urlRouterProvider.otherwise('/login');
 	})
 
 	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager) {

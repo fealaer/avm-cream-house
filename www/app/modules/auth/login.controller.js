@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('avm.account')
+angular.module('avm.auth')
 
   .controller('LoginCtrl', function ($scope, account, $state, gettextCatalog, $timeout) {
     var defaultData = {
