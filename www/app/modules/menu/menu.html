@@ -1,8 +1,29 @@
-<ion-tabs class="tabs-icon-top tabs-positive tabs-top">
-	<ion-tab title="{{'Drinks' | translate}}" icon="ion-ios-pint" ui-sref="menu.drinks">
-		<ion-nav-view name="drinks"></ion-nav-view>
-	</ion-tab>
-	<ion-tab title="{{'Ingredients' | translate}}" icon="ion-ios-nutrition" ui-sref="menu.ingredients">
-		<ion-nav-view name="ingredients"></ion-nav-view>
-	</ion-tab>
-</ion-tabs>
+<ion-view>
+<ion-side-menus>
+	<!-- Center content -->
+	<ion-side-menu-content>
+		<ion-nav-bar align-title="center" class="nav-title-slide-ios7 bar-positive">
+		</ion-nav-bar>
+		<ion-tabs class="tabs-icon-top tabs-positive tabs-top">
+			<ion-tab title="{{'Drinks' | translate}}" icon="ion-ios-pint" ui-sref="menu.drinks">
+				<ion-nav-view name="drinks"></ion-nav-view>
+			</ion-tab>
+			<ion-tab title="{{'Ingredients' | translate}}" icon="ion-ios-nutrition" ui-sref="menu.ingredients">
+				<ion-nav-view name="ingredients"></ion-nav-view>
+			</ion-tab>
+		</ion-tabs>
+		<ion-footer-bar class="bar-stable">
+			<h1 class="title">Buy stuff!</h1>
+		</ion-footer-bar>
+	</ion-side-menu-content>
+
+	<!-- Left menu -->
+	<ion-side-menu side="left" ng-include="'/app/modules/leftMenu.html'" ng-controller="LeftMenuCtrl" expose-aside-when="large">
+	</ion-side-menu>
+
+	<!-- Right menu -->
+	<ion-side-menu side="right">
+		<div ui-view="rightSlider"></div>
+	</ion-side-menu>
+</ion-side-menus>
+</ion-view>

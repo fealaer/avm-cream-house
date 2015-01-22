@@ -3,9 +3,12 @@
 angular.module('avm.about')
 	.config(function ($stateProvider) {
 		$stateProvider
-			.state('about', {
+			.state('base.about', {
 				url: "/about",
 				templateUrl: "app/modules/about/about.html",
-				controller: "AboutCtrl"
+				controller: "AboutCtrl",
+        allow: {
+          logged: true
+        }
 			});
 	});

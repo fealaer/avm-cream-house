@@ -10,7 +10,7 @@ angular.module('avm.menu.drinks')
 						templateUrl: "app/modules/menu/drinks/list.html",
 						controller: 'DrinksListCtrl'
 					},
-					'rightSlider@': {
+					'rightSlider@menu': {
 						templateUrl: "app/modules/menu/drinks/filter.html",
 						controller: 'FilterCtrl'
 					}

@@ -12,6 +12,9 @@ angular.module('avm.menu')
 					ingredients: function (ingredientsService) {
 						return ingredientsService.getAll();
 					}
-				}
+				},
+        allow: {
+          logged: true
+        }
 			});
 	});
