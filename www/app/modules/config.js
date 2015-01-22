@@ -3,5 +3,6 @@
 angular.module('avm.modules', [
 	'avm.components',
 	'avm.menu',
-  'avm.about'
+  'avm.about',
+  'avm.account'
 ]);
