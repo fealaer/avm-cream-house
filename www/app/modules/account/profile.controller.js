@@ -2,9 +2,9 @@
 
 angular.module('avm.account')
 
-  .controller('ProfileCtrl', function ($scope, account, $state, gettextCatalog, $localStorage) {
+  .controller('ProfileCtrl', function ($scope, account, $state, gettextCatalog) {
 
-    $scope.account = $localStorage.account;
+    $scope.account = account.getAccountData();
 
     $scope.logout = function () {
       account.logout()
