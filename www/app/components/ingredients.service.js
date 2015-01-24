@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('avm.components')
-	.service('ingredientsService', function ($q, $localStorage, $filter) {
+	.service('ingredientsService', function ($q, $filter) {
 		var self = this;
 		var ingredients = [
 			{
