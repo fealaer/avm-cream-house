@@ -24,16 +24,49 @@ angular.module('avm.components')
       return account.one('logout').get();
     };
 
+    /**
+     * Sign Up new account with Email
+     * @param {Object} data
+     * @returns {Promise.promise}
+     */
+    self.signUpEmail = function (data) {
+      return account.all('signup').customPOST(data);
+    };
+
+//    /**
+//     * Sign Up new account with Facebook
+//     * @returns {Promise.promise}
+//     */
+//    self.signUpFacebook = function () {
+//      return account.one('auth/facebook').get();
+//    };
+//
+//    /**
+//     * Sign Up new account with Google
+//     * @returns {Promise.promise}
+//     */
+//    self.signUpGoogle = function () {
+//      return account.one('auth/google').get();
+//    };
+//
+//    /**
+//     * Sign Up new account with Twitter
+//     * @returns {Promise.promise}
+//     */
+//    self.signUpTwitter = function () {
+//      return account.one('auth/twitter').get();
+//    };
+
     self.isAuthenticated = function () {
       return !!self.getAccountData();
     };
 
     self.getAccountData = function  () {
-      return $localStorage.account;
+      return angular.copy($localStorage.account);
     };
 
     self.setAccountData = function (account) {
-      $localStorage.account = account;
+      $localStorage.account = angular.copy(account);
       $rootScope.$broadcast('$accountUpdated');
     };
 
