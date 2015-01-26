@@ -36,18 +36,6 @@
 		"ingredients": ["apple"]
 	},
 	{
-		"id": "apricot",
-		"name": {
-			"en": "Apricot Juice",
-			"ru": "Сок из Абрикоса"
-		},
-		"properties": {
-			"density": "Creamy",
-			"flavor": ["Sweet"]
-		},
-		"ingredients": ["apricot"]
-	},
-	{
 		"id": "baeli_fruit",
 		"name": {
 			"en": "Baeli Fruit Juice",
@@ -288,82 +276,85 @@
 		},
 		"ingredients": ["grapes"]
 	},
+
+  {
+    "id": "guava",
+    "name": {
+      "en": "Guava Juice",
+      "ru": "Сок из Гуавы"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["guava"]
+  },
+  {
+    "id": "jackfruit",
+    "name": {
+      "en": "Jackfruit Juice",
+      "ru": "Сок из Джекфрута"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["jackfruit"]
+  },
+  {
+    "id": "jambu",
+    "name": {
+      "en": "Jambu Juice",
+      "ru": "Сок из Яванского яблока"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["jambu"]
+  },
+
+  {
+    "id": "kirala",
+    "name": {
+      "en": "Kirala Juice",
+      "ru": "Сок из Киралы"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["kirala"]
+  },
+
+  {
+    "id": "kiwi",
+    "name": {
+      "en": "Kiwi Juice",
+      "ru": "Сок из Киви"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["kiwi"]
+  },
+  {
+    "id": "lawulu",
+    "name": {
+      "en": "Lawulu Juice",
+      "ru": "Сок из Лавулу"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["lawulu"]
+  },
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
-	{
-		"id": "guava",
-		"name": {
-			"en": "Guava Juice",
-			"ru": "Сок из Гуавы"
-		},
-		"properties": {
-			"density": "Creamy",
-			"flavor": ["Sour"]
-		},
-		"ingredients": ["guava"]
-	},
-	{
-		"id": "jackfruit",
-		"name": {
-			"en": "Jackfruit Juice",
-			"ru": "Сок из Джекфрута"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["jackfruit"]
-	},
-	{
-		"id": "jambu",
-		"name": {
-			"en": "Jambu Juice",
-			"ru": "Сок из Джамбу"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["jambu"]
-	},
-	{
-		"id": "kirala",
-		"name": {
-			"en": "Kirala Juice",
-			"ru": "Сок из Киралы"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["kirala"]
-	},
-	{
-		"id": "kiwi",
-		"name": {
-			"en": "Kiwi Juice",
-			"ru": "Сок из Киви"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["kiwi"]
-	},
-	{
-		"id": "lawulu",
-		"name": {
-			"en": "Lawulu Juice",
-			"ru": "Сок из Лавулу"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["lawulu"]
-	},
 	{
 		"id": "lemon",
 		"name": {
@@ -507,18 +498,6 @@
 			"flavor": [""]
 		},
 		"ingredients": ["passion_fruit"]
-	},
-	{
-		"id": "peach",
-		"name": {
-			"en": "Peach Juice",
-			"ru": "Сок из Персика"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["peach"]
 	},
 	{
 		"id": "peanut",

@@ -81,33 +81,6 @@
 		}
 	},
 	{
-		"id": "apricot",
-		"name": {
-			"en": "Apricot",
-			"ru": "Абрикос"
-		},
-		"description": {
-			"en": "An apricot is a fruit or the tree that bears the fruit. Usually, an apricot tree is from the tree species Prunus armeniaca, but the species Prunus brigantina, Prunus mandshurica, Prunus mume, and Prunus sibirica are closely related, have similar fruit, and are also called apricots.",
-			"ru": "Абрикос — дерево; вид рода Слива семейства Розовые (Rosaceae), а также плод этого дерева. Абрикос называют также жёлтосливником, морелью, курагой, жерделью, урюком. Абрикос сибирский (Prunus sibirica L.), растущий в диком состоянии в горах Даурии, — это другой вид рода Слива."
-		},
-		"wiki": {
-			"en": "http://en.wikipedia.org/wiki/Apricot",
-			"ru": "https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D1%80%D0%B8%D0%BA%D0%BE%D1%81"
-		},
-		"nutrition_facts": {
-			"energy": 48,
-			"carbohydrates": 11,
-			"fat": 0.4,
-			"protein": 1.4,
-			"water": 86.35,
-			"vitamins": ["A", "B5", "C", "E"],
-			"minerals": ["Manganese", "Potassium"]
-		},
-		"properties": {
-			"flavor": ["Sweet"]
-		}
-	},
-	{
 		"id": "baeli_fruit",
 		"name": {
 			"en": "Baeli Fruit",
@@ -610,11 +583,11 @@
 			"ru": "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B5%D0%B9%D0%BF%D1%84%D1%80%D1%83%D1%82"
 		},
 		"nutrition_facts": {
-			"energy": "33",
-			"carbohydrates": "8.41",
-			"fat": "0.10",
-			"protein": "0.69",
-			"water": "90,48",
+			"energy": 33,
+			"carbohydrates": 8.41,
+			"fat": 0.10,
+			"protein": 0.69,
+			"water": 90,48,
 			"vitamins": ["B5","C"],
 			"minerals": ["Magnesium","Potassium"]
 		},
@@ -637,11 +610,11 @@
 			"ru": "https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4_(%D1%8F%D0%B3%D0%BE%D0%B4%D0%B0)"
 		},
 		"nutrition_facts": {
-			"energy": "69",
-			"carbohydrates": "18.1",
-			"fat": "0.16",
-			"protein": "0.72",
-			"water": "85",
+			"energy": 69,
+			"carbohydrates": 18.1,
+			"fat": 0.16,
+			"protein": 0.72,
+			"water": 85,
 			"vitamins": ["B1","B2","B6","K"],
 			"minerals": ["Potassium"]
 		},
@@ -649,172 +622,173 @@
 			"flavor": ["Sweet"]
 		}
 	},
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
 
 	{
 		"id": "guava",
 		"name": {
-			"en": "Guava",
-			"ru": "Гуава"
+      "en": "Guava",
+      "ru": "Гуава"
 		},
 		"description": {
-			"en": "?",
-			"ru": "?"
+      "en": "Guavas are common tropical fruits cultivated and enjoyed in many tropical and subtropical regions. Psidium guajava (common guava, lemon guava) is a small tree in the Myrtle family (Myrtaceae), native to Mexico, Central America, and northern South America.",
+      "ru": "Гуава — род растений семейства Миртовые, включает в себя около 100 видов. Ареал гуавы — тропики. Родина рода — Америка, от тропических районов Мексики до северной части Южной Америки. Однако, некоторые виды были интродуцированы в Африку, Индию, Юго-Восточную Азию и Океанию."
 		},
 		"wiki": {
-			"en": "?guava",
-			"ru": "?"
+			"en": "http://en.wikipedia.org/wiki/Guava",
+			"ru": "https://ru.wikipedia.org/wiki/%D0%9F%D1%81%D0%B8%D0%B4%D0%B8%D1%83%D0%BC"
 		},
 		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
+			"energy": 285",
+			"carbohydrates": 14.32,
+			"fat": 0.95,
+			"protein": 2.55,
+			"water": 73,
+			"vitamins": ["С","B1","B3","B5","B6","B9"],
+			"minerals": ["Magnesium","Manganese","Phosphorus","Potassium"]
 		},
 		"properties": {
-			"flavor": ["?"]
+			"flavor": ["Sour"]
 		}
 	},
-	{
-		"id": "jackfruit",
-		"name": {
-			"en": "Jackfruit",
-			"ru": "Джекфрут"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "http://en.wikipedia.org/wiki/Jackfruit",
-			"ru": "https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%B5%D0%BA%D1%84%D1%80%D1%83%D1%82"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "jambu",
-		"name": {
-			"en": "Jambu",
-			"ru": "Джамбу"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "http://en.wikipedia.org/wiki/Syzygium",
-			"ru": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%B7%D0%B8%D0%B3%D0%B8%D1%83%D0%BC"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "kirala",
-		"name": {
-			"en": "Kirala",
-			"ru": "Кирала"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "",
-			"ru": ""
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "kiwi",
-		"name": {
-			"en": "Kiwi",
-			"ru": "Киви"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?kiwi",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "lawulu",
-		"name": {
-			"en": "Lawulu",
-			"ru": "Лавулу"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "http://en.wikipedia.org/wiki/Pouteria_campechiana",
-			"ru": "http://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D0%BB"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
+  {
+    "id": "jackfruit",
+    "name": {
+      "en": "Jackfruit",
+      "ru": "Джекфрут"
+    },
+    "description": {
+      "en": "The jackfruit (Artocarpus heterophyllus), also known as jack tree, jakfruit, or sometimes simply jack or jak) is a species of tree in the Artocarpus genus of the mulberry family (Moraceae). It is native to parts of South and Southeast Asia, and is believed to have originated in the southwestern rain forests of India, in present-day Goa, Kerala, coastal Karnataka and Maharashtra. The jackfruit tree is well suited to tropical lowlands, and its fruit is the largest tree-borne fruit, reaching as much as 80 pounds (36 kg) in weight, 36 inches (90 cm) in length, and 20 inches (50 cm) in diameter.",
+      "ru": "Джекфрут или индийское хлебное дерево (Artocarpus heterophyllus) — растение семейства тутовых, близкий родственник хлебного дерева. Плоды (соплодия) джекфрута — самые большие съедобные плоды, произрастающие на деревьях: длиной 20—110 см и диаметром до 20 см, они весят до 34 кг. Их толстая кожура покрыта многочисленными конусообразными выступами. Молодые плоды зелёные, при созревании становятся зелёно-жёлтыми или коричнево-жёлтыми и при постукивании издают полый звук (незрелые плоды — глухой). Внутри каждый плод разделен на большие доли, которые содержат сладкую жёлтую мякоть, состоящую из сочных скользких волокон."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Jackfruit",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%B5%D0%BA%D1%84%D1%80%D1%83%D1%82"
+    },
+    "nutrition_facts": {
+      "energy": 397,
+      "carbohydrates": 20,
+      "fat": 0.64,
+      "protein": 1.72,
+      "water": 76,
+      "vitamins": ["B1","B2","B3","B5","B6","B9","С"],
+      "minerals": ["Magnesium","Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "jambu",
+    "name": {
+      "en": "Jambu",
+      "ru": "Яванское яблоко"
+    },
+    "description": {
+      "en": "Syzygium samarangense (syn. Eugenia javanica) is a plant species in the Myrtaceae, native to an area that includes the Greater Sunda Islands, Malay Peninsula and the Andaman and Nicobar Islands, but introduced in prehistoric times to a wider area and now widely cultivated in the tropics. English common names include Jambu air (local Indonesian and Malay name).",
+      "ru": "Яванское яблоко — вечнозелёное дерево высотой 5-15 м, с коротким стволом 25-30 см шириной и бледно-розово-серой осыпающейся корой. Листья эллиптическо-ланцетовидные, слегка сердцевидные, тёмно-синевато-зелёного цвета, 10-25 см длиной и 5-12 см шириной, ароматные при растирании. Цветки желтовато-белые, 2-4 см шириной, с четырьмя лепестками и с многочисленными тычинками 1,25-2,5 см длиной, собраны в свисающие метёлки. Плод розовый или зеленоватый, блестящий, грушевидной формы, 3,4-5 см длиной и 4,5-5,4 см шириной. Мякоть белая, хрустящая, кисловатая с мягким ароматом, с 1-2 семенами 0,5-0,8 см длиной."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Syzygium_samarangense",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%AF%D0%B2%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B5_%D1%8F%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE"
+    },
+    "nutrition_facts": {
+      "energy": 25,
+      "carbohydrates": 5.7,
+      "fat": 0,3,
+      "protein": 0.6,
+      "water": 93,
+      "vitamins": ["A","C"],
+      "minerals": ["Calcium","Iron"]
+    },
+    "properties": {
+      "flavor": ["Sour"]
+    }
+  },
+  {
+    "id": "kirala",
+    "name": {
+      "en": "Kirala",
+      "ru": "Кирала"
+    },
+    "description": {
+      "en": "Kirala (Sonneratia caseolaris) or Mangrove Apple is a fruit that is endemic to the isle of Sri Lanka and is mostly grown near salt water bodies.  The Kirala tree grows quite tall with thin branches. The fruit is green coloured with a star shaped covering on the top, which once removed uncovers a reddish rim that contrasts with the green peel and the white flesh inside the fruit. Inside embedded in the flesh, there are many seeds and once ripened it cannot be stored at room temperature for more than a day as it perishes rapidly, becoming liable to insect damage. Most of the time the fruit is not plucked from the tree, but is awaited, till it drops from the tree after ripening.Even then one has to be very careful to ascertain that the fruit is not infected with insects and not left on the ground too long. However, the ripened ‘Kirala’ has a very delightful taste as a fruit and is used to make an even more delightful fruit drink that is rich in vitamins. It is also said that ‘Kirala’ is a very cooling drink that soothes the body and is also a good remedy for stomach related ailments.",
+      "ru": "Кирала или Мангровое яблоко является эндемичным фруктом Шри - Ланки и чаще всего произрастает вблизи солёной воды. Обладает приятным освежающим вкусом, полезен для желудка."
+    },
+    "wiki": {
+      "en": "",
+      "ru": ""
+    },
+    "nutrition_facts": {
+      "energy": "?",
+      "carbohydrates": "?",
+      "fat": "?",
+      "protein": "?",
+      "water": "?",
+      "vitamins": ["?"],
+      "minerals": ["?"]
+    },
+    "properties": {
+      "flavor": ["Sour"]
+    }
+  },
+  {
+    "id": "kiwi",
+    "name": {
+      "en": "Kiwi",
+      "ru": "Киви"
+    },
+    "description": {
+      "en": "The kiwifruit or Chinese gooseberry, is the edible berry of a woody vine in the genus Actinidia.The most common cultivar group of kiwifruit ('Hayward') is oval, about the size of a large hen's egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in diameter). It has a fibrous, dull greenish-brown skin and bright green or golden flesh with rows of tiny, black, edible seeds. The fruit has a soft texture and a sweet but unique flavor, and today is a commercial crop in several countries, such as Italy, New Zealand, Chile, Greece, and France.",
+      "ru": "Киви — название плодов культурных сортов растений, принадлежащих к роду Актини́дия, виду Актини́дия кита́йская (лат. Actinidia chinensis) или Актинидия деликатесная (лат. Actinidia deliciosa). Сами растения представляют собой крупные древовидные лианы родом из Китая, поэтому киви иногда называют «китайским крыжовником»."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Kiwifruit",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%B2%D0%B8_(%D1%84%D1%80%D1%83%D0%BA%D1%82)"
+    },
+    "nutrition_facts": {
+      "energy": 255,
+      "carbohydrates": 14.66,
+      "fat": 0.52,
+      "protein": 1.14,
+      "water": 83,
+      "vitamins": ["C","B5","B9","E","K"],
+      "minerals": ["Magnesium","Manganese","Phosphorus","Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sour"]
+    }
+  },
+  {
+    "id": "lawulu",
+    "name": {
+      "en": "Lawulu",
+      "ru": "Лавулу"
+    },
+    "description": {
+      "en": "The canistel (Pouteria campechiana) is an evergreen tree native to southern Mexico and Central America. It is cultivated in other countries, such as Brazil, Taiwan, Vietnam and the Philippines for its fruit.The canistel grows up to 10 meters (33 ft) high, and produces orange-yellow fruit, also called yellow sapote, up to 7 centimeters (2.8 in) long, which are edible raw. Canistel flesh is sweet, with a texture often compared to that of a hard-boiled egg yolk, hence its colloquial name Eggfruit. It is closely related to the Mamey sapote and abiu.",
+      "ru": "Канистел (лат. Pouteria campechiana) — плодовое дерево семейства Сапотовые.Канистел — вечнозелёное прямое дерево высотой, в основном, до 8 м, с коричневой корой, содержащей клейкий латекс. Листья глянцевые ланцетовидно-продолговатые, 11,25-28 см длиной и 4-7,5 см шириной. Плод может иметь различную форму и размер. Он может быть круглым, овальным или веретенообразным, с искривлённым клювом или без него, выпяченным на одной стороне. Его длина варьируется от 7,5 до 12,5 см, а ширина с 5 до 7,5 см. Недозрелый плод зелёного цвета, твёрдый и клейкий внутри. При созревании он становится лимонно-жёлтым или бледно-оранжево-жёлтым. Внутри содержится жёлтая, относительно крепкая и мучнистая мякоть с 1-4 крупными семенами."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Pouteria_campechiana",
+      "ru": "http://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D0%BB"
+    },
+    "nutrition_facts": {
+      "energy": 138.8,
+      "carbohydrates": 36.69 ,
+      "fat": 0.13",
+      "protein": 1.68 ,
+      "water": 62,
+      "vitamins": ["B1","B3","C"],
+      "minerals": ["Iron","Phosphorus"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
 	{
 		"id": "lemon",
 		"name": {
@@ -1124,33 +1098,6 @@
 		},
 		"wiki": {
 			"en": "?passion_fruit",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "peach",
-		"name": {
-			"en": "Peach",
-			"ru": "Персик"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?peach",
 			"ru": "?"
 		},
 		"nutrition_facts": {
