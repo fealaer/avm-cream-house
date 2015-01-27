@@ -2,7 +2,7 @@
 	<ion-content>
 		<div class="list list-inset">
 			<div class="item item-body">
-				<img class="full-image" src="/images/common/logo.png">
+				<img class="avatar-image" src="/images/common/logo.png">
 			</div>
 			<label class="item item-input">
 				<i class="icon ion-at placeholder-icon"></i>
@@ -16,5 +16,11 @@
 		<div class="padding">
 			<button class="button button-block button-positive" ng-click="login()" translate>Log In</button>
 		</div>
+		<div class="padding">
+			<a ui-sref="forget" translate>Forget your password?</a>
+		</div>
 	</ion-content>
 </ion-view>
+<ion-footer-bar align-title="center" ui-sref="signup">
+	<div class="title" translate>Join AVM Cream House</div>
+</ion-footer-bar>

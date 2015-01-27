@@ -2,8 +2,10 @@
 
 angular.module('avm.auth')
 
-  .controller('LoginCtrl', function ($scope, account, $state, gettextCatalog, $timeout) {
+  .controller('SignupCtrl', function ($scope, account, $state, gettextCatalog, $timeout) {
     var defaultData = {
+      firstName: '',
+      lastName: '',
       email: '',
       password: ''
     };
@@ -12,8 +14,11 @@ angular.module('avm.auth')
 
     $scope.errorMessages = [];
 
-    $scope.login = function () {
-      account.login($scope.data)
+    $scope.signup = function () {
+      $scope.data.confirmPassword = $scope.data.password;
+      $scope.data.name = $scope.data.firstName + ' ' + $scope.data.lastName;
+
+      account.signUpEmail($scope.data)
 
         .then(function (response) {
           account.setAccountData(response.result);
@@ -25,6 +30,7 @@ angular.module('avm.auth')
         })
 
         .catch(function (response) {
+          console.log(response);
           if (response.error && response.error.errors) {
             _.each(response.error.errors, function (err) {
               $scope.errorMessages.push(gettextCatalog.getString(err.message));
@@ -37,7 +43,7 @@ angular.module('avm.auth')
             $scope.errorMessages.push(gettextCatalog.getString('Some error occurred'));
           }
           _.each($scope.errorMessages, function (err) {
-            supersonic.logger.error(err);
+            console.log(err);
           });
           $scope.errorMessages = [];
         });

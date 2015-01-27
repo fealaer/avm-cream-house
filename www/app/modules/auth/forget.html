@@ -1,0 +1,19 @@
+<ion-view>
+	<ion-content>
+		<div class="list list-inset">
+			<div class="item item-body">
+				<img class="full-image" src="/images/common/logo.png">
+			</div>
+			<label class="item item-input">
+				<i class="icon ion-at placeholder-icon"></i>
+				<input type="email" placeholder="{{'Email' | translate}}" ng-model="data.email">
+			</label>
+		</div>
+		<div class="padding">
+			<button class="button button-block button-positive" ng-click="forget()" translate>Reset password</button>
+		</div>
+	</ion-content>
+</ion-view>
+<ion-footer-bar align-title="center" ui-sref="login">
+	<div class="title" translate>Log in to AVM Cream House</div>
+</ion-footer-bar>
