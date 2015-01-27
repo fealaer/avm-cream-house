@@ -41,10 +41,11 @@ angular.module('avm', [
 		})();
 
 		// Configure default router
-		$urlRouterProvider.otherwise('/login');
+		$urlRouterProvider.otherwise('/');
 	})
 
 	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager) {
+    supersonic.ui.navigationBar.hide();
 
 		// Make $settings global
 		$rootScope.$settings = $settings;

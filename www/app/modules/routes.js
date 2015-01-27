@@ -5,11 +5,11 @@ angular.module('avm.modules')
 		$stateProvider
 			.state('base', {
 				url: "/",
-				abstract: true,
 				templateUrl: "app/modules/leftSideLayout.html",
-				controller: function() { },
-        allow: {
-          logged: true
+				controller: function ($state, account) {
+          if ($state.is('base')) {
+            $state.go(account.isAuthenticated() ? 'menu.drinks' : 'login');
+          }
         }
 			});
 	});
