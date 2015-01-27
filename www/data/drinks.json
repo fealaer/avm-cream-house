@@ -495,168 +495,167 @@
     },
     "ingredients": ["passion_fruit"]
   },
+  {
+    "id": "peanut",
+    "name": {
+      "en": "Peanut Drink",
+      "ru": "Напиток из Арахиса"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["peanut"]
+  },
+  {
+    "id": "pear",
+    "name": {
+      "en": "Pear Juice",
+      "ru": "Сок из Груши"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["pear"]
+  },
+  {
+    "id": "pineapple",
+    "name": {
+      "en": "Pineapple Juice",
+      "ru": "Сок из Ананаса"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sour","Sweet"]
+    },
+    "ingredients": ["pineapple"]
+  },
+  {
+    "id": "pomegranate",
+    "name": {
+      "en": "Pomegranate Juice",
+      "ru": "Сок из Граната"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["pomegranate"]
+  },
+  {
+    "id": "raisin",
+    "name": {
+      "en": "Raisin Juice",
+      "ru": "Сок из Изюма"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["raisin"]
+  },
+  {
+    "id": "rambutan",
+    "name": {
+      "en": "Rambutan Juice",
+      "ru": "Сок из Рамбутана"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour","Sweet"]
+    },
+    "ingredients": ["rambutan"]
+  },
+  {
+    "id": "sapodilla",
+    "name": {
+      "en": "Sapodilla Juice",
+      "ru": "Сок из Саподиллы"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["sapodilla"]
+  },
+  {
+    "id": "silver_melon",
+    "name": {
+      "en": "Silver Melon Juice",
+      "ru": "Сок из Серебрянной Дыни"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["silver_melon"]
+  },
+  {
+    "id": "sour_orange",
+    "name": {
+      "en": "Sour Orange Juice",
+      "ru": "Сок из Кислого Апельсина"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour","Bitter"]
+    },
+    "ingredients": ["sour_orange"]
+  },
+  {
+    "id": "sour_guava",
+    "name": {
+      "en": "Sour Guava Juice",
+      "ru": "Сок из Кислой Гуавы"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["sour_guava"]
+  },
+  {
+    "id": "soursop_annona",
+    "name": {
+      "en": "Soursop Annona Juice",
+      "ru": "Сок из Анноны"
+    },
+    "properties": {
+      "density": "",
+      "flavor": ["Sour","Sweet"]
+    },
+    "ingredients": ["soursop_annona"]
+  },
+  {
+    "id": "starfruit",
+    "name": {
+      "en": "Starfruit Juice",
+      "ru": "Сок из Карамболи"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["starfruit"]
+  },
+  {
+    "id": "strawberry",
+    "name": {
+      "en": "Strawberry Juice",
+      "ru": "Сок из Клубники"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["strawberry"]
+  },
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
 
-
-	{
-		"id": "peanut",
-		"name": {
-			"en": "Peanut Drink",
-			"ru": "Напиток с Арахисом"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["peanut"]
-	},
-	{
-		"id": "pear",
-		"name": {
-			"en": "Pear Juice",
-			"ru": "Сок из Груши"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["pear"]
-	},
-	{
-		"id": "pineapple",
-		"name": {
-			"en": "Pineapple Juice",
-			"ru": "Сок из Ананаса"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["pineapple"]
-	},
-	{
-		"id": "pomegranate",
-		"name": {
-			"en": "Pomegranate Juice",
-			"ru": "Сок из Граната"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["pomegranate"]
-	},
-	{
-		"id": "raisin",
-		"name": {
-			"en": "Raisin Juice",
-			"ru": "Сок из Изюма"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["raisin"]
-	},
-	{
-		"id": "rambutan",
-		"name": {
-			"en": "Rambutan Juice",
-			"ru": "Сок из Рамбутана"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["rambutan"]
-	},
-	{
-		"id": "sapodilla",
-		"name": {
-			"en": "Sapodilla Juice",
-			"ru": "Сок из Саподиллы"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["sapodilla"]
-	},
-	{
-		"id": "silver_melon",
-		"name": {
-			"en": "Silver Melon Juice",
-			"ru": "Сок из Серебрянной Дыни"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["silver_melon"]
-	},
-	{
-		"id": "sour_orange",
-		"name": {
-			"en": "Sour Orange Juice",
-			"ru": "Сок из Кислого Апельсина"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["sour_orange"]
-	},
-	{
-		"id": "sour_guava",
-		"name": {
-			"en": "Sour Guava Juice",
-			"ru": "Сок из Кислой Гуавы"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["sour_guava"]
-	},
-	{
-		"id": "soursop_annona",
-		"name": {
-			"en": "Soursop Annona Juice",
-			"ru": "Сок из Анноны"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["soursop_annona"]
-	},
-	{
-		"id": "starfruit",
-		"name": {
-			"en": "Starfruit Juice",
-			"ru": "Сок из Карамболи"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["starfruit"]
-	},
-	{
-		"id": "strawberry",
-		"name": {
-			"en": "Strawberry Juice",
-			"ru": "Сок из Клубники"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["strawberry"]
-	},
 	{
 		"id": "sugar_cane",
 		"name": {
@@ -664,8 +663,8 @@
 			"ru": "Сок из Сахарного тросника"
 		},
 		"properties": {
-			"density": "",
-			"flavor": [""]
+			"density": "Liquid",
+			"flavor": ["Sweet"]
 		},
 		"ingredients": ["sugar_cane"]
 	},

@@ -1108,362 +1108,362 @@
       "flavor": ["Sour","Sweet"]
     }
   },
+  {
+    "id": "peanut",
+    "name": {
+      "en": "Peanut",
+      "ru": "Арахис"
+    },
+    "description": {
+      "en": "The peanut or groundnut (Arachis hypogaea) is a species in the family Fabaceae (commonly known as the bean, pea or legume family). The peanut was probably first domesticated and cultivated in the valleys of Paraguay. It is an annual herbaceous plant growing 30 to 50 cm (1.0 to 1.6 ft) tall. The leaves are opposite, pinnate with four leaflets (two opposite pairs; no terminal leaflet); each leaflet is 1 to 7 cm (⅜ to 2¾ in) long and 1 to 3 cm (⅜ to 1 inch) across.",
+      "ru": "Арахисс культурный, или Арахис подземный, или Земляной орех (лат. Arāchis hypogaēa) — растение; вид рода Арахис семейства Бобовые (Fabaceae), важная сельскохозяйственная культура, возделываемая в промышленных масштабах ради плодов — арахисовых «орехов».Распространённое название растения «земляной орех» не народное, оно попало в русский язык как переводное из иностранных языков. С точки зрения ботаники называть арахис орехом неправильно. Он является бобовой травой."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Peanut",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D1%85%D0%B8%D1%81_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B9"
+    },
+    "nutrition_facts": {
+      "energy": 570,
+      "carbohydrates": 21,
+      "fat": 48,
+      "protein": 25,
+      "water": 4.26 ,
+      "vitamins": ["B1","B2","B3","B5","B6","B9","E"],
+      "minerals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","Potassium","Zinc"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "pear",
+    "name": {
+      "en": "Pear",
+      "ru": "Груша"
+    },
+    "description": {
+      "en": "The pear is any of several tree and shrub species of genus Pyrus /ˈpaɪrəs/, in the family Rosaceae. It is also the name of the pomaceous fruit of these trees. Several species of pear are valued for their edible fruit, while others are cultivated as ornamental trees.",
+      "ru": "Груша (лат. Pýrus) — род плодовых и декоративных деревьев и кустарников семейства Розовые (Rosaceae). Слово груша в русских письменных источниках встречается с XII века в форме хруша. В XVII веке вместо «груша» употреблялось слово «дуля», заимствованное из польского языка от dula."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Pear",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D1%88%D0%B0"
+    },
+    "nutrition_facts": {
+      "energy": 57,
+      "carbohydrates": 15.23,
+      "fat": 0.14,
+      "protein": 0.36,
+      "water": "?",
+      "vitamins": ["С","K"],
+      "minerals": ["Phosphorus"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "pineapple",
+    "name": {
+      "en": "Pineapple",
+      "ru": "Ананас"
+    },
+    "description": {
+      "en": "The pineapple (Ananas comosus) is a tropical plant with edible multiple fruit consisting of coalesced berries, and the most economically significant plant in the Bromeliaceae family. Pineapples may be cultivated from a crown cutting of the fruit, possibly flowering in 20–24 months and fruiting in the following six months. Pineapple does not ripen significantly post-harvest.",
+      "ru": "Ананас настоящий — многолетнее травянистое растение, вид рода Ананас (Ananas) семейства Бромелиевые (Bromeliaceae). Ананас настоящий представлен в культуре многочисленным разнообразием сортов не только в Южной Америке, где растут представители рода Ананас, но и по всем тропическим странам всего земного шара.",
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Pineapple",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B0%D0%BD%D0%B0%D1%81_%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D0%BE%D1%85%D0%BE%D1%85%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9"
+    },
+    "nutrition_facts": {
+      "energy": 50,
+      "carbohydrates": 13.12,
+      "fat": 0.12 ,
+      "protein": 0.54,
+      "water": "?",
+      "vitamins": ["B1","B6","B9","C"],
+      "minerals": ["Manganese"]
+    },
+    "properties": {
+      "flavor": ["Sour","Sweet"]
+    }
+  },
+  {
+    "id": "pomegranate",
+    "name": {
+      "en": "Pomegranate",
+      "ru": "Гранат"
+    },
+    "description": {
+      "en": "The pomegranate, botanical name Punica granatum, is a fruit-bearing deciduous shrub or small tree growing between 5 and 8 m (16–26 ft) tall. In the Northern Hemisphere, the fruit is typically in season from September to February, and in the Southern Hemisphere from March to May. As intact arils or juice, pomegranates are used in cooking, baking, meal garnishes, juice blends, smoothies, and alcoholic beverages, such as cocktails and wine.",
+      "ru": "Гранат обыкновенный (лат. Punica granatum) — вид растений из рода Гранат семейства Дербенниковые (Lythraceae). Родовое название лат. Punica «пуника» происходит от латинского слова лат. punicus — пунический, карфагенский, по широкому распространению растения в этой стране (современный Тунис). Видовое название лат. granátum происходит от лат. granatus — зернистый, по находящимся внутри плода многочисленным, окружённым сочным покровом семенам."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Pomegranate",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%BD%D0%B0%D1%82_%D0%BE%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9"
+    },
+    "nutrition_facts": {
+      "energy": 83,
+      "carbohydrates": 18.7,
+      "fat": 1.17,
+      "protein": 1.67,
+      "water": "?",
+      "vitamins": ["B1","B5","B6","B9","C","K"],
+      "minerals": ["Manganese","Phosphorus","Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "raisin",
+    "name": {
+      "en": "Raisin",
+      "ru": "Изюм"
+    },
+    "description": {
+      "en": "A raisin is a dried grape. Raisins are produced in many regions of the world and may be eaten raw or used in cooking, baking and brewing. In the United Kingdom, Ireland, New Zealand and Australia the word Raisin is reserved for the dark-coloured dried large grape, with Sultana being a golden-coloured dried grape, and Currant being a dried small Black Corinth grape.",
+      "ru": "Изюм (от тюрк. Usum — виноград) — сушёные ягоды винограда. Как продукт имеет наибольшее кулинарное применение на Ближнем и Среднем Востоке, а также в Средиземноморье."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Raisin",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D1%8E%D0%BC"
+    },
+    "nutrition_facts": {
+      "energy": 299,
+      "carbohydrates": 79.18,
+      "fat": 0.46,
+      "protein": 3.07,
+      "water": "?",
+      "vitamins": ["B1","B2","B3","B6"],
+      "minerals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "rambutan",
+    "name": {
+      "en": "Rambutan",
+      "ru": "Рамбутан"
+    },
+    "description": {
+      "en": "The rambutan is a medium-sized tropical tree in the family Sapindaceae. The name also refers to the fruit produced by this tree. The rambutan is native to Malaysia and other regions of tropical Southeast Asia. It is closely related to several other edible tropical fruits including the lychee, longan, and mamoncillo.",
+      "ru": "Рамбутан (лат. Nephelium lappaceum) — плодовое тропическое дерево семейства Сапиндовые, родом из Юго-Восточной Азии, культивируется во многих странах этого региона. Название растения произошло от индонезийского rambut, что в переводе означает «волос», из-за внешнего вида плодов."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Rambutan",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%BC%D0%B1%D1%83%D1%82%D0%B0%D0%BD"
+    },
+    "nutrition_facts": {
+      "energy": 82,
+      "carbohydrates": 20.87,
+      "fat": 0.21,
+      "protein": 0.65,
+      "water": "?",
+      "vitamins": ["B3","C"],
+      "minerals": ["Manganese"]
+    },
+    "properties": {
+      "flavor": ["Sour","Sweet"]
+    }
+  },
+  {
+    "id": "sapodilla",
+    "name": {
+      "en": "Sapodilla",
+      "ru": "Саподилла"
+    },
+    "description": {
+      "en": "Manilkara zapota, commonly known as the sapodilla, is a long-lived, evergreen tree native to southern Mexico, Central America and the Caribbean. An example natural occurrence is in coastal Yucatán in the Petenes mangroves ecoregion, where it is a subdominant plant species.It was introduced to the Philippines during Spanish colonization. It is grown in large quantities in India, Thailand, Malaysia, Cambodia, Indonesia, Bangladesh and Mexico.",
+      "ru": "Саподилла, сапотилла: чику, сапотиловое дерево, масляное дерево, ахра (лат. Manilkara zapota) — плодовое дерево семейства Сапотовые. Саподилла — вечнозелёное медленнорастущее дерево с пирамидальной кроной, 18—30 м высотой. При повреждении коры оно обильно выделяет белый клейкий латекс."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Manilkara_zapota",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BF%D0%BE%D0%B4%D0%B8%D0%BB%D0%BB%D0%B0"
+    },
+    "nutrition_facts": {
+      "energy": 83,
+      "carbohydrates": 19.96,
+      "fat": 1.1 ,
+      "protein": 0.44,
+      "water": "?",
+      "vitamins": ["B5","C"],
+      "minerals": ["Iron"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "silver_melon",
+    "name": {
+      "en": "Silver Melon",
+      "ru": "Серебрянная Дыня"
+    },
+    "description": {
+      "en": "A melon is any of various plants of the family Cucurbitaceae with edible, fleshy fruit. The word Melon can refer to either the plant or specifically to the fruit. Many different cultivars have been produced, particularly of muskmelons. Although the melon is a botanical fruit (specifically, a berry), some varieties may be considered vegetables rather than fruits. ",
+      "ru": "Дыня (лат. Cucumis melo) — растение семейства Тыквенные (Cucurbitaceae), вид рода Огурец (Cucumis), бахчевая культура. Родиной дыни считается Средняя Азия и Малая Азия. Дыня тепло- и светолюбивое растение, устойчивое к засолению почвы и засухе, плохо переносит повышенную влажность воздуха. На одном растении в зависимости от сорта и места возделывания может сформироваться от двух до восьми плодов, массой от 1,5 до 10 кг. Плод дыни — тыквина — имеет шаровидную или цилиндрическую форму, зелёной, жёлтой, коричневой или белой окраски, как правило с зелёными полосками. Период вызревания от двух до шести месяцев."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Melon",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%94%D1%8B%D0%BD%D1%8F"
+    },
+    "nutrition_facts": {
+      "energy":  34,
+      "carbohydrates": 8,
+      "fat": 0,2,
+      "protein": 0,8,
+      "water": "?",
+      "vitamins": ["A","C","B6"],
+      "minerals": ["Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "sour_orange",
+    "name": {
+      "en": "Sour Orange",
+      "ru": "Кислый Апельсин"
+    },
+    "description": {
+      "en": "Green orange (Citrus reticulata × maxima)is a citrus hybrid originating in Vietnam. The fruit is more akin to a mandarin or tangerine. The fruit may be easily recognized by its thick skin, which is typically bright green, although the skin may also be partly green and partly orange, or entirely orange. Its flesh is orange, dark and sweet.",
+      "ru": "Свежие плоды имеют слишком кислый вкус, иногда с горечью, из-за чего не могут употребляться в свежем виде, но высоко ценятся для изготовления мармелада, приправ и ликеров. Листья, цветки и плоды являются лучшим источником бигарадиевого масла, применяемого в парфюмерии.Произошел из Юго-Восточной Азии, в диком состоянии неизвестен. В Средиземноморье завезен арабами в XI в., за пять столетий до интродукции сладкого апельсина. Широко разводится в тропических и субтропических странах, является основным подвоем цитрусовых.Деревья в высоту до 10 м; черешки ширококрылые; цветки крупные, душистые, обоеполые, частично функционально мужские. Плоды почти круглые, кожура толстая с грубоватой поверхностью; ароматные; часто ярко-оранжево-красные при созревании; мякоть очень кислая или горькая; семена многочисленные, полиэмбриональные, нуцеллярные зародыши встречаются в 75-85% семян. Основной гликозид — аурантамарин."
+    },
+    "wiki": {
+      "en": "?sour_orange",
+      "ru": "?"
+    },
+    "nutrition_facts": {
+      "energy": "?",
+      "carbohydrates": "?",
+      "fat": "?",
+      "protein": "?",
+      "water": "?",
+      "vitamins": ["?"],
+      "minerals": ["?"]
+    },
+    "properties": {
+      "flavor": ["Sour","Bitter"]
+    }
+  },
+  {
+    "id": "sour_guava",
+    "name": {
+      "en": "Sour Guava",
+      "ru": "Кислая Гуава"
+    },
+    "description": {
+      "en": "Guavas (singular guava) are common tropical fruits cultivated and enjoyed in many tropical and subtropical regions. Psidium guajava (common guava, lemon guava) is a small tree in the Myrtle family (Myrtaceae), native to Mexico, Central America, and northern South America. Although related species may also be called guavas, they actually belong to other genera, such as the Strawberry guava Acca sellowiana.",
+      "ru": "Гуава (лат. Psidium) — род растений семейства Миртовые, включает в себя около 100 видов. Ареал гуавы — тропики. Родина рода — Америка, от тропических районов Мексики до северной части Южной Америки. Однако, некоторые виды были интродуцированы в Африку, Индию, Юго-Восточную Азию и Океанию."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Guava",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%9F%D1%81%D0%B8%D0%B4%D0%B8%D1%83%D0%BC"
+    },
+    "nutrition_facts": {
+      "energy": 68,
+      "carbohydrates": "?",
+      "fat": "?",
+      "protein": "?",
+      "water": "?",
+      "vitamins": ["?"],
+      "minerals": ["?"]
+    },
+    "properties": {
+      "flavor": ["Sour"]
+    }
+  },
+  {
+    "id": "soursop_annona",
+    "name": {
+      "en": "Soursop Annona",
+      "ru": "Аннона"
+    },
+    "description": {
+      "en": "Soursop is the fruit of Annona muricata, a broadleaf, flowering, evergreen tree native to Mexico, Cuba, Central America, the Caribbean, and northern South America, primarily Colombia, Brazil, Peru, Ecuador, Venezuela, and Puerto Rico. Soursop is also produced in some parts of Africa, especially in Eastern Nigeria, Southeast Asia and the Pacific. It is in the same genus as the chirimoya and the same family as the pawpaw.",
+      "ru": "Аннона (лат. Annona) — обширный род двудольных цветковых растений, входящее в семейство Анноновые (Annonaceae). Все виды рода — деревья и кустарники. Несколько видов аннон культивируются ради их съедобных плодов. Различные части многих видов аннон используются в традиционной медицине для лечения разных заболеваний."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Soursop",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%BD%D0%BE%D0%BD%D0%B0"
+    },
+    "nutrition_facts": {
+      "energy": 66,
+      "carbohydrates": 16.84,
+      "fat": 0.3,
+      "protein": 1,
+      "water": "?",
+      "vitamins": ["B1","B2","B3","B5","B6","C"],
+      "minerals": ["Iron","Magnesium","Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sour","Sweet"]
+    }
+  },
+  {
+    "id": "starfruit",
+    "name": {
+      "en": "Starfruit",
+      "ru": "Карамболь"
+    },
+    "description": {
+      "en": "Carambola, also known as starfruit, is the fruit of Averrhoa carambola, a species of tree native to the Philippines, Indonesia, Malaysia, India, Bangladesh and Sri Lanka. The fruit is popular throughout Southeast Asia, the South Pacific and parts of East Asia. The tree is also cultivated throughout non-indigenous tropical areas, such as in Latin America, the Caribbean, and the southern United States.",
+      "ru": "Карамбола (лат. Averrhoa carambola) — Вечнозелёное дерево семейства Кисличные, произрастающее на Шри-Ланке, в Индии и Индонезии, а ныне также распространённое в Южной и Юго-Восточной Азии. В настоящее время акклиматизировано в Бразилии, Гане, Гвиане, Французской Полинезии, США (в штатах Флорида, Гавайи), Израиле."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Carambola",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D0%BC%D0%B1%D0%BE%D0%BB%D0%B0"
+    },
+    "nutrition_facts": {
+      "energy": 31,
+      "carbohydrates": 6.73,
+      "fat": 0.33,
+      "protein": 1.04,
+      "water": "?",
+      "vitamins": ["B5","С"],
+      "minerals": ["Magnesium"]
+    },
+    "properties": {
+      "flavor": ["Sour"]
+    }
+  },
+  {
+    "id": "strawberry",
+    "name": {
+      "en": "Strawberry",
+      "ru": "Клубника"
+    },
+    "description": {
+      "en": "The garden strawberry (or simply strawberry ; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries). It is cultivated worldwide for its fruit. The fruit (which is not a botanical berry, but an aggregate accessory fruit) is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as preserves, fruit juice, pies, ice creams, milkshakes, and chocolates. Artificial strawberry flavoring is also widely used in many products like hand sanitizers, lip gloss, perfume, and many others.",
+      "ru": "Земляника садовая — многолетнее травянистое растение рода Земляника семейства Розовые. Это растение и его ягоды нередко, в том числе в научно-популярной литературе, ошибочно называют клубникой либо викторией, хотя словом клубника правильнее именовать другие виды того же рода — клубнику настоящую (Fragaria moschata) и клубнику луговую (Fragaria viridis), при этом также ошибочно называя Земляникой садовой культурные разновидности земляники лесной (альпийской, ремонтантной)."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Strawberry",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%97%D0%B5%D0%BC%D0%BB%D1%8F%D0%BD%D0%B8%D0%BA%D0%B0_%D0%B0%D0%BD%D0%B0%D0%BD%D0%B0%D1%81%D0%BD%D0%B0%D1%8F"
+    },
+    "nutrition_facts": {
+      "energy": 33,
+      "carbohydrates": 7.68,
+      "fat": 0.3,
+      "protein": 0.67,
+      "water": "?",
+      "vitamins": ["C","B9"],
+      "minerals": ["Manganese","Magnesium"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
   // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
 
-	{
-		"id": "peanut",
-		"name": {
-			"en": "Peanut",
-			"ru": "Арахис"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?peanut",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "pear",
-		"name": {
-			"en": "Pear",
-			"ru": "Груша"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?pear",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "pineapple",
-		"name": {
-			"en": "Pineapple",
-			"ru": "Ананас"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?pineapple",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "pomegranate",
-		"name": {
-			"en": "Pomegranate",
-			"ru": "Гранат"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?pomegranate",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "raisin",
-		"name": {
-			"en": "Raisin",
-			"ru": "Изюм"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?raisin",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "rambutan",
-		"name": {
-			"en": "Rambutan",
-			"ru": "Рамбутан"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?rambutan",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "sapodilla",
-		"name": {
-			"en": "Sapodilla",
-			"ru": "Саподилла"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "silver_melon",
-		"name": {
-			"en": "Silver Melon",
-			"ru": "Серебрянная Дыня"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?silver_melon",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "sour_orange",
-		"name": {
-			"en": "Sour Orange",
-			"ru": "Кислый Апельсин"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?sour_orange",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "sour_guava",
-		"name": {
-			"en": "Sour Guava",
-			"ru": "Кислая Гуава"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?sour_guava",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "soursop_annona",
-		"name": {
-			"en": "Soursop Annona",
-			"ru": "Аннона"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?soursop_annona",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "starfruit",
-		"name": {
-			"en": "Starfruit",
-			"ru": "Карамболь"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?starfruit",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "strawberry",
-		"name": {
-			"en": "Strawberry",
-			"ru": "Клубника"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?strawberry",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
 	{
 		"id": "sugar_cane",
 		"name": {
