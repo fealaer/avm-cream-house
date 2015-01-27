@@ -351,310 +351,311 @@
     },
     "ingredients": ["lawulu"]
   },
+  {
+    "id": "lemon",
+    "name": {
+      "en": "Lemon Juice",
+      "ru": "Сок из Лемона"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["lemon"]
+  },
+  {
+    "id": "lime",
+    "name": {
+      "en": "Lime Juice",
+      "ru": "Сок из Лайма"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["lime"]
+  },
+  {
+    "id": "lovi",
+    "name": {
+      "en": "Lovi Juice",
+      "ru": "Сок из Лови"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["lovi"]
+  },
+  {
+    "id": "mandarin",
+    "name": {
+      "en": "Mandarin Juice",
+      "ru": "Сок из Мандарина"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet/Sour"]
+    },
+    "ingredients": ["mandarin"]
+  },
+  {
+    "id": "mango",
+    "name": {
+      "en": "Mango Juice",
+      "ru": "Сок из Манго"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["mango"]
+  },
+  {
+    "id": "mangosteen",
+    "name": {
+      "en": "Mangosteen Juice",
+      "ru": "Сок из Мангустина"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["mangosteen"]
+  },
+  {
+    "id": "naminan",
+    "name": {
+      "en": "Naminan Juice",
+      "ru": "Сок из Наминана"
+    },
+    "properties": {
+      "density": "",
+      "flavor": ["Bitter"]
+    },
+    "ingredients": ["naminan"]
+  },
+  {
+    "id": "nelli",
+    "name": {
+      "en": "Nelli Juice",
+      "ru": "Сок из Нелли"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour","Sweet"]
+    },
+    "ingredients": ["nelli"]
+  },
+  {
+    "id": "orange",
+    "name": {
+      "en": "Orange Juice",
+      "ru": "Сок из Апельсина"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour","Sweet"]
+    },
+    "ingredients": ["orange"]
+  },
+  {
+    "id": "palm_fruit",
+    "name": {
+      "en": "Palm fruit Juice",
+      "ru": "Сок из Пальмировой пальмы"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Bitter"]
+    },
+    "ingredients": ["palm_fruit"]
+  },
+  {
+    "id": "papaya",
+    "name": {
+      "en": "Papaya Juice",
+      "ru": "Сок из Папайи"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["papaya"]
+  },
+  {
+    "id": "passion_fruit",
+    "name": {
+      "en": "Passion Fruit Juice",
+      "ru": "Сок из Маракуи"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour","Sweet"]
+    },
+    "ingredients": ["passion_fruit"]
+  },
+  {
+    "id": "peanut",
+    "name": {
+      "en": "Peanut Drink",
+      "ru": "Напиток из Арахиса"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["peanut"]
+  },
+  {
+    "id": "pear",
+    "name": {
+      "en": "Pear Juice",
+      "ru": "Сок из Груши"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["pear"]
+  },
+  {
+    "id": "pineapple",
+    "name": {
+      "en": "Pineapple Juice",
+      "ru": "Сок из Ананаса"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sour","Sweet"]
+    },
+    "ingredients": ["pineapple"]
+  },
+  {
+    "id": "pomegranate",
+    "name": {
+      "en": "Pomegranate Juice",
+      "ru": "Сок из Граната"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["pomegranate"]
+  },
+  {
+    "id": "raisin",
+    "name": {
+      "en": "Raisin Juice",
+      "ru": "Сок из Изюма"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["raisin"]
+  },
+  {
+    "id": "rambutan",
+    "name": {
+      "en": "Rambutan Juice",
+      "ru": "Сок из Рамбутана"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour","Sweet"]
+    },
+    "ingredients": ["rambutan"]
+  },
+  {
+    "id": "sapodilla",
+    "name": {
+      "en": "Sapodilla Juice",
+      "ru": "Сок из Саподиллы"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["sapodilla"]
+  },
+  {
+    "id": "silver_melon",
+    "name": {
+      "en": "Silver Melon Juice",
+      "ru": "Сок из Серебрянной Дыни"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["silver_melon"]
+  },
+  {
+    "id": "sour_orange",
+    "name": {
+      "en": "Sour Orange Juice",
+      "ru": "Сок из Кислого Апельсина"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour","Bitter"]
+    },
+    "ingredients": ["sour_orange"]
+  },
+  {
+    "id": "sour_guava",
+    "name": {
+      "en": "Sour Guava Juice",
+      "ru": "Сок из Кислой Гуавы"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["sour_guava"]
+  },
+  {
+    "id": "soursop_annona",
+    "name": {
+      "en": "Soursop Annona Juice",
+      "ru": "Сок из Анноны"
+    },
+    "properties": {
+      "density": "",
+      "flavor": ["Sour","Sweet"]
+    },
+    "ingredients": ["soursop_annona"]
+  },
+  {
+    "id": "starfruit",
+    "name": {
+      "en": "Starfruit Juice",
+      "ru": "Сок из Карамболи"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["starfruit"]
+  },
+  {
+    "id": "strawberry",
+    "name": {
+      "en": "Strawberry Juice",
+      "ru": "Сок из Клубники"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["strawberry"]
+  },
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
-	{
-		"id": "lemon",
-		"name": {
-			"en": "Lemon Juice",
-			"ru": "Сок из Лемона"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["lemon"]
-	},
-	{
-		"id": "lime",
-		"name": {
-			"en": "Lime Juice",
-			"ru": "Сок из Лайма"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["lime"]
-	},
-	{
-		"id": "lovi",
-		"name": {
-			"en": "Lovi Juice",
-			"ru": "Сок из Лови"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["lovi"]
-	},
-	{
-		"id": "mandarin",
-		"name": {
-			"en": "Mandarin Juice",
-			"ru": "Сок из Мандарина"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["mandarin"]
-	},
-	{
-		"id": "mango",
-		"name": {
-			"en": "Mango Juice",
-			"ru": "Сок из Манго"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["mango"]
-	},
-	{
-		"id": "mangosteen",
-		"name": {
-			"en": "Mangosteen Juice",
-			"ru": "Сок из Мангустина"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["mangosteen"]
-	},
-	{
-		"id": "naminan",
-		"name": {
-			"en": "Naminan Juice",
-			"ru": "Сок из Наминана"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["naminan"]
-	},
-	{
-		"id": "nelli",
-		"name": {
-			"en": "Nelli Juice",
-			"ru": "Сок из Нелли"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["nelli"]
-	},
-	{
-		"id": "orange",
-		"name": {
-			"en": "Orange Juice",
-			"ru": "Сок из Апельсина"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["orange"]
-	},
-	{
-		"id": "palm_fruit",
-		"name": {
-			"en": "Palm fruit Juice",
-			"ru": "Сок из Пальмировой пальмы"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["palm_fruit"]
-	},
-	{
-		"id": "papaya",
-		"name": {
-			"en": "Papaya Juice",
-			"ru": "Сок из Папайи"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["papaya"]
-	},
-	{
-		"id": "passion_fruit",
-		"name": {
-			"en": "Passion Fruit Juice",
-			"ru": "Сок из Маракуи"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["passion_fruit"]
-	},
-	{
-		"id": "peanut",
-		"name": {
-			"en": "Peanut Drink",
-			"ru": "Напиток с Арахисом"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["peanut"]
-	},
-	{
-		"id": "pear",
-		"name": {
-			"en": "Pear Juice",
-			"ru": "Сок из Груши"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["pear"]
-	},
-	{
-		"id": "pineapple",
-		"name": {
-			"en": "Pineapple Juice",
-			"ru": "Сок из Ананаса"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["pineapple"]
-	},
-	{
-		"id": "pomegranate",
-		"name": {
-			"en": "Pomegranate Juice",
-			"ru": "Сок из Граната"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["pomegranate"]
-	},
-	{
-		"id": "raisin",
-		"name": {
-			"en": "Raisin Juice",
-			"ru": "Сок из Изюма"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["raisin"]
-	},
-	{
-		"id": "rambutan",
-		"name": {
-			"en": "Rambutan Juice",
-			"ru": "Сок из Рамбутана"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["rambutan"]
-	},
-	{
-		"id": "sapodilla",
-		"name": {
-			"en": "Sapodilla Juice",
-			"ru": "Сок из Саподиллы"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["sapodilla"]
-	},
-	{
-		"id": "silver_melon",
-		"name": {
-			"en": "Silver Melon Juice",
-			"ru": "Сок из Серебрянной Дыни"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["silver_melon"]
-	},
-	{
-		"id": "sour_orange",
-		"name": {
-			"en": "Sour Orange Juice",
-			"ru": "Сок из Кислого Апельсина"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["sour_orange"]
-	},
-	{
-		"id": "sour_guava",
-		"name": {
-			"en": "Sour Guava Juice",
-			"ru": "Сок из Кислой Гуавы"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["sour_guava"]
-	},
-	{
-		"id": "soursop_annona",
-		"name": {
-			"en": "Soursop Annona Juice",
-			"ru": "Сок из Анноны"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["soursop_annona"]
-	},
-	{
-		"id": "starfruit",
-		"name": {
-			"en": "Starfruit Juice",
-			"ru": "Сок из Карамболи"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["starfruit"]
-	},
-	{
-		"id": "strawberry",
-		"name": {
-			"en": "Strawberry Juice",
-			"ru": "Сок из Клубники"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["strawberry"]
-	},
+
 	{
 		"id": "sugar_cane",
 		"name": {
@@ -662,8 +663,8 @@
 			"ru": "Сок из Сахарного тросника"
 		},
 		"properties": {
-			"density": "",
-			"flavor": [""]
+			"density": "Liquid",
+			"flavor": ["Sweet"]
 		},
 		"ingredients": ["sugar_cane"]
 	},
@@ -703,18 +704,7 @@
 		},
 		"ingredients": ["tamarind"]
 	},
-	{
-		"id": "tangerine",
-		"name": {
-			"en": "Tangerine Juice",
-			"ru": "Сок из Тангерина"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["tangerine"]
-	},
+
 	{
 		"id": "tomato",
 		"name": {
