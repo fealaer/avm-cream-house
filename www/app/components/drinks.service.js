@@ -43,18 +43,6 @@ angular.module('avm.components')
 				"ingredients": ["apple"]
 			},
 			{
-				"id": "apricot",
-				"name": {
-					"en": "Apricot Juice",
-					"ru": "Сок из Абрикоса"
-				},
-				"properties": {
-					"density": "Creamy",
-					"flavor": ["Sweet"]
-				},
-				"ingredients": ["apricot"]
-			},
-			{
 				"id": "baeli_fruit",
 				"name": {
 					"en": "Baeli Fruit Juice",
@@ -295,10 +283,6 @@ angular.module('avm.components')
 				},
 				"ingredients": ["grapes"]
 			},
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
 			{
 				"id": "guava",
 				"name": {
@@ -516,18 +500,6 @@ angular.module('avm.components')
 				"ingredients": ["passion_fruit"]
 			},
 			{
-				"id": "peach",
-				"name": {
-					"en": "Peach Juice",
-					"ru": "Сок из Персика"
-				},
-				"properties": {
-					"density": "",
-					"flavor": [""]
-				},
-				"ingredients": ["peach"]
-			},
-			{
 				"id": "peanut",
 				"name": {
 					"en": "Peanut Drink",
@@ -730,18 +702,6 @@ angular.module('avm.components')
 					"flavor": [""]
 				},
 				"ingredients": ["tamarind"]
-			},
-			{
-				"id": "tangerine",
-				"name": {
-					"en": "Tangerine Juice",
-					"ru": "Сок из Тангерина"
-				},
-				"properties": {
-					"density": "",
-					"flavor": [""]
-				},
-				"ingredients": ["tangerine"]
 			},
 			{
 				"id": "tomato",

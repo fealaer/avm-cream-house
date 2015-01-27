@@ -86,33 +86,6 @@ angular.module('avm.components')
 				}
 			},
 			{
-				"id": "apricot",
-				"name": {
-					"en": "Apricot",
-					"ru": "Абрикос"
-				},
-				"description": {
-					"en": "An apricot is a fruit or the tree that bears the fruit. Usually, an apricot tree is from the tree species Prunus armeniaca, but the species Prunus brigantina, Prunus mandshurica, Prunus mume, and Prunus sibirica are closely related, have similar fruit, and are also called apricots.",
-					"ru": "Абрикос — дерево; вид рода Слива семейства Розовые (Rosaceae), а также плод этого дерева. Абрикос называют также жёлтосливником, морелью, курагой, жерделью, урюком. Абрикос сибирский (Prunus sibirica L.), растущий в диком состоянии в горах Даурии, — это другой вид рода Слива."
-				},
-				"wiki": {
-					"en": "http://en.wikipedia.org/wiki/Apricot",
-					"ru": "https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D1%80%D0%B8%D0%BA%D0%BE%D1%81"
-				},
-				"nutrition_facts": {
-					"energy": 48,
-					"carbohydrates": 11,
-					"fat": 0.4,
-					"protein": 1.4,
-					"water": 86.35,
-					"vitamins": ["A", "B5", "C", "E"],
-					"minerals": ["Manganese", "Potassium"]
-				},
-				"properties": {
-					"flavor": ["Sweet"]
-				}
-			},
-			{
 				"id": "baeli_fruit",
 				"name": {
 					"en": "Baeli Fruit",
@@ -654,11 +627,7 @@ angular.module('avm.components')
 					"flavor": ["Sweet"]
 				}
 			},
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-			{
+      {
 				"id": "guava",
 				"name": {
 					"en": "Guava",
@@ -1145,33 +1114,6 @@ angular.module('avm.components')
 				}
 			},
 			{
-				"id": "peach",
-				"name": {
-					"en": "Peach",
-					"ru": "Персик"
-				},
-				"description": {
-					"en": "?",
-					"ru": "?"
-				},
-				"wiki": {
-					"en": "?peach",
-					"ru": "?"
-				},
-				"nutrition_facts": {
-					"energy": "?",
-					"carbohydrates": "?",
-					"fat": "?",
-					"protein": "?",
-					"water": "?",
-					"vitamins": ["?"],
-					"minerals": ["?"]
-				},
-				"properties": {
-					"flavor": ["?"]
-				}
-			},
-			{
 				"id": "peanut",
 				"name": {
 					"en": "Peanut",
@@ -1615,33 +1557,6 @@ angular.module('avm.components')
 				},
 				"wiki": {
 					"en": "?tamarind",
-					"ru": "?"
-				},
-				"nutrition_facts": {
-					"energy": "?",
-					"carbohydrates": "?",
-					"fat": "?",
-					"protein": "?",
-					"water": "?",
-					"vitamins": ["?"],
-					"minerals": ["?"]
-				},
-				"properties": {
-					"flavor": ["?"]
-				}
-			},
-			{
-				"id": "tangerine",
-				"name": {
-					"en": "Tangerine",
-					"ru": "Тангерин"
-				},
-				"description": {
-					"en": "?",
-					"ru": "?"
-				},
-				"wiki": {
-					"en": "?tangerine",
 					"ru": "?"
 				},
 				"nutrition_facts": {
