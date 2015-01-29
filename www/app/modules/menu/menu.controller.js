@@ -1,5 +1,5 @@
 angular.module('avm.menu')
-	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state, gettextCatalog) {
+	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state, gettextCatalog, ratingService) {
 		var defData = {
 			rate: 2,
 			comment: ''
@@ -32,33 +32,33 @@ angular.module('avm.menu')
 		$scope.save = function () {
 			closeModal();
 			if ($scope.data) {
-				$scope.item.isTried = true;
+        $scope.data.id = $scope.item.id;
 
-				if ($scope.data.comment) {
-					$scope.item.totalComments++;
-					$scope.item.comments.push($scope.data.comment);
-				}
-				$scope.item.rate.based++;
-				switch ($scope.data.rate) {
-					case 1:
-						$scope.item.rate.ratings.one++;
-						break;
-					case 2:
-						$scope.item.rate.ratings.two++;
-						break;
-					case 3:
-						$scope.item.rate.ratings.three++;
-						break;
-					case 4:
-						$scope.item.rate.ratings.four++;
-						break;
-					case 5:
-						$scope.item.rate.ratings.five++;
-						break;
-				}
-				$scope.item.rate.ratings['' + $scope.data.rate]++;
-				var ratings = $scope.item.rate.ratings;
-				$scope.item.rate.rate = (ratings['one'] + ratings['two'] * 2 + ratings['three'] * 3 + ratings['four'] * 4 + ratings['five'] * 5) / $scope.item.rate.based;
+				ratingService.rate($scope.data)
+          .then(function (response) {
+            $scope.item.isTried = true;
+            $scope.item.rate = response.result.rate;
+            $scope.item.totalComments = response.result.totalComments;
+            //todo improve comments update
+            $scope.item.comments = response.result.comments;
+          })
+          .catch(function (response) {
+            var errorMessages = [];
+            if (response.error && response.error.errors) {
+              _.each(response.error.errors, function (err) {
+                errorMessages.push(gettextCatalog.getString(err.message));
+              });
+            }
+            if (response.error && response.error.message) {
+              errorMessages.push(gettextCatalog.getString(response.error.message));
+            }
+            if (_.isEmpty(errorMessages)) {
+              errorMessages.push(gettextCatalog.getString('Some error occurred'));
+            }
+            _.each(errorMessages, function (err) {
+              supersonic.logger.error(err);
+            });
+          });
 			}
 		};
 

@@ -13,4 +13,8 @@ angular.module('avm.components')
 		self.getAll = function () {
       return rating.get();
 		};
+
+    self.rate = function (data) {
+      return rating.one('rate').customPOST(data);
+    }
 	});
