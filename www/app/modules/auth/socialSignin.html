@@ -1,0 +1,21 @@
+<ion-view>
+	<ion-content>
+		<div class="list list-inset">
+			<div class="item item-body">
+				<img class="avatar-image" src="/images/common/logo.png">
+			</div>
+		</div>
+		<div class="padding">
+			<p>Sign in to see what we have in our menu and access some app features</p>
+			<p>(Don't worry: we will NEVER post on Social Media without your permission. We hate that, too!)</p>
+		</div>
+		<div class="padding">
+			<button class="button button-block button-positive" ng-click="signUpFacebook()">{{'Sign in with' | translate}} Facebook</button>
+			<button class="button button-block button-positive" ng-click="signUpGoogle()">{{'Sign in with' | translate}} Google</button>
+			<button class="button button-block button-positive" ng-click="signUpTwitter()">{{'Sign in with' | translate}} Twitter</button>
+		</div>
+	</ion-content>
+</ion-view>
+<ion-footer-bar align-title="center" ui-sref="signup">
+	<div class="title" translate>Sign in with Email</div>
+</ion-footer-bar>
