@@ -1459,201 +1459,195 @@
       "flavor": ["Sweet"]
     }
   },
-  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-
-	{
-		"id": "sugar_cane",
-		"name": {
-			"en": "Sugar Cane",
-			"ru": "Сахарный тросник"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?sugar_cane",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "sweet_coconut",
-		"name": {
-			"en": "Sweet Coconut",
-			"ru": "Сладкий Кокос"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?sweet_coconut",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "sweet_melon",
-		"name": {
-			"en": "Sweet Melon",
-			"ru": "Сладкая Дыня"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?sweet_melon",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "tamarind",
-		"name": {
-			"en": "Tamarind",
-			"ru": "Тамаринд"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?tamarind",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-
-	{
-		"id": "tomato",
-		"name": {
-			"en": "Tomato",
-			"ru": "Помидор"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?tomato",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "veralu",
-		"name": {
-			"en": "Veralu",
-			"ru": "Вералу"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?veralu",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
-	{
-		"id": "watermelon",
-		"name": {
-			"en": "Watermelon",
-			"ru": "Арбуз"
-		},
-		"description": {
-			"en": "?",
-			"ru": "?"
-		},
-		"wiki": {
-			"en": "?watermelon",
-			"ru": "?"
-		},
-		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
-			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
-		},
-		"properties": {
-			"flavor": ["?"]
-		}
-	},
+  {
+    "id": "sugar_cane",
+    "name": {
+      "en": "Sugar Cane",
+      "ru": "Сахарный тросник"
+    },
+    "description": {
+      "en": "Sugarcane is one of the several species of tall perennial true grasses of the genus Saccharum, tribe Andropogoneae, native to the warm temperate to tropical regions of South Asia, and used for sugar production.They have stout jointed fibrous stalks that are rich in sugar, and measure two to six metres (6 to 19 feet) tall. All sugar cane species interbreed and the major commercial cultivars are complex hybrids.",
+      "ru": "Сахарный тростник культивируемый, или Сахарный тростник благородный — вид растений рода Сахарный тростник (Saccharum) семейства Злаки. Используется человеком, наряду с сахарной свёклой, для получения сахара."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Sugarcane",
+      "ru": "http://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%85%D0%B0%D1%80%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%BE%D1%81%D1%82%D0%BD%D0%B8%D0%BA"
+    },
+    "nutrition_facts": {
+      "energy": 26.56,
+      "carbohydrates": 27.51,
+      "fat": 0,
+      "protein": 0.27,
+      "water": "?",
+      "vitamins": ["B2"],
+      "minerals": ["Iron","Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "sweet_coconut",
+    "name": {
+      "en": "Sweet Coconut",
+      "ru": "Сладкий Кокос"
+    },
+    "description": {
+      "en": "The Coconut tree (Cocos nucifera) is a member of the family Arecaceae (palm family). It is the only accepted species in the genus Cocos. The term Coconut can refer to the entire coconut palm, the seed, or the fruit, which, botanically, is a drupe, not a nut. The spelling cocoanut is an archaic form of the word. The term is derived from 16th-century Portuguese and Spanish coco, meaning Head or Skull,from the three indentations on the coconut shell that resemble facial features.",
+      "ru": "Кокосовая пальма — растение семейства Пальмовые (Арековые); единственный вид рода Cocos. Научное название рода происходит от португальского слова coco (обезьяна) и дано из-за пятен на орехе, которые делают его похожим на морду обезьяны. Видовое название nucífera — от латинских слова nux (орех) и ferre (нести)."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Coconut",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BA%D0%BE%D1%81%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0"
+    },
+    "nutrition_facts": {
+      "energy": 354 ,
+      "carbohydrates": 24.23,
+      "fat": 33.49,
+      "protein": 3.33,
+      "water": "?",
+      "vitamins": ["B1","B3","B5","B6","C"],
+      "minerals": ["Iron","Magnesium","Phosphorus","Potassium","Zinc"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "sweet_melon",
+    "name": {
+      "en": "Sweet Melon",
+      "ru": "Сладкая Дыня"
+    },
+    "description": {
+      "en": "A melon is any of various plants of the family Cucurbitaceae with edible, fleshy fruit. The word Melon can refer to either the plant or specifically to the fruit. Many different cultivars have been produced, particularly of muskmelons. Although the melon is a botanical fruit (specifically, a berry), some varieties may be considered vegetables rather than fruits. ",
+      "ru": "Дыня (лат. Cucumis melo) — растение семейства Тыквенные (Cucurbitaceae), вид рода Огурец (Cucumis), бахчевая культура. Родиной дыни считается Средняя Азия и Малая Азия. Дыня тепло- и светолюбивое растение, устойчивое к засолению почвы и засухе, плохо переносит повышенную влажность воздуха. На одном растении в зависимости от сорта и места возделывания может сформироваться от двух до восьми плодов, массой от 1,5 до 10 кг. Плод дыни — тыквина — имеет шаровидную или цилиндрическую форму, зелёной, жёлтой, коричневой или белой окраски, как правило с зелёными полосками. Период вызревания от двух до шести месяцев."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Melon",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%94%D1%8B%D0%BD%D1%8F"
+    },
+    "nutrition_facts": {
+      "energy":  34,
+      "carbohydrates": 8,
+      "fat": 0,2,
+      "protein": 0,8,
+      "water": "?",
+      "vitamins": ["A","C","B6"],
+      "minerals": ["Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
+  {
+    "id": "tamarind",
+    "name": {
+      "en": "Tamarind",
+      "ru": "Тамаринд"
+    },
+    "description": {
+      "en": "Tamarind (Tamarindus indica) (from Arabic Indian date) is a leguminous tree in the family Fabaceae indigenous to tropical Africa. The genus Tamarindus is a monotypic taxon, having only a single species. The tamarind tree produces edible, pod-like fruit which are used extensively in cuisines around the world. Other uses include traditional medicine and metal polish. The wood can be used in carpentry. Because of the tamarind's many uses, cultivation has spread around the world in tropical and subtropical zones.",
+      "ru": "Тамаринд индийский, или Индийский финик (лат. Tamaríndus índica) — растение семейства Бобовые (Fabaceae), единственный вид рода Тамаринд. Это тропическое дерево, родиной которого является восточная Африка, в том числе сухие лиственные леса Мадагаскара. В диком виде произрастает в Судане, но в настоящее время растение распространено на территории большинства тропических стран Азии, куда он попал благодаря культивированию ещё за несколько тысяч лет до нашей эры. В XVI веке интродуцирован в Мексике и в Южной Америке. Культивируется в тропиках всех континентов"
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Tamarind",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BC%D0%B0%D1%80%D0%B8%D0%BD%D0%B4"
+    },
+    "nutrition_facts": {
+      "energy": 239,
+      "carbohydrates": 62.5,
+      "fat": 0.6,
+      "protein": 2.8,
+      "water": "?",
+      "vitamins": ["B1","B2","B3","B6"],
+      "minerals": ["Calcium","Iron","Magnesium","Phosphorus","Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sweet","Salt"]
+    }
+  },
+  {
+    "id": "tomato",
+    "name": {
+      "en": "Tomato",
+      "ru": "Помидор"
+    },
+    "description": {
+      "en": "The tomato is the edible, often red fruit/berry of the nightshade Solanum lycopersicum, commonly known as a tomato plant. The species originated in the South American Andes and its use as a food originated in Mexico, and spread throughout the world following the Spanish colonization of the Americas. Its many varieties are now widely grown, sometimes in greenhouses in cooler climates..",
+      "ru": "Томат (лат. Solanum lycopersicum) — однолетнее или многолетнее травянистое растение, вид рода Паслён (Solanum) семейства Паслёновые. Возделывается как овощная культура. Плод томата (ягода) в разговорной речи называется помидор."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Tomato",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BC%D0%B0%D1%82"
+    },
+    "nutrition_facts": {
+      "energy": 18,
+      "carbohydrates": 3.9,
+      "fat": 0.2,
+      "protein": 0.9,
+      "water": "?",
+      "vitamins": ["A","B6","C","K"],
+      "minerals": ["Manganese","Potassium"]
+    },
+    "properties": {
+      "flavor": ["Sweet","Sour"]
+    }
+  },
+  {
+    "id": "veralu",
+    "name": {
+      "en": "Veralu",
+      "ru": "Вералу"
+    },
+    "description": {
+      "en": "This is a tropical fruit found in the Indian Subcontinent, Indo-China and South East Asia. It is an ornamental medium sized tree indigenous to Sri Lanka, producing smooth, ovoid green fruits. The fruit has nutritive and medicinal values.",
+      "ru": "Тропический фрукт, произрастающий на территории Индии, Индо-Китая и Восточной Азии. Имеет большое значение в питании и мадицине. На Шри Ланке называется Цейлонскими оливками. "
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Elaeocarpus_serratus",
+      "ru": "?"
+    },
+    "nutrition_facts": {
+      "energy": "?",
+      "carbohydrates": "?",
+      "fat": "?",
+      "protein": "?",
+      "water": "?",
+      "vitamins": ["?"],
+      "minerals": ["Iron"]
+    },
+    "properties": {
+      "flavor": ["Sour"]
+    }
+  },
+  {
+    "id": "watermelon",
+    "name": {
+      "en": "Watermelon",
+      "ru": "Арбуз"
+    },
+    "description": {
+      "en": "Watermelon (Citrullus lanatus var. lanatus, family Cucurbitaceae) is a vine-like (scrambler and trailer) flowering plant originally from southern Africa. It is a large, sprawling annual plant with coarse, hairy pinnately-lobed leaves and white to yellow flowers. It is grown for its edible fruit, also known as a watermelon, which is a special kind of berry referred to by botanists as a pepo. The fruit has a smooth hard rind, usually green with dark green stripes or yellow spots, and a juicy, sweet interior flesh, usually deep red to pink, but sometimes orange, yellow, or white, with many seeds.",
+      "ru": "Арбуз обыкновенный  — однолетнее травянистое растение, вид рода Арбуз (Citrullus) семейства Тыквенные (Cucurbitaceae). Бахчевая культура. Плод — тыквина, шаровидной, овальной, уплощённой или цилиндрической формы; окраска коры от белой и жёлтой до тёмно-зелёной с рисунком в виде сетки, полос, пятен; мякоть розовая, красная, малиновая, реже — белая и жёлтая. Тыквина морфологически (по строению) схожа с ягодой."
+    },
+    "wiki": {
+      "en": "http://en.wikipedia.org/wiki/Watermelon",
+      "ru": "https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B1%D1%83%D0%B7_%D0%BE%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9"
+    },
+    "nutrition_facts": {
+      "energy": 30,
+      "carbohydrates": 7.55,
+      "fat": 0.15,
+      "protein": 0.61,
+      "water": "?",
+      "vitamins": ["С","A","B5"],
+      "minerals": ["Magnesium"]
+    },
+    "properties": {
+      "flavor": ["Sweet"]
+    }
+  },
 	{
 		"id": "woodapple",
 		"name": {
@@ -1661,24 +1655,24 @@
 			"ru": "Деревянное Яблоко"
 		},
 		"description": {
-			"en": "?",
-			"ru": "?"
+			"en": "Limonia acidissima (syn. Feronia elephantum, Feronia limonia, Hesperethusa crenulata,[1] Schinus limonia) is the only species within the monotypic genus Limonia. It is native in the Indomalaya ecozone to Bangladesh, India, Pakistan, Sri Lanka, and in Indochinese ecoregion east to Java and the Malesia ecoregion. Vernacular names in English include: wood-apple, elephant-apple, monkey fruit, and curd fruit; and listed below are the variety of common names in the languages of its native habitat regions.",
+			"ru": "Деревянное яблоко или Ферония лимонная (лат. Limonia acidissima, ранее — Feronia limonia) — плодовое дерево семейства Рутовые.Мякоть деревянного яблока съедобна. Для того, чтобы употребить её в пищу, нужно предварительно разбить киркой древесную оболочку плода."
 		},
 		"wiki": {
 			"en": "http://en.wikipedia.org/wiki/Limonia_acidissima",
 			"ru": "https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D0%BE%D0%B5_%D1%8F%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE"
 		},
 		"nutrition_facts": {
-			"energy": "?",
-			"carbohydrates": "?",
-			"fat": "?",
-			"protein": "?",
+			"energy": 140,
+			"carbohydrates": 18,
+			"fat": 4,
+			"protein": 7,
 			"water": "?",
-			"vitamins": ["?"],
-			"minerals": ["?"]
+			"vitamins": ["C","E"],
+			"minerals": ["Calcium","Phosphorous"]
 		},
 		"properties": {
-			"flavor": ["?"]
+			"flavor": ["Sour","Sweet"]
 		}
 	}
 ]

@@ -651,96 +651,90 @@
     },
     "ingredients": ["strawberry"]
   },
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Start here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-
-	{
-		"id": "sugar_cane",
-		"name": {
-			"en": "Sugar Cane Juice",
-			"ru": "Сок из Сахарного тросника"
-		},
-		"properties": {
-			"density": "Liquid",
-			"flavor": ["Sweet"]
-		},
-		"ingredients": ["sugar_cane"]
-	},
-	{
-		"id": "sweet_coconut",
-		"name": {
-			"en": "Sweet Coconut Juice",
-			"ru": "Сок из Сладкого Кокоса"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["sweet_coconut"]
-	},
-	{
-		"id": "sweet_melon",
-		"name": {
-			"en": "Sweet Melon Juice",
-			"ru": "Сок из Сладкой Дыни"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["sweet_melon"]
-	},
-	{
-		"id": "tamarind",
-		"name": {
-			"en": "Tamarind Juice",
-			"ru": "Сок из Тамаринда"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["tamarind"]
-	},
-
-	{
-		"id": "tomato",
-		"name": {
-			"en": "Tomato Juice",
-			"ru": "Сок из Помидоров"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["tomato"]
-	},
-	{
-		"id": "veralu",
-		"name": {
-			"en": "Veralu Juice",
-			"ru": "Сок из Вералу"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["veralu"]
-	},
-	{
-		"id": "watermelon",
-		"name": {
-			"en": "Watermelon Juice",
-			"ru": "Сок из Арбуза"
-		},
-		"properties": {
-			"density": "",
-			"flavor": [""]
-		},
-		"ingredients": ["watermelon"]
-	},
+  {
+    "id": "sugar_cane",
+    "name": {
+      "en": "Sugar Cane Juice",
+      "ru": "Сок из Сахарного тросника"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["sugar_cane"]
+  },
+  {
+    "id": "sweet_coconut",
+    "name": {
+      "en": "Sweet Coconut Juice",
+      "ru": "Сок из Сладкого Кокоса"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["sweet_coconut"]
+  },
+  {
+    "id": "sweet_melon",
+    "name": {
+      "en": "Sweet Melon Juice",
+      "ru": "Сок из Сладкой Дыни"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["sweet_melon"]
+  },
+  {
+    "id": "tamarind",
+    "name": {
+      "en": "Tamarind Juice",
+      "ru": "Сок из Тамаринда"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sweet","Salt"]
+    },
+    "ingredients": ["tamarind"]
+  },
+  {
+    "id": "tomato",
+    "name": {
+      "en": "Tomato Juice",
+      "ru": "Сок из Помидоров"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet","Sour"]
+    },
+    "ingredients": ["tomato"]
+  },
+  {
+    "id": "veralu",
+    "name": {
+      "en": "Veralu Juice",
+      "ru": "Сок из Вералу"
+    },
+    "properties": {
+      "density": "Creamy",
+      "flavor": ["Sour"]
+    },
+    "ingredients": ["veralu"]
+  },
+  {
+    "id": "watermelon",
+    "name": {
+      "en": "Watermelon Juice",
+      "ru": "Сок из Арбуза"
+    },
+    "properties": {
+      "density": "Liquid",
+      "flavor": ["Sweet"]
+    },
+    "ingredients": ["watermelon"]
+  },
 	{
 		"id": "woodapple",
 		"name": {
@@ -748,8 +742,8 @@
 			"ru": "Сок из Деревянного Яблока"
 		},
 		"properties": {
-			"density": "",
-			"flavor": [""]
+			"density": "Creamy",
+			"flavor": ["Sour","Sweet"]
 		},
 		"ingredients": ["woodapple"]
 	}
