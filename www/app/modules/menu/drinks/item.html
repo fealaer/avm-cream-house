@@ -80,9 +80,9 @@
 						<translate>Comments</translate>
 					</div>
 					<div class="item item-avatar" ng-repeat="comment in item.comments" ng-show="item.totalComments">
-						<img ng-src="{{'/images/common/blue-user-icon-64.png'}}">
-						<h2>{{comment}}</h2>
-						<p>User Name (user@email.com)</p>
+						<img ng-src="{{comment.profile.picture || '/images/common/blue-user-icon-64.png'}}">
+						<h2>{{comment.profile.name}}</h2>
+						<p>{{comment.comment}}</p>
 					</div>
 					<div class="item" ng-show="item.totalComments && (item.totalComments > item.comments.length)">
 						<button class="button button-block button-stable" translate>More</button>
