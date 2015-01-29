@@ -16,7 +16,8 @@ angular.module('avm', [
 			RestangularProvider.setBaseUrl($settings.apiURL);
 			RestangularProvider.setRequestSuffix('/');
 			RestangularProvider.setDefaultHttpFields({
-				cache: !$settings.debug
+				cache: !$settings.debug,
+        withCredentials: true
 			});
 			RestangularProvider.setDefaultHeaders({
 				'Content-Type': 'application/json',
@@ -44,9 +45,11 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/');
 	})
 
-	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager) {
+	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor) {
     supersonic.ui.navigationBar.hide();
 
+
+    Restangular.setErrorInterceptor(errorResponseInterceptor);
 		// Make $settings global
 		$rootScope.$settings = $settings;
 		// Make $state global
