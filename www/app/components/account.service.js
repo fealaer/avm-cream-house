@@ -72,6 +72,9 @@ angular.module('avm.components')
 
     self.cleanAccountData = function () {
       delete $localStorage.account;
-    }
+    };
 
+    self.getState = function () {
+      return self.isAuthenticated() ? 'menu.drinks' : 'login';
+    };
 	});

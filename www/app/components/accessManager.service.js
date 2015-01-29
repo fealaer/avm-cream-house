@@ -75,7 +75,7 @@ angular.module('avm.components')
         if (!allowed) {
           e.preventDefault();
 
-          var toGo = account.isAuthenticated() ? 'menu.drinks' : 'login';
+          var toGo = account.getState();
           if (!$state.is(toGo)) {
             $timeout(function(){
               $state.go(toGo);

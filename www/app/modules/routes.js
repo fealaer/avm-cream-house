@@ -8,7 +8,7 @@ angular.module('avm.modules')
 				templateUrl: "app/modules/leftSideLayout.html",
 				controller: function ($state, account) {
           if ($state.is('base')) {
-            $state.go(account.isAuthenticated() ? 'menu.drinks' : 'login');
+            $state.go(account.getState());
           }
         }
 			});
