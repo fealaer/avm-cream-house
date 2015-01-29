@@ -23,7 +23,7 @@
 						<fa name="bookmark" size="large"></fa>
 					</button>
 				</div>
-				<img class="card-image" ng-src="{{'/images/menu/' + item.id + '.png'}}">
+				<img class="card-image" ng-src="{{'/images/menu/' + item.pic + '.png'}}">
 			</div>
 			<div ng-controller="InfoTabsCtrl">
 				<div class="item tabs tabs-secondary tabs-icon-top secondary-tabs-in-item tabs-positive">
@@ -76,15 +76,15 @@
 					<div class="item">
 						<rating-view data-rate="item.rate"></rating-view>
 					</div>
-					<div class="item item-divider" ng-show="item.comments">
+					<div class="item item-divider" ng-show="item.totalComments">
 						<translate>Comments</translate>
 					</div>
-					<div class="item item-avatar" ng-repeat="comment in item.comments">
+					<div class="item item-avatar" ng-repeat="comment in item.comments" ng-show="item.totalComments">
 						<img ng-src="{{'/images/common/blue-user-icon-64.png'}}">
 						<h2>{{comment}}</h2>
 						<p>User Name (user@email.com)</p>
 					</div>
-					<div class="item">
+					<div class="item" ng-show="item.totalComments && (item.totalComments > item.comments.length)">
 						<button class="button button-block button-stable" translate>More</button>
 					</div>
 				</div>
