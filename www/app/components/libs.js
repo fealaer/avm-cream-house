@@ -6,5 +6,6 @@ angular.module('avm.libs', [
 	'restangular',
 	'ngStorage',
 	'picardy.fontawesome',
-  'gettext'
+  'gettext',
+  'angular-md5'
 ]);
