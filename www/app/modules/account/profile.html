@@ -1,4 +1,4 @@
-<ion-view title="{{account.profile.name}}">
+<ion-view title="{{$storage.account.profile.name}}">
 	<ion-nav-buttons side="left">
 		<button class="button button-icon ion-navicon" menu-toggle="left"></button>
 	</ion-nav-buttons>
@@ -6,11 +6,11 @@
 	<ion-content>
 		<div class="list card">
 			<a class="item item-image">
-				<img ng-src="{{account.profile.picture || '/images/common/blue-user-icon-64.png'}}">
+				<img ng-src="{{account.avatar($storage.account)}}">
 			</a>
 			<a class="item item-icon-left">
 				<i class="icon ion-at"></i>
-				{{account.email}}
+				{{$storage.account.email}}
 			</a>
 			<a class="item item-icon-right" ng-click="logout()">
 				{{'Log Out' | translate}}

@@ -1,11 +1,11 @@
 <ion-content>
 	<div class="list">
 		<a class="item item-thumbnail-left" ui-sref="base.profile" menu-toggle="left" ng-class="{'item-positive': $state.includes('profile')}">
-			<img ng-src="{{account.profile.picture || '/images/common/blue-user-icon-64.png'}}">
+			<img ng-src="{{account.avatar($storage.account)}}">
 
-			<h2>{{account.profile.name}}</h2>
+			<h2>{{$storage.account.profile.name}}</h2>
 
-			<p>{{account.email}}</p>
+			<p>{{$storage.account.email}}</p>
 		</a>
 		<label class="item item-input item-select">
 			<div class="input-label" translate>Language</div>

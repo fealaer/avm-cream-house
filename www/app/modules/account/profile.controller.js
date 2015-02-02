@@ -2,13 +2,10 @@
 
 angular.module('avm.account')
 
-  .controller('ProfileCtrl', function ($rootScope, $scope, account, $state, gettextCatalog) {
+  .controller('ProfileCtrl', function ($rootScope, $scope, account, $state, gettextCatalog, $localStorage) {
 
-    $scope.account = account.getAccountData();
-
-    $rootScope.$on('$accountUpdated', function (){
-      $scope.account = account.getAccountData();
-    });
+    $scope.$storage = $localStorage;
+    $scope.account = account;
 
     $scope.logout = function () {
       account.logout()

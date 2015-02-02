@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('avm.modules')
-  .controller('LeftMenuCtrl', function($scope, gettextCatalog, $ionicSideMenuDelegate, account, $rootScope) {
+  .controller('LeftMenuCtrl', function($scope, gettextCatalog, $ionicSideMenuDelegate, account, $rootScope, $localStorage) {
     $scope.languages = [
       {
         value: 'en',
@@ -13,7 +13,8 @@ angular.module('avm.modules')
       }
     ];
 
-    $scope.account = account.getAccountData();
+    $scope.$storage = $localStorage;
+    $scope.account = account;
 
     $scope.leftMenu = {lang: gettextCatalog.currentLanguage};
 
@@ -21,8 +22,4 @@ angular.module('avm.modules')
       gettextCatalog.setCurrentLanguage($scope.leftMenu.lang);
       $ionicSideMenuDelegate.toggleLeft();
     };
-
-    $rootScope.$on('$accountUpdated', function (){
-      $scope.account = account.getAccountData();
-    });
   });

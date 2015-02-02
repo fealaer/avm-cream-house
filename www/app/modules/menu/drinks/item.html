@@ -80,7 +80,7 @@
 						<translate>Comments</translate>
 					</div>
 					<div class="item item-avatar" ng-repeat="comment in item.comments" ng-show="item.totalComments">
-						<img ng-src="{{comment.profile.picture || '/images/common/blue-user-icon-64.png'}}">
+						<img ng-src="{{account.avatar(comment)}}">
 						<h2>{{comment.profile.name}}</h2>
 						<p>{{comment.comment}}</p>
 					</div>
