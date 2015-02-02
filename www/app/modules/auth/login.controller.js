@@ -16,8 +16,6 @@ angular.module('avm.auth')
       account.login($scope.data)
 
         .then(function (response) {
-          account.setAccountData(response.result);
-
           $scope.data = angular.copy(defaultData);
           $timeout(function(){
             $state.go('menu.drinks');
