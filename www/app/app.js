@@ -45,15 +45,20 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/');
 	})
 
-	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor) {
+	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage) {
     supersonic.ui.navigationBar.hide();
-
 
     Restangular.setErrorInterceptor(errorResponseInterceptor);
 		// Make $settings global
 		$rootScope.$settings = $settings;
 		// Make $state global
 		$rootScope.$state = $state;
+
+    $localStorage.$default({
+      account: {},
+      drinks: [],
+      updated: new Date()
+    });
 
     $rootScope.$on('gettextLanguageChanged', function () {
       $rootScope.lang = angular.copy(gettextCatalog.currentLanguage);
