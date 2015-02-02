@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('avm.components')
-	.service('account', function ($rootScope, Restangular, $localStorage) {
+	.service('account', function ($rootScope, Restangular, $localStorage, $q, md5) {
     var self = this;
     var url = 'account';
     var account = Restangular.one(url);
@@ -12,7 +12,14 @@ angular.module('avm.components')
      * @returns {Promise.promise}
      */
     self.login = function (data) {
-      return account.all('login').customPOST(data);
+      var deferred = $q.defer();
+
+      account.all('login').customPOST(data).then(function (response) {
+        self.setAccountData(response.result);
+        deferred.resolve($localStorage.account);
+      });
+
+      return deferred.promise;
     };
 
     /**
@@ -20,7 +27,7 @@ angular.module('avm.components')
      * @returns {Promise.promise}
      */
     self.logout = function (email, password) {
-      self.cleanAccountData();
+      $localStorage.$reset();
       return account.one('logout').get();
     };
 
@@ -31,6 +38,10 @@ angular.module('avm.components')
      */
     self.signUpEmail = function (data) {
       return account.all('signup').customPOST(data);
+    };
+
+    self.saveDrink = function (data) {
+      return account.all('save/drink').customPOST(data);
     };
 
 //    /**
@@ -58,23 +69,40 @@ angular.module('avm.components')
 //    };
 
     self.isAuthenticated = function () {
-      return !!self.getAccountData();
+      return !!$localStorage.account.email;
     };
 
     self.getAccountData = function  () {
-      return angular.copy($localStorage.account);
+      return $localStorage.account;
     };
 
     self.setAccountData = function (account) {
-      $localStorage.account = angular.copy(account);
+      angular.copy(account, $localStorage.account);
       $rootScope.$broadcast('$accountUpdated');
     };
 
     self.cleanAccountData = function () {
-      delete $localStorage.account;
+      $localStorage.account = {};
     };
 
     self.getState = function () {
       return self.isAuthenticated() ? 'menu.drinks' : 'login';
     };
+
+    self.tried = function (id) {
+      $localStorage.account.tried.push(id);
+      $rootScope.$broadcast('$accountUpdated');
+    };
+
+    self.avatar = function (user) {
+      if (navigator.connection.type !== Connection.NONE) {
+        if (user.profile.picture) return user.profile.picture;
+        if (!user.email) return 'https://gravatar.com/avatar/?s=200&d=mm';
+        console.log(md5);
+        var hash = md5.createHash(user.email.toString().toLowerCase());
+        return 'https://gravatar.com/avatar/' + hash + '?s=200&d=mm';
+      } else {
+        return '/images/common/user.png';
+      }
+    }
 	});
