@@ -3,7 +3,7 @@ ion-nav-view {
 }
 
 .card-image-wrapper {
-    box-shadow: 0 0 3px rgba(0,0,0,.15);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .15);
 }
 
 .card-image {
@@ -51,9 +51,9 @@ ion-nav-view {
 }
 
 .secondary-tabs-in-item {
-    -webkit-box-shadow: 0 3px 2px -2px rgba(0,0,0,.15) !important;
-    -moz-box-shadow: 0 3px 2px -2px rgba(0,0,0,.15) !important;
-    box-shadow: 0 3px 2px -2px rgba(0,0,0,.15) !important;
+    -webkit-box-shadow: 0 3px 2px -2px rgba(0, 0, 0, .15) !important;
+    -moz-box-shadow: 0 3px 2px -2px rgba(0, 0, 0, .15) !important;
+    box-shadow: 0 3px 2px -2px rgba(0, 0, 0, .15) !important;
 }
 
 .vert-centred {
@@ -66,4 +66,31 @@ ion-nav-view {
     height: 10px;
     margin: 0;
     padding: 0;
+}
+
+.logo {
+    width : 100%;
+    height : 100%;
+}
+
+.logo img {
+    width: 96px;
+    height: 96px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -18px;
+    display:block;
+}
+
+.full-text h1, .full-text h2, .full-text h3, .full-text h4, .full-text h5, .full-text h6, .full-text p {
+    text-overflow: clip;
+    white-space: normal;
+}
+
+.text-block {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    width:80%;
 }

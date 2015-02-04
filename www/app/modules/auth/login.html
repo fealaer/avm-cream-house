@@ -1,8 +1,11 @@
 <ion-view>
 	<ion-content>
+		<div class="logo">
+			<img src="/images/icons/96 x 96 pixels.png">
+		</div>
 		<div class="list list-inset">
-			<div class="item item-body">
-				<img class="avatar-image" src="/images/common/logo.png">
+			<div class="item item-borderless full-text text-center text-block">
+				<h3>AVM Cream House App helps you choose your next drink!</h3>
 			</div>
 			<label class="item item-input">
 				<i class="icon ion-at placeholder-icon"></i>
@@ -15,12 +18,10 @@
 		</div>
 		<div class="padding">
 			<button class="button button-block button-positive" ng-click="login()" translate>Log In</button>
-		</div>
-		<div class="padding">
-			<a ui-sref="forget" translate>Forget your password?</a>
+			<button class="button button-block button-clear button-stable button-small" ui-sref="forget" translate>Forget your password?</button>
 		</div>
 	</ion-content>
 </ion-view>
 <ion-footer-bar align-title="center" ui-sref="signup">
-	<div class="title" translate>Join AVM Cream House</div>
+	<div class="title" translate>Create Account</div>
 </ion-footer-bar>

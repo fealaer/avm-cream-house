@@ -4,8 +4,7 @@ angular.module('avm.auth')
 
   .controller('SignupCtrl', function ($scope, account, $state, gettextCatalog, $timeout) {
     var defaultData = {
-      firstName: '',
-      lastName: '',
+      name: '',
       email: '',
       password: ''
     };
@@ -16,7 +15,6 @@ angular.module('avm.auth')
 
     $scope.signup = function () {
       $scope.data.confirmPassword = $scope.data.password;
-      $scope.data.name = $scope.data.firstName + ' ' + $scope.data.lastName;
 
       account.signUpEmail($scope.data)
 
