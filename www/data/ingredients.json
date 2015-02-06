@@ -587,7 +587,7 @@
 			"carbohydrates": 8.41,
 			"fat": 0.10,
 			"protein": 0.69,
-			"water": 90,48,
+			"water": 90.48,
 			"vitamins": ["B5","C"],
 			"minerals": ["Magnesium","Potassium"]
 		},
@@ -694,7 +694,7 @@
     "nutrition_facts": {
       "energy": 25,
       "carbohydrates": 5.7,
-      "fat": 0,3,
+      "fat": 0.3,
       "protein": 0.6,
       "water": 93,
       "vitamins": ["A","C"],
@@ -775,7 +775,7 @@
     "nutrition_facts": {
       "energy": 138.8,
       "carbohydrates": 36.69 ,
-      "fat": 0.13",
+      "fat": 0.13,
       "protein": 1.68 ,
       "water": 62,
       "vitamins": ["B1","B3","C"],
@@ -801,7 +801,7 @@
     },
     "nutrition_facts": {
       "energy": 29,
-      "carbohydrates": 5.3
+      "carbohydrates": 5.3,
       "fat": 0.3,
       "protein": 1.1,
       "water": 92.3,
@@ -987,6 +987,7 @@
     "wiki": {
       "en": "http://en.wikipedia.org/wiki/Phyllanthus_emblica",
       "ru": "?"
+    },
       "nutrition_facts": {
         "energy": 44,
         "carbohydrates": "?",
@@ -1170,7 +1171,7 @@
     },
     "description": {
       "en": "The pineapple (Ananas comosus) is a tropical plant with edible multiple fruit consisting of coalesced berries, and the most economically significant plant in the Bromeliaceae family. Pineapples may be cultivated from a crown cutting of the fruit, possibly flowering in 20–24 months and fruiting in the following six months. Pineapple does not ripen significantly post-harvest.",
-      "ru": "Ананас настоящий — многолетнее травянистое растение, вид рода Ананас (Ananas) семейства Бромелиевые (Bromeliaceae). Ананас настоящий представлен в культуре многочисленным разнообразием сортов не только в Южной Америке, где растут представители рода Ананас, но и по всем тропическим странам всего земного шара.",
+      "ru": "Ананас настоящий — многолетнее травянистое растение, вид рода Ананас (Ananas) семейства Бромелиевые (Bromeliaceae). Ананас настоящий представлен в культуре многочисленным разнообразием сортов не только в Южной Америке, где растут представители рода Ананас, но и по всем тропическим странам всего земного шара."
     },
     "wiki": {
       "en": "http://en.wikipedia.org/wiki/Pineapple",
@@ -1314,8 +1315,8 @@
     "nutrition_facts": {
       "energy":  34,
       "carbohydrates": 8,
-      "fat": 0,2,
-      "protein": 0,8,
+      "fat": 0.2,
+      "protein": 0.8,
       "water": "?",
       "vitamins": ["A","C","B6"],
       "minerals": ["Potassium"]
@@ -1530,8 +1531,8 @@
     "nutrition_facts": {
       "energy":  34,
       "carbohydrates": 8,
-      "fat": 0,2,
-      "protein": 0,8,
+      "fat": 0.2,
+      "protein": 0.8,
       "water": "?",
       "vitamins": ["A","C","B6"],
       "minerals": ["Potassium"]
