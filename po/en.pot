@@ -10,7 +10,7 @@ msgid_plural "{{$count}} stars!"
 msgstr[0] ""
 msgstr[1] ""
 
-#: www/index.html:127
+#: www/app/modules/leftMenu.html:27
 msgid "About App"
 msgstr ""
 
@@ -29,6 +29,10 @@ msgstr ""
 #: www/app/modules/menu/drinks/filter.html:58
 #: www/app/modules/menu/ingredients/filter.html:39
 msgid "Apply"
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:91
+msgid "Authentication session expired"
 msgstr ""
 
 #: www/app/components/filter.controller.js:53
@@ -79,6 +83,10 @@ msgstr ""
 msgid "Creamy"
 msgstr ""
 
+#: www/app/modules/auth/login.html:26
+msgid "Create Account"
+msgstr ""
+
 #: www/app/modules/menu/drinks/filter.html:44
 #: www/app/modules/menu/drinks/item.html:55
 msgid "Density"
@@ -93,8 +101,14 @@ msgid "Do you like it?"
 msgstr ""
 
 #: www/app/modules/menu/drinks/list.html:1
-#: www/app/modules/menu/menu.html:2
+#: www/app/modules/menu/menu.html:8
 msgid "Drinks"
+msgstr ""
+
+#: www/app/modules/auth/forget.html:12
+#: www/app/modules/auth/login.html:12
+#: www/app/modules/auth/signup.html:16
+msgid "Email"
 msgstr ""
 
 #: www/app/modules/menu/ingredients/item.html:26
@@ -126,6 +140,14 @@ msgstr ""
 msgid "Flavor"
 msgstr ""
 
+#: www/app/modules/auth/login.html:21
+msgid "Forget your password?"
+msgstr ""
+
+#: www/app/modules/auth/signup.html:25
+msgid "Have an account? Log In"
+msgstr ""
+
 #: www/app/modules/about/about.html:15
 msgid "Here you will find a huge range of drinks from any fresh fruit, as well as delicious local dishes."
 msgstr ""
@@ -140,7 +162,7 @@ msgstr ""
 
 #: www/app/modules/menu/drinks/item.html:58
 #: www/app/modules/menu/ingredients/list.html:1
-#: www/app/modules/menu/menu.html:5
+#: www/app/modules/menu/menu.html:11
 msgid "Ingredients"
 msgstr ""
 
@@ -152,7 +174,7 @@ msgstr ""
 msgid "Iron"
 msgstr ""
 
-#: www/index.html:111
+#: www/app/modules/leftMenu.html:11
 msgid "Language"
 msgstr ""
 
@@ -164,6 +186,15 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
+#: www/app/modules/auth/forget.html:21
+#: www/app/modules/auth/login.html:20
+msgid "Log In"
+msgstr ""
+
+#: www/app/modules/account/profile.html:16
+msgid "Log Out"
+msgstr ""
+
 #: www/app/components/filter.controller.js:80
 msgid "Magnesium"
 msgstr ""
@@ -172,7 +203,7 @@ msgstr ""
 msgid "Manganese"
 msgstr ""
 
-#: www/index.html:116
+#: www/app/modules/leftMenu.html:16
 msgid "Menu"
 msgstr ""
 
@@ -226,6 +257,11 @@ msgstr ""
 msgid "Order by"
 msgstr ""
 
+#: www/app/modules/auth/login.html:16
+#: www/app/modules/auth/signup.html:20
+msgid "Password"
+msgstr ""
+
 #: www/app/components/filter.controller.js:79
 msgid "Phosphorus"
 msgstr ""
@@ -264,6 +300,10 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
+#: www/app/modules/auth/forget.html:16
+msgid "Reset password"
+msgstr ""
+
 #: www/app/modules/menu/drinks/filter.html:15
 #: www/app/modules/menu/ingredients/filter.html:11
 msgid "Reverse order"
@@ -285,12 +325,36 @@ msgstr ""
 msgid "Selenium"
 msgstr ""
 
+#: www/app/modules/auth/signup.html:24
+msgid "Sign Up"
+msgstr ""
+
+#: www/app/modules/auth/socialSignin.html:13
+#: www/app/modules/auth/socialSignin.html:14
+#: www/app/modules/auth/socialSignin.html:15
+msgid "Sign in with"
+msgstr ""
+
+#: www/app/modules/auth/socialSignin.html:20
+msgid "Sign in with Email"
+msgstr ""
+
 #: www/app/modules/about/about.html:54
 msgid "Social"
 msgstr ""
 
 #: www/app/components/filter.controller.js:77
 msgid "Sodium"
+msgstr ""
+
+#: www/app/components/drinks.service.js:850
+#: www/app/modules/account/profile.controller.js:29
+#: www/app/modules/auth/login.controller.js:35
+#: www/app/modules/auth/signup.controller.js:41
+#: www/app/modules/auth/socialSignin.controller.js:41
+#: www/app/modules/menu/menu.controller.js:36
+#: www/app/modules/menu/menu.controller.js:84
+msgid "Some error occurred"
 msgstr ""
 
 #: www/app/components/filter.controller.js:52
@@ -309,6 +373,14 @@ msgstr ""
 msgid "Umami"
 msgstr ""
 
+#: www/app/components/errorResponseInterceptor.service.js:34
+msgid "Unexpected server error. Try perform this action later."
+msgstr ""
+
+#: www/app/modules/auth/signup.html:12
+msgid "Username"
+msgstr ""
+
 #: www/app/modules/menu/ingredients/filter.html:25
 msgid "Vitamin"
 msgstr ""
@@ -324,6 +396,11 @@ msgstr ""
 #: www/app/modules/menu/drinks/filter.html:26
 #: www/app/modules/menu/drinks/filter.html:34
 msgid "Yes"
+msgstr ""
+
+#: www/app/components/accessManager.service.js:86
+#: www/app/components/errorResponseInterceptor.service.js:44
+msgid "You do not have permission to perform this action."
 msgstr ""
 
 #: www/app/components/tryDrink.modal.html:11

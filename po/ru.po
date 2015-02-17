@@ -20,7 +20,7 @@ msgstr[0] "1 звезду!"
 msgstr[1] "{{$count}} звезды!"
 msgstr[2] "{{$count}} звезд!"
 
-#: www/index.html:127
+#: www/app/modules/leftMenu.html:27
 msgid "About App"
 msgstr "О Приложении"
 
@@ -40,6 +40,10 @@ msgstr "Любой"
 #: www/app/modules/menu/ingredients/filter.html:39
 msgid "Apply"
 msgstr "﻿Применить"
+
+#: www/app/components/errorResponseInterceptor.service.js:91
+msgid "Authentication session expired"
+msgstr "Ваша сессия истекла"
 
 #: www/app/components/filter.controller.js:53
 msgid "Bitter"
@@ -89,6 +93,10 @@ msgstr "Медь"
 msgid "Creamy"
 msgstr "Густой"
 
+#: www/app/modules/auth/login.html:26
+msgid "Create Account"
+msgstr "Создать аккаунт"
+
 #: www/app/modules/menu/drinks/filter.html:44
 #: www/app/modules/menu/drinks/item.html:55
 msgid "Density"
@@ -102,9 +110,14 @@ msgstr "Описание"
 msgid "Do you like it?"
 msgstr "Вам понравилось?"
 
-#: www/app/modules/menu/drinks/list.html:1 www/app/modules/menu/menu.html:2
+#: www/app/modules/menu/drinks/list.html:1 www/app/modules/menu/menu.html:8
 msgid "Drinks"
 msgstr "Напитки"
+
+#: www/app/modules/auth/forget.html:12 www/app/modules/auth/login.html:12
+#: www/app/modules/auth/signup.html:16
+msgid "Email"
+msgstr "Email"
 
 #: www/app/modules/menu/ingredients/item.html:26
 msgid "Energy"
@@ -135,6 +148,14 @@ msgstr "Фильтровать по"
 msgid "Flavor"
 msgstr "Вкус"
 
+#: www/app/modules/auth/login.html:21
+msgid "Forget your password?"
+msgstr "Забыли пароль?"
+
+#: www/app/modules/auth/signup.html:25
+msgid "Have an account? Log In"
+msgstr "Уже есть аккаунт? Войти"
+
 #: www/app/modules/about/about.html:15
 msgid ""
 "Here you will find a huge range of drinks from any fresh fruit, as well as "
@@ -153,7 +174,7 @@ msgstr "Ингридиент"
 
 #: www/app/modules/menu/drinks/item.html:58
 #: www/app/modules/menu/ingredients/list.html:1
-#: www/app/modules/menu/menu.html:5
+#: www/app/modules/menu/menu.html:11
 msgid "Ingredients"
 msgstr "Ингридиенты"
 
@@ -165,7 +186,7 @@ msgstr "Йод"
 msgid "Iron"
 msgstr "Железо"
 
-#: www/index.html:111
+#: www/app/modules/leftMenu.html:11
 msgid "Language"
 msgstr "Язык"
 
@@ -177,6 +198,14 @@ msgstr "Жидкий"
 msgid "Location"
 msgstr "Местополежение"
 
+#: www/app/modules/auth/forget.html:21 www/app/modules/auth/login.html:20
+msgid "Log In"
+msgstr "Войти"
+
+#: www/app/modules/account/profile.html:16
+msgid "Log Out"
+msgstr "Выйти"
+
 #: www/app/components/filter.controller.js:80
 msgid "Magnesium"
 msgstr "Магний"
@@ -185,7 +214,7 @@ msgstr "Магний"
 msgid "Manganese"
 msgstr "Марганец"
 
-#: www/index.html:116
+#: www/app/modules/leftMenu.html:16
 msgid "Menu"
 msgstr "Меню"
 
@@ -239,6 +268,10 @@ msgstr "Сортировка"
 msgid "Order by"
 msgstr "Сортировать по"
 
+#: www/app/modules/auth/login.html:16 www/app/modules/auth/signup.html:20
+msgid "Password"
+msgstr "Пароль"
+
 #: www/app/components/filter.controller.js:79
 msgid "Phosphorus"
 msgstr "Фосфор"
@@ -281,6 +314,10 @@ msgstr "Рейтинг"
 msgid "Reset"
 msgstr "Сбросить"
 
+#: www/app/modules/auth/forget.html:16
+msgid "Reset password"
+msgstr "Сбросить пароль"
+
 #: www/app/modules/menu/drinks/filter.html:15
 #: www/app/modules/menu/ingredients/filter.html:11
 msgid "Reverse order"
@@ -302,6 +339,20 @@ msgstr "Сохранить"
 msgid "Selenium"
 msgstr "Селен"
 
+#: www/app/modules/auth/signup.html:24
+msgid "Sign Up"
+msgstr "Зарегистрироваться"
+
+#: www/app/modules/auth/socialSignin.html:13
+#: www/app/modules/auth/socialSignin.html:14
+#: www/app/modules/auth/socialSignin.html:15
+msgid "Sign in with"
+msgstr "Войти с помощью"
+
+#: www/app/modules/auth/socialSignin.html:20
+msgid "Sign in with Email"
+msgstr "Войти с помощью Email"
+
 #: www/app/modules/about/about.html:54
 msgid "Social"
 msgstr "Социальные"
@@ -309,6 +360,16 @@ msgstr "Социальные"
 #: www/app/components/filter.controller.js:77
 msgid "Sodium"
 msgstr "Натрий"
+
+#: www/app/components/drinks.service.js:850
+#: www/app/modules/account/profile.controller.js:29
+#: www/app/modules/auth/login.controller.js:35
+#: www/app/modules/auth/signup.controller.js:41
+#: www/app/modules/auth/socialSignin.controller.js:41
+#: www/app/modules/menu/menu.controller.js:36
+#: www/app/modules/menu/menu.controller.js:84
+msgid "Some error occurred"
+msgstr "Произошла ошибка"
 
 #: www/app/components/filter.controller.js:52
 msgid "Sour"
@@ -326,6 +387,14 @@ msgstr "Пробовал"
 msgid "Umami"
 msgstr "Умами"
 
+#: www/app/components/errorResponseInterceptor.service.js:34
+msgid "Unexpected server error. Try perform this action later."
+msgstr "Произошла непредвиденная ошибка сервера. Попробуйте позже."
+
+#: www/app/modules/auth/signup.html:12
+msgid "Username"
+msgstr "Имя"
+
 #: www/app/modules/menu/ingredients/filter.html:25
 msgid "Vitamin"
 msgstr "Витамин"
@@ -342,6 +411,11 @@ msgstr "Вода"
 #: www/app/modules/menu/drinks/filter.html:34
 msgid "Yes"
 msgstr "Да"
+
+#: www/app/components/accessManager.service.js:86
+#: www/app/components/errorResponseInterceptor.service.js:44
+msgid "You do not have permission to perform this action."
+msgstr "У вас недостаточно прав что бы выполнить это действие."
 
 #: www/app/components/tryDrink.modal.html:11
 msgid "You'll rate it with"
