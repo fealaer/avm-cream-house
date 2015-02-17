@@ -69,7 +69,7 @@ angular.module('avm.components')
 //    };
 
     self.isAuthenticated = function () {
-      return !!$localStorage.account.email;
+      return !!$localStorage.account && !!$localStorage.account.email;
     };
 
     self.getAccountData = function  () {
