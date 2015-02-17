@@ -11,7 +11,7 @@
 		     collection-item-width="'100%'"
 		     collection-item-height="100">
 			<a class="item-content" ui-sref="menu.drinks.item({id: item.id})">
-				<img ng-src="{{'/images/menu/small/' + item.pic + '.png'}}">
+				<img class="list-image" ng-src="{{'/images/menu/' + item.pic + '.png'}}">
 				<h2>{{item.name[lang]}}</h2>
 				<h4><i class="icon ion-android-star"></i> {{item.rate.rate | number:1}} (<i class="icon ion-person"></i> {{item.rate.based | number}}) <i class="icon ion-ios-chatbubble"></i> {{item.totalComments | number}}</h4>
 				<h3><strong>Rs.</strong> {{item.price | number}}</h3>
