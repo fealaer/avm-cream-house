@@ -6,9 +6,11 @@ angular.module('avm.modules')
 			.state('base', {
 				url: "/",
 				templateUrl: "app/modules/leftSideLayout.html",
-				controller: function ($state, account) {
+				controller: function ($state, account, AdMobService) {
           if ($state.is('base')) {
             $state.go(account.getState());
+          } else {
+            AdMobService.showBanner();
           }
         }
 			});

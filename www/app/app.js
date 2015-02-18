@@ -45,7 +45,7 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/');
 	})
 
-	.run(function ($rootScope, $settings, $log, $interval, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage) {
+	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService) {
     supersonic.ui.navigationBar.hide();
 
     Restangular.setErrorInterceptor(errorResponseInterceptor);
@@ -71,11 +71,6 @@ angular.module('avm', [
 		$log.info('AVM ' + $settings.version +
 			'; Debug: ' + $settings.debug +
 			'; Build Date: ' + $settings.buildDate);
-
-		// Clear $http cache every 10 sec.
-//		$interval(function () {
-//			$cacheFactory.get('$http').removeAll();
-//		}, 10000, 0, false);
 
 		// Show loading on state changes
 		(function () {
@@ -112,6 +107,8 @@ angular.module('avm', [
 
     // Set permission check on state loading.
     accessManager.init();
+
+    AdMobService.createBanner();
 	});
 
 

@@ -1,5 +1,5 @@
 angular.module('avm.menu')
-	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state, gettextCatalog, ratingService, account) {
+	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state, gettextCatalog, ratingService, account, AdMobService) {
 		var defData = {
 			rate: 2,
 			comment: ''
@@ -120,4 +120,6 @@ angular.module('avm.menu')
 		function closeModal () {
 			$scope.modal.hide();
 		}
+
+    AdMobService.showBanner();
 	});
