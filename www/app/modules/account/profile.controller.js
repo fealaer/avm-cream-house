@@ -12,7 +12,7 @@ angular.module('avm.account')
 
         .then(function () {
           account.cleanAccountData();
-          $state.go('login');
+          $state.go('auth.login');
         })
 
         .catch(function (response) {

@@ -86,7 +86,7 @@ angular.module('avm.components')
     };
 
     self.getState = function () {
-      return self.isAuthenticated() ? 'menu.drinks' : 'login';
+      return self.isAuthenticated() ? 'menu.drinks' : 'auth.login';
     };
 
     self.tried = function (id) {
