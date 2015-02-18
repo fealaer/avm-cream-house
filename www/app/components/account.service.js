@@ -96,8 +96,10 @@ angular.module('avm.components')
 
     self.avatar = function (user) {
       var defaultImage = '/images/common/user.png';
-      if (navigator.connection.type !== Connection.NONE) {
-        if (user.profile.picture) return user.profile.picture;
+      if (!user) {
+        return defaultImage;
+      } else if (navigator.connection.type !== Connection.NONE) {
+        if (user.profile && user.profile.picture) return user.profile.picture;
         if (!user.email) return  defaultImage;
         var hash = md5.createHash(user.email.toString().toLowerCase());
         return 'https://gravatar.com/avatar/' + hash + '?s=200&d=mm';
