@@ -6,6 +6,7 @@ angular.module('avm.auth')
       .state('auth', {
         url: "/auth",
         abstract: true,
+        template: '<ui-view/>',
         controller: function (AdMobService) {
           AdMobService.hideBanner();
         },
