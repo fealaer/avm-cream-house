@@ -1,9 +1,8 @@
 'use strict';
 
 angular.module('avm.components')
-  .service('drinksService', function ($q, $filter, ratingService, account, gettextCatalog) {
+  .service('drinksService', function ($q, $filter, ratingService, account, $localStorage, cordovaHelper) {
     var self = this;
-    var initialised = false;
 
     var drinks = [
         {
@@ -818,22 +817,32 @@ angular.module('avm.components')
         }
       ];
 
+    self.isDataOld = function () {
+      var now = new Date();
+      var past = $localStorage.updated;
+      return Math.abs(now.getTime() - past.getTime()) >= (1000 * 60 * 10);
+    };
+
+    // Is data 10 minutes old
     self.init = function (callback) {
-      if (!initialised) {
+      // Have connection and drinks empty or old data
+      if (cordovaHelper.isConnected() && (!$localStorage.drinks.list || self.isDataOld())) {
         ratingService.getAll()
           .then(function (response) {
-            _.sortBy(drinks, 'id');
+            var _drinks_ = angular.copy(drinks);
+            _.sortBy(_drinks_, 'id');
             _.sortBy(response.result, 'id');
-            _.merge(drinks, response.result);
+            _.merge(_drinks_, response.result);
             var user = account.getAccountData();
             if ((user.tried && !_.isEmpty(user.tried)) ||
               (user.saved && !_.isEmpty(user.saved))) {
-              _.each(drinks, function (drink) {
+              _.each(_drinks_, function (drink) {
                 drink.isTried = _.contains(user.tried, drink.id);
                 drink.isSaved = _.contains(user.saved, drink.id);
               });
             }
-            initialised = true;
+            $localStorage.drinks.list = _drinks_;
+            $localStorage.updated = new Date();
             callback();
           });
       } else {
@@ -849,7 +858,7 @@ angular.module('avm.components')
       var deferred = $q.defer();
 
       self.init(function () {
-        deferred.resolve(drinks);
+        deferred.resolve($localStorage.drinks.list || []);
       });
 
       return deferred.promise;
@@ -863,7 +872,7 @@ angular.module('avm.components')
       var deferred = $q.defer();
 
       self.init(function () {
-        deferred.resolve($filter('filter')(drinks, {id: id})[0]);
+        deferred.resolve($filter('filter')($localStorage.drinks.list || [], {id: id})[0]);
       });
 
       return deferred.promise;
