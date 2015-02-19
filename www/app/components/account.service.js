@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('avm.components')
-	.service('account', function ($rootScope, Restangular, $localStorage, $q, md5) {
+	.service('account', function ($rootScope, Restangular, $localStorage, $q, md5, cordovaHelper) {
     var self = this;
     var url = 'account';
     var account = Restangular.one(url);
@@ -27,7 +27,11 @@ angular.module('avm.components')
      * @returns {Promise.promise}
      */
     self.logout = function (email, password) {
-      $localStorage.$reset();
+      $localStorage.$reset({
+        account: {},
+        drinks: {},
+        updated: new Date()
+      });
       return account.one('logout').get();
     };
 
@@ -98,7 +102,7 @@ angular.module('avm.components')
       var defaultImage = '/images/common/user.png';
       if (!user) {
         return defaultImage;
-      } else if (navigator.connection.type !== Connection.NONE) {
+      } else if (cordovaHelper.isConnected()) {
         if (user.profile && user.profile.picture) return user.profile.picture;
         if (!user.email) return  defaultImage;
         var hash = md5.createHash(user.email.toString().toLowerCase());
