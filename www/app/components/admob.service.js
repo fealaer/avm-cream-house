@@ -4,12 +4,12 @@ angular.module('avm.components')
     var position = 8; // AdMob.AD_POSITION.BOTTOM_CENTER;
     var created = false;
 
-    function isPluginAvailable() {
+    self.isPluginAvailable = function () {
       return !!$window.AdMob;
-    }
+    };
 
     self.createBanner = function () {
-      if (!created && isPluginAvailable()) {
+      if (!created && self.isPluginAvailable()) {
         $window.AdMob.createBanner({
           adId: $settings.adMobId,
           position: position,
@@ -21,7 +21,7 @@ angular.module('avm.components')
     };
 
     self.showBanner = function () {
-      if (!created && isPluginAvailable()) {
+      if (!created && self.isPluginAvailable()) {
         self.createBanner();
       }
       if (created) {
