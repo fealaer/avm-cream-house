@@ -59,10 +59,11 @@
 					</div>
 					<div ng-repeat="ingredient in ingredients | filter:usedIngredients | orderBy:'name'"
 					     class="item-thumbnail-left item item-complex">
-						<a class="item-content" ui-sref="menu.ingredients.item({id: ingredient.id})">
+						<a class="item-content item-80" ui-sref="menu.ingredients.item({id: ingredient.id})">
 							<img class="list-image" ng-src="{{'/images/menu/' + ingredient.id + '.png'}}">
 
 							<h2 class="vert-centred">{{ingredient.name[lang]}}</h2>
+							<p ng-show="lang !== 'en'">{{item.name.en}}</p>
 						</a>
 
 						<div class="list-buttons">

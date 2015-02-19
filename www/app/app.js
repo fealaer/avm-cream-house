@@ -139,17 +139,12 @@ angular.module('avm', [
       document.addEventListener('deviceready', function () {
         AdMobService.createBanner();
 
-        if (!$state.includes('auth')) {
-          AdMobService.showBanner();
-        }
-
         if (!cordovaHelper.isConnected() && navigator.notification) {
           navigator.notification.alert(
             gettextCatalog.getString('Your device has no data connection.\n' +
               'App will attempt to show cached data where possible.\n' +
               'Functions which use data connection disabled.'),
-            function () {
-            },
+            function () {},
             gettextCatalog.getString('Not Online')
           );
         }

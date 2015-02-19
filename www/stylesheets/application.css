@@ -62,9 +62,12 @@ ion-nav-view {
     box-shadow: 0 3px 2px -2px rgba(0, 0, 0, .15) !important;
 }
 
-.vert-centred {
-    line-height: 80px;
+.item-80 {
     height: 80px;
+}
+
+.vert-centred {
+    padding-top: 28px;
 }
 
 .sm-padding {
