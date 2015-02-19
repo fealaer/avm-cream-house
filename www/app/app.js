@@ -59,6 +59,11 @@ angular.module('avm', [
       return element;
     });
 
+    Restangular.addResponseInterceptor(function( data, operation, what, url, response, deferred) {
+      $timeout($ionicLoading.hide, 500);
+      return data;
+    });
+
 		// Make $settings global
 		$rootScope.$settings = $settings;
 		// Make $state global
