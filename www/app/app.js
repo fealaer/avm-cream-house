@@ -45,10 +45,20 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/');
 	})
 
-	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService) {
+	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, $http) {
     supersonic.ui.navigationBar.hide();
 
     Restangular.setErrorInterceptor(errorResponseInterceptor);
+
+    Restangular.addRequestInterceptor(function(element, operation, route, url) {
+      $ionicLoading.show({
+        template: gettextCatalog.getString('Loading...'),
+        animation: 'fade-in',
+        noBackdrop: false
+      });
+      return element;
+    });
+
 		// Make $settings global
 		$rootScope.$settings = $settings;
 		// Make $state global
@@ -75,26 +85,34 @@ angular.module('avm', [
 		// Show loading on state changes
 		(function () {
 			$rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
-				$rootScope.dataLoading = true;
+        $ionicLoading.show({
+          template: gettextCatalog.getString('Loading...'),
+          animation: 'fade-in',
+          noBackdrop: false
+        });
 			});
 			$rootScope.$on('$stateChangeSuccess', function () {
-				$rootScope.dataLoading = false;
+        $ionicLoading.hide();
 			});
 			$rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
-				$rootScope.dataLoading = false;
+        $ionicLoading.hide();
 				$log.error(error.message);
 			});
 			$rootScope.$on('$stateNotFound', function () {
-				$rootScope.dataLoading = false;
+        $ionicLoading.hide();
 			});
 			$rootScope.$on('$serverError', function () {
-				$rootScope.dataLoading = false;
+        $ionicLoading.hide();
 			});
 			$rootScope.$on('$transitionSuccess', function () {
-				$rootScope.dataLoading = false;
+        $ionicLoading.hide();
 			});
+      $rootScope.$on('$viewContentLoaded', function () {
+        $ionicLoading.hide();
+      });
 			$rootScope.$on('$transitionError', function (error) {
-				$rootScope.dataLoading = false;
+        $ionicLoading.hide();
+        $log.error(error.message);
 			});
 		})();
 
