@@ -835,24 +835,6 @@ angular.module('avm.components')
             }
             initialised = true;
             callback();
-          })
-          .catch(function (response) {
-            var errorMessages = [];
-            if (response.error && response.error.errors) {
-              _.each(response.error.errors, function (err) {
-                errorMessages.push(gettextCatalog.getString(err.message));
-              });
-            }
-            if (response.error && response.error.message) {
-              errorMessages.push(gettextCatalog.getString(response.error.message));
-            }
-            if (_.isEmpty(errorMessages)) {
-              errorMessages.push(gettextCatalog.getString('Some error occurred'));
-            }
-            _.each(errorMessages, function (err) {
-              supersonic.logger.error(err);
-            });
-            callback();
           });
       } else {
         callback();
