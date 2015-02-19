@@ -74,15 +74,17 @@ angular.module('avm', [
     $localStorage.$default({
       account: {},
       drinks: {},
-      updated: new Date()
+      updated: new Date(),
+      locale: {lang: 'en', source: 'default'}
     });
+
+    gettextCatalog.setCurrentLanguage($localStorage.locale.lang);
+    $rootScope.lang = angular.copy(gettextCatalog.currentLanguage);
 
     $rootScope.$on('gettextLanguageChanged', function () {
       $rootScope.lang = angular.copy(gettextCatalog.currentLanguage);
+      $localStorage.locale.lang = angular.copy(gettextCatalog.currentLanguage);
     });
-
-    // todo set up user's language
-    $rootScope.lang = angular.copy(gettextCatalog.currentLanguage);
 
     // Log app info
 		$log.info('AVM ' + $settings.version +
@@ -150,6 +152,17 @@ angular.module('avm', [
             },
             gettextCatalog.getString('Not Online')
           );
+        }
+
+        if ($localStorage.locale.source === 'default' && navigator.globalization) {
+          navigator.globalization.getLocaleName(function(locale){
+            var lang = locale.value.slice(0, 2);
+            var languages = ['en', 'ru'];
+            if (_.contains(languages, lang)) {
+              gettextCatalog.setCurrentLanguage(lang);
+              $localStorage.locale.source = 'globalization';
+            }
+          });
         }
       }, false);
     }

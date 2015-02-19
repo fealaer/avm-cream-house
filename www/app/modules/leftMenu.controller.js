@@ -20,6 +20,7 @@ angular.module('avm.modules')
 
     $scope.changeLang = function () {
       gettextCatalog.setCurrentLanguage($scope.leftMenu.lang);
+      $localStorage.locale.source = 'user';
       $ionicSideMenuDelegate.toggleLeft();
     };
   });

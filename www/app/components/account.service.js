@@ -27,10 +27,12 @@ angular.module('avm.components')
      * @returns {Promise.promise}
      */
     self.logout = function (email, password) {
+      var locale = angular.copy($localStorage.locale);
       $localStorage.$reset({
         account: {},
         drinks: {},
-        updated: new Date()
+        updated: new Date(),
+        locale: locale
       });
       return account.one('logout').get();
     };
