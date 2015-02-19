@@ -1,9 +1,9 @@
 angular.module('avm.components')
-  .service('internetCallService', function (gettextCatalog, $window) {
+  .service('internetCallService', function (gettextCatalog, $window, cordovaHelper) {
     var self = this;
 
     self.call = function (cb) {
-      if (navigator.connection.type !== Connection.NONE) {
+      if (cordovaHelper.isConnected()) {
         if (arguments.length === 2) {
           cb(arguments[1]);
         } else {
