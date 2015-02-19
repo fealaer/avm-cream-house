@@ -45,7 +45,7 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/');
 	})
 
-	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, internetCallService) {
+	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, internetCallService, cordovaHelper) {
     supersonic.ui.navigationBar.hide();
 
     Restangular.setErrorInterceptor(errorResponseInterceptor);
@@ -73,7 +73,7 @@ angular.module('avm', [
 
     $localStorage.$default({
       account: {},
-      drinks: [],
+      drinks: {},
       updated: new Date()
     });
 
@@ -133,7 +133,26 @@ angular.module('avm', [
     // Set permission check on state loading.
     accessManager.init();
 
-    AdMobService.createBanner();
+    if (document.addEventListener) {
+      document.addEventListener('deviceready', function () {
+        AdMobService.createBanner();
+
+        if (!$state.includes('auth')) {
+          AdMobService.showBanner();
+        }
+
+        if (!cordovaHelper.isConnected() && navigator.notification) {
+          navigator.notification.alert(
+            gettextCatalog.getString('Your device has no data connection.\n' +
+              'App will attempt to show cached data where possible.\n' +
+              'Functions which use data connection disabled.'),
+            function () {
+            },
+            gettextCatalog.getString('Not Online')
+          );
+        }
+      }, false);
+    }
 	});
 
 
