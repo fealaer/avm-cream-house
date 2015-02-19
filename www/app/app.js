@@ -45,7 +45,7 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/');
 	})
 
-	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, $http) {
+	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, internetCallService) {
     supersonic.ui.navigationBar.hide();
 
     Restangular.setErrorInterceptor(errorResponseInterceptor);
@@ -63,6 +63,8 @@ angular.module('avm', [
 		$rootScope.$settings = $settings;
 		// Make $state global
 		$rootScope.$state = $state;
+
+    $rootScope.internetCall = internetCallService.call;
 
     $localStorage.$default({
       account: {},

@@ -21,11 +21,11 @@
 					class="button button-icon button-clear"
 					ng-class="{'button-stable': !item.isTried, 'button-balanced': item.isTried}"
 					ng-disabled="item.isTried"
-					ng-click="toTry(item); $event.stopPropagation();"><fa name="check" size="large"></fa></button>
+					ng-click="internetCall(toTry, item); $event.stopPropagation();"><fa name="check" size="large"></fa></button>
 				<button
 					class="button button-icon button-clear"
 					ng-class="{'button-stable': !item.isSaved, 'button-positive': item.isSaved}"
-					ng-click="toSave(item); $event.stopPropagation();"><fa name="bookmark" size="large"></fa></button>
+					ng-click="internetCall(toSave, item); $event.stopPropagation();"><fa name="bookmark" size="large"></fa></button>
 			</div>
 		</div>
 	</ion-content>
