@@ -16,18 +16,18 @@
 			<input type="text" placeholder="{{'Name' | translate}}" ng-model="newFilter.name['$']">
 		</label>
 		<label class="item item-input item-select">
-			<div class="input-label" translate>Flavor</div>
+			<span class="input-label" translate>Flavor</span>
 			<select ng-model="newFilter.properties.flavor" ng-options="flavor.value as flavor.label for flavor in flavors">
 			</select>
 		</label>
 		<div class="item item-divider" translate>Rich in</div>
 		<label class="item item-input item-select">
-			<div class="input-label" translate>Vitamin</div>
+			<span class="input-label" translate>Vitamin</span>
 			<select ng-model="newFilter.nutrition_facts.vitamins" ng-options="vitamin.value as vitamin.label for vitamin in vitamins">
 			</select>
 		</label>
 		<label class="item item-input item-select">
-			<div class="input-label" translate>Minerals</div>
+			<span class="input-label" translate>Minerals</span>
 			<select ng-model="newFilter.nutrition_facts.minerals" ng-options="mineral.value as mineral.label for mineral in minerals">
 			</select>
 		</label>
