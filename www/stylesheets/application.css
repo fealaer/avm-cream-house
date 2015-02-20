@@ -103,3 +103,14 @@ ion-nav-view {
     display: block;
     width:80%;
 }
+
+.thumbnail {
+    max-width: 80px;
+    max-height: 80px;
+    width: 100%;
+}
+
+.text-float-left {
+    margin-right: 10px;
+    float: left;
+}

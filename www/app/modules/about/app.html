@@ -1,0 +1,53 @@
+<ion-view title="AVM Cream House">
+	<ion-nav-buttons side="left">
+		<button class="button button-icon ion-navicon" menu-toggle="left"></button>
+	</ion-nav-buttons>
+
+	<ion-content>
+		<div class="list card">
+			<div class="item item-body">
+				<img class="thumbnail text-float-left" src="/images/common/developer.jpeg" ng-click="mailTo('fealaer@gmail.com')">
+				<p translate>Hello, {{$storage.account.profile.name}}!</p>
+
+				<p translate>My name is Andrey Pushkarev.</p>
+				<p></p>
+				<p translate>I am a software engineer, traveler, surfer and the creator of this application.</p>
+
+				<p translate>During my trip to Sri Lanka, I spent a lot of time around Weligama and often visited the cafe AVM Cream House. At one day, I realized that it was difficult to pick a new juice to try, my friends had the same problem, because:</p>
+				<p translate>- there are more than 60 fruits in the menu, most of them many people do not know;</p>
+				<p translate>- there are more than 500 drinks in the menu based on local fruits.</p>
+				<p translate>Thus I got the idea to make this application.</p>
+
+				<p translate>I hope that the application AVM Cream House will help you choose your next juice and discover new fruits!</p>
+			</div>
+			<div class="item item-divider item-icon-left">
+				<i class="icon ion-person"></i>
+				<translate>Contacts</translate>
+			</div>
+			<a class="item item-icon-right" ng-click="mailTo('fealaer@gmail.com')">
+				fealaer@gmail.com
+				<i class="icon ion-at"></i>
+			</a>
+			<div class="item item-divider item-icon-left">
+				<i class="icon ion-android-share-alt"></i>
+				<translate>Social</translate>
+			</div>
+			<a class="item item-icon-right" ng-click="linkedin()">
+				LinkedIn
+				<i class="icon ion-social-linkedin"></i>
+			</a>
+			<a class="item item-icon-right" ng-click="twitter()">
+				Twitter
+				<i class="icon ion-social-twitter"></i>
+			</a>
+			<a class="item item-icon-right" ng-click="facebook()">
+				Facebook
+				<i class="icon ion-social-facebook"></i>
+			</a>
+			<a class="item item-icon-right" ng-click="googleplus()">
+				Google Plus
+				<i class="icon ion-social-googleplus"></i>
+			</a>
+		</div>
+	</ion-content>
+</ion-view>

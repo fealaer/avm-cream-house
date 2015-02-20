@@ -4,14 +4,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
+#: www/app/modules/about/app.html:18
+msgid "- there are more than 500 drinks in the menu based on local fruits."
+msgstr ""
+
+#: www/app/modules/about/app.html:17
+msgid "- there are more than 60 fruits in the menu, most of them many people do not know;"
+msgstr ""
+
 #: www/app/components/tryDrink.modal.html:11
 msgid "1 star!"
 msgid_plural "{{$count}} stars!"
 msgstr[0] ""
 msgstr[1] ""
 
+#: www/app/modules/auth/forget.html:8
+#: www/app/modules/auth/login.html:8
+#: www/app/modules/auth/signup.html:8
+msgid "AVM Cream House App helps you choose your next drink!"
+msgstr ""
+
 #: www/app/modules/leftMenu.html:27
 msgid "About App"
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:71
+msgid "Account with that email address already exists."
 msgstr ""
 
 #: www/app/modules/menu/drinks/filter.html:25
@@ -31,8 +49,8 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: www/app/components/errorResponseInterceptor.service.js:91
-msgid "Authentication session expired"
+#: www/app/components/errorResponseInterceptor.service.js:25
+msgid "Authentication session expired."
 msgstr ""
 
 #: www/app/components/filter.controller.js:53
@@ -67,11 +85,12 @@ msgstr ""
 msgid "Comment"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:80
+#: www/app/modules/menu/drinks/item.html:81
 msgid "Comments"
 msgstr ""
 
 #: www/app/modules/about/about.html:38
+#: www/app/modules/about/app.html:25
 msgid "Contacts"
 msgstr ""
 
@@ -84,7 +103,7 @@ msgid "Creamy"
 msgstr ""
 
 #: www/app/modules/auth/login.html:26
-msgid "Create Account"
+msgid "Create an Account"
 msgstr ""
 
 #: www/app/modules/menu/drinks/filter.html:44
@@ -105,10 +124,18 @@ msgstr ""
 msgid "Drinks"
 msgstr ""
 
+#: www/app/modules/about/app.html:16
+msgid "During my trip to Sri Lanka, I spent a lot of time around Weligama and often visited the cafe AVM Cream House. At one day, I realized that it was difficult to pick a new juice to try, my friends had the same problem, because:"
+msgstr ""
+
 #: www/app/modules/auth/forget.html:12
 #: www/app/modules/auth/login.html:12
 #: www/app/modules/auth/signup.html:16
 msgid "Email"
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:70
+msgid "Email is not valid."
 msgstr ""
 
 #: www/app/modules/menu/ingredients/item.html:26
@@ -148,8 +175,20 @@ msgstr ""
 msgid "Have an account? Log In"
 msgstr ""
 
+#: www/app/modules/about/app.html:10
+msgid "Hello, {{$storage.account.profile.name}}!"
+msgstr ""
+
 #: www/app/modules/about/about.html:15
 msgid "Here you will find a huge range of drinks from any fresh fruit, as well as delicious local dishes."
+msgstr ""
+
+#: www/app/modules/about/app.html:14
+msgid "I am a software engineer, traveler, surfer and the creator of this application."
+msgstr ""
+
+#: www/app/modules/about/app.html:21
+msgid "I hope that the application AVM Cream House will help you choose your next juice and discover new fruits!"
 msgstr ""
 
 #: www/app/modules/menu/drinks/item.html:33
@@ -166,6 +205,14 @@ msgstr ""
 msgid "Ingredients"
 msgstr ""
 
+#: www/app/components/internetCall.service.js:14
+msgid "Internet connection is not available."
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:77
+msgid "Invalid email or password."
+msgstr ""
+
 #: www/app/components/filter.controller.js:85
 msgid "Iodine"
 msgstr ""
@@ -180,6 +227,11 @@ msgstr ""
 
 #: www/app/components/filter.controller.js:46
 msgid "Liquid"
+msgstr ""
+
+#: www/app/app.js:55
+#: www/app/app.js:98
+msgid "Loading..."
 msgstr ""
 
 #: www/app/modules/about/about.html:29
@@ -216,8 +268,12 @@ msgstr ""
 msgid "Molybdenum"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:88
+#: www/app/modules/menu/drinks/item.html:89
 msgid "More"
+msgstr ""
+
+#: www/app/modules/about/app.html:12
+msgid "My name is Andrey Pushkarev."
 msgstr ""
 
 #: www/app/components/filter.controller.js:38
@@ -231,6 +287,14 @@ msgstr ""
 #: www/app/modules/menu/drinks/filter.html:27
 #: www/app/modules/menu/drinks/filter.html:35
 msgid "No"
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:76
+msgid "No account with that email address exists."
+msgstr ""
+
+#: www/app/app.js:148
+msgid "Not Online"
 msgstr ""
 
 #: www/app/components/filter.controller.js:57
@@ -260,6 +324,22 @@ msgstr ""
 #: www/app/modules/auth/login.html:16
 #: www/app/modules/auth/signup.html:20
 msgid "Password"
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:72
+msgid "Password cannot be blank."
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:73
+msgid "Password must be at least 4 characters long."
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:74
+msgid "Password reset token is invalid or has expired."
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:75
+msgid "Passwords do not match."
 msgstr ""
 
 #: www/app/components/filter.controller.js:79
@@ -340,21 +420,12 @@ msgid "Sign in with Email"
 msgstr ""
 
 #: www/app/modules/about/about.html:54
+#: www/app/modules/about/app.html:33
 msgid "Social"
 msgstr ""
 
 #: www/app/components/filter.controller.js:77
 msgid "Sodium"
-msgstr ""
-
-#: www/app/components/drinks.service.js:850
-#: www/app/modules/account/profile.controller.js:29
-#: www/app/modules/auth/login.controller.js:35
-#: www/app/modules/auth/signup.controller.js:41
-#: www/app/modules/auth/socialSignin.controller.js:41
-#: www/app/modules/menu/menu.controller.js:36
-#: www/app/modules/menu/menu.controller.js:84
-msgid "Some error occurred"
 msgstr ""
 
 #: www/app/components/filter.controller.js:52
@@ -369,12 +440,20 @@ msgstr ""
 msgid "Tasted"
 msgstr ""
 
+#: www/app/modules/about/app.html:19
+msgid "Thus I got the idea to make this application."
+msgstr ""
+
 #: www/app/components/filter.controller.js:55
 msgid "Umami"
 msgstr ""
 
-#: www/app/components/errorResponseInterceptor.service.js:34
+#: www/app/components/errorResponseInterceptor.service.js:16
 msgid "Unexpected server error. Try perform this action later."
+msgstr ""
+
+#: www/app/components/errorResponseInterceptor.service.js:78
+msgid "User is not authenticated."
 msgstr ""
 
 #: www/app/modules/auth/signup.html:12
@@ -399,7 +478,7 @@ msgid "Yes"
 msgstr ""
 
 #: www/app/components/accessManager.service.js:86
-#: www/app/components/errorResponseInterceptor.service.js:44
+#: www/app/components/errorResponseInterceptor.service.js:32
 msgid "You do not have permission to perform this action."
 msgstr ""
 
@@ -409,6 +488,13 @@ msgstr ""
 
 #: www/app/components/tryDrink.modal.html:3
 msgid "You've just tried {{item.name[lang]}}!"
+msgstr ""
+
+#: www/app/app.js:144
+msgid ""
+"Your device has no data connection.\n"
+"App will attempt to show cached data where possible.\n"
+"Functions which use data connection disabled."
 msgstr ""
 
 #: www/app/components/filter.controller.js:81

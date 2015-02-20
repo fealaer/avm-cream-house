@@ -10,5 +10,13 @@ angular.module('avm.about')
         allow: {
           logged: true
         }
-			});
+			})
+      .state('base.about-app', {
+        url: "/about-app",
+        templateUrl: "app/modules/about/app.html",
+        controller: "AboutAppCtrl",
+        allow: {
+          logged: true
+        }
+      });
 	});
