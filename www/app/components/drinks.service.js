@@ -819,7 +819,7 @@ angular.module('avm.components')
 
     self.isDataOld = function () {
       var now = new Date();
-      var past = $localStorage.updated;
+      var past = new Date($localStorage.updated);
       return Math.abs(now.getTime() - past.getTime()) >= (1000 * 60 * 10);
     };
 
