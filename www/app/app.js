@@ -139,15 +139,12 @@ angular.module('avm', [
       document.addEventListener('deviceready', function () {
         AdMobService.createBanner();
 
-        if (!cordovaHelper.isConnected() && navigator.notification) {
-          navigator.notification.alert(
-            gettextCatalog.getString('Your device has no data connection.\n' +
-              'App will attempt to show cached data where possible.\n' +
-              'Functions which use data connection disabled.'),
-            function () {},
-            gettextCatalog.getString('Not Online')
-          );
-        }
+        console.log('deviceready');
+        $timeout(function () {
+          if (!$state.includes('auth')) {
+            AdMobService.showBanner();
+          }
+        }, 10000);
 
         if ($localStorage.locale.source === 'default' && navigator.globalization) {
           navigator.globalization.getLocaleName(function(locale){
@@ -158,6 +155,16 @@ angular.module('avm', [
               $localStorage.locale.source = 'globalization';
             }
           });
+        }
+
+        if (!cordovaHelper.isConnected() && navigator.notification) {
+          navigator.notification.alert(
+            gettextCatalog.getString('Your device has no data connection.\n' +
+              'App will attempt to show cached data where possible.\n' +
+              'Functions which use data connection disabled.'),
+            function () {},
+            gettextCatalog.getString('Not Online')
+          );
         }
       }, false);
     }
