@@ -114,3 +114,7 @@ ion-nav-view {
     margin-right: 10px;
     float: left;
 }
+
+ion-header-bar {
+    top: 0px !important;
+}
