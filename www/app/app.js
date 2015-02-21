@@ -136,6 +136,10 @@ angular.module('avm', [
     accessManager.init();
 
     if (document.addEventListener) {
+      document.addEventListener('DOMContentLoaded', function() {
+        FastClick.attach(document.body);
+      }, false);
+
       document.addEventListener('deviceready', function () {
         AdMobService.createBanner();
 
@@ -169,9 +173,3 @@ angular.module('avm', [
       }, false);
     }
 	});
-
-
-//	// Init intercom
-//	.run(function (intercom) {
-//		intercom.init();
-//	});
