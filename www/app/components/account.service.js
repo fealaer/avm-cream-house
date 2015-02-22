@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('avm.components')
-	.service('account', function ($rootScope, Restangular, $localStorage, $q, md5, cordovaHelper) {
+	.service('account', function ($rootScope, Restangular, $localStorage, $q, md5, cordovaHelper, gaService) {
     var self = this;
     var url = 'account';
     var account = Restangular.one(url);
@@ -16,6 +16,7 @@ angular.module('avm.components')
 
       account.all('login').customPOST(data).then(function (response) {
         self.setAccountData(response.result);
+        gaService.setUserId($localStorage.account.email);
         deferred.resolve($localStorage.account);
       });
 
@@ -34,6 +35,7 @@ angular.module('avm.components')
         updated: new Date(),
         locale: locale
       });
+      gaService.setUserId('guest');
       return account.one('logout').get();
     };
 

@@ -8,6 +8,7 @@ angular.module('avm.menu')
 		$scope.toTry = function (item) {
 			$scope.item = item;
 			$scope.data = angular.copy(defData);
+      $rootScope.trackEvent('button', 'click', 'To Try');
 			openModal();
 		};
 
@@ -17,13 +18,13 @@ angular.module('avm.menu')
         isSaved: item.isSaved
       };
 
+      $rootScope.trackEvent('button', 'click', 'To Save');
+
       account.saveDrink(data)
         .then(function (response) {
           item.isSaved = !item.isSaved;
           account.setAccountData(response.result);
         });
-
-
 		};
 
 		$scope.drinksWith = function (item) {
@@ -36,9 +37,15 @@ angular.module('avm.menu')
 					reverse: false
 				}
 			};
+      $rootScope.trackEvent('button', 'click', 'Drinks With');
 			listFilter.set('drinks', filter);
 			$state.go('menu.drinks');
 		};
+
+    $scope.moreComments = function (item) {
+      $rootScope.trackEvent('button', 'click', 'More comments');
+      // todo implementation
+    };
 
 		$scope.save = function () {
 			closeModal();

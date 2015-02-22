@@ -27,12 +27,12 @@
 			</div>
 			<div ng-controller="InfoTabsCtrl">
 				<div class="item tabs tabs-secondary tabs-icon-top secondary-tabs-in-item tabs-positive">
-					<a class="tab-item" href ng-click="setTab('info')"
+					<a class="tab-item" href ng-click="setTab('info'); trackEvent('tabs', 'change', 'Info');"
 					   ng-class="{active: isSet('info')}">
 						<i class="icon ion-information-circled"></i>
 						<translate>Info</translate>
 					</a>
-					<a class="tab-item" href ng-click="setTab('rate')"
+					<a class="tab-item" href ng-click="setTab('rate'); trackEvent('tabs', 'change', 'Rate');"
 					   ng-class="{active: isSet('rate')}">
 						<i class="icon ion-ios7-people"></i>
 						<fa name="star"></fa>
@@ -86,7 +86,7 @@
 						<p>{{comment.comment}}</p>
 					</div>
 					<div class="item" ng-show="item.totalComments && (item.totalComments > item.comments.length)">
-						<button class="button button-block button-stable" translate>More</button>
+						<button class="button button-block button-stable" ng-click="internetCall(moreComments, item)" translate>More</button>
 					</div>
 				</div>
 			</div>

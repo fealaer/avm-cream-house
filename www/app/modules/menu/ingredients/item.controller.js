@@ -6,6 +6,7 @@ angular.module('avm.menu.ingredients')
     var lang = gettextCatalog.currentLanguage;
 
     $scope.wiki = function (wiki) {
+      $rootScope.trackEvent('button', 'click', 'Open in wiki');
       var url;
       if (wiki[lang]) {
         url = wiki[lang];

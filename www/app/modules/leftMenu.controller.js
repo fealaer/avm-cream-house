@@ -19,6 +19,7 @@ angular.module('avm.modules')
     $scope.leftMenu = {lang: gettextCatalog.currentLanguage};
 
     $scope.changeLang = function () {
+      $rootScope.trackEvent('change', 'lang', $scope.leftMenu.lang);
       gettextCatalog.setCurrentLanguage($scope.leftMenu.lang);
       $localStorage.locale.source = 'user';
       $ionicSideMenuDelegate.toggleLeft();

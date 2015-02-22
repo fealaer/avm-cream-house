@@ -123,11 +123,13 @@ angular.module('avm.components')
 		}
 
 		$scope.resetFilter = function () {
+      $rootScope.trackEvent('filter', 'reset', listName);
 			init();
 			closeFilter();
 		};
 
 		$scope.applyFilter = function () {
+      $rootScope.trackEvent('filter', 'apply', listName);
 			closeFilter();
 		};
 

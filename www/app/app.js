@@ -45,7 +45,7 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/');
 	})
 
-	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, internetCallService, cordovaHelper) {
+	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, internetCallService, cordovaHelper, gaService) {
     supersonic.ui.navigationBar.hide();
 
     Restangular.setErrorInterceptor(errorResponseInterceptor);
@@ -70,6 +70,7 @@ angular.module('avm', [
 		$rootScope.$state = $state;
 
     $rootScope.internetCall = internetCallService.call;
+    $rootScope.trackEvent = gaService.trackEvent;
 
     $localStorage.$default({
       account: {},
@@ -125,12 +126,10 @@ angular.module('avm', [
 			});
 		})();
 
-		// Google analytics users activity tracking
-//		$rootScope.$on('$stateChangeSuccess', function (event, data) {
-//			if (_.isFunction($window.ga) && data.name.indexOf('manager.') === -1) {
-//				$window.ga('send', 'pageview', { page: $location.path() });
-//			}
-//		});
+    // Google analytics users activity tracking
+    $rootScope.$on('$stateChangeSuccess', function (event, data) {
+      gaService.trackView($location.path());
+    });
 
     // Set permission check on state loading.
     accessManager.init();
@@ -141,9 +140,10 @@ angular.module('avm', [
       }, false);
 
       document.addEventListener('deviceready', function () {
+        console.log('deviceready');
+
         AdMobService.createBanner();
 
-        console.log('deviceready');
         $timeout(function () {
           if (!$state.includes('auth')) {
             AdMobService.showBanner();
@@ -157,6 +157,7 @@ angular.module('avm', [
             if (_.contains(languages, lang)) {
               gettextCatalog.setCurrentLanguage(lang);
               $localStorage.locale.source = 'globalization';
+              $rootScope.trackEvent('setUp', 'lang', lang);
             }
           });
         }
@@ -169,6 +170,10 @@ angular.module('avm', [
             function () {},
             gettextCatalog.getString('Not Online')
           );
+        }
+
+        if ($localStorage.account.email) {
+          gaService.setUserId($localStorage.account.email);
         }
       }, false);
     }
