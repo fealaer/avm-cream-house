@@ -7,7 +7,7 @@
 	</ion-nav-buttons>
 	<ion-content has-tabs delegate-handle="ingredients-list">
 		<div class="item-thumbnail-left item item-complex item-in-list"
-		     collection-repeat="item in items | filter:search.filter | orderBy:search.order.by:search.order.reverse track by item.id"
+		     collection-repeat="item in items | filter:search.filter | orderBy:search.order.by:reverse track by item.id"
 		     collection-item-width="'100%'"
 		     collection-item-height="100">
 			<a class="item-content item-80" ui-sref="menu.ingredients.item({id: item.id})">
