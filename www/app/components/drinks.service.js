@@ -829,10 +829,10 @@ angular.module('avm.components')
       if (cordovaHelper.isConnected() && (!$localStorage.drinks.list || self.isDataOld())) {
         ratingService.getAll()
           .then(function (response) {
-            var _drinks_ = angular.copy(drinks);
-            _.sortBy(_drinks_, 'id');
-            _.sortBy(response.result, 'id');
-            _.merge(_drinks_, response.result);
+            var accessor = function (obj) {
+              return obj.id;
+            };
+            var _drinks_ = _.sortedMergeInnerJoin(drinks, accessor, response.result, accessor);
             var user = account.getAccountData();
             if ((user.tried && !_.isEmpty(user.tried)) ||
               (user.saved && !_.isEmpty(user.saved))) {
