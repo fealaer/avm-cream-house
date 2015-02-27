@@ -1,812 +1,509 @@
 [
-  {
-    "id": "almond_drink",
-    "pic": "almond",
-    "name": {
-      "en": "Almond Drink",
-      "ru": "Напиток с Миндалем"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["almond"]
-  },
-  {
-    "id": "ambarella_juice",
-    "pic": "ambarella",
-    "name": {
-      "en": "Ambarella Juice",
-      "ru": "Сок из Амбареллы"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": [""]
-    },
-    "ingredients": ["ambarella"]
-  },
-  {
-    "id": "apple_juice",
-    "pic": "apple",
-    "name": {
-      "en": "Apple Juice",
-      "ru": "Сок из Яблок"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["apple"]
-  },
-  {
-    "id": "baeli_fruit_juice",
-    "pic": "baeli_fruit",
-    "name": {
-      "en": "Baeli Fruit Juice",
-      "ru": "Сок из Баиля"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["baeli_fruit"]
-  },
-  {
-    "id": "banana_juice",
-    "pic": "banana",
-    "name": {
-      "en": "Banana Juice",
-      "ru": "Сок из Банана"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["banana"]
-  },
-  {
-    "id": "beetroot_juice",
-    "pic": "beetroot",
-    "name": {
-      "en": "Beetroot Juice",
-      "ru": "Сок из Свеклы"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["beetroot"]
-  },
-  {
-    "id": "bitter_gourd_juice",
-    "pic": "bitter_gourd",
-    "name": {
-      "en": "Bitter Gourd Juice",
-      "ru": "Сок из Горького огурца"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Bitter"]
-    },
-    "ingredients": ["bitter_gourd"]
-  },
-  {
-    "id": "cantaloupe_juice",
-    "pic": "cantaloupe",
-    "name": {
-      "en": "Cantaloupe Juice",
-      "ru": "Сок из Канталупы"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["cantaloupe"]
-  },
-  {
-    "id": "carrot_juice",
-    "pic": "carrot",
-    "name": {
-      "en": "Carrot Juice",
-      "ru": "Сок из Моркови"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["carrot"]
-  },
-  {
-    "id": "cashew_apple_juice",
-    "pic": "cashew_apple",
-    "name": {
-      "en": "Cashew Fruit Juice",
-      "ru": "Сок из Яблока Кешью"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["cashew_apple"]
-  },
-  {
-    "id": "cashew_nut_drink",
-    "pic": "cashew_nut",
-    "name": {
-      "en": "Cashew Nut Drink",
-      "ru": "Напиток с Кешью"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["cashew_nut"]
-  },
-  {
-    "id": "cocoa_fruit_juice",
-    "pic": "cocoa_fruit",
-    "name": {
-      "en": "Cocoa Fruit Juice",
-      "ru": "Сок из Какао"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["cocoa_fruit"]
-  },
-
-  {
-    "id": "cucumber_juice",
-    "pic": "cucumber",
-    "name": {
-      "en": "Cucumber Juice",
-      "ru": "Сок из Огурца"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["cucumber"]
-  },
-  {
-    "id": "curry_leaf_juice",
-    "pic": "curry_leaf",
-    "name": {
-      "en": "Curry leaf Juice",
-      "ru": "Сок из Листьев Карри"
-    },
-    "properties": {
-      "density": "",
-      "flavor": [""]
-    },
-    "ingredients": ["curry_leaf"]
-  },
-  {
-    "id": "custard_apple_juice",
-    "pic": "custard_apple",
-    "name": {
-      "en": "Custard Apple Juice",
-      "ru": "Сок из Черимойи"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["custard_apple"]
-  },
-  {
-    "id": "dates_juice",
-    "pic": "dates",
-    "name": {
-      "en": "Dates Juice",
-      "ru": "Сок из Фиников"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["dates"]
-  },
-  {
-    "id": "dragon_fruit_juice",
-    "pic": "dragon_fruit",
-    "name": {
-      "en": "Dragon Fruit Juice",
-      "ru": "Сок из Питайи"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["dragon_fruit"]
-  },
-  {
-    "id": "durian_juice",
-    "pic": "durian",
-    "name": {
-      "en": "Durian Juice",
-      "ru": "Сок из Дуриана"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["durian"]
-  },
-  {
-    "id": "fig_juice",
-    "pic": "fig",
-    "name": {
-      "en": "Fig Juice",
-      "ru": "Сок из Инжира"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["fig"]
-  },
-  {
-    "id": "ginger_juice",
-    "pic": "ginger",
-    "name": {
-      "en": "Ginger Juice",
-      "ru": "Сок из Имбиря"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Pungency"]
-    },
-    "ingredients": ["ginger"]
-  },
-  {
-    "id": "gotukola_juice",
-    "pic": "gotukola",
-    "name": {
-      "en": "Gotukola Juice",
-      "ru": "Сок из Центеллы"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Bitter", "Sweet"]
-    },
-    "ingredients": ["gotukola"]
-  },
-  {
-    "id": "grapefruit_juice",
-    "pic": "grapefruit",
-    "name": {
-      "en": "Grapefruit Juice",
-      "ru": "Сок из Грейпфрута"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Bitter", "Sweet"]
-    },
-    "ingredients": ["grapefruit"]
-  },
-  {
-    "id": "grapes_juice",
-    "pic": "grapes",
-    "name": {
-      "en": "Grapes Juice",
-      "ru": "Сок из Винограда"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["grapes"]
-  },
-
-  {
-    "id": "guava_juice",
-    "pic": "guava",
-    "name": {
-      "en": "Guava Juice",
-      "ru": "Сок из Гуавы"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["guava"]
-  },
-  {
-    "id": "jackfruit_juice",
-    "pic": "jackfruit",
-    "name": {
-      "en": "Jackfruit Juice",
-      "ru": "Сок из Джекфрута"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["jackfruit"]
-  },
-  {
-    "id": "jambu_juice",
-    "pic": "jambu",
-    "name": {
-      "en": "Jambu Juice",
-      "ru": "Сок из Яванского яблока"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["jambu"]
-  },
-
-  {
-    "id": "kirala_juice",
-    "pic": "kirala",
-    "name": {
-      "en": "Kirala Juice",
-      "ru": "Сок из Киралы"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["kirala"]
-  },
-
-  {
-    "id": "kiwi_juice",
-    "pic": "kiwi",
-    "name": {
-      "en": "Kiwi Juice",
-      "ru": "Сок из Киви"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["kiwi"]
-  },
-  {
-    "id": "lawulu_juice",
-    "pic": "lawulu",
-    "name": {
-      "en": "Lawulu Juice",
-      "ru": "Сок из Лавулу"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["lawulu"]
-  },
-  {
-    "id": "lemon_juice",
-    "pic": "lemon",
-    "name": {
-      "en": "Lemon Juice",
-      "ru": "Сок из Лемона"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["lemon"]
-  },
-  {
-    "id": "lime_juice",
-    "pic": "lime",
-    "name": {
-      "en": "Lime Juice",
-      "ru": "Сок из Лайма"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["lime"]
-  },
-  {
-    "id": "lovi_juice",
-    "pic": "lovi",
-    "name": {
-      "en": "Lovi Juice",
-      "ru": "Сок из Лови"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["lovi"]
-  },
-  {
-    "id": "mandarin_juice",
-    "pic": "mandarin",
-    "name": {
-      "en": "Mandarin Juice",
-      "ru": "Сок из Мандарина"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet/Sour"]
-    },
-    "ingredients": ["mandarin"]
-  },
-  {
-    "id": "mango_juice",
-    "pic": "mango",
-    "name": {
-      "en": "Mango Juice",
-      "ru": "Сок из Манго"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["mango"]
-  },
-  {
-    "id": "mangosteen_juice",
-    "pic": "mangosteen",
-    "name": {
-      "en": "Mangosteen Juice",
-      "ru": "Сок из Мангустина"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["mangosteen"]
-  },
-  {
-    "id": "naminan_juice",
-    "pic": "naminan",
-    "name": {
-      "en": "Naminan Juice",
-      "ru": "Сок из Наминана"
-    },
-    "properties": {
-      "density": "",
-      "flavor": ["Bitter"]
-    },
-    "ingredients": ["naminan"]
-  },
-  {
-    "id": "nelli_juice",
-    "pic": "nelli",
-    "name": {
-      "en": "Nelli Juice",
-      "ru": "Сок из Нелли"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["nelli"]
-  },
-  {
-    "id": "orange_juice",
-    "pic": "orange",
-    "name": {
-      "en": "Orange Juice",
-      "ru": "Сок из Апельсина"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["orange"]
-  },
-  {
-    "id": "palm_fruit_juice",
-    "pic": "palm_fruit",
-    "name": {
-      "en": "Palm fruit Juice",
-      "ru": "Сок из Пальмировой пальмы"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Bitter"]
-    },
-    "ingredients": ["palm_fruit"]
-  },
-  {
-    "id": "papaya_juice",
-    "pic": "papaya",
-    "name": {
-      "en": "Papaya Juice",
-      "ru": "Сок из Папайи"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["papaya"]
-  },
-  {
-    "id": "passion_fruit_juice",
-    "pic": "passion_fruit",
-    "name": {
-      "en": "Passion Fruit Juice",
-      "ru": "Сок из Маракуи"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["passion_fruit"]
-  },
-  {
-    "id": "peanut_drink",
-    "pic": "peanut",
-    "name": {
-      "en": "Peanut Drink",
-      "ru": "Напиток из Арахиса"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["peanut"]
-  },
-  {
-    "id": "pear_juice",
-    "pic": "pear",
-    "name": {
-      "en": "Pear Juice",
-      "ru": "Сок из Груши"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["pear"]
-  },
-  {
-    "id": "pineapple_juice",
-    "pic": "pineapple",
-    "name": {
-      "en": "Pineapple Juice",
-      "ru": "Сок из Ананаса"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["pineapple"]
-  },
-  {
-    "id": "pomegranate_juice",
-    "pic": "pomegranate",
-    "name": {
-      "en": "Pomegranate Juice",
-      "ru": "Сок из Граната"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["pomegranate"]
-  },
-  {
-    "id": "raisin_juice",
-    "pic": "raisin",
-    "name": {
-      "en": "Raisin Juice",
-      "ru": "Сок из Изюма"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["raisin"]
-  },
-  {
-    "id": "rambutan_juice",
-    "pic": "rambutan",
-    "name": {
-      "en": "Rambutan Juice",
-      "ru": "Сок из Рамбутана"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["rambutan"]
-  },
-  {
-    "id": "sapodilla_juice",
-    "pic": "sapodilla",
-    "name": {
-      "en": "Sapodilla Juice",
-      "ru": "Сок из Саподиллы"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["sapodilla"]
-  },
-  {
-    "id": "silver_melon_juice",
-    "pic": "silver_melon",
-    "name": {
-      "en": "Silver Melon Juice",
-      "ru": "Сок из Серебрянной Дыни"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["silver_melon"]
-  },
-  {
-    "id": "sour_orange_juice",
-    "pic": "sour_orange",
-    "name": {
-      "en": "Sour Orange Juice",
-      "ru": "Сок из Кислого Апельсина"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour", "Bitter"]
-    },
-    "ingredients": ["sour_orange"]
-  },
-  {
-    "id": "sour_guava_juice",
-    "pic": "sour_guava",
-    "name": {
-      "en": "Sour Guava Juice",
-      "ru": "Сок из Кислой Гуавы"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["sour_guava"]
-  },
-  {
-    "id": "soursop_annona_juice",
-    "pic": "soursop_annona",
-    "name": {
-      "en": "Soursop Annona Juice",
-      "ru": "Сок из Анноны"
-    },
-    "properties": {
-      "density": "",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["soursop_annona"]
-  },
-  {
-    "id": "starfruit_juice",
-    "pic": "starfruit",
-    "name": {
-      "en": "Starfruit Juice",
-      "ru": "Сок из Карамболи"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["starfruit"]
-  },
-  {
-    "id": "strawberry_juice",
-    "pic": "strawberry",
-    "name": {
-      "en": "Strawberry Juice",
-      "ru": "Сок из Клубники"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["strawberry"]
-  },
-  {
-    "id": "sugar_cane_juice",
-    "pic": "sugar_cane",
-    "name": {
-      "en": "Sugar Cane Juice",
-      "ru": "Сок из Сахарного тросника"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["sugar_cane"]
-  },
-  {
-    "id": "sweet_coconut_juice",
-    "pic": "sweet_coconut",
-    "name": {
-      "en": "Sweet Coconut Juice",
-      "ru": "Сок из Сладкого Кокоса"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["sweet_coconut"]
-  },
-  {
-    "id": "sweet_melon_juice",
-    "pic": "sweet_melon",
-    "name": {
-      "en": "Sweet Melon Juice",
-      "ru": "Сок из Сладкой Дыни"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["sweet_melon"]
-  },
-  {
-    "id": "tamarind_juice",
-    "pic": "tamarind",
-    "name": {
-      "en": "Tamarind Juice",
-      "ru": "Сок из Тамаринда"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sweet", "Salt"]
-    },
-    "ingredients": ["tamarind"]
-  },
-  {
-    "id": "tomato_juice",
-    "pic": "tomato",
-    "name": {
-      "en": "Tomato Juice",
-      "ru": "Сок из Помидоров"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet", "Sour"]
-    },
-    "ingredients": ["tomato"]
-  },
-  {
-    "id": "veralu_juice",
-    "pic": "veralu",
-    "name": {
-      "en": "Veralu Juice",
-      "ru": "Сок из Вералу"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sour"]
-    },
-    "ingredients": ["veralu"]
-  },
-  {
-    "id": "watermelon_juice",
-    "pic": "watermelon",
-    "name": {
-      "en": "Watermelon Juice",
-      "ru": "Сок из Арбуза"
-    },
-    "properties": {
-      "density": "Liquid",
-      "flavor": ["Sweet"]
-    },
-    "ingredients": ["watermelon"]
-  },
-  {
-    "id": "woodapple_juice",
-    "pic": "woodapple",
-    "name": {
-      "en": "Woodapple Juice",
-      "ru": "Сок из Деревянного Яблока"
-    },
-    "properties": {
-      "density": "Creamy",
-      "flavor": ["Sour", "Sweet"]
-    },
-    "ingredients": ["woodapple"]
-  }
+  {"id": "avocado_juice", "name": {"en": "Avocado Juice", "ru": "Сок из Авокадо"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado"]},
+  {"id": "avocado_milk_shake", "name": {"en": "Avocado Milk Shake", "ru": "Молочный коктейль из Авокадо"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "fresh_milk"]},
+  {"id": "avocado_smoothie", "name": {"en": "Avocado Smoothie", "ru": "Смузи из Авокадо"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "ice"]},
+  {"id": "lassi_with_avocado", "name": {"en": "Lassi with Avocado", "ru": "Ласси из Авокадо"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "yogurt"]},
+  {"id": "apple_juice", "name": {"en": "Apple Juice", "ru": "Сок из Яблок"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["apple"]},
+  {"id": "apple_milk_shake", "name": {"en": "Apple Milk Shake", "ru": "Молочный коктейль из Яблок"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["apple", "fresh_milk"]},
+  {"id": "apple_smoothie", "name": {"en": "Apple Smoothie", "ru": "Смузи из Яблок"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["apple", "ice"]},
+  {"id": "lassi_with_apple", "name": {"en": "Lassi with Apple", "ru": "Ласси из Яблок"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["apple", "yogurt"]},
+  {"id": "ambarella_juice", "name": {"en": "Ambarella Juice", "ru": "Сок из Амбареллы"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["ambarella"]},
+  {"id": "ambarella_milk_shake", "name": {"en": "Ambarella Milk Shake", "ru": "Молочный коктейль из Амбареллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["ambarella", "fresh_milk"]},
+  {"id": "ambarella_smoothie", "name": {"en": "Ambarella Smoothie", "ru": "Смузи из Амбареллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["ambarella", "ice"]},
+  {"id": "lassi_with_ambarella", "name": {"en": "Lassi with Ambarella", "ru": "Ласси из Амбареллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["ambarella", "yogurt"]},
+  {"id": "banana_juice", "name": {"en": "Banana Juice", "ru": "Сок из Бананов"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana"]},
+  {"id": "banana_milk_shake", "name": {"en": "Banana Milk Shake", "ru": "Молочный коктейль из Бананов"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "fresh_milk"]},
+  {"id": "banana_smoothie", "name": {"en": "Banana Smoothie", "ru": "Смузи из Бананов"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "ice"]},
+  {"id": "lassi_with_banana", "name": {"en": "Lassi with Banana", "ru": "Ласси из Бананов"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "yogurt"]},
+  {"id": "cantaloupe_juice", "name": {"en": "Cantaloupe Juice", "ru": "Сок из Канталупы"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["cantaloupe"]},
+  {"id": "cantaloupe_milk_shake", "name": {"en": "Cantaloupe Milk Shake", "ru": "Молочный коктейль из Канталупы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cantaloupe", "fresh_milk"]},
+  {"id": "cantaloupe_smoothie", "name": {"en": "Cantaloupe Smoothie", "ru": "Смузи из Канталупы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cantaloupe", "ice"]},
+  {"id": "lassi_with_cantaloupe", "name": {"en": "Lassi with Cantaloupe", "ru": "Ласси из Канталупы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cantaloupe", "yogurt"]},
+  {"id": "custard_apple_juice", "name": {"en": "Custard apple Juice", "ru": "Сок из Черимойи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["custard_apple"]},
+  {"id": "custard_apple_milk_shake", "name": {"en": "Custard apple Milk Shake", "ru": "Молочный коктейль из Черимойи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["custard_apple", "fresh_milk"]},
+  {"id": "custard_apple_smoothie", "name": {"en": "Custard apple Smoothie", "ru": "Смузи из Черимойи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["custard_apple", "ice"]},
+  {"id": "lassi_with_custard_apple", "name": {"en": "Lassi with Custard apple", "ru": "Ласси из Черимойи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["custard_apple", "yogurt"]},
+  {"id": "cashew_apple_juice", "name": {"en": "Cashew apple Juice", "ru": "Сок из Яблока Кешью"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["cashew_apple"]},
+  {"id": "cashew_apple_milk_shake", "name": {"en": "Cashew apple Milk Shake", "ru": "Молочный коктейль из Яблока Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cashew_apple", "fresh_milk"]},
+  {"id": "cashew_apple_smoothie", "name": {"en": "Cashew apple Smoothie", "ru": "Смузи из Яблока Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cashew_apple", "ice"]},
+  {"id": "lassi_with_cashew_apple", "name": {"en": "Lassi with Cashew apple", "ru": "Ласси из Яблока Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cashew_apple", "yogurt"]},
+  {"id": "cocoa_fruit_juice", "name": {"en": "Cocoa fruit Juice", "ru": "Сок из Какао"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["cocoa_fruit"]},
+  {"id": "cocoa_fruit_milk_shake", "name": {"en": "Cocoa fruit Milk Shake", "ru": "Молочный коктейль из Какао"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cocoa_fruit", "fresh_milk"]},
+  {"id": "cocoa_fruit_smoothie", "name": {"en": "Cocoa fruit Smoothie", "ru": "Смузи из Какао"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cocoa_fruit", "ice"]},
+  {"id": "lassi_with_cocoa_fruit", "name": {"en": "Lassi with Cocoa fruit", "ru": "Ласси из Какао"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cocoa_fruit", "yogurt"]},
+  {"id": "dragon_fruit_juice", "name": {"en": "Dragon fruit Juice", "ru": "Сок из Питайи"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["dragon_fruit"]},
+  {"id": "dragon_fruit_milk_shake", "name": {"en": "Dragon fruit Milk Shake", "ru": "Молочный коктейль из Питайи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dragon_fruit", "fresh_milk"]},
+  {"id": "dragon_fruit_smoothie", "name": {"en": "Dragon fruit Smoothie", "ru": "Смузи из Питайи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dragon_fruit", "ice"]},
+  {"id": "lassi_with_dragon_fruit", "name": {"en": "Lassi with Dragon fruit", "ru": "Ласси из Питайи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dragon_fruit", "yogurt"]},
+  {"id": "durian_juice", "name": {"en": "Durian Juice", "ru": "Сок из Дуриана"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["durian"]},
+  {"id": "durian_milk_shake", "name": {"en": "Durian Milk Shake", "ru": "Молочный коктейль из Дуриана"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["durian", "fresh_milk"]},
+  {"id": "durian_smoothie", "name": {"en": "Durian Smoothie", "ru": "Смузи из Дуриана"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["durian", "ice"]},
+  {"id": "lassi_with_durian", "name": {"en": "Lassi with Durian", "ru": "Ласси из Дуриана"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["durian", "yogurt"]},
+  {"id": "dates_juice", "name": {"en": "Dates Juice", "ru": "Сок из Фиников"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates"]},
+  {"id": "dates_milk_shake", "name": {"en": "Dates Milk Shake", "ru": "Молочный коктейль из Фиников"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "fresh_milk"]},
+  {"id": "dates_smoothie", "name": {"en": "Dates Smoothie", "ru": "Смузи из Фиников"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "ice"]},
+  {"id": "lassi_with_dates", "name": {"en": "Lassi with Dates", "ru": "Ласси из Фиников"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "yogurt"]},
+  {"id": "dang_juice", "name": {"en": "Dang Juice", "ru": "Сок из Данга"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["dang"]},
+  {"id": "dang_milk_shake", "name": {"en": "Dang Milk Shake", "ru": "Молочный коктейль из Данга"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dang", "fresh_milk"]},
+  {"id": "dang_smoothie", "name": {"en": "Dang Smoothie", "ru": "Смузи из Данга"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dang", "ice"]},
+  {"id": "lassi_with_dang", "name": {"en": "Lassi with Dang", "ru": "Ласси из Данга"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dang", "yogurt"]},
+  {"id": "fig_juice", "name": {"en": "Fig Juice", "ru": "Сок из Инжира"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["fig"]},
+  {"id": "fig_milk_shake", "name": {"en": "Fig Milk Shake", "ru": "Молочный коктейль из Инжира"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["fig", "fresh_milk"]},
+  {"id": "fig_smoothie", "name": {"en": "Fig Smoothie", "ru": "Смузи из Инжира"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["fig", "ice"]},
+  {"id": "lassi_with_fig", "name": {"en": "Lassi with Fig", "ru": "Ласси из Инжира"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["fig", "yogurt"]},
+  {"id": "guava_juice", "name": {"en": "Guava Juice", "ru": "Сок из Гуавы"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["guava"]},
+  {"id": "guava_milk_shake", "name": {"en": "Guava Milk Shake", "ru": "Молочный коктейль из Гуавы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["guava", "fresh_milk"]},
+  {"id": "guava_smoothie", "name": {"en": "Guava Smoothie", "ru": "Смузи из Гуавы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["guava", "ice"]},
+  {"id": "lassi_with_guava", "name": {"en": "Lassi with Guava", "ru": "Ласси из Гуавы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["guava", "yogurt"]},
+  {"id": "sour_guava_juice", "name": {"en": "Sour Guava Juice", "ru": "Сок из Кислой Гуавы"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["sour_guava"]},
+  {"id": "sour_guava_milk_shake", "name": {"en": "Sour Guava Milk Shake", "ru": "Молочный коктейль из Кислой Гуавы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sour_guava", "fresh_milk"]},
+  {"id": "sour_guava_smoothie", "name": {"en": "Sour Guava Smoothie", "ru": "Смузи из Кислой Гуавы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sour_guava", "ice"]},
+  {"id": "lassi_with_sour_guava", "name": {"en": "Lassi with Sour Guava", "ru": "Ласси из Кислой Гуавы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sour_guava", "yogurt"]},
+  {"id": "grapes_juice", "name": {"en": "Grapes Juice", "ru": "Сок из Винограда"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["grapes"]},
+  {"id": "grapes_milk_shake", "name": {"en": "Grapes Milk Shake", "ru": "Молочный коктейль из Винограда"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["grapes", "fresh_milk"]},
+  {"id": "grapes_smoothie", "name": {"en": "Grapes Smoothie", "ru": "Смузи из Винограда"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["grapes", "ice"]},
+  {"id": "lassi_with_grapes", "name": {"en": "Lassi with Grapes", "ru": "Ласси из Винограда"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["grapes", "yogurt"]},
+  {"id": "grapefruit_juice", "name": {"en": "Grapefruit Juice", "ru": "Сок из Грейпфрута"}, "properties": {"density": "Liquid", "flavor": ["Bitter"]}, "ingredients": ["grapefruit"]},
+  {"id": "jackfruit_juice", "name": {"en": "Jackfruit Juice", "ru": "Сок из Джекфрута"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["jackfruit"]},
+  {"id": "jackfruit_milk_shake", "name": {"en": "Jackfruit Milk Shake", "ru": "Молочный коктейль из Джекфрута"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["jackfruit", "fresh_milk"]},
+  {"id": "jackfruit_smoothie", "name": {"en": "Jackfruit Smoothie", "ru": "Смузи из Джекфрута"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["jackfruit", "ice"]},
+  {"id": "lassi_with_jackfruit", "name": {"en": "Lassi with Jackfruit", "ru": "Ласси из Джекфрута"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["jackfruit", "yogurt"]},
+  {"id": "kiwi_juice", "name": {"en": "Kiwi Juice", "ru": "Сок из Киви"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["kiwi"]},
+  {"id": "kiwi_milk_shake", "name": {"en": "Kiwi Milk Shake", "ru": "Молочный коктейль из Киви"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["kiwi", "fresh_milk"]},
+  {"id": "kiwi_smoothie", "name": {"en": "Kiwi Smoothie", "ru": "Смузи из Киви"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["kiwi", "ice"]},
+  {"id": "lassi_with_kiwi", "name": {"en": "Lassi with Kiwi", "ru": "Ласси из Киви"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["kiwi", "yogurt"]},
+  {"id": "kirala_juice", "name": {"en": "Kirala Juice", "ru": "Сок из Киралы"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["kirala"]},
+  {"id": "kirala_milk_shake", "name": {"en": "Kirala Milk Shake", "ru": "Молочный коктейль из Киралы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["kirala", "fresh_milk"]},
+  {"id": "kirala_smoothie", "name": {"en": "Kirala Smoothie", "ru": "Смузи из Киралы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["kirala", "ice"]},
+  {"id": "lassi_with_kirala", "name": {"en": "Lassi with Kirala", "ru": "Ласси из Киралы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["kirala", "yogurt"]},
+  {"id": "lovi_juice", "name": {"en": "Lovi Juice", "ru": "Сок из Лови"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lovi"]},
+  {"id": "lovi_milk_shake", "name": {"en": "Lovi Milk Shake", "ru": "Молочный коктейль из Лови"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["lovi", "fresh_milk"]},
+  {"id": "lovi_smoothie", "name": {"en": "Lovi Smoothie", "ru": "Смузи из Лови"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["lovi", "ice"]},
+  {"id": "lassi_with_lovi", "name": {"en": "Lassi with Lovi", "ru": "Ласси из Лови"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["lovi", "yogurt"]},
+  {"id": "lawulu_juice", "name": {"en": "Lawulu Juice", "ru": "Сок из Лавулу"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["lawulu"]},
+  {"id": "lawulu_milk_shake", "name": {"en": "Lawulu Milk Shake", "ru": "Молочный коктейль из Лавулу"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["lawulu", "fresh_milk"]},
+  {"id": "lawulu_smoothie", "name": {"en": "Lawulu Smoothie", "ru": "Смузи из Лавулу"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["lawulu", "ice"]},
+  {"id": "lassi_with_lawulu", "name": {"en": "Lassi with Lawulu", "ru": "Ласси из Лавулу"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["lawulu", "yogurt"]},
+  {"id": "lemon_juice", "name": {"en": "Lemon Juice", "ru": "Сок из Лимона"}, "properties": {"density": "Liquid", "flavor": ["Sour"]}, "ingredients": ["lemon"]},
+  {"id": "lime_juice", "name": {"en": "Lime Juice", "ru": "Сок из Лайма"}, "properties": {"density": "Liquid", "flavor": ["Sour"]}, "ingredients": ["lime"]},
+  {"id": "mango_juice", "name": {"en": "Mango Juice", "ru": "Сок из Манго"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["mango"]},
+  {"id": "mango_milk_shake", "name": {"en": "Mango Milk Shake", "ru": "Молочный коктейль из Манго"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "fresh_milk"]},
+  {"id": "mango_smoothie", "name": {"en": "Mango Smoothie", "ru": "Смузи из Манго"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "ice"]},
+  {"id": "lassi_with_mango", "name": {"en": "Lassi with Mango", "ru": "Ласси из Манго"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "yogurt"]},
+  {"id": "mangosteen_juice", "name": {"en": "Mangosteen Juice", "ru": "Сок из Мангустина"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["mangosteen"]},
+  {"id": "mangosteen_milk_shake", "name": {"en": "Mangosteen Milk Shake", "ru": "Молочный коктейль из Мангустина"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mangosteen", "fresh_milk"]},
+  {"id": "mangosteen_smoothie", "name": {"en": "Mangosteen Smoothie", "ru": "Смузи из Мангустина"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mangosteen", "ice"]},
+  {"id": "lassi_with_mangosteen", "name": {"en": "Lassi with Mangosteen", "ru": "Ласси из Мангустина"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mangosteen", "yogurt"]},
+  {"id": "mandarin_juice", "name": {"en": "Mandarin Juice", "ru": "Сок из Мандарина"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["mandarin"]},
+  {"id": "mandarin_milk_shake", "name": {"en": "Mandarin Milk Shake", "ru": "Молочный коктейль из Мандарина"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mandarin", "fresh_milk"]},
+  {"id": "mandarin_smoothie", "name": {"en": "Mandarin Smoothie", "ru": "Смузи из Мандарина"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mandarin", "ice"]},
+  {"id": "lassi_with_mandarin", "name": {"en": "Lassi with Mandarin", "ru": "Ласси из Мандарина"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mandarin", "yogurt"]},
+  {"id": "nelli_juice", "name": {"en": "Nelli Juice", "ru": "Сок из Нелли"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["nelli"]},
+  {"id": "naminan_juice", "name": {"en": "Naminan Juice", "ru": "Сок из Наминана"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["naminan"]},
+  {"id": "orange_juice", "name": {"en": "Orange Juice", "ru": "Сок из Апельсина"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["orange"]},
+  {"id": "orange_milk_shake", "name": {"en": "Orange Milk Shake", "ru": "Молочный коктейль из Апельсина"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["orange", "fresh_milk"]},
+  {"id": "orange_smoothie", "name": {"en": "Orange Smoothie", "ru": "Смузи из Апельсина"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["orange", "ice"]},
+  {"id": "lassi_with_orange", "name": {"en": "Lassi with Orange", "ru": "Ласси из Апельсина"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["orange", "yogurt"]},
+  {"id": "papaya_juice", "name": {"en": "Papaya Juice", "ru": "Сок из Папайи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya"]},
+  {"id": "papaya_milk_shake", "name": {"en": "Papaya Milk Shake", "ru": "Молочный коктейль из Папайи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "fresh_milk"]},
+  {"id": "papaya_smoothie", "name": {"en": "Papaya Smoothie", "ru": "Смузи из Папайи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "ice"]},
+  {"id": "lassi_with_papaya", "name": {"en": "Lassi with Papaya", "ru": "Ласси из Папайи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "yogurt"]},
+  {"id": "pineapple_juice", "name": {"en": "Pineapple Juice", "ru": "Сок из Ананаса"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple"]},
+  {"id": "pineapple_milk_shake", "name": {"en": "Pineapple Milk Shake", "ru": "Молочный коктейль из Ананаса"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "fresh_milk"]},
+  {"id": "pineapple_smoothie", "name": {"en": "Pineapple Smoothie", "ru": "Смузи из Ананаса"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "ice"]},
+  {"id": "lassi_with_pineapple", "name": {"en": "Lassi with Pineapple", "ru": "Ласси из Ананаса"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "yogurt"]},
+  {"id": "passion_fruit_juice", "name": {"en": "Passion fruit Juice", "ru": "Сок из Маракуйи"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit"]},
+  {"id": "passion_fruit_milk_shake", "name": {"en": "Passion fruit Milk Shake", "ru": "Молочный коктейль из Маракуйи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["passion_fruit", "fresh_milk"]},
+  {"id": "passion_fruit_smoothie", "name": {"en": "Passion fruit Smoothie", "ru": "Смузи из Маракуйи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["passion_fruit", "ice"]},
+  {"id": "lassi_with_passion_fruit", "name": {"en": "Lassi with Passion fruit", "ru": "Ласси из Маракуйи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["passion_fruit", "yogurt"]},
+  {"id": "pomegranate_juice", "name": {"en": "Pomegranate Juice", "ru": "Сок из Граната"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pomegranate"]},
+  {"id": "pomegranate_milk_shake", "name": {"en": "Pomegranate Milk Shake", "ru": "Молочный коктейль из Граната"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pomegranate", "fresh_milk"]},
+  {"id": "pomegranate_smoothie", "name": {"en": "Pomegranate Smoothie", "ru": "Смузи из Граната"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pomegranate", "ice"]},
+  {"id": "lassi_with_pomegranate", "name": {"en": "Lassi with Pomegranate", "ru": "Ласси из Граната"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pomegranate", "yogurt"]},
+  {"id": "pear_juice", "name": {"en": "Pear Juice", "ru": "Сок из Груши"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pear"]},
+  {"id": "pear_milk_shake", "name": {"en": "Pear Milk Shake", "ru": "Молочный коктейль из Груши"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pear", "fresh_milk"]},
+  {"id": "pear_smoothie", "name": {"en": "Pear Smoothie", "ru": "Смузи из Груши"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pear", "ice"]},
+  {"id": "lassi_with_pear", "name": {"en": "Lassi with Pear", "ru": "Ласси из Груши"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["pear", "yogurt"]},
+  {"id": "palm_fruit_juice", "name": {"en": "Palm fruit Juice", "ru": "Сок из Пальмировой пальмы"}, "properties": {"density": "Liquid", "flavor": ["Bitter"]}, "ingredients": ["palm_fruit"]},
+  {"id": "palm_fruit_milk_shake", "name": {"en": "Palm fruit Milk Shake", "ru": "Молочный коктейль из Пальмировой пальмы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["palm_fruit", "fresh_milk"]},
+  {"id": "palm_fruit_smoothie", "name": {"en": "Palm fruit Smoothie", "ru": "Смузи из Пальмировой пальмы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["palm_fruit", "ice"]},
+  {"id": "lassi_with_palm_fruit", "name": {"en": "Lassi with Palm fruit", "ru": "Ласси из Пальмировой пальмы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["palm_fruit", "yogurt"]},
+  {"id": "rambutan_juice", "name": {"en": "Rambutan Juice", "ru": "Сок из Рамбутана"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["rambutan"]},
+  {"id": "raisin_juice", "name": {"en": "Raisin Juice", "ru": "Сок из Изюма"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["raisin"]},
+  {"id": "raisin_milk_shake", "name": {"en": "Raisin Milk Shake", "ru": "Молочный коктейль из Изюма"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["raisin", "fresh_milk"]},
+  {"id": "raisin_smoothie", "name": {"en": "Raisin Smoothie", "ru": "Смузи из Изюма"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["raisin", "ice"]},
+  {"id": "lassi_with_raisin", "name": {"en": "Lassi with Raisin", "ru": "Ласси из Изюма"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["raisin", "yogurt"]},
+  {"id": "jambu_juice", "name": {"en": "Jambu Juice", "ru": "Сок из Яванского яблока"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["jambu"]},
+  {"id": "sugar_cane_juice", "name": {"en": "Sugar cane Juice", "ru": "Сок из Сахарного тросника"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["sugar_cane"]},
+  {"id": "soursop_annona_juice", "name": {"en": "Soursop Annona Juice", "ru": "Сок из Анноны"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["soursop_annona"]},
+  {"id": "soursop_annona_milk_shake", "name": {"en": "Soursop Annona Milk Shake", "ru": "Молочный коктейль из Анноны"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["soursop_annona", "fresh_milk"]},
+  {"id": "soursop_annona_smoothie", "name": {"en": "Soursop Annona Smoothie", "ru": "Смузи из Анноны"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["soursop_annona", "ice"]},
+  {"id": "lassi_with_soursop_annona", "name": {"en": "Lassi with Soursop Annona", "ru": "Ласси из Анноны"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["soursop_annona", "yogurt"]},
+  {"id": "sapodilla_juice", "name": {"en": "Sapodilla Juice", "ru": "Сок из Саподиллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sapodilla"]},
+  {"id": "sapodilla_milk_shake", "name": {"en": "Sapodilla Milk Shake", "ru": "Молочный коктейль из Саподиллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sapodilla", "fresh_milk"]},
+  {"id": "sapodilla_smoothie", "name": {"en": "Sapodilla Smoothie", "ru": "Смузи из Саподиллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sapodilla", "ice"]},
+  {"id": "lassi_with_sapodilla", "name": {"en": "Lassi with Sapodilla", "ru": "Ласси из Саподиллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sapodilla", "yogurt"]},
+  {"id": "sweet_melon_juice", "name": {"en": "Sweet melon Juice", "ru": "Сок из Сладкой Дыни"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["sweet_melon"]},
+  {"id": "sweet_melon_milk_shake", "name": {"en": "Sweet melon Milk Shake", "ru": "Молочный коктейль из Сладкой Дыни"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sweet_melon", "fresh_milk"]},
+  {"id": "sweet_melon_smoothie", "name": {"en": "Sweet melon Smoothie", "ru": "Смузи из Сладкой Дыни"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sweet_melon", "ice"]},
+  {"id": "lassi_with_sweet_melon", "name": {"en": "Lassi with Sweet melon", "ru": "Ласси из Сладкой Дыни"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sweet_melon", "yogurt"]},
+  {"id": "silver_melon_juice", "name": {"en": "Silver melon Juice", "ru": "Сок из Серебряной Дыни"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["silver_melon"]},
+  {"id": "silver_melon_milk_shake", "name": {"en": "Silver melon Milk Shake", "ru": "Молочный коктейль из Серебряной Дыни"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["silver_melon", "fresh_milk"]},
+  {"id": "silver_melon_smoothie", "name": {"en": "Silver melon Smoothie", "ru": "Смузи из Серебряной Дыни"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["silver_melon", "ice"]},
+  {"id": "lassi_with_silver_melon", "name": {"en": "Lassi with Silver melon", "ru": "Ласси из Серебряной Дыни"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["silver_melon", "yogurt"]},
+  {"id": "starfruit_juice", "name": {"en": "Starfruit Juice", "ru": "Сок из Карамболы"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["starfruit"]},
+  {"id": "starfruit_milk_shake", "name": {"en": "Starfruit Milk Shake", "ru": "Молочный коктейль из Карамболы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["starfruit", "fresh_milk"]},
+  {"id": "starfruit_smoothie", "name": {"en": "Starfruit Smoothie", "ru": "Смузи из Карамболы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["starfruit", "ice"]},
+  {"id": "lassi_with_starfruit", "name": {"en": "Lassi with Starfruit", "ru": "Ласси из Карамболы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["starfruit", "yogurt"]},
+  {"id": "strawberry_juice", "name": {"en": "Strawberry Juice", "ru": "Сок из Клубники"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["strawberry"]},
+  {"id": "strawberry_milk_shake", "name": {"en": "Strawberry Milk Shake", "ru": "Молочный коктейль из Клубники"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["strawberry", "fresh_milk"]},
+  {"id": "strawberry_smoothie", "name": {"en": "Strawberry Smoothie", "ru": "Смузи из Клубники"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["strawberry", "ice"]},
+  {"id": "lassi_with_strawberry", "name": {"en": "Lassi with Strawberry", "ru": "Ласси из Клубники"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["strawberry", "yogurt"]},
+  {"id": "baeli_fruit_juice", "name": {"en": "Baeli fruit Juice", "ru": "Сок из Баиля"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Bitter"]}, "ingredients": ["baeli_fruit"]},
+  {"id": "uguressa_juice", "name": {"en": "Uguressa Juice", "ru": "Сок из Флакуртии"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["uguressa"]},
+  {"id": "sour_orange_juice", "name": {"en": "Sour orange Juice", "ru": "Сок из Кислого Апельсина"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["sour_orange"]},
+  {"id": "tamarind_juice", "name": {"en": "Tamarind Juice", "ru": "Сок из Тамаринда"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour', 'Salty"]}, "ingredients": ["tamarind"]},
+  {"id": "veralu_juice", "name": {"en": "Veralu Juice", "ru": "Сок из Вералы"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["veralu"]},
+  {"id": "veralu_milk_shake", "name": {"en": "Veralu Milk Shake", "ru": "Молочный коктейль из Вералы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["veralu", "fresh_milk"]},
+  {"id": "veralu_smoothie", "name": {"en": "Veralu Smoothie", "ru": "Смузи из Вералы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["veralu", "ice"]},
+  {"id": "lassi_with_veralu", "name": {"en": "Lassi with Veralu", "ru": "Ласси из Вералы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["veralu", "yogurt"]},
+  {"id": "watermelon_juice", "name": {"en": "Watermelon Juice", "ru": "Сок из Арбуза"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["watermelon"]},
+  {"id": "watermelon_milk_shake", "name": {"en": "Watermelon Milk Shake", "ru": "Молочный коктейль из Арбуза"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["watermelon", "fresh_milk"]},
+  {"id": "watermelon_smoothie", "name": {"en": "Watermelon Smoothie", "ru": "Смузи из Арбуза"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["watermelon", "ice"]},
+  {"id": "lassi_with_watermelon", "name": {"en": "Lassi with Watermelon", "ru": "Ласси из Арбуза"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["watermelon", "yogurt"]},
+  {"id": "woodapple_juice", "name": {"en": "Woodapple Juice", "ru": "Сок из Деревянного яблока"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["woodapple"]},
+  {"id": "woodapple_milk_shake", "name": {"en": "Woodapple Milk Shake", "ru": "Молочный коктейль из Деревянного яблока"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["woodapple", "fresh_milk"]},
+  {"id": "woodapple_smoothie", "name": {"en": "Woodapple Smoothie", "ru": "Смузи из Деревянного яблока"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["woodapple", "ice"]},
+  {"id": "lassi_with_woodapple", "name": {"en": "Lassi with Woodapple", "ru": "Ласси из Деревянного яблока"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["woodapple", "yogurt"]},
+  {"id": "almond_drink", "name": {"en": "Almond Drink", "ru": "Напиток из Миндаля"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["almond"]},
+  {"id": "almond_milk_shake", "name": {"en": "Almond Milk Shake", "ru": "Молочный коктейль из Миндаля"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["almond", "fresh_milk"]},
+  {"id": "almond_smoothie", "name": {"en": "Almond Smoothie", "ru": "Смузи из Миндаля"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["almond", "ice"]},
+  {"id": "cashew_nut_drink", "name": {"en": "Cashew nut Drink", "ru": "Напиток из Кешью"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["cashew_nut"]},
+  {"id": "cashew_nut_milk_shake", "name": {"en": "Cashew nut Milk Shake", "ru": "Молочный коктейль из Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cashew_nut", "fresh_milk"]},
+  {"id": "cashew_nut_smoothie", "name": {"en": "Cashew nut Smoothie", "ru": "Смузи из Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["cashew_nut", "ice"]},
+  {"id": "peanut_drink", "name": {"en": "Peanut Drink", "ru": "Напиток из Арахиса"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["peanut"]},
+  {"id": "peanut_milk_shake", "name": {"en": "Peanut Milk Shake", "ru": "Молочный коктейль из Арахиса"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["peanut", "fresh_milk"]},
+  {"id": "peanut_smoothie", "name": {"en": "Peanut Smoothie", "ru": "Смузи из Арахиса"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["peanut", "ice"]},
+  {"id": "chocolate_drink", "name": {"en": "Chocolate Drink", "ru": "Шоколадный напиток"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["chocolate"]},
+  {"id": "chocolate_milk_shake", "name": {"en": "Chocolate Milk Shake", "ru": "Шоколадный молочный коктель"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["chocolate", "fresh_milk"]},
+  {"id": "chocolate_smoothie", "name": {"en": "Chocolate Smoothie", "ru": "Шоколадный смузи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["chocolate", "ice"]},
+  {"id": "ice_coffee", "name": {"en": "Ice Coffee", "ru": "Холодный кофе"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["coffee"]},
+  {"id": "coffee_milk_shake", "name": {"en": "Coffee Milk Shake", "ru": "Кофейный молочный коктель"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["coffee", "fresh_milk"]},
+  {"id": "coffee_smoothie", "name": {"en": "Coffee Smoothie", "ru": "Кофейный смузи"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["coffee", "ice"]},
+  {"id": "sweet_coconut_juice", "name": {"en": "Sweet coconut Juice", "ru": "Сок из Сладкого кокоса"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["coconut"]},
+  {"id": "sweet_coconut_milk_shake", "name": {"en": "Sweet coconut Milk Shake", "ru": "Молочный коктейль из Сладкого кокоса"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["coconut", "fresh_milk"]},
+  {"id": "sweet_coconut_smoothie", "name": {"en": "Sweet coconut Smoothie", "ru": "Смузи из Сладкого кокоса"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["coconut", "ice"]},
+  {"id": "coconut_juice", "name": {"en": "Coconut Juice", "ru": "Сок из Кокоса"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["coconut"]},
+  {"id": "coconut_milk_shake", "name": {"en": "Coconut Milk Shake", "ru": "Молочный коктейль из Кокоса"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["coconut", "fresh_milk"]},
+  {"id": "coconut_smoothie", "name": {"en": "Coconut Smoothie", "ru": "Смузи из Кокоса"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["coconut", "ice"]},
+  {"id": "young_coconut_juice", "name": {"en": "Young coconut Juice", "ru": "Сок из Молодого кокоса"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["young_coconut"]},
+  {"id": "king_coconut_water", "name": {"en": "King coconut Water", "ru": "Сок из Королевского кокоса"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["king_coconut"]},
+  {"id": "cucumber_juice", "name": {"en": "Cucumber Juice", "ru": "Сок из Огурца"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["cucumber"]},
+  {"id": "carrot_juice", "name": {"en": "Carrot Juice", "ru": "Сок из Моркови"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["carrot"]},
+  {"id": "curry_leaf_juice", "name": {"en": "Curry leaf Juice", "ru": "Сок из Листьев карри"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["curry_leaf"]},
+  {"id": "beetroot_juice", "name": {"en": "Beetroot Juice", "ru": "Сок из Свеклы"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["beetroot"]},
+  {"id": "bitter_gourd_juice", "name": {"en": "Bitter gourd Juice", "ru": "Сок из Горького огурца"}, "properties": {"density": "Liquid", "flavor": ["Bitter"]}, "ingredients": ["bitter_gourd"]},
+  {"id": "gotukola_juice", "name": {"en": "Gotukola Juice", "ru": "Сок из Готуколы"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["gotukola"]},
+  {"id": "ginger_juice", "name": {"en": "Ginger Juice", "ru": "Сок из Имбиря"}, "properties": {"density": "Liquid", "flavor": ["Pungency"]}, "ingredients": ["ginger"]},
+  {"id": "tomato_juice", "name": {"en": "Tomato Juice", "ru": "Сок из Томата"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["tomato"]},
+  {"id": "lettuce_juice", "name": {"en": "Lettuce Juice", "ru": "Сок из Салата"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["lettuce"]},
+  {"id": "welpenela_juice", "name": {"en": "Welpenela Juice", "ru": "Сок из Велпенелы"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["welpenela"]},
+  {"id": "cinnamon_drink", "name": {"en": "Cinnamon Drink", "ru": "Напиток из Корицы"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["cinnamon"]},
+  {"id": "faluda_rose_syrup", "name": {"en": "Faluda Rose syrup", "ru": "Фалуда из Розового сиропа"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["rose_syrup"]},
+  {"id": "faluda_nelli_syrup", "name": {"en": "Faluda Nelli syrup", "ru": "Фалуда из Сиропа нелли"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["nelli_syrup"]},
+  {"id": "faluda_sarsaparilla_syrup", "name": {"en": "Faluda Sarsaparilla syrup", "ru": "Фалуда из Сиропа сарсапарилла"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sarsaparilla_syrup"]},
+  {"id": "bee_honey_drink", "name": {"en": "Bee Honey Drink", "ru": "Мёдовый напиток"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["bee_honey"]},
+  {"id": "rose_syrup_drink", "name": {"en": "Rose syrup Drink", "ru": "Напиток из Розового сиропа"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["rose_syrup"]},
+  {"id": "nelli_syrup_drink", "name": {"en": "Nelli syrup Drink", "ru": "Напиток из Сиропа нелли"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["nelli_syrup"]},
+  {"id": "sarsaparilla_syrup_drink", "name": {"en": "Sarsaparilla syrup Drink", "ru": "Напиток из Сиропа сарсапарилла"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["sarsaparilla_syrup"]},
+  {"id": "avocado_with_chocolate", "name": {"en": "Avocado with Chocolate", "ru": "Авокадо с Шоколадом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "chocolate"]},
+  {"id": "avocado_with_banana", "name": {"en": "Avocado with Banana", "ru": "Авокадо с Бананом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "banana"]},
+  {"id": "avocado_with_cantaloupe", "name": {"en": "Avocado with Cantaloupe", "ru": "Авокадо с Канталупой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "cantaloupe"]},
+  {"id": "avocado_with_dragon_fruit", "name": {"en": "Avocado with Dragon fruit", "ru": "Авокадо с Драгонфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "dragon_fruit"]},
+  {"id": "avocado_with_durian", "name": {"en": "Avocado with Durian", "ru": "Авокадо с Дурианом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "duriyan"]},
+  {"id": "avocado_with_dates", "name": {"en": "Avocado with Dates", "ru": "Авокадо с Финиками"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "dates"]},
+  {"id": "avocado_with_fig", "name": {"en": "Avocado with Fig", "ru": "Авокадо с Инжиром"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "fig"]},
+  {"id": "avocado_with_guava", "name": {"en": "Avocado with Guava", "ru": "Авокадо с Гуавой"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["avocado", "guava"]},
+  {"id": "avocado_with_jackfruit", "name": {"en": "Avocado with Jackfruit", "ru": "Авокадо с Джекфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "jack_fruit"]},
+  {"id": "avocado_with_lime", "name": {"en": "Avocado with Lime", "ru": "Авокадо с Лаймом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["avocado", "lime"]},
+  {"id": "avocado_with_mango", "name": {"en": "Avocado with Mango", "ru": "Авокадо с Манго"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["avocado", "mango"]},
+  {"id": "avocado_with_orange", "name": {"en": "Avocado with Orange", "ru": "Авокадо с Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["avocado", "orange"]},
+  {"id": "avocado_with_papaya", "name": {"en": "Avocado with Papaya", "ru": "Авокадо с Папайей"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "papaya"]},
+  {"id": "avocado_with_pineapple", "name": {"en": "Avocado with Pineapple", "ru": "Авокадо с Ананасом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "pineapple"]},
+  {"id": "avocado_with_pomegranate", "name": {"en": "Avocado with Pomegranate", "ru": "Авокадо с Гранатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "pomegranate"]},
+  {"id": "avocado_with_raisin", "name": {"en": "Avocado with Raisin", "ru": "Авокадо с Изюмом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "raisin"]},
+  {"id": "avocado_with_soursop_annona", "name": {"en": "Avocado with Soursop Annona", "ru": "Авокадо с Аноной"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "soursop"]},
+  {"id": "avocado_with_sapodilla", "name": {"en": "Avocado with Sapodilla", "ru": "Авокадо с Саподиллой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "sapodilla"]},
+  {"id": "avocado_with_silver_melon", "name": {"en": "Avocado with Silver Melon", "ru": "Авокадо с Серебряной Дыней"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "silver_melon"]},
+  {"id": "avocado_with_star_fruit", "name": {"en": "Avocado with Star fruit", "ru": "Авокадо с Карамболой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "star_fruit"]},
+  {"id": "avocado_with_strawberry", "name": {"en": "Avocado with Strawberry", "ru": "Авокадо с Клубникой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "strawberry"]},
+  {"id": "avocado_with_lovi", "name": {"en": "Avocado with Lovi", "ru": "Авокадо с Лови"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["avocado", "lovi"]},
+  {"id": "avocado_with_veralu", "name": {"en": "Avocado with Veralu", "ru": "Авокадо с Вералу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["avocado", "veralu"]},
+  {"id": "avocado_with_jumbu", "name": {"en": "Avocado with Jumbu", "ru": "Авокадо с Джамбу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["avocado", "jumbu"]},
+  {"id": "avocado_with_sour_orange", "name": {"en": "Avocado with Sour Orange", "ru": "Авокадо с Кислым Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["avocado", "sour_orange"]},
+  {"id": "avocado_with_tamarind", "name": {"en": "Avocado with Tamarind", "ru": "Авокадо с Тамариндом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour', 'Salty"]}, "ingredients": ["avocado", "tamarind"]},
+  {"id": "avocado_with_almond", "name": {"en": "Avocado with Almond", "ru": "Авокадо с Миндалем"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "almond"]},
+  {"id": "avocado_with_peanut", "name": {"en": "Avocado with Peanut", "ru": "Авокадо с Арахисом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "peanut"]},
+  {"id": "avocado_with_cashew_nut", "name": {"en": "Avocado with Cashew nut", "ru": "Авокадо с Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "cashew_nut"]},
+  {"id": "avocado_with_nelli_syrup", "name": {"en": "Avocado with Nelli syrup", "ru": "Авокадо с Сиропом нелли"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "nelli_syrup"]},
+  {"id": "avocado_with_sarasaparilla_syrup", "name": {"en": "Avocado with Sarasaparilla syrup", "ru": "Авокадо с Сиропом сарасапариллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "sarasaparilla_syrup"]},
+  {"id": "avocado_with_rose_syrup", "name": {"en": "Avocado with Rose syrup", "ru": "Авокадо с Розовым сиропом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "rose_syrup"]},
+  {"id": "avocado_with_carrot", "name": {"en": "Avocado with Carrot", "ru": "Авокадо с Морковью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "carrot"]},
+  {"id": "avocado_with_ginger", "name": {"en": "Avocado with Ginger", "ru": "Авокадо с Имбирем"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Pungency"]}, "ingredients": ["avocado", "ginger"]},
+  {"id": "avocado_with_tomato", "name": {"en": "Avocado with Tomato", "ru": "Авокадо с Томатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "tomato"]},
+  {"id": "avocado_with_coconut", "name": {"en": "Avocado with Coconut", "ru": "Авокадо с Кокосом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["avocado", "coconut"]},
+  {"id": "banana_with_chocolate", "name": {"en": "Banana with Chocolate", "ru": "Банан с Шоколадом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "chocolate"]},
+  {"id": "banana_with_apple", "name": {"en": "Banana with Apple", "ru": "Банан с Яблоком"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "apple"]},
+  {"id": "banana_with_cantaloupe", "name": {"en": "Banana with Cantaloupe", "ru": "Банан с Канталупой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "cantaloupe"]},
+  {"id": "banana_with_dragon_fruit", "name": {"en": "Banana with Dragon fruit", "ru": "Банан с Драгонфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "dragon_fruit"]},
+  {"id": "banana_with_durian", "name": {"en": "Banana with Durian", "ru": "Банан с Дурианом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "duriyan"]},
+  {"id": "banana_with_dates", "name": {"en": "Banana with Dates", "ru": "Банан с Финиками"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "dates"]},
+  {"id": "banana_with_fig", "name": {"en": "Banana with Fig", "ru": "Банан с Инжиром"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "fig"]},
+  {"id": "banana_with_guava", "name": {"en": "Banana with Guava", "ru": "Банан с Гуавой"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["banana", "guava"]},
+  {"id": "banana_with_jackfruit", "name": {"en": "Banana with Jackfruit", "ru": "Банан с Джекфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "jack_fruit"]},
+  {"id": "banana_with_lime", "name": {"en": "Banana with Lime", "ru": "Банан с Лаймом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["banana", "lime"]},
+  {"id": "banana_with_mango", "name": {"en": "Banana with Mango", "ru": "Банан с Манго"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "mango"]},
+  {"id": "banana_with_orange", "name": {"en": "Banana with Orange", "ru": "Банан с Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["banana", "orange"]},
+  {"id": "banana_with_papaya", "name": {"en": "Banana with Papaya", "ru": "Банан с Папайей"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "papaya"]},
+  {"id": "banana_with_pineapple", "name": {"en": "Banana with Pineapple", "ru": "Банан с Ананасом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "pineapple"]},
+  {"id": "banana_with_pomegranate", "name": {"en": "Banana with Pomegranate", "ru": "Банан с Гранатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "pomegranate"]},
+  {"id": "banana_with_raisin", "name": {"en": "Banana with Raisin", "ru": "Банан с Изюмом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "raisin"]},
+  {"id": "banana_with_soursop_annona", "name": {"en": "Banana with Soursop Annona", "ru": "Банан с Аноной"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "soursop"]},
+  {"id": "banana_with_sapodilla", "name": {"en": "Banana with Sapodilla", "ru": "Банан с Саподиллой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "sapodilla"]},
+  {"id": "banana_with_silver_melon", "name": {"en": "Banana with Silver Melon", "ru": "Банан с Серебряной Дыней"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "silver_melon"]},
+  {"id": "banana_with_star_fruit", "name": {"en": "Banana with Star fruit", "ru": "Банан с Карамболой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "star_fruit"]},
+  {"id": "banana_with_strawberry", "name": {"en": "Banana with Strawberry", "ru": "Банан с Клубникой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "strawberry"]},
+  {"id": "banana_with_lovi", "name": {"en": "Banana with Lovi", "ru": "Банан с Лови"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["banana", "lovi"]},
+  {"id": "banana_with_veralu", "name": {"en": "Banana with Veralu", "ru": "Банан с Вералу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["banana", "veralu"]},
+  {"id": "banana_with_jumbu", "name": {"en": "Banana with Jumbu", "ru": "Банан с Джамбу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["banana", "jumbu"]},
+  {"id": "banana_with_sour_orange", "name": {"en": "Banana with Sour Orange", "ru": "Банан с Кислым Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["banana", "sour_orange"]},
+  {"id": "banana_with_tamarind", "name": {"en": "Banana with Tamarind", "ru": "Банан с Тамариндом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour', 'Salty"]}, "ingredients": ["banana", "tamarind"]},
+  {"id": "banana_with_almond", "name": {"en": "Banana with Almond", "ru": "Банан с Миндалем"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "almond"]},
+  {"id": "banana_with_peanut", "name": {"en": "Banana with Peanut", "ru": "Банан с Арахисом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "peanut"]},
+  {"id": "banana_with_cashew_nut", "name": {"en": "Banana with Cashew nut", "ru": "Банан с Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "cashew_nut"]},
+  {"id": "banana_with_nelli_syrup", "name": {"en": "Banana with Nelli syrup", "ru": "Банан с Сиропом нелли"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "nelli_syrup"]},
+  {"id": "banana_with_sarasaparilla_syrup", "name": {"en": "Banana with Sarasaparilla syrup", "ru": "Банан с Сиропом сарасапариллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "sarasaparilla_syrup"]},
+  {"id": "banana_with_rose_syrup", "name": {"en": "Banana with Rose syrup", "ru": "Банан с Розовым сиропом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "rose_syrup"]},
+  {"id": "banana_with_carrot", "name": {"en": "Banana with Carrot", "ru": "Банан с Морковью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "carrot"]},
+  {"id": "banana_with_ginger", "name": {"en": "Banana with Ginger", "ru": "Банан с Имбирем"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Pungency"]}, "ingredients": ["banana", "ginger"]},
+  {"id": "banana_with_tomato", "name": {"en": "Banana with Tomato", "ru": "Банан с Томатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "tomato"]},
+  {"id": "banana_with_coconut", "name": {"en": "Banana with Coconut", "ru": "Банан с Кокосом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["banana", "coconut"]},
+  {"id": "dates_with_fresh_milk", "name": {"en": "Dates with Fresh Milk", "ru": "Финик с Молоком"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "fresh_milk"]},
+  {"id": "dates_with_apple", "name": {"en": "Dates with Apple", "ru": "Финик с Яблоком"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "apple"]},
+  {"id": "dates_with_banana", "name": {"en": "Dates with Banana", "ru": "Финик с Бананом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "banana"]},
+  {"id": "dates_with_cantaloupe", "name": {"en": "Dates with Cantaloupe", "ru": "Финик с Канталупой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "cantaloupe"]},
+  {"id": "dates_with_dragon_fruit", "name": {"en": "Dates with Dragon fruit", "ru": "Финик с Драгонфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "dragon_fruit"]},
+  {"id": "dates_with_durian", "name": {"en": "Dates with Durian", "ru": "Финик с Дурианом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "duriyan"]},
+  {"id": "dates_with_fig", "name": {"en": "Dates with Fig", "ru": "Финик с Инжиром"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "fig"]},
+  {"id": "dates_with_guava", "name": {"en": "Dates with Guava", "ru": "Финик с Гуавой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "guava"]},
+  {"id": "dates_with_jackfruit", "name": {"en": "Dates with Jackfruit", "ru": "Финик с Джекфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "jack_fruit"]},
+  {"id": "dates_with_lime", "name": {"en": "Dates with Lime", "ru": "Финик с Лаймом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["dates", "lime"]},
+  {"id": "dates_with_mango", "name": {"en": "Dates with Mango", "ru": "Финик с Манго"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "mango"]},
+  {"id": "dates_with_orange", "name": {"en": "Dates with Orange", "ru": "Финик с Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["dates", "orange"]},
+  {"id": "dates_with_papaya", "name": {"en": "Dates with Papaya", "ru": "Финик с Папайей"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "papaya"]},
+  {"id": "dates_with_pineapple", "name": {"en": "Dates with Pineapple", "ru": "Финик с Ананасом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "pineapple"]},
+  {"id": "dates_with_pomegranate", "name": {"en": "Dates with Pomegranate", "ru": "Финик с Гранатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "pomegranate"]},
+  {"id": "dates_with_raisin", "name": {"en": "Dates with Raisin", "ru": "Финик с Изюмом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "raisin"]},
+  {"id": "dates_with_soursop_annona", "name": {"en": "Dates with Soursop Annona", "ru": "Финик с Аноной"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "soursop"]},
+  {"id": "dates_with_sapodilla", "name": {"en": "Dates with Sapodilla", "ru": "Финик с Саподиллой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "sapodilla"]},
+  {"id": "dates_with_silver_melon", "name": {"en": "Dates with Silver Melon", "ru": "Финик с Серебряной Дыней"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "silver_melon"]},
+  {"id": "dates_with_star_fruit", "name": {"en": "Dates with Star fruit", "ru": "Финик с Карамболой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "star_fruit"]},
+  {"id": "dates_with_strawberry", "name": {"en": "Dates with Strawberry", "ru": "Финик с Клубникой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "strawberry"]},
+  {"id": "dates_with_lovi", "name": {"en": "Dates with Lovi", "ru": "Финик с Лови"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["dates", "lovi"]},
+  {"id": "dates_with_veralu", "name": {"en": "Dates with Veralu", "ru": "Финик с Вералу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["dates", "veralu"]},
+  {"id": "dates_with_jumbu", "name": {"en": "Dates with Jumbu", "ru": "Финик с Джамбу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["dates", "jumbu"]},
+  {"id": "dates_with_sour_orange", "name": {"en": "Dates with Sour Orange", "ru": "Финик с Кислым Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["dates", "sour_orange"]},
+  {"id": "dates_with_tamarind", "name": {"en": "Dates with Tamarind", "ru": "Финик с Тамариндом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour', 'Salty"]}, "ingredients": ["dates", "tamarind"]},
+  {"id": "dates_with_almond", "name": {"en": "Dates with Almond", "ru": "Финик с Миндалем"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "almond"]},
+  {"id": "dates_with_peanut", "name": {"en": "Dates with Peanut", "ru": "Финик с Арахисом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "peanut"]},
+  {"id": "dates_with_cashew_nut", "name": {"en": "Dates with Cashew nut", "ru": "Финик с Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "cashew_nut"]},
+  {"id": "dates_with_nelli_syrup", "name": {"en": "Dates with Nelli syrup", "ru": "Финик с Сиропом нелли"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "nelli_syrup"]},
+  {"id": "dates_with_sarasaparilla_syrup", "name": {"en": "Dates with Sarasaparilla syrup", "ru": "Финик с Сиропом сарасапариллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "sarasaparilla_syrup"]},
+  {"id": "dates_with_rose_syrup", "name": {"en": "Dates with Rose syrup", "ru": "Финик с Розовым сиропом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "rose_syrup"]},
+  {"id": "dates_with_carrot", "name": {"en": "Dates with Carrot", "ru": "Финик с Морковью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "carrot"]},
+  {"id": "dates_with_ginger", "name": {"en": "Dates with Ginger", "ru": "Финик с Имбирем"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Pungency"]}, "ingredients": ["dates", "ginger"]},
+  {"id": "dates_with_tomato", "name": {"en": "Dates with Tomato", "ru": "Финик с Томатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "tomato"]},
+  {"id": "dates_with_coconut", "name": {"en": "Dates with Coconut", "ru": "Финик с Кокосом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["dates", "coconut"]},
+  {"id": "lime_with_soda", "name": {"en": "Lime with Soda", "ru": "Лайм с Содовой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "soda"]},
+  {"id": "lime_with_mint", "name": {"en": "Lime with Mint", "ru": "Лайм с Мятой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "mint"]},
+  {"id": "lime_with_banana", "name": {"en": "Lime with Banana", "ru": "Лайм с Бананом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "banana"]},
+  {"id": "lime_with_cantaloupe", "name": {"en": "Lime with Cantaloupe", "ru": "Лайм с Канталупой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "cantaloupe"]},
+  {"id": "lime_with_dragon_fruit", "name": {"en": "Lime with Dragon fruit", "ru": "Лайм с Драгонфрутом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "dragon_fruit"]},
+  {"id": "lime_with_durian", "name": {"en": "Lime with Durian", "ru": "Лайм с Дурианом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "duriyan"]},
+  {"id": "lime_with_dates", "name": {"en": "Lime with Dates", "ru": "Лайм с Финиками"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "dates"]},
+  {"id": "lime_with_fig", "name": {"en": "Lime with Fig", "ru": "Лайм с Инжиром"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "fig"]},
+  {"id": "lime_with_guava", "name": {"en": "Lime with Guava", "ru": "Лайм с Гуавой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "guava"]},
+  {"id": "lime_with_grapes", "name": {"en": "Lime with Grapes", "ru": "Лайм с Виноградом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "grapes"]},
+  {"id": "lime_with_jackfruit", "name": {"en": "Lime with Jackfruit", "ru": "Лайм с Джекфрутом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "jack_fruit"]},
+  {"id": "lime_with_mango", "name": {"en": "Lime with Mango", "ru": "Лайм с Манго"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "mango"]},
+  {"id": "lime_with_orange", "name": {"en": "Lime with Orange", "ru": "Лайм с Апельсином"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "orange"]},
+  {"id": "lime_with_papaya", "name": {"en": "Lime with Papaya", "ru": "Лайм с Папайей"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "papaya"]},
+  {"id": "lime_with_pineapple", "name": {"en": "Lime with Pineapple", "ru": "Лайм с Ананасом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "pineapple"]},
+  {"id": "lime_with_pomegranate", "name": {"en": "Lime with Pomegranate", "ru": "Лайм с Гранатом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "pomegranate"]},
+  {"id": "lime_with_raisin", "name": {"en": "Lime with Raisin", "ru": "Лайм с Изюмом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "raisin"]},
+  {"id": "lime_with_soursop_annona", "name": {"en": "Lime with Soursop Annona", "ru": "Лайм с Аноной"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "soursop"]},
+  {"id": "lime_with_sapodilla", "name": {"en": "Lime with Sapodilla", "ru": "Лайм с Саподиллой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "sapodilla"]},
+  {"id": "lime_with_silver_melon", "name": {"en": "Lime with Silver Melon", "ru": "Лайм с Серебряной Дыней"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "silver_melon"]},
+  {"id": "lime_with_star_fruit", "name": {"en": "Lime with Star fruit", "ru": "Лайм с Карамболой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "star_fruit"]},
+  {"id": "lime_with_strawberry", "name": {"en": "Lime with Strawberry", "ru": "Лайм с Клубникой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "strawberry"]},
+  {"id": "lime_with_lovi", "name": {"en": "Lime with Lovi", "ru": "Лайм с Лови"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "lovi"]},
+  {"id": "lime_with_veralu", "name": {"en": "Lime with Veralu", "ru": "Лайм с Вералу"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "veralu"]},
+  {"id": "lime_with_jumbu", "name": {"en": "Lime with Jumbu", "ru": "Лайм с Джамбу"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "jumbu"]},
+  {"id": "lime_with_sour_orange", "name": {"en": "Lime with Sour Orange", "ru": "Лайм с Кислым Апельсином"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "sour_orange"]},
+  {"id": "lime_with_tamarind", "name": {"en": "Lime with Tamarind", "ru": "Лайм с Тамариндом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "tamarind"]},
+  {"id": "lime_with_almond", "name": {"en": "Lime with Almond", "ru": "Лайм с Миндалем"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "almond"]},
+  {"id": "lime_with_peanut", "name": {"en": "Lime with Peanut", "ru": "Лайм с Арахисом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "peanut"]},
+  {"id": "lime_with_cashew_nut", "name": {"en": "Lime with Cashew nut", "ru": "Лайм с Кешью"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "cashew_nut"]},
+  {"id": "lime_with_nelli_syrup", "name": {"en": "Lime with Nelli syrup", "ru": "Лайм с Сиропом нелли"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "nelli_syrup"]},
+  {"id": "lime_with_sarasaparilla_syrup", "name": {"en": "Lime with Sarasaparilla syrup", "ru": "Лайм с Сиропом сарасапариллы"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "sarasaparilla_syrup"]},
+  {"id": "lime_with_rose_syrup", "name": {"en": "Lime with Rose syrup", "ru": "Лайм с Розовым сиропом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "rose_syrup"]},
+  {"id": "lime_with_carrot", "name": {"en": "Lime with Carrot", "ru": "Лайм с Морковью"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "carrot"]},
+  {"id": "lime_with_ginger", "name": {"en": "Lime with Ginger", "ru": "Лайм с Имбирем"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour', 'Pungency"]}, "ingredients": ["lime", "ginger"]},
+  {"id": "lime_with_tomato", "name": {"en": "Lime with Tomato", "ru": "Лайм с Томатом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "tomato"]},
+  {"id": "lime_with_coconut", "name": {"en": "Lime with Coconut", "ru": "Лайм с Кокосом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["lime", "coconut"]},
+  {"id": "mango_with_chocolate", "name": {"en": "Mango with Chocolate", "ru": "Манго с Шоколадом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "chocolate"]},
+  {"id": "mango_with_mint", "name": {"en": "Mango with Mint", "ru": "Манго с Мятой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "mint"]},
+  {"id": "mango_with_apple", "name": {"en": "Mango with Apple", "ru": "Манго с Яблоком"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "apple"]},
+  {"id": "mango_with_cantaloupe", "name": {"en": "Mango with Cantaloupe", "ru": "Манго с Канталупой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "cantaloupe"]},
+  {"id": "mango_with_dragon_fruit", "name": {"en": "Mango with Dragon fruit", "ru": "Манго с Драгонфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "dragon_fruit"]},
+  {"id": "mango_with_durian", "name": {"en": "Mango with Durian", "ru": "Манго с Дурианом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "duriyan"]},
+  {"id": "mango_with_dates", "name": {"en": "Mango with Dates", "ru": "Манго с Финиками"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "dates"]},
+  {"id": "mango_with_fig", "name": {"en": "Mango with Fig", "ru": "Манго с Инжиром"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "fig"]},
+  {"id": "mango_with_grapes", "name": {"en": "Mango with Grapes", "ru": "Манго с Виноградом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "grapes"]},
+  {"id": "mango_with_guava", "name": {"en": "Mango with Guava", "ru": "Манго с Гуавой"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["mango", "guava"]},
+  {"id": "mango_with_jackfruit", "name": {"en": "Mango with Jackfruit", "ru": "Манго с Джекфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "jack_fruit"]},
+  {"id": "mango_with_lime", "name": {"en": "Mango with Lime", "ru": "Манго с Лаймом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["mango", "lime"]},
+  {"id": "mango_with_orange", "name": {"en": "Mango with Orange", "ru": "Манго с Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["mango", "orange"]},
+  {"id": "mango_with_papaya", "name": {"en": "Mango with Papaya", "ru": "Манго с Папайей"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "papaya"]},
+  {"id": "mango_with_pineapple", "name": {"en": "Mango with Pineapple", "ru": "Манго с Ананасом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "pineapple"]},
+  {"id": "mango_with_pomegranate", "name": {"en": "Mango with Pomegranate", "ru": "Манго с Гранатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "pomegranate"]},
+  {"id": "mango_with_raisin", "name": {"en": "Mango with Raisin", "ru": "Манго с Изюмом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "raisin"]},
+  {"id": "mango_with_soursop_annona", "name": {"en": "Mango with Soursop Annona", "ru": "Манго с Аноной"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "soursop"]},
+  {"id": "mango_with_sapodilla", "name": {"en": "Mango with Sapodilla", "ru": "Манго с Саподиллой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "sapodilla"]},
+  {"id": "mango_with_silver_melon", "name": {"en": "Mango with Silver Melon", "ru": "Манго с Серебряной Дыней"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "silver_melon"]},
+  {"id": "mango_with_star_fruit", "name": {"en": "Mango with Star fruit", "ru": "Манго с Карамболой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "star_fruit"]},
+  {"id": "mango_with_strawberry", "name": {"en": "Mango with Strawberry", "ru": "Манго с Клубникой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "strawberry"]},
+  {"id": "mango_with_lovi", "name": {"en": "Mango with Lovi", "ru": "Манго с Лови"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["mango", "lovi"]},
+  {"id": "mango_with_veralu", "name": {"en": "Mango with Veralu", "ru": "Манго с Вералу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["mango", "veralu"]},
+  {"id": "mango_with_jumbu", "name": {"en": "Mango with Jumbu", "ru": "Манго с Джамбу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["mango", "jumbu"]},
+  {"id": "mango_with_sour_orange", "name": {"en": "Mango with Sour Orange", "ru": "Манго с Кислым Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["mango", "sour_orange"]},
+  {"id": "mango_with_tamarind", "name": {"en": "Mango with Tamarind", "ru": "Манго с Тамариндом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour', 'Salty"]}, "ingredients": ["mango", "tamarind"]},
+  {"id": "mango_with_almond", "name": {"en": "Mango with Almond", "ru": "Манго с Миндалем"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "almond"]},
+  {"id": "mango_with_peanut", "name": {"en": "Mango with Peanut", "ru": "Манго с Арахисом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "peanut"]},
+  {"id": "mango_with_cashew_nut", "name": {"en": "Mango with Cashew nut", "ru": "Манго с Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "cashew_nut"]},
+  {"id": "mango_with_nelli_syrup", "name": {"en": "Mango with Nelli syrup", "ru": "Манго с Сиропом нелли"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "nelli_syrup"]},
+  {"id": "mango_with_sarasaparilla_syrup", "name": {"en": "Mango with Sarasaparilla syrup", "ru": "Манго с Сиропом сарасапариллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "sarasaparilla_syrup"]},
+  {"id": "mango_with_rose_syrup", "name": {"en": "Mango with Rose syrup", "ru": "Манго с Розовым сиропом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "rose_syrup"]},
+  {"id": "mango_with_carrot", "name": {"en": "Mango with Carrot", "ru": "Манго с Морковью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "carrot"]},
+  {"id": "mango_with_ginger", "name": {"en": "Mango with Ginger", "ru": "Манго с Имбирем"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Pungency"]}, "ingredients": ["mango", "ginger"]},
+  {"id": "mango_with_tomato", "name": {"en": "Mango with Tomato", "ru": "Манго с Томатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "tomato"]},
+  {"id": "mango_with_coconut", "name": {"en": "Mango with Coconut", "ru": "Манго с Кокосом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["mango", "coconut"]},
+  {"id": "papaya_with_chocolate", "name": {"en": "Papaya with Chocolate", "ru": "Папайя с Шоколадом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "chocolate"]},
+  {"id": "papaya_with_mint", "name": {"en": "Papaya with Mint", "ru": "Папайя с Мятой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "mint"]},
+  {"id": "papaya_with_banana", "name": {"en": "Papaya with Banana", "ru": "Папайя с Бананом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "banana"]},
+  {"id": "papaya_with_cantaloupe", "name": {"en": "Papaya with Cantaloupe", "ru": "Папайя с Канталупой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "cantaloupe"]},
+  {"id": "papaya_with_dragon_fruit", "name": {"en": "Papaya with Dragon fruit", "ru": "Папайя с Драгонфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "dragon_fruit"]},
+  {"id": "papaya_with_durian", "name": {"en": "Papaya with Durian", "ru": "Папайя с Дурианом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "duriyan"]},
+  {"id": "papaya_with_dates", "name": {"en": "Papaya with Dates", "ru": "Папайя с Финиками"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "dates"]},
+  {"id": "papaya_with_fig", "name": {"en": "Papaya with Fig", "ru": "Папайя с Инжиром"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "fig"]},
+  {"id": "papaya_with_guava", "name": {"en": "Papaya with Guava", "ru": "Папайя с Гуавой"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["papaya", "guava"]},
+  {"id": "papaya_with_jackfruit", "name": {"en": "Papaya with Jackfruit", "ru": "Папайя с Джекфрутом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "jack_fruit"]},
+  {"id": "papaya_with_lime", "name": {"en": "Papaya with Lime", "ru": "Папайя с Лаймом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["papaya", "lime"]},
+  {"id": "papaya_with_mango", "name": {"en": "Papaya with Mango", "ru": "Папайя с Манго"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "mango"]},
+  {"id": "papaya_with_orange", "name": {"en": "Papaya with Orange", "ru": "Папайя с Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["papaya", "orange"]},
+  {"id": "papaya_with_pineapple", "name": {"en": "Papaya with Pineapple", "ru": "Папайя с Ананасом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "pineapple"]},
+  {"id": "papaya_with_pomegranate", "name": {"en": "Papaya with Pomegranate", "ru": "Папайя с Гранатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "pomegranate"]},
+  {"id": "papaya_with_raisin", "name": {"en": "Papaya with Raisin", "ru": "Папайя с Изюмом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "raisin"]},
+  {"id": "papaya_with_soursop_annona", "name": {"en": "Papaya with Soursop Annona", "ru": "Папайя с Аноной"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "soursop"]},
+  {"id": "papaya_with_sapodilla", "name": {"en": "Papaya with Sapodilla", "ru": "Папайя с Саподиллой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "sapodilla"]},
+  {"id": "papaya_with_silver_melon", "name": {"en": "Papaya with Silver Melon", "ru": "Папайя с Серебряной Дыней"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "silver_melon"]},
+  {"id": "papaya_with_star_fruit", "name": {"en": "Papaya with Star fruit", "ru": "Папайя с Карамболой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "star_fruit"]},
+  {"id": "papaya_with_strawberry", "name": {"en": "Papaya with Strawberry", "ru": "Папайя с Клубникой"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "strawberry"]},
+  {"id": "papaya_with_lovi", "name": {"en": "Papaya with Lovi", "ru": "Папайя с Лови"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["papaya", "lovi"]},
+  {"id": "papaya_with_veralu", "name": {"en": "Papaya with Veralu", "ru": "Папайя с Вералу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["papaya", "veralu"]},
+  {"id": "papaya_with_jumbu", "name": {"en": "Papaya with Jumbu", "ru": "Папайя с Джамбу"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["papaya", "jumbu"]},
+  {"id": "papaya_with_sour_orange", "name": {"en": "Papaya with Sour Orange", "ru": "Папайя с Кислым Апельсином"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["papaya", "sour_orange"]},
+  {"id": "papaya_with_tamarind", "name": {"en": "Papaya with Tamarind", "ru": "Папайя с Тамариндом"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Sour', 'Salty"]}, "ingredients": ["papaya", "tamarind"]},
+  {"id": "papaya_with_almond", "name": {"en": "Papaya with Almond", "ru": "Папайя с Миндалем"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "almond"]},
+  {"id": "papaya_with_peanut", "name": {"en": "Papaya with Peanut", "ru": "Папайя с Арахисом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "peanut"]},
+  {"id": "papaya_with_cashew_nut", "name": {"en": "Papaya with Cashew nut", "ru": "Папайя с Кешью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "cashew_nut"]},
+  {"id": "papaya_with_nelli_syrup", "name": {"en": "Papaya with Nelli syrup", "ru": "Папайя с Сиропом нелли"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "nelli_syrup"]},
+  {"id": "papaya_with_sarasaparilla_syrup", "name": {"en": "Papaya with Sarasaparilla syrup", "ru": "Папайя с Сиропом сарасапариллы"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "sarasaparilla_syrup"]},
+  {"id": "papaya_with_rose_syrup", "name": {"en": "Papaya with Rose syrup", "ru": "Папайя с Розовым сиропом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "rose_syrup"]},
+  {"id": "papaya_with_carrot", "name": {"en": "Papaya with Carrot", "ru": "Папайя с Морковью"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "carrot"]},
+  {"id": "papaya_with_ginger", "name": {"en": "Papaya with Ginger", "ru": "Папайя с Имбирем"}, "properties": {"density": "Creamy", "flavor": ["Sweet', 'Pungency"]}, "ingredients": ["papaya", "ginger"]},
+  {"id": "papaya_with_tomato", "name": {"en": "Papaya with Tomato", "ru": "Папайя с Томатом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "tomato"]},
+  {"id": "papaya_with_coconut", "name": {"en": "Papaya with Coconut", "ru": "Папайя с Кокосом"}, "properties": {"density": "Creamy", "flavor": ["Sweet"]}, "ingredients": ["papaya", "coconut"]},
+  {"id": "pineapple_with_chocolate", "name": {"en": "Pineapple with Chocolate", "ru": "Ананас с Шоколадом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "chocolate"]},
+  {"id": "pineapple_with_mint", "name": {"en": "Pineapple with Mint", "ru": "Ананас с Мятой"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "mint"]},
+  {"id": "pineapple_with_apple", "name": {"en": "Pineapple with Apple", "ru": "Ананас с Яблоком"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "apple"]},
+  {"id": "pineapple_with_cantaloupe", "name": {"en": "Pineapple with Cantaloupe", "ru": "Ананас с Канталупой"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "cantaloupe"]},
+  {"id": "pineapple_with_dragon_fruit", "name": {"en": "Pineapple with Dragon fruit", "ru": "Ананас с Драгонфрутом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "dragon_fruit"]},
+  {"id": "pineapple_with_durian", "name": {"en": "Pineapple with Durian", "ru": "Ананас с Дурианом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "duriyan"]},
+  {"id": "pineapple_with_fig", "name": {"en": "Pineapple with Fig", "ru": "Ананас с Инжиром"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "fig"]},
+  {"id": "pineapple_with_guava", "name": {"en": "Pineapple with Guava", "ru": "Ананас с Гуавой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["pineapple", "guava"]},
+  {"id": "pineapple_with_jackfruit", "name": {"en": "Pineapple with Jackfruit", "ru": "Ананас с Джекфрутом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "jack_fruit"]},
+  {"id": "pineapple_with_lime", "name": {"en": "Pineapple with Lime", "ru": "Ананас с Лаймом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["pineapple", "lime"]},
+  {"id": "pineapple_with_grapes", "name": {"en": "Pineapple with Grapes", "ru": "Ананас с Виноградом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "grapes"]},
+  {"id": "pineapple_with_orange", "name": {"en": "Pineapple with Orange", "ru": "Ананас с Апельсином"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["pineapple", "orange"]},
+  {"id": "pineapple_with_papaya", "name": {"en": "Pineapple with Papaya", "ru": "Ананас с Папайей"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "papaya"]},
+  {"id": "pineapple_with_passion_fruit", "name": {"en": "Pineapple with Passion fruit", "ru": "Ананас с Маракуйей"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["pineapple", "passion_fruit"]},
+  {"id": "pineapple_with_pomegranate", "name": {"en": "Pineapple with Pomegranate", "ru": "Ананас с Гранатом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "pomegranate"]},
+  {"id": "pineapple_with_raisin", "name": {"en": "Pineapple with Raisin", "ru": "Ананас с Изюмом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "raisin"]},
+  {"id": "pineapple_with_soursop_annona", "name": {"en": "Pineapple with Soursop Annona", "ru": "Ананас с Аноной"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "soursop"]},
+  {"id": "pineapple_with_sapodilla", "name": {"en": "Pineapple with Sapodilla", "ru": "Ананас с Саподиллой"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "sapodilla"]},
+  {"id": "pineapple_with_silver_melon", "name": {"en": "Pineapple with Silver Melon", "ru": "Ананас с Серебряной Дыней"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "silver_melon"]},
+  {"id": "pineapple_with_star_fruit", "name": {"en": "Pineapple with Star fruit", "ru": "Ананас с Карамболой"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "star_fruit"]},
+  {"id": "pineapple_with_strawberry", "name": {"en": "Pineapple with Strawberry", "ru": "Ананас с Клубникой"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "strawberry"]},
+  {"id": "pineapple_with_lovi", "name": {"en": "Pineapple with Lovi", "ru": "Ананас с Лови"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["pineapple", "lovi"]},
+  {"id": "pineapple_with_veralu", "name": {"en": "Pineapple with Veralu", "ru": "Ананас с Вералу"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["pineapple", "veralu"]},
+  {"id": "pineapple_with_jumbu", "name": {"en": "Pineapple with Jumbu", "ru": "Ананас с Джамбу"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["pineapple", "jumbu"]},
+  {"id": "pineapple_with_sour_orange", "name": {"en": "Pineapple with Sour Orange", "ru": "Ананас с Кислым Апельсином"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["pineapple", "sour_orange"]},
+  {"id": "pineapple_with_tamarind", "name": {"en": "Pineapple with Tamarind", "ru": "Ананас с Тамариндом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour', 'Salty"]}, "ingredients": ["pineapple", "tamarind"]},
+  {"id": "pineapple_with_almond", "name": {"en": "Pineapple with Almond", "ru": "Ананас с Миндалем"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "almond"]},
+  {"id": "pineapple_with_peanut", "name": {"en": "Pineapple with Peanut", "ru": "Ананас с Арахисом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "peanut"]},
+  {"id": "pineapple_with_cashew_nut", "name": {"en": "Pineapple with Cashew nut", "ru": "Ананас с Кешью"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "cashew_nut"]},
+  {"id": "pineapple_with_nelli_syrup", "name": {"en": "Pineapple with Nelli syrup", "ru": "Ананас с Сиропом нелли"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "nelli_syrup"]},
+  {"id": "pineapple_with_sarasaparilla_syrup", "name": {"en": "Pineapple with Sarasaparilla syrup", "ru": "Ананас с Сиропом сарасапариллы"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "sarasaparilla_syrup"]},
+  {"id": "pineapple_with_rose_syrup", "name": {"en": "Pineapple with Rose syrup", "ru": "Ананас с Розовым сиропом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "rose_syrup"]},
+  {"id": "pineapple_with_carrot", "name": {"en": "Pineapple with Carrot", "ru": "Ананас с Морковью"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "carrot"]},
+  {"id": "pineapple_with_ginger", "name": {"en": "Pineapple with Ginger", "ru": "Ананас с Имбирем"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Pungency"]}, "ingredients": ["pineapple", "ginger"]},
+  {"id": "pineapple_with_tomato", "name": {"en": "Pineapple with Tomato", "ru": "Ананас с Томатом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "tomato"]},
+  {"id": "pineapple_with_coconut", "name": {"en": "Pineapple with Coconut", "ru": "Ананас с Кокосом"}, "properties": {"density": "Liquid", "flavor": ["Sweet"]}, "ingredients": ["pineapple", "coconut"]},
+  {"id": "passion_fruit_with_mint", "name": {"en": "Passion fruit with Mint", "ru": "Маракуя с Мятой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "mint"]},
+  {"id": "passion_fruit_with_avocado", "name": {"en": "Passion fruit with Avocado", "ru": "Маракуя с Авокадо"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "avocado"]},
+  {"id": "passion_fruit_with_banana", "name": {"en": "Passion fruit with Banana", "ru": "Маракуя с Бананом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "banana"]},
+  {"id": "passion_fruit_with_cantaloupe", "name": {"en": "Passion fruit with Cantaloupe", "ru": "Маракуя с Канталупой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "cantaloupe"]},
+  {"id": "passion_fruit_with_dragon_fruit", "name": {"en": "Passion fruit with Dragon fruit", "ru": "Маракуя с Драгонфрутом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "dragon_fruit"]},
+  {"id": "passion_fruit_with_durian", "name": {"en": "Passion fruit with Durian", "ru": "Маракуя с Дурианом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "duriyan"]},
+  {"id": "passion_fruit_with_dates", "name": {"en": "Passion fruit with Dates", "ru": "Маракуя с Финиками"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "dates"]},
+  {"id": "passion_fruit_with_fig", "name": {"en": "Passion fruit with Fig", "ru": "Маракуя с Инжиром"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "fig"]},
+  {"id": "passion_fruit_with_guava", "name": {"en": "Passion fruit with Guava", "ru": "Маракуя с Гуавой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "guava"]},
+  {"id": "passion_fruit_with_jackfruit", "name": {"en": "Passion fruit with Jackfruit", "ru": "Маракуя с Джекфрутом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "jack_fruit"]},
+  {"id": "passion_fruit_with_lime", "name": {"en": "Passion fruit with Lime", "ru": "Маракуя с Лаймом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "lime"]},
+  {"id": "passion_fruit_with_mango", "name": {"en": "Passion fruit with Mango", "ru": "Маракуя с Манго"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "mango"]},
+  {"id": "passion_fruit_with_orange", "name": {"en": "Passion fruit with Orange", "ru": "Маракуя с Апельсином"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "orange"]},
+  {"id": "passion_fruit_with_pineapple", "name": {"en": "Passion fruit with Pineapple", "ru": "Маракуя с Ананасом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "pineapple"]},
+  {"id": "passion_fruit_with_pomegranate", "name": {"en": "Passion fruit with Pomegranate", "ru": "Маракуя с Гранатом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "pomegranate"]},
+  {"id": "passion_fruit_with_raisin", "name": {"en": "Passion fruit with Raisin", "ru": "Маракуя с Изюмом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "raisin"]},
+  {"id": "passion_fruit_with_soursop_annona", "name": {"en": "Passion fruit with Soursop Annona", "ru": "Маракуя с Аноной"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "soursop"]},
+  {"id": "passion_fruit_with_sapodilla", "name": {"en": "Passion fruit with Sapodilla", "ru": "Маракуя с Саподиллой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "sapodilla"]},
+  {"id": "passion_fruit_with_silver_melon", "name": {"en": "Passion fruit with Silver Melon", "ru": "Маракуя с Серебряной Дыней"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "silver_melon"]},
+  {"id": "passion_fruit_with_star_fruit", "name": {"en": "Passion fruit with Star fruit", "ru": "Маракуя с Карамболой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "star_fruit"]},
+  {"id": "passion_fruit_with_strawberry", "name": {"en": "Passion fruit with Strawberry", "ru": "Маракуя с Клубникой"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "strawberry"]},
+  {"id": "passion_fruit_with_lovi", "name": {"en": "Passion fruit with Lovi", "ru": "Маракуя с Лови"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "lovi"]},
+  {"id": "passion_fruit_with_veralu", "name": {"en": "Passion fruit with Veralu", "ru": "Маракуя с Вералу"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "veralu"]},
+  {"id": "passion_fruit_with_jumbu", "name": {"en": "Passion fruit with Jumbu", "ru": "Маракуя с Джамбу"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "jumbu"]},
+  {"id": "passion_fruit_with_sour_orange", "name": {"en": "Passion fruit with Sour Orange", "ru": "Маракуя с Кислым Апельсином"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "sour_orange"]},
+  {"id": "passion_fruit_with_tamarind", "name": {"en": "Passion fruit with Tamarind", "ru": "Маракуя с Тамариндом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "tamarind"]},
+  {"id": "passion_fruit_with_almond", "name": {"en": "Passion fruit with Almond", "ru": "Маракуя с Миндалем"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "almond"]},
+  {"id": "passion_fruit_with_peanut", "name": {"en": "Passion fruit with Peanut", "ru": "Маракуя с Арахисом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "peanut"]},
+  {"id": "passion_fruit_with_cashew_nut", "name": {"en": "Passion fruit with Cashew nut", "ru": "Маракуя с Кешью"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "cashew_nut"]},
+  {"id": "passion_fruit_with_nelli_syrup", "name": {"en": "Passion fruit with Nelli syrup", "ru": "Маракуя с Сиропом нелли"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "nelli_syrup"]},
+  {"id": "passion_fruit_with_sarasaparilla_syrup", "name": {"en": "Passion fruit with Sarasaparilla syrup", "ru": "Маракуя с Сиропом сарасапариллы"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "sarasaparilla_syrup"]},
+  {"id": "passion_fruit_with_rose_syrup", "name": {"en": "Passion fruit with Rose syrup", "ru": "Маракуя с Розовым сиропом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "rose_syrup"]},
+  {"id": "passion_fruit_with_carrot", "name": {"en": "Passion fruit with Carrot", "ru": "Маракуя с Морковью"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "carrot"]},
+  {"id": "passion_fruit_with_ginger", "name": {"en": "Passion fruit with Ginger", "ru": "Маракуя с Имбирем"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "ginger"]},
+  {"id": "passion_fruit_with_tomato", "name": {"en": "Passion fruit with Tomato", "ru": "Маракуя с Томатом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "tomato"]},
+  {"id": "passion_fruit_with_coconut", "name": {"en": "Passion fruit with Coconut", "ru": "Маракуя с Кокосом"}, "properties": {"density": "Liquid", "flavor": ["Sweet', 'Sour"]}, "ingredients": ["passion_fruit", "coconut"]}
 ]
