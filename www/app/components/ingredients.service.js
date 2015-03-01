@@ -1794,7 +1794,7 @@ angular.module('avm.components')
           "id": "welpenela",
           "name": {
             "en": "Welpenela",
-            "ru": "Вепенела"
+            "ru": "Велпенела"
           },
           "description": {
             "en": "Cardiospermum is a genus of approximately 14 species in the soapberry family, Sapindaceae, which are native to the American, Indian, and African tropics.",
