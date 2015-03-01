@@ -9,8 +9,16 @@ ion-nav-view {
 .card-image {
     display: block;
     width: 75%;
-    max-width: 200px;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-image-div {
+    display: block;
+    width: 75%;
+    height: 0;
+    padding-top: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,13 +45,13 @@ ion-nav-view {
     top: 21px;
     left: 16px;
     z-index: 15;
-    font-size: 1.33333333em;
-    line-height: .75em;
+    font-size: 16px;
+    line-height: 1.25em;
 }
 
 .list-buttons {
     position: absolute;
-    top: 23px;
+    top: 32px;
     right: 12px;
     z-index: 15;
 }
@@ -75,6 +83,11 @@ ion-nav-view {
     height: 10px;
     margin: 0;
     padding: 0;
+}
+
+.padding-5 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 
 .logo {
@@ -134,4 +147,15 @@ ion-header-bar {
 
 .pull-right {
     float: right;
+}
+
+.bg {
+    background: url("http://sweetfrogyogurt.com/images/uploads/updated-flavors/NSA_blueberry_web.jpg") top right 10px no-repeat,
+    url("http://sweetfrogyogurt.com/images/uploads/updated-flavors/Very-Strawberry-600x600.jpg") bottom left 10px no-repeat;
+}
+
+.test-image {
+    background-size: 80px 80px, 80px 80px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: -50% 0%, 50% 0%;
 }

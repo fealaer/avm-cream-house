@@ -6,7 +6,11 @@
 	<ion-content>
 		<div class="list card">
 			<div class="item item-body">
-				<span class="item-price"><strong>Rs.</strong> {{item.price | number}}</span>
+				<div class="item-price">
+					<span>250<span translate>ML</span> - Rs.<strong>{{item.price250 | number}}</strong></span>
+					<br/>
+					<span ng-show="item.price500">500<span translate>ML</span> - Rs.<strong>{{item.price500 | number}}</strong></span>
+				</div>
 
 				<div class="item-buttons">
 					<button
@@ -23,7 +27,14 @@
 						<fa name="bookmark" size="large"></fa>
 					</button>
 				</div>
-				<img class="card-image" ng-src="{{'/images/menu/' + item.pic + '.png'}}">
+				<div class="card-image-div" ng-if="item.ingredients.length === 2"
+				     style="background: url({{'/images/menu/' + item.ingredients[0] + '.png'}}),
+				      url({{'/images/menu/' + item.ingredients[1] + '.png'}});
+				      background-size: 65% 65%, 65% 65%;
+				      background-repeat: no-repeat, no-repeat;
+				      background-position: 0px 100%, 100% 0px;
+				      background-origin: border-box;"></div>
+				<img class="card-image" ng-if="item.ingredients.length === 1" ng-src="{{'/images/menu/' + item.ingredients[0] + '.png'}}">
 			</div>
 			<div ng-controller="InfoTabsCtrl">
 				<div class="item tabs tabs-secondary tabs-icon-top secondary-tabs-in-item tabs-positive">
@@ -45,6 +56,9 @@
 					<div class="item sm-padding">
 						&nbsp;
 					</div>
+					<div class="item" ng-show="lang !== 'en'">
+						{{item.name.en}}
+					</div>
 					<div class="item item-divider" ng-show="item.properties">
 						<translate>Properties</translate>
 					</div>
@@ -63,7 +77,7 @@
 							<img class="list-image" ng-src="{{'/images/menu/' + ingredient.id + '.png'}}">
 
 							<h2 class="vert-centred">{{ingredient.name[lang]}}</h2>
-							<p ng-show="lang !== 'en'">{{item.name.en}}</p>
+							<p ng-show="lang !== 'en'">{{ingredient.name.en}}</p>
 						</a>
 
 						<div class="list-buttons">
