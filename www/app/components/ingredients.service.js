@@ -23,7 +23,6 @@ angular.module('avm.components')
             "carbohydrates": 21.69,
             "fat": 49.42,
             "protein": 21.22,
-            "water": 4.70,
             "vitamins": ["E", "B"],
             "minerals": ["Calcium", "Magnesium", "Phosphorus", "Potassium"]
           },
@@ -50,12 +49,11 @@ angular.module('avm.components')
             "carbohydrates": 12.4,
             "fat": 0.1,
             "protein": 0.2,
-            "water": 87.3,
             "vitamins": ["A", "C"],
             "minerals": ["Calcium", "Phosphorus"]
           },
           "properties": {
-            "flavor": ["?"]
+            "flavor": ["Sweet"]
           }
         },
         {
@@ -77,7 +75,6 @@ angular.module('avm.components')
             "carbohydrates": 13.81,
             "fat": 0.17,
             "protein": 0.26,
-            "water": 85.56,
             "vitamins": ["C"],
             "minerals": ["Potassium"]
           },
@@ -104,7 +101,6 @@ angular.module('avm.components')
             "carbohydrates": 31.8,
             "fat": 0.3,
             "protein": 1.8,
-            "water": 61.5,
             "vitamins": ["A", "B", "C"],
             "minerals": ["Calcium", "Potassium"]
           },
@@ -131,9 +127,8 @@ angular.module('avm.components')
             "carbohydrates": 22.84,
             "fat": 0.33,
             "protein": 1.09,
-            "water": 74.91,
-            "vitamins": ["B2","B5", "B6", "B9","C"],
-            "minerals": ["Magnesium", "Manganese","Potassium"]
+            "vitamins": ["B2", "B5", "B6", "B9", "C"],
+            "minerals": ["Magnesium", "Manganese", "Potassium"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -158,9 +153,8 @@ angular.module('avm.components')
             "carbohydrates": 9.96,
             "fat": 0.18,
             "protein": 1.68,
-            "water": 80,
-            "vitamins": ["B5","B6","B9","C"],
-            "minerals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium","Sodium","Zinc"]
+            "vitamins": ["B5", "B6", "B9", "C"],
+            "minerals": ["Iron", "Magnesium", "Manganese", "Phosphorus", "Potassium", "Sodium", "Zinc"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -185,9 +179,8 @@ angular.module('avm.components')
             "carbohydrates": 4.32,
             "fat": 0.18,
             "protein": 0.84,
-            "water": 95,
-            "vitamins": ["B1","B2","B5","B9","C","K"],
-            "minerals": ["Magnesium","Potassium","Zinc"]
+            "vitamins": ["B1", "B2", "B5", "B9", "C", "K"],
+            "minerals": ["Magnesium", "Potassium", "Zinc"]
           },
           "properties": {
             "flavor": ["Bitter"]
@@ -209,12 +202,11 @@ angular.module('avm.components')
           },
           "nutrition_facts": {
             "energy": 34,
-            "carbohydrates": 8.16 ,
+            "carbohydrates": 8.16,
             "fat": 0.19,
             "protein": 0.84,
-            "water": 90,
-            "vitamins": ["A","B3","B6","B9","C"],
-            "minerals": ["Manganese","Potassium"]
+            "vitamins": ["A", "B3", "B6", "B9", "C"],
+            "minerals": ["Manganese", "Potassium"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -239,9 +231,8 @@ angular.module('avm.components')
             "carbohydrates": 9.6,
             "fat": 0.24,
             "protein": 0.93,
-            "water": 89,
-            "vitamins": ["A","B1","B2","B3","B5","B6","B9","C","E"],
-            "minerals": ["Manganese","Potassium","Sodium"]
+            "vitamins": ["A", "B1", "B2", "B3", "B5", "B6", "B9", "C", "E"],
+            "minerals": ["Manganese", "Potassium", "Sodium"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -266,9 +257,8 @@ angular.module('avm.components')
             "carbohydrates": 9.5,
             "fat": 0.5,
             "protein": 0.15,
-            "water": 86,
             "vitamins": ["C"],
-            "minerals": ["Iron","Phosphorus"]
+            "minerals": ["Iron", "Phosphorus"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -289,13 +279,12 @@ angular.module('avm.components')
             "ru": "http://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D1%88%D1%8C%D1%8E"
           },
           "nutrition_facts": {
-            "energy": 553 ,
+            "energy": 553,
             "carbohydrates": 30.19,
             "fat": 43.85,
             "protein": 18.22,
-            "water": 10,
-            "vitamins": ["B1","B2","B3","B5","B6","E"],
-            "minerals": ["Potassium","Copper","Iron","Magnesium","Manganese","Phosphorus","Selenium","Zinc"]
+            "vitamins": ["B1", "B2", "B3", "B5", "B6", "E"],
+            "minerals": ["Potassium", "Copper", "Iron", "Magnesium", "Manganese", "Phosphorus", "Selenium", "Zinc"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -320,9 +309,8 @@ angular.module('avm.components')
             "carbohydrates": 19.0,
             "fat": 2.5,
             "protein": 5.0,
-            "water": 75,
             "vitamins": ["C"],
-            "minerals": ["Magnesium","Calcium","Iron"]
+            "minerals": ["Magnesium", "Calcium", "Iron"]
           },
           "properties": {
             "flavor": ["Sour", "Sweet"]
@@ -345,11 +333,10 @@ angular.module('avm.components')
           "nutrition_facts": {
             "energy": 16,
             "carbohydrates": 3.63,
-            "fat": 0.11 ,
+            "fat": 0.11,
             "protein": 0.65,
-            "water": 96,
-            "vitamins": ["B5","K"],
-            "minerals": ["Magnesium","Manganese"]
+            "vitamins": ["B5", "K"],
+            "minerals": ["Magnesium", "Manganese"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -375,12 +362,11 @@ angular.module('avm.components')
             "carbohydrates": 18.7,
             "fat": 1,
             "protein": 6.1,
-            "water": 66.3,
             "vitamins": [" A"],
-            "minerals": ["Calcium","Phosphorus","Iron"]
+            "minerals": ["Calcium", "Phosphorus", "Iron"]
           },
           "properties": {
-            "flavor": [""]
+            "flavor": ["Sweet"]
           }
         },
         {
@@ -402,9 +388,8 @@ angular.module('avm.components')
             "carbohydrates": 20,
             "fat": 0.5,
             "protein": 68,
-            "water": 20,
             "vitamins": ["C"],
-            "minerals": ["Calcium","Phosphorous"]
+            "minerals": ["Calcium", "Phosphorous"]
           },
           "properties": {
             "flavor": ["Sour", "Sweet"]
@@ -426,12 +411,11 @@ angular.module('avm.components')
           },
           "nutrition_facts": {
             "energy": 282,
-            "carbohydrates": 75.03 ,
+            "carbohydrates": 75.03,
             "fat": 0.39,
             "protein": 2.45,
-            "water": 20.53,
-            "vitamins": ["B1","B2","B3","B5","B6","B9"],
-            "minerals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium"]
+            "vitamins": ["B1", "B2", "B3", "B5", "B6", "B9"],
+            "minerals": ["Iron", "Magnesium", "Manganese", "Phosphorus", "Potassium"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -457,7 +441,6 @@ angular.module('avm.components')
             "carbohydrates": 11.0,
             "fat": 0.4,
             "protein": 1.1,
-            "water": 87,
             "vitamins": ["C"],
             "minerals": ["Iron" ]
           },
@@ -484,9 +467,8 @@ angular.module('avm.components')
             "carbohydrates": 27.09,
             "fat": 5.33,
             "protein": 1.47,
-            "water": 65,
-            "vitamins": ["B1","B2","B3","B5","B6","B9","C"],
-            "minerals": ["Magnesium","Manganese","Phosphorus","Potassium"]
+            "vitamins": ["B1", "B2", "B3", "B5", "B6", "B9", "C"],
+            "minerals": ["Magnesium", "Manganese", "Phosphorus", "Potassium"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -507,13 +489,12 @@ angular.module('avm.components')
             "ru": "http://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B6%D0%B8%D1%80"
           },
           "nutrition_facts": {
-            "energy": 249 ,
+            "energy": 249,
             "carbohydrates": 63.87,
             "fat": 0.93,
             "protein": 3.3,
-            "water": 33,
-            "vitamins": ["B1","B2","B3","B6","B9","K"],
-            "minerals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","PotassiumZ","inc"]
+            "vitamins": ["B1", "B2", "B3", "B6", "B9", "K"],
+            "minerals": ["Calcium", "Iron", "Magnesium", "Manganese", "Phosphorus", "PotassiumZ", "inc"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -538,9 +519,8 @@ angular.module('avm.components')
             "carbohydrates": 71.62,
             "fat": 4.24,
             "protein": 8.98,
-            "water": 15,
-            "vitamins": ["B2","B3","B5","B6"],
-            "minerals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","Potassium","Zinc"]
+            "vitamins": ["B2", "B3", "B5", "B6"],
+            "minerals": ["Calcium", "Iron", "Magnesium", "Manganese", "Phosphorus", "Potassium", "Zinc"]
           },
           "properties": {
             "flavor": ["Pungency"]
@@ -561,16 +541,15 @@ angular.module('avm.components')
             "ru": "http://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B0_%D0%B0%D0%B7%D0%B8%D0%B0%D1%82%D1%81%D0%BA%D0%B0%D1%8F"
           },
           "nutrition_facts": {
-            "energy": "?",
-            "carbohydrates": "?",
-            "fat": "?",
-            "protein": "?",
-            "water": "?",
-            "vitamins": ["C","B1","B2","B3"],
-            "minerals": ["Calcium","Magnesium","Manganese","Phosphorus","Potassium","Selenium","Zinc"]
+            "energy": "",
+            "carbohydrates": "",
+            "fat": "",
+            "protein": "",
+            "vitamins": ["C", "B1", "B2", "B3"],
+            "minerals": ["Calcium", "Magnesium", "Manganese", "Phosphorus", "Potassium", "Selenium", "Zinc"]
           },
           "properties": {
-            "flavor": ["Bitter","Sweet"]
+            "flavor": ["Bitter", "Sweet"]
           }
         },
         {
@@ -592,12 +571,11 @@ angular.module('avm.components')
             "carbohydrates": 8.41,
             "fat": 0.10,
             "protein": 0.69,
-            "water": 90.48,
-            "vitamins": ["B5","C"],
-            "minerals": ["Magnesium","Potassium"]
+            "vitamins": ["B5", "C"],
+            "minerals": ["Magnesium", "Potassium"]
           },
           "properties": {
-            "flavor": ["Bitter","Sweet"]
+            "flavor": ["Bitter", "Sweet"]
           }
         },
         {
@@ -619,8 +597,7 @@ angular.module('avm.components')
             "carbohydrates": 18.1,
             "fat": 0.16,
             "protein": 0.72,
-            "water": 85,
-            "vitamins": ["B1","B2","B6","K"],
+            "vitamins": ["B1", "B2", "B6", "K"],
             "minerals": ["Potassium"]
           },
           "properties": {
@@ -647,9 +624,8 @@ angular.module('avm.components')
             "carbohydrates": 14.32,
             "fat": 0.95,
             "protein": 2.55,
-            "water": 73,
-            "vitamins": ["С","B1","B3","B5","B6","B9"],
-            "minerals": ["Magnesium","Manganese","Phosphorus","Potassium"]
+            "vitamins": ["С", "B1", "B3", "B5", "B6", "B9"],
+            "minerals": ["Magnesium", "Manganese", "Phosphorus", "Potassium"]
           },
           "properties": {
             "flavor": ["Sour"]
@@ -674,9 +650,8 @@ angular.module('avm.components')
             "carbohydrates": 20,
             "fat": 0.64,
             "protein": 1.72,
-            "water": 76,
-            "vitamins": ["B1","B2","B3","B5","B6","B9","С"],
-            "minerals": ["Magnesium","Potassium"]
+            "vitamins": ["B1", "B2", "B3", "B5", "B6", "B9", "С"],
+            "minerals": ["Magnesium", "Potassium"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -701,9 +676,8 @@ angular.module('avm.components')
             "carbohydrates": 5.7,
             "fat": 0.3,
             "protein": 0.6,
-            "water": 93,
-            "vitamins": ["A","C"],
-            "minerals": ["Calcium","Iron"]
+            "vitamins": ["A", "C"],
+            "minerals": ["Calcium", "Iron"]
           },
           "properties": {
             "flavor": ["Sour"]
@@ -720,20 +694,12 @@ angular.module('avm.components')
             "ru": "Кирала или Мангровое яблоко является эндемичным фруктом Шри - Ланки и чаще всего произрастает вблизи солёной воды. Обладает приятным освежающим вкусом, полезен для желудка."
           },
           "wiki": {
-            "en": "",
+            "en": "http://en.wikipedia.org/wiki/Sonneratia_caseolaris",
             "ru": ""
           },
-          "nutrition_facts": {
-            "energy": "?",
-            "carbohydrates": "?",
-            "fat": "?",
-            "protein": "?",
-            "water": "?",
-            "vitamins": ["?"],
-            "minerals": ["?"]
-          },
+          "nutrition_facts": null,
           "properties": {
-            "flavor": ["Sour"]
+            "flavor": ["Sweet"]
           }
         },
         {
@@ -755,9 +721,8 @@ angular.module('avm.components')
             "carbohydrates": 14.66,
             "fat": 0.52,
             "protein": 1.14,
-            "water": 83,
-            "vitamins": ["C","B5","B9","E","K"],
-            "minerals": ["Magnesium","Manganese","Phosphorus","Potassium"]
+            "vitamins": ["C", "B5", "B9", "E", "K"],
+            "minerals": ["Magnesium", "Manganese", "Phosphorus", "Potassium"]
           },
           "properties": {
             "flavor": ["Sour"]
@@ -779,12 +744,11 @@ angular.module('avm.components')
           },
           "nutrition_facts": {
             "energy": 138.8,
-            "carbohydrates": 36.69 ,
+            "carbohydrates": 36.69,
             "fat": 0.13,
-            "protein": 1.68 ,
-            "water": 62,
-            "vitamins": ["B1","B3","C"],
-            "minerals": ["Iron","Phosphorus"]
+            "protein": 1.68,
+            "vitamins": ["B1", "B3", "C"],
+            "minerals": ["Iron", "Phosphorus"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -809,8 +773,7 @@ angular.module('avm.components')
             "carbohydrates": 5.3,
             "fat": 0.3,
             "protein": 1.1,
-            "water": 92.3,
-            "vitamins": ["B6","C"],
+            "vitamins": ["B6", "C"],
             "minerals": ["Iron"]
           },
           "properties": {
@@ -833,10 +796,9 @@ angular.module('avm.components')
           },
           "nutrition_facts": {
             "energy": 30,
-            "carbohydrates": 10.5 ,
+            "carbohydrates": 10.5,
             "fat": 0.2,
             "protein": 0.7,
-            "water": 89,
             "vitamins": ["С"],
             "minerals": ["Iron"]
           },
@@ -848,27 +810,19 @@ angular.module('avm.components')
           "id": "lovi",
           "name": {
             "en": "Lovi",
-            "ru": "Лови"
+            "ru": "Лови (Батоко плам)"
           },
           "description": {
             "en": "Flacourtia inermis, known commonly as lovi-lovi, or batoko plum, is a species of flowering plant native to the Philippines, but which has naturalized in tropical Asia and Africa. This tree is very common in the South India;especially in Kerala where it is commonly known as loika or lavalolikka.",
-            "ru": "?"
+            "ru": "атоко палм – очень интересное растение. Родом оно с Юго-Восточной Азии, с Филиппин, затем оно распространилось оттуда в Среднюю Азию и Африку, а потом – практически по всему тропическому миру. По вкусу напоминает гибрид сливы с черноплодной рябиной - сам плод размером с ранетку. Все ветви усыпаны плодами, - в одном плоде около десятка семян. Плоды очень сочные."
           },
           "wiki": {
             "en": "http://en.wikipedia.org/wiki/Flacourtia_inermis",
-            "ru": "?"
+            "ru": ""
           },
-          "nutrition_facts": {
-            "energy": "?",
-            "carbohydrates": "?",
-            "fat": "?",
-            "protein": "?",
-            "water": "?",
-            "vitamins": ["C"],
-            "minerals": ["?"]
-          },
+          "nutrition_facts": null,
           "properties": {
-            "flavor": ["?"]
+            "flavor": ["Sweet", "Sour"]
           }
         },
         {
@@ -890,7 +844,6 @@ angular.module('avm.components')
             "carbohydrates": 13.34,
             "fat": 0.31,
             "protein": 0.81,
-            "water": 85,
             "vitamins": ["B1", "B6", "C", "A"],
             "minerals": ["Copper", "Calcium"]
           },
@@ -917,8 +870,7 @@ angular.module('avm.components')
             "carbohydrates": 15,
             "fat": 0.38,
             "protein": 0.82,
-            "water": 84,
-            "vitamins": ["A", "B6","B9", "C","E"],
+            "vitamins": ["A", "B6", "B9", "C", "E"],
             "minerals": ["Potassium"]
           },
           "properties": {
@@ -940,11 +892,10 @@ angular.module('avm.components')
             "ru": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D0%B3%D0%BE%D1%81%D1%82%D0%B0%D0%BD"
           },
           "nutrition_facts": {
-            "energy": 73 ,
+            "energy": 73,
             "carbohydrates": 17.91,
             "fat": 0.58,
             "protein": 0.41,
-            "water": 81,
             "vitamins": ["B1", "B2", "B9"],
             "minerals": ["Manganese"]
           },
@@ -959,24 +910,16 @@ angular.module('avm.components')
             "ru": "Наминан"
           },
           "description": {
-            "en": "?",
-            "ru": "?"
+            "en": "Cynometra cauliflora, known in Indonesia (Maluku and Manado) as namu-namu (due to the flattened, crescent shaped pods, which look similar to the Indonesian pastry, namu-namu), Ternate namo-namo, this tree is a native of Malaysia, found mainly in northern Peninsular Malaysia.",
+            "ru": "Местное название растения индон. Namnam. В русскоязычной литературе встречаются варианты написания «нам-нам» и «ням-ням». Небольшое вечнозелёное дерево или кустарник высотой 5—15 метров. Листья сложные, состоят из одной пары вытянуто-яйцевидных тупоконечных листочков длиной 5—16 см. Листовые пластинки тёмно-зелёные, блестящие, с цельным краем. Незрелые семена очень кислые, спелые имеют вкус от кислого до сладковатого."
           },
           "wiki": {
-            "en": "?",
-            "ru": "?"
+            "en": "http://en.wikipedia.org/wiki/Cynometra_cauliflora",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B0_%D1%81%D1%82%D0%B2%D0%BE%D0%BB%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D0%B0%D1%8F"
           },
-          "nutrition_facts": {
-            "energy": "?",
-            "carbohydrates": "?",
-            "fat": "?",
-            "protein": "?",
-            "water": "?",
-            "vitamins": ["?"],
-            "minerals": ["?"]
-          },
+          "nutrition_facts": null,
           "properties": {
-            "flavor": ["Bitter"]
+            "flavor": ["Sweet", "Sour", "Bitter"]
           }
         },
         {
@@ -991,19 +934,18 @@ angular.module('avm.components')
           },
           "wiki": {
             "en": "http://en.wikipedia.org/wiki/Phyllanthus_emblica",
-            "ru": "?"
+            "ru": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BB%D0%BB%D0%B0%D0%BD%D1%82%D1%83%D1%81_%D1%8D%D0%BC%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0"
           },
           "nutrition_facts": {
             "energy": 44,
-            "carbohydrates": "?",
-            "fat": "?",
-            "protein": "?",
-            "water": "?",
-            "vitamins": ["C","A","B"],
+            "carbohydrates": "",
+            "fat": "",
+            "protein": "",
+            "vitamins": ["C", "A", "B"],
             "minerals": ["Copper", "Calcium", "Phosphorus", "Manganese", "Magnesium", "Potassium"]
           },
           "properties": {
-            "flavor": ["Sour","Sweet"]
+            "flavor": ["Sour", "Sweet"]
           }
         },
         {
@@ -1025,12 +967,11 @@ angular.module('avm.components')
             "carbohydrates": 11.75,
             "fat": 0.12,
             "protein": 0.94,
-            "water": 87,
-            "vitamins": ["B1","B5","B6","B9","C"],
+            "vitamins": ["B1", "B5", "B6", "B9", "C"],
             "minerals": ["Calcium", "Potassium"]
           },
           "properties": {
-            "flavor": ["Sour","Sweet"]
+            "flavor": ["Sour", "Sweet"]
           }
         },
         {
@@ -1052,9 +993,8 @@ angular.module('avm.components')
             "carbohydrates": 10.9,
             "fat": 0.1,
             "protein": 0.8,
-            "water": 87.6,
-            "vitamins": ["B3","C"],
-            "minerals": ["Calcium","Phosphorous"," Iron"]
+            "vitamins": ["B3", "C"],
+            "minerals": ["Calcium", "Phosphorous", " Iron"]
           },
           "properties": {
             "flavor": ["Bitter"]
@@ -1078,9 +1018,8 @@ angular.module('avm.components')
             "energy": 43,
             "carbohydrates": 10.82,
             "fat": 0.26,
-            "protein": 0.47 ,
-            "water": 88,
-            "vitamins": ["A","B9","C"],
+            "protein": 0.47,
+            "vitamins": ["A", "B9", "C"],
             "minerals": ["Magnesium"]
           },
           "properties": {
@@ -1103,15 +1042,14 @@ angular.module('avm.components')
           },
           "nutrition_facts": {
             "energy": 97,
-            "carbohydrates": "?",
-            "fat": "?",
-            "protein": "?",
-            "water": "?",
-            "vitamins": ["A","B2","B3","B6","C"],
-            "minerals": ["Iron","Magnesium","Phosphorus","Potassium"]
+            "carbohydrates": "",
+            "fat": "",
+            "protein": "",
+            "vitamins": ["A", "B2", "B3", "B6", "C"],
+            "minerals": ["Iron", "Magnesium", "Phosphorus", "Potassium"]
           },
           "properties": {
-            "flavor": ["Sour","Sweet"]
+            "flavor": ["Sour", "Sweet"]
           }
         },
         {
@@ -1133,9 +1071,8 @@ angular.module('avm.components')
             "carbohydrates": 21,
             "fat": 48,
             "protein": 25,
-            "water": 4.26 ,
-            "vitamins": ["B1","B2","B3","B5","B6","B9","E"],
-            "minerals": ["Calcium","Iron","Magnesium","Manganese","Phosphorus","Potassium","Zinc"]
+            "vitamins": ["B1", "B2", "B3", "B5", "B6", "B9", "E"],
+            "minerals": ["Calcium", "Iron", "Magnesium", "Manganese", "Phosphorus", "Potassium", "Zinc"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -1160,8 +1097,7 @@ angular.module('avm.components')
             "carbohydrates": 15.23,
             "fat": 0.14,
             "protein": 0.36,
-            "water": "?",
-            "vitamins": ["С","K"],
+            "vitamins": ["С", "K"],
             "minerals": ["Phosphorus"]
           },
           "properties": {
@@ -1185,14 +1121,13 @@ angular.module('avm.components')
           "nutrition_facts": {
             "energy": 50,
             "carbohydrates": 13.12,
-            "fat": 0.12 ,
+            "fat": 0.12,
             "protein": 0.54,
-            "water": "?",
-            "vitamins": ["B1","B6","B9","C"],
+            "vitamins": ["B1", "B6", "B9", "C"],
             "minerals": ["Manganese"]
           },
           "properties": {
-            "flavor": ["Sour","Sweet"]
+            "flavor": ["Sour", "Sweet"]
           }
         },
         {
@@ -1214,9 +1149,8 @@ angular.module('avm.components')
             "carbohydrates": 18.7,
             "fat": 1.17,
             "protein": 1.67,
-            "water": "?",
-            "vitamins": ["B1","B5","B6","B9","C","K"],
-            "minerals": ["Manganese","Phosphorus","Potassium"]
+            "vitamins": ["B1", "B5", "B6", "B9", "C", "K"],
+            "minerals": ["Manganese", "Phosphorus", "Potassium"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -1241,9 +1175,8 @@ angular.module('avm.components')
             "carbohydrates": 79.18,
             "fat": 0.46,
             "protein": 3.07,
-            "water": "?",
-            "vitamins": ["B1","B2","B3","B6"],
-            "minerals": ["Iron","Magnesium","Manganese","Phosphorus","Potassium"]
+            "vitamins": ["B1", "B2", "B3", "B6"],
+            "minerals": ["Iron", "Magnesium", "Manganese", "Phosphorus", "Potassium"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -1268,12 +1201,11 @@ angular.module('avm.components')
             "carbohydrates": 20.87,
             "fat": 0.21,
             "protein": 0.65,
-            "water": "?",
-            "vitamins": ["B3","C"],
+            "vitamins": ["B3", "C"],
             "minerals": ["Manganese"]
           },
           "properties": {
-            "flavor": ["Sour","Sweet"]
+            "flavor": ["Sour", "Sweet"]
           }
         },
         {
@@ -1293,10 +1225,9 @@ angular.module('avm.components')
           "nutrition_facts": {
             "energy": 83,
             "carbohydrates": 19.96,
-            "fat": 1.1 ,
+            "fat": 1.1,
             "protein": 0.44,
-            "water": "?",
-            "vitamins": ["B5","C"],
+            "vitamins": ["B5", "C"],
             "minerals": ["Iron"]
           },
           "properties": {
@@ -1318,12 +1249,11 @@ angular.module('avm.components')
             "ru": "https://ru.wikipedia.org/wiki/%D0%94%D1%8B%D0%BD%D1%8F"
           },
           "nutrition_facts": {
-            "energy":  34,
+            "energy": 34,
             "carbohydrates": 8,
             "fat": 0.2,
             "protein": 0.8,
-            "water": "?",
-            "vitamins": ["A","C","B6"],
+            "vitamins": ["A", "C", "B6"],
             "minerals": ["Potassium"]
           },
           "properties": {
@@ -1341,20 +1271,19 @@ angular.module('avm.components')
             "ru": "Свежие плоды имеют слишком кислый вкус, иногда с горечью, из-за чего не могут употребляться в свежем виде, но высоко ценятся для изготовления мармелада, приправ и ликеров. Листья, цветки и плоды являются лучшим источником бигарадиевого масла, применяемого в парфюмерии.Произошел из Юго-Восточной Азии, в диком состоянии неизвестен. В Средиземноморье завезен арабами в XI в., за пять столетий до интродукции сладкого апельсина. Широко разводится в тропических и субтропических странах, является основным подвоем цитрусовых.Деревья в высоту до 10 м; черешки ширококрылые; цветки крупные, душистые, обоеполые, частично функционально мужские. Плоды почти круглые, кожура толстая с грубоватой поверхностью; ароматные; часто ярко-оранжево-красные при созревании; мякоть очень кислая или горькая; семена многочисленные, полиэмбриональные, нуцеллярные зародыши встречаются в 75-85% семян. Основной гликозид — аурантамарин."
           },
           "wiki": {
-            "en": "?sour_orange",
-            "ru": "?"
+            "en": "https://en.wikipedia.org/wiki/Bergamot_orange",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%B3%D0%B0%D0%BC%D0%BE%D1%82"
           },
           "nutrition_facts": {
-            "energy": "?",
-            "carbohydrates": "?",
-            "fat": "?",
-            "protein": "?",
-            "water": "?",
-            "vitamins": ["?"],
-            "minerals": ["?"]
+            "energy": 14,
+            "carbohydrates": 4.8,
+            "fat": 0.12,
+            "protein": 0.18,
+            "vitamins": ["E", "C"],
+            "minerals": ["Potassium", "Magnesium", "Calcium", "Phosphorus"]
           },
           "properties": {
-            "flavor": ["Sour","Bitter"]
+            "flavor": ["Sour", "Bitter"]
           }
         },
         {
@@ -1373,12 +1302,11 @@ angular.module('avm.components')
           },
           "nutrition_facts": {
             "energy": 68,
-            "carbohydrates": "?",
-            "fat": "?",
-            "protein": "?",
-            "water": "?",
-            "vitamins": ["?"],
-            "minerals": ["?"]
+            "carbohydrates": 14.32,
+            "fat": 0.95,
+            "protein": 2.55,
+            "vitamins": ["С", "B1", "B3", "B5", "B6", "B9"],
+            "minerals": ["Magnesium", "Manganese", "Phosphorus", "Potassium"]
           },
           "properties": {
             "flavor": ["Sour"]
@@ -1403,19 +1331,18 @@ angular.module('avm.components')
             "carbohydrates": 16.84,
             "fat": 0.3,
             "protein": 1,
-            "water": "?",
-            "vitamins": ["B1","B2","B3","B5","B6","C"],
-            "minerals": ["Iron","Magnesium","Potassium"]
+            "vitamins": ["B1", "B2", "B3", "B5", "B6", "C"],
+            "minerals": ["Iron", "Magnesium", "Potassium"]
           },
           "properties": {
-            "flavor": ["Sour","Sweet"]
+            "flavor": ["Sour", "Sweet"]
           }
         },
         {
           "id": "starfruit",
           "name": {
             "en": "Starfruit",
-            "ru": "Карамболь"
+            "ru": "Карамбола"
           },
           "description": {
             "en": "Carambola, also known as starfruit, is the fruit of Averrhoa carambola, a species of tree native to the Philippines, Indonesia, Malaysia, India, Bangladesh and Sri Lanka. The fruit is popular throughout Southeast Asia, the South Pacific and parts of East Asia. The tree is also cultivated throughout non-indigenous tropical areas, such as in Latin America, the Caribbean, and the southern United States.",
@@ -1430,8 +1357,7 @@ angular.module('avm.components')
             "carbohydrates": 6.73,
             "fat": 0.33,
             "protein": 1.04,
-            "water": "?",
-            "vitamins": ["B5","С"],
+            "vitamins": ["B5", "С"],
             "minerals": ["Magnesium"]
           },
           "properties": {
@@ -1457,9 +1383,8 @@ angular.module('avm.components')
             "carbohydrates": 7.68,
             "fat": 0.3,
             "protein": 0.67,
-            "water": "?",
-            "vitamins": ["C","B9"],
-            "minerals": ["Manganese","Magnesium"]
+            "vitamins": ["C", "B9"],
+            "minerals": ["Manganese", "Magnesium"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -1484,19 +1409,18 @@ angular.module('avm.components')
             "carbohydrates": 27.51,
             "fat": 0,
             "protein": 0.27,
-            "water": "?",
             "vitamins": ["B2"],
-            "minerals": ["Iron","Potassium"]
+            "minerals": ["Iron", "Potassium"]
           },
           "properties": {
             "flavor": ["Sweet"]
           }
         },
         {
-          "id": "sweet_coconut",
+          "id": "coconut",
           "name": {
-            "en": "Sweet Coconut",
-            "ru": "Сладкий Кокос"
+            "en": "Coconut",
+            "ru": "Кокос"
           },
           "description": {
             "en": "The Coconut tree (Cocos nucifera) is a member of the family Arecaceae (palm family). It is the only accepted species in the genus Cocos. The term Coconut can refer to the entire coconut palm, the seed, or the fruit, which, botanically, is a drupe, not a nut. The spelling cocoanut is an archaic form of the word. The term is derived from 16th-century Portuguese and Spanish coco, meaning Head or Skull,from the three indentations on the coconut shell that resemble facial features.",
@@ -1507,13 +1431,12 @@ angular.module('avm.components')
             "ru": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BA%D0%BE%D1%81%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0"
           },
           "nutrition_facts": {
-            "energy": 354 ,
+            "energy": 354,
             "carbohydrates": 24.23,
             "fat": 33.49,
             "protein": 3.33,
-            "water": "?",
-            "vitamins": ["B1","B3","B5","B6","C"],
-            "minerals": ["Iron","Magnesium","Phosphorus","Potassium","Zinc"]
+            "vitamins": ["B1", "B3", "B5", "B6", "C"],
+            "minerals": ["Iron", "Magnesium", "Phosphorus", "Potassium", "Zinc"]
           },
           "properties": {
             "flavor": ["Sweet"]
@@ -1534,12 +1457,11 @@ angular.module('avm.components')
             "ru": "https://ru.wikipedia.org/wiki/%D0%94%D1%8B%D0%BD%D1%8F"
           },
           "nutrition_facts": {
-            "energy":  34,
+            "energy": 34,
             "carbohydrates": 8,
             "fat": 0.2,
             "protein": 0.8,
-            "water": "?",
-            "vitamins": ["A","C","B6"],
+            "vitamins": ["A", "C", "B6"],
             "minerals": ["Potassium"]
           },
           "properties": {
@@ -1565,19 +1487,18 @@ angular.module('avm.components')
             "carbohydrates": 62.5,
             "fat": 0.6,
             "protein": 2.8,
-            "water": "?",
-            "vitamins": ["B1","B2","B3","B6"],
-            "minerals": ["Calcium","Iron","Magnesium","Phosphorus","Potassium"]
+            "vitamins": ["B1", "B2", "B3", "B6"],
+            "minerals": ["Calcium", "Iron", "Magnesium", "Phosphorus", "Potassium"]
           },
           "properties": {
-            "flavor": ["Sweet","Salt"]
+            "flavor": ["Sweet", "Salt"]
           }
         },
         {
           "id": "tomato",
           "name": {
             "en": "Tomato",
-            "ru": "Помидор"
+            "ru": "Томат"
           },
           "description": {
             "en": "The tomato is the edible, often red fruit/berry of the nightshade Solanum lycopersicum, commonly known as a tomato plant. The species originated in the South American Andes and its use as a food originated in Mexico, and spread throughout the world following the Spanish colonization of the Americas. Its many varieties are now widely grown, sometimes in greenhouses in cooler climates..",
@@ -1592,12 +1513,11 @@ angular.module('avm.components')
             "carbohydrates": 3.9,
             "fat": 0.2,
             "protein": 0.9,
-            "water": "?",
-            "vitamins": ["A","B6","C","K"],
-            "minerals": ["Manganese","Potassium"]
+            "vitamins": ["A", "B6", "C", "K"],
+            "minerals": ["Manganese", "Potassium"]
           },
           "properties": {
-            "flavor": ["Sweet","Sour"]
+            "flavor": ["Sweet", "Sour"]
           }
         },
         {
@@ -1612,15 +1532,14 @@ angular.module('avm.components')
           },
           "wiki": {
             "en": "http://en.wikipedia.org/wiki/Elaeocarpus_serratus",
-            "ru": "?"
+            "ru": ""
           },
           "nutrition_facts": {
-            "energy": "?",
-            "carbohydrates": "?",
-            "fat": "?",
-            "protein": "?",
-            "water": "?",
-            "vitamins": ["?"],
+            "energy": "",
+            "carbohydrates": "",
+            "fat": "",
+            "protein": "",
+            "vitamins": [],
             "minerals": ["Iron"]
           },
           "properties": {
@@ -1646,8 +1565,7 @@ angular.module('avm.components')
             "carbohydrates": 7.55,
             "fat": 0.15,
             "protein": 0.61,
-            "water": "?",
-            "vitamins": ["С","A","B5"],
+            "vitamins": ["С", "A", "B5"],
             "minerals": ["Magnesium"]
           },
           "properties": {
@@ -1673,12 +1591,241 @@ angular.module('avm.components')
             "carbohydrates": 18,
             "fat": 4,
             "protein": 7,
-            "water": "?",
-            "vitamins": ["C","E"],
-            "minerals": ["Calcium","Phosphorous"]
+            "vitamins": ["C", "E"],
+            "minerals": ["Calcium", "Phosphorous"]
           },
           "properties": {
-            "flavor": ["Sour","Sweet"]
+            "flavor": ["Sour", "Sweet"]
+          }
+        },
+        {
+          "id": "avocado",
+          "name": {
+            "en": "Avocado",
+            "ru": "Авокадо"
+          },
+          "description": {
+            "en": "The avocado (Persea americana) is a tree native to Mexico and Central America, classified in the flowering plant family Lauraceae along with cinnamon, camphor and bay laurel. Avocado or alligator pear also refers to the fruit, botanically a large berry that contains a single seed.",
+            "ru": "Авокадо - вечнозелёное плодовое растение. Плоды растения также называются авокадо, их мякоть богата витаминами и важными минеральными веществами."
+          },
+          "wiki": {
+            "en": "https://en.wikipedia.org/wiki/Avocado",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D0%BE%D0%BA%D0%B0%D0%B4%D0%BE"
+          },
+          "nutrition_facts": {
+            "energy": 160,
+            "carbohydrates": 8.53,
+            "fat": 14.66,
+            "protein": 2,
+            "vitamins": ["B1", "B2", "B3", "B5", "B6", "B9", "C", "E", "K"],
+            "minerals": ["Magnesium", "Manganese", "Phosphorus", "Potassium", "Zinc"]
+          },
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "uguressa",
+          "name": {
+            "en": "Uguressa",
+            "ru": "Флакуртия"
+          },
+          "description": {
+            "en": "Flacourtia indica (syn. Flacourtia ramontchi), known commonly as ramontchi, governor’s plum, batoko plum, and Indian plum, is a species of flowering plant native to much of Africa and tropical and temperate parts of Asia. The Ramontchi fruit itself is a pome about an inch thick and red ripening purple. It is very fleshy and has 6 to 10 seeds in layered carpels. The pulp is yellow or white and sweet with an acidic tang.",
+            "ru": "Флакуртия вид растений из рода Флакуртия (Flacourtia) семейства Ивовые (Salicaceae), произрастающий в Африке, тропических и субтропических областях Азии. Культивируется как плодовое растение. Плоды округлые, диаметром 8—10 мм с блестящей коричневато-фиолетовой кожицей и плотной сочной мякотью, ароматной, кисло-сладкого вкуса. Содержат 5—6 плоских бежевого цвета семян, расположенных звездообразно вокруг центра плода."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Flacourtia_indica",
+            "ru": "http://ru.wikipedia.org/wiki/%D0%A4%D0%BB%D0%B0%D0%BA%D1%83%D1%80%D1%82%D0%B8%D1%8F_%D0%B8%D0%BD%D0%B4%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sour", "Sweet"]
+          }
+        },
+        {
+          "id": "coffee",
+          "name": {
+            "en": "Coffee",
+            "ru": "Кофе"
+          },
+          "description": {
+            "en": "Coffee is a brewed drink with a distinct aroma and flavor, prepared from roasted coffee beans, the seeds found inside \"berries\" of the Coffea plant.",
+            "ru": "Кофе — напиток, изготавливаемый из жареных семян (зёрен) нескольких видов растений, относящихся к роду Кофе (Coffea) семейства Мареновые (Rubiaceae)."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Coffee",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%84%D0%B5"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet", "Bitter"]
+          }
+        },
+        {
+          "id": "young_coconut",
+          "name": {
+            "en": "Young coconut",
+            "ru": "Молодой кокос"
+          },
+          "description": {
+            "en": "The Coconut tree (Cocos nucifera) is a member of the family Arecaceae (palm family). It is the only accepted species in the genus Cocos. The term Coconut can refer to the entire coconut palm, the seed, or the fruit, which, botanically, is a drupe, not a nut. The spelling cocoanut is an archaic form of the word. The term is derived from 16th-century Portuguese and Spanish coco, meaning Head or Skull,from the three indentations on the coconut shell that resemble facial features.",
+            "ru": "Кокосовая пальма — растение семейства Пальмовые (Арековые); единственный вид рода Cocos. Научное название рода происходит от португальского слова coco (обезьяна) и дано из-за пятен на орехе, которые делают его похожим на морду обезьяны. Видовое название nucífera — от латинских слова nux (орех) и ferre (нести)."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Coconut",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BA%D0%BE%D1%81%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0"
+          },
+          "nutrition_facts": {
+            "energy": 354,
+            "carbohydrates": 24.23,
+            "fat": 33.49,
+            "protein": 3.33,
+            "vitamins": ["B1", "B3", "B5", "B6", "C"],
+            "minerals": ["Iron", "Magnesium", "Phosphorus", "Potassium", "Zinc"]
+          },
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "king_coconut",
+          "name": {
+            "en": "King coconut",
+            "ru": "Королевский кокос"
+          },
+          "description": {
+            "en": "King coconut is a type of coconut fruit cultivated in Sri Lanka where it is known as Thembili. It is sweeter than regular coconuts.",
+            "ru": "На Шри-Ланке растет так называемый королевский кокос. В отличие от обычного, имеет ярко-оранжевые плоды. Считается, что невероятно хорошо утоляет жажду, добавляет энергии и помогает от похмелья."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/King_coconut",
+            "ru": ""
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "lettuce",
+          "name": {
+            "en": "Lettuce",
+            "ru": "Салат Латук"
+          },
+          "description": {
+            "en": "Lettuce (Lactuca sativa) is an annual plant of the daisy family Asteraceae. It is most often grown as a leaf vegetable, but sometimes for its stem and seeds.",
+            "ru": "Латук посевной (лат. Lactuca sativa), или Салат латук — вид однолетних травянистых растений рода Латук семейства Астровые (Asteraceae)."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Lettuce",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D1%82%D1%83%D0%BA_%D0%BF%D0%BE%D1%81%D0%B5%D0%B2%D0%BD%D0%BE%D0%B9"
+          },
+          "nutrition_facts": {
+            "energy": 13,
+            "carbohydrates": 2.23,
+            "fat": 0.22,
+            "protein": 1.35,
+            "vitamins": ["A", "B1", "B2", "B5", "B6", "B9", "K"],
+            "minerals": ["Iron", "Manganese"]
+          },
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "cinnamon",
+          "name": {
+            "en": "Cinnamon",
+            "ru": "Корица"
+          },
+          "description": {
+            "en": "Cinnamon is the name for perhaps a dozen species of trees and the commercial spice products that some of them produce. All are members of the genus Cinnamomum in the family Lauraceae. Only a few of them are grown commercially for spice.",
+            "ru": "Корица (Cinnamomum verum) — небольшое вечнозеленое дерево высотой 10-15 м, которое относится к семейству лавровых (Lauraceae)."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Cinnamon",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B8%D1%86%D0%B0_%28%D0%BF%D1%80%D1%8F%D0%BD%D0%BE%D1%81%D1%82%D1%8C%29"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "rose_syrup",
+          "name": {
+            "en": "Rose Syrup",
+            "ru": "Розовая вода"
+          },
+          "description": {
+            "en": "Rose water is a flavoured water made by steeping rose petals in water. It is the hydrosol portion of the distillate of rose petals, a by-product of the production of rose oil for use in perfume. It is used to flavour food, as a component in some cosmetic and medical preparations, and for religious purposes throughout Europe and Asia. Rose syrup is made from rose water, with sugar added.",
+            "ru": "Розовая вода (Розы гидролат) — водный раствор компонентов эфирного масла розы; косметическо-ароматическое средство с ярко выраженным запахом розы. Розовая вода получается путем водной дистилляции из эфиромасличных сортов роз ('Rose Edouard' и других) и является побочным продуктом при производстве розового масла."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Rose_water",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B4%D0%B0"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "sarsaparilla",
+          "name": {
+            "en": "Sarsaparilla",
+            "ru": "Сарсапарилла"
+          },
+          "description": {
+            "en": "Indian sarsaparilla is a species of plant that is found in South Asia. It is a slender, laticiferous, twining, sometimes prostrate or semi-erect shrub. Roots are woody and aromatic. The stem is numerous, slender, terete, thickened at the nodes.",
+            "ru": "Сарсапарилла - это тропическая многолетняя стелющаяся по земле лоза, цепляющаяся посредством усиков. Сарсапарилла используется как антивоспалительное и кровеочистительное средство, при лечении болезней печени, ревматизме, подагре, как улучшающий регенерацию при лечении кожных заболеваний и даже таких как псориаз, герпес, для улучшения процесса пищеварения, в качестве мочегонного, потогонного средства, при мочекаменной болезни и половой слабости."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Hemidesmus_indicus",
+            "ru": ""
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "welpenela",
+          "name": {
+            "en": "Welpenela",
+            "ru": "Вепенела"
+          },
+          "description": {
+            "en": "Cardiospermum is a genus of approximately 14 species in the soapberry family, Sapindaceae, which are native to the American, Indian, and African tropics.",
+            "ru": "Кардиоспермум (лат. Cardiospermum) — род двудольных цветковых растений, включённый в семейство Сапиндовые (Sapindaceae)."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Cardiospermum",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%B4%D0%B8%D0%BE%D1%81%D0%BF%D0%B5%D1%80%D0%BC%D1%83%D0%BC"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "dang",
+          "name": {
+            "en": "Dang",
+            "ru": "Данг"
+          },
+          "description": {
+            "en": "Dang",
+            "ru": "Данг"
+          },
+          "wiki": {
+            "en": "",
+            "ru": ""
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
           }
         }
       ];
