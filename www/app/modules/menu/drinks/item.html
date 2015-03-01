@@ -80,10 +80,13 @@
 					<div class="item item-divider" ng-show="item.totalComments">
 						<translate>Comments</translate>
 					</div>
-					<div class="item item-avatar" ng-repeat="comment in item.comments" ng-show="item.totalComments">
+					<div class="item item-avatar full-text" ng-repeat="comment in item.comments" ng-show="item.totalComments">
 						<img ng-src="{{account.avatar(comment)}}">
-						<h2>{{comment.profile.name}}</h2>
-						<p>{{comment.comment}}</p>
+						<div class="block">
+							<h2 class="pull-left">{{comment.profile.name}}</h2>
+							<span class="pull-right note">{{comment.posted_at | date:'MMM d, yyyy':'+0530'}}</span>
+						</div>
+						<p ng-bind="comment.comment"></p>
 					</div>
 					<div class="item" ng-show="item.totalComments && (item.totalComments > item.comments.length)">
 						<button class="button button-block button-stable" ng-click="internetCall(moreComments, item)" translate>More</button>

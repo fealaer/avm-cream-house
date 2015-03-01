@@ -78,8 +78,8 @@ ion-nav-view {
 }
 
 .logo {
-    width : 100%;
-    height : 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .logo img {
@@ -89,7 +89,7 @@ ion-nav-view {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: -18px;
-    display:block;
+    display: block;
 }
 
 .full-text h1, .full-text h2, .full-text h3, .full-text h4, .full-text h5, .full-text h6, .full-text p {
@@ -101,7 +101,7 @@ ion-nav-view {
     margin-left: auto !important;
     margin-right: auto !important;
     display: block;
-    width:80%;
+    width: 80%;
 }
 
 .thumbnail {
@@ -117,4 +117,21 @@ ion-nav-view {
 
 ion-header-bar {
     top: 0px !important;
+}
+
+.block {
+    display: block;
+}
+
+.note {
+    color: #aaa;
+    font-size: 16px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
 }
