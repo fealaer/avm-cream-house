@@ -20,6 +20,7 @@ angular.module('avm.auth')
 //        account.reset($scope.data)
 //          .then(function (response) {
 //            $timeout(function(){
+//              toastService.showLongCenter(gettextCatalog.getString('Your password has been changed.'));
 //              $state.go('forget.reset');
 //              $scope.data = angular.copy(defaultData);
 //            });

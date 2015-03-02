@@ -1,5 +1,5 @@
 angular.module('avm.menu')
-	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state, gettextCatalog, ratingService, account, AdMobService) {
+	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state, gettextCatalog, ratingService, account, AdMobService, toastService) {
 		var defData = {
 			rate: 2,
 			comment: ''
@@ -22,6 +22,7 @@ angular.module('avm.menu')
 
       account.saveDrink(data)
         .then(function (response) {
+          toastService.showLongCenter(gettextCatalog.getString('You have successfully add drink into bookmarks.'));
           item.isSaved = !item.isSaved;
           account.setAccountData(response.result);
         });
@@ -54,6 +55,7 @@ angular.module('avm.menu')
 
 				ratingService.rate($scope.data)
           .then(function (response) {
+            toastService.showLongCenter(gettextCatalog.getString('You have successfully marked drink as tasted.'));
             $scope.item.isTried = true;
             $scope.item.rate = response.result.rate;
             $scope.item.totalComments = response.result.totalComments;

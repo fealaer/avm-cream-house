@@ -18,6 +18,7 @@ angular.module('avm.auth')
 //        account.forgot($scope.data)
 //          .then(function (response) {
 //            $timeout(function(){
+//              toastService.showLongCenter(gettextCatalog.getString('You have requested the reset of the password for your account.'));
 //              $state.go('auth.reset');
 //              $scope.data = angular.copy(defaultData);
 //            });

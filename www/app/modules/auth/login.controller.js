@@ -19,6 +19,7 @@ angular.module('avm.auth')
         account.login($scope.data)
           .then(function (response) {
             $timeout(function () {
+              toastService.showLongCenter(gettextCatalog.getString('You have successfully logged in.'));
               $state.go('menu.drinks');
               $scope.data = angular.copy(defaultData);
             });

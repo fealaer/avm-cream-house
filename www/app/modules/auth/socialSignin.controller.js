@@ -2,7 +2,7 @@
 
 angular.module('avm.auth')
 
-  .controller('SigninSocialCtrl', function ($scope, account, $state, gettextCatalog, $timeout) {
+  .controller('SigninSocialCtrl', function ($scope, account, $state, gettextCatalog, $timeout, toastService) {
 
     $scope.signUpFacebook = function () {
       account.signUpFacebook()
@@ -21,6 +21,7 @@ angular.module('avm.auth')
       account.setAccountData(response.result);
 
       $timeout(function(){
+        toastService.showLongCenter(gettextCatalog.getString('You have successfully registered.'));
         $state.go('menu.drinks');
       });
     }

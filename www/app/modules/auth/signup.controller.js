@@ -21,6 +21,7 @@ angular.module('avm.auth')
       account.signUpEmail($scope.data)
         .then(function (response) {
           $timeout(function(){
+            toastService.showLongCenter(gettextCatalog.getString('You have successfully registered.'));
             $state.go('menu.drinks');
             account.setAccountData(response.result);
             $scope.data = angular.copy(defaultData);
