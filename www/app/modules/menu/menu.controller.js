@@ -22,9 +22,12 @@ angular.module('avm.menu')
 
       account.saveDrink(data)
         .then(function (response) {
-          toastService.showLongCenter(gettextCatalog.getString('You have successfully add drink into bookmarks.'));
           item.isSaved = !item.isSaved;
           account.setAccountData(response.result);
+          var message = item.isSaved ?
+            gettextCatalog.getString('You have successfully add drink into bookmarks.') :
+            gettextCatalog.getString('You have successfully removed drink from bookmarks.');
+          toastService.showLongCenter(message);
         });
 		};
 
