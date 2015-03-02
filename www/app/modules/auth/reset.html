@@ -1,0 +1,32 @@
+<ion-view>
+	<ion-content>
+		<div class="logo">
+			<img src="/images/common/logo.png">
+		</div>
+		<div class="list list-inset">
+			<div class="item item-borderless full-text text-center text-block">
+				<h3 translate>AVM Cream House App helps you choose your next drink!</h3>
+			</div>
+			<form name="form" novalidate>
+				<label class="item item-input">
+					<i class="icon ion-pricetag placeholder-icon"></i>
+					<input type="text" placeholder="{{'Token' | translate}}" name="token" ng-model="data.token" ng-required="true">
+				</label>
+				<label class="item item-input">
+					<i class="icon ion-locked placeholder-icon"></i>
+					<input type="password" placeholder="{{'Password' | translate}}" name="password" ng-model="data.password" ng-required="true" ng-minlength="4">
+				</label>
+				<label class="item item-input">
+					<i class="icon ion-locked placeholder-icon"></i>
+					<input type="password" placeholder="{{'Confirm' | translate}}" name="confirm" ng-model="data.confirm" ng-required="true" ng-minlength="4">
+				</label>
+			</form>
+		</div>
+		<div class="padding">
+			<button class="button button-block button-positive" ng-click="internetCall(reset, form)" translate>Update password</button>
+		</div>
+	</ion-content>
+</ion-view>
+<ion-footer-bar align-title="center" ui-sref="auth.login">
+	<div class="title" translate>Log In</div>
+</ion-footer-bar>

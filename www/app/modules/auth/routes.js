@@ -28,6 +28,11 @@ angular.module('avm.auth')
         url: "/forget",
         templateUrl: "app/modules/auth/forget.html",
         controller: "ForgetCtrl"
+      })
+      .state('auth.reset', {
+        url: "/reset",
+        templateUrl: "app/modules/auth/reset.html",
+        controller: "ResetCtrl"
       });
 //      .state('social_signin', {
 //        url: "/social_signin",

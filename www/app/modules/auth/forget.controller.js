@@ -18,7 +18,7 @@ angular.module('avm.auth')
 //        account.forgot($scope.data)
 //          .then(function (response) {
 //            $timeout(function(){
-//              $state.go('forget.reset');
+//              $state.go('auth.reset');
 //              $scope.data = angular.copy(defaultData);
 //            });
 //          });
