@@ -1816,8 +1816,8 @@ angular.module('avm.components')
             "ru": "Данг"
           },
           "description": {
-            "en": "Dang",
-            "ru": "Данг"
+            "en": "",
+            "ru": ""
           },
           "wiki": {
             "en": "",
@@ -1826,6 +1826,177 @@ angular.module('avm.components')
           "nutrition_facts": null,
           "properties": {
             "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "fresh_milk",
+          "name": {
+            "en": "Milk",
+            "ru": "Молоко"
+          },
+          "description": {
+            "en": "",
+            "ru": ""
+          },
+          "wiki": {
+            "en": "",
+            "ru": ""
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": []
+          }
+        },
+        {
+          "id": "bee_honey",
+          "name": {
+            "en": "Honey",
+            "ru": "Мёд"
+          },
+          "description": {
+            "en": "Honey is a sweet food made by bees using nectar from flowers. The variety produced by honey bees (the genus Apis) is the one most commonly referred to, as it is the type of honey collected by most beekeepers and consumed by people.",
+            "ru": "Мёд пчелиный — продукт, представляющий собой частично переваренный в зобе медоносной пчелы (Apis mellifera) нектар. Мёд содержит 13—22 % воды, 75—80 % углеводов (глюкоза, фруктоза, сахароза), витамины В1, В2, В6, Е, К, С, провитамин А-каротин, фолиевую кислоту."
+          },
+          "wiki": {
+            "en": "https://en.wikipedia.org/wiki/Honey",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%9C%D1%91%D0%B4"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "chocolate",
+          "name": {
+            "en": "Chocolate",
+            "ru": "Шоколад"
+          },
+          "description": {
+            "en": "Chocolate is a typically sweet, usually brown, food preparation of Theobroma cacao seeds, roasted and ground, often flavored, as with vanilla. It is made in the form of a liquid, paste or in a block or used as a flavoring ingredient in other sweet foods.",
+            "ru": "Шоколад — кондитерское изделие на основе масла какао, которое является продуктом переработки какао-бобов — семян шоколадного дерева, богатых теобромином и кофеином."
+          },
+          "wiki": {
+            "en": "https://en.wikipedia.org/wiki/Chocolate",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%A8%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "yogurt",
+          "name": {
+            "en": "Yogurt",
+            "ru": "Йогурт"
+          },
+          "description": {
+            "en": "Yogurt, yoghurt, or yoghourt is a food produced by bacterial fermentation of milk.",
+            "ru": "Йогурт — кисломолочный продукт с повышенным содержанием обезжиренных веществ молока, изготовляемый путём сквашивания протосимбиотической смесью чистых культур Lactobacillus bulgaricus (болгарская палочка) и Streptococcus thermophilus (термофильный стрептококк)."
+          },
+          "wiki": {
+            "en": "https://en.wikipedia.org/wiki/Yogurt",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%99%D0%BE%D0%B3%D1%83%D1%80%D1%82"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "ice",
+          "name": {
+            "en": "ice",
+            "ru": "Лед"
+          },
+          "description": {
+            "en": "",
+            "ru": ""
+          },
+          "wiki": {
+            "en": "",
+            "ru": ""
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": []
+          }
+        },
+        {
+          "id": "faluda",
+          "name": {
+            "en": "Faluda",
+            "ru": "Фалуда"
+          },
+          "description": {
+            "en": "Falooda (also Faluda), is a cold beverage popular in Indian subcontinent. Traditionally it is made from mixing rose syrup, vermicelli, psyllium (ispaghol) or basil (sabza/takmaria) seeds, tapioca pearls and pieces of gelatin with milk or water.",
+            "ru": ""
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Falooda",
+            "ru": ""
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": ["Sweet"]
+          }
+        },
+        {
+          "id": "soda",
+          "name": {
+            "en": "Soda",
+            "ru": "Содовая"
+          },
+          "description": {
+            "en": "Carbonated water (also known as club soda, soda water, sparkling water, seltzer water, or fizzy water) is water into which carbon dioxide gas under pressure has been dissolved.",
+            "ru": "Газированная вода (устар. «шипучие воды», просторечное — «газировка») — прохладительный напиток из минеральной или обычной ароматизированной воды, насыщенной углекислым газом."
+          },
+          "wiki": {
+            "en": "http://en.wikipedia.org/wiki/Carbonated_water",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B4%D0%B0"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": []
+          }
+        },
+        {
+          "id": "mint",
+          "name": {
+            "en": "Mint",
+            "ru": "Мята"
+          },
+          "description": {
+            "en": "Mentha (also known as mint, from Greek mintha, Linear B mi-ta) is a genus of plants in the family Lamiaceae (mint family). The species are not clearly distinct and estimates of the number of species varies from 13 to 18.",
+            "ru": "Мята (лат. Mentha) — род растений семейства Яснотковые. Все виды сильно ароматичны, большинство из них содержит много ментола."
+          },
+          "wiki": {
+            "en": "https://en.wikipedia.org/wiki/Mentha",
+            "ru": "https://ru.wikipedia.org/wiki/%D0%9C%D1%8F%D1%82%D0%B0"
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": []
+          }
+        },
+        {
+          "id": "curd",
+          "name": {
+            "en": "Buffalo curd",
+            "ru": "Буйволиный творог"
+          },
+          "description": {
+            "en": "Buffalo curd is a traditional type of yogurt prepared from buffalo milk. It is popular throughout south Asian countries such as India, Pakistan, Sri Lanka, Nepal, etc.",
+            "ru": ""
+          },
+          "wiki": {
+            "en": "https://en.wikipedia.org/wiki/Buffalo_curd",
+            "ru": ""
+          },
+          "nutrition_facts": null,
+          "properties": {
+            "flavor": []
           }
         }
       ];
