@@ -7,13 +7,15 @@
 			<div class="item item-borderless full-text text-center text-block">
 				<h3 translate>AVM Cream House App helps you choose your next drink!</h3>
 			</div>
-			<label class="item item-input">
-				<i class="icon ion-at placeholder-icon"></i>
-				<input type="email" placeholder="{{'Email' | translate}}" ng-model="data.email">
-			</label>
+			<form name="form" novalidate>
+				<label class="item item-input">
+					<i class="icon ion-at placeholder-icon"></i>
+					<input type="email" placeholder="{{'Email' | translate}}" name="email" ng-model="data.email" ng-required="true">
+				</label>
+			</form>
 		</div>
 		<div class="padding">
-			<button class="button button-block button-positive" ng-click="internetCall(forget)" translate>Reset password</button>
+			<button class="button button-block button-positive" ng-click="internetCall(forget, form)" translate>Reset password</button>
 		</div>
 	</ion-content>
 </ion-view>

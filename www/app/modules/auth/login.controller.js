@@ -10,7 +10,9 @@ angular.module('avm.auth')
 
     $scope.data = angular.copy(defaultData);
 
-    $scope.errorMessages = [];
+    function addStart(errMsg) {
+      return (!!errMsg ? '\n' : '');
+    }
 
     $scope.login = function (form) {
       if (form.$valid) {
@@ -22,18 +24,20 @@ angular.module('avm.auth')
             });
           });
       } else {
+        var errMsg = '';
         if (form.email.$error.required) {
-          toastService.showLongCenter(gettextCatalog.getString('Email is required.'));
+          errMsg += gettextCatalog.getString('Email is required.');
         }
         if (form.email.$error.email) {
-          toastService.showLongCenter(gettextCatalog.getString('Email is not valid.'));
+          errMsg += addStart(errMsg) + gettextCatalog.getString('Email is not valid.');
         }
         if (form.password.$error.required) {
-          toastService.showLongCenter(gettextCatalog.getString('Password is required.'));
+          errMsg += addStart(errMsg) + gettextCatalog.getString('Password is required.');
         }
         if (form.password.$error.minlength) {
-          toastService.showLongCenter(gettextCatalog.getString('Password must be at least 4 characters long.'));
+          errMsg += addStart(errMsg) + gettextCatalog.getString('Password must be at least 4 characters long.');
         }
+        toastService.showLongCenter(errMsg);
       }
     };
   });
