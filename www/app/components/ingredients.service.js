@@ -1907,7 +1907,7 @@ angular.module('avm.components')
         {
           "id": "ice",
           "name": {
-            "en": "ice",
+            "en": "Ice",
             "ru": "Лед"
           },
           "description": {
