@@ -2,7 +2,7 @@
 
 angular.module('avm.auth')
 
-  .controller('ResetCtrl', function ($scope, account, $state, gettextCatalog, toastService) {
+  .controller('ResetCtrl', function ($scope, account, $state, $timeout, gettextCatalog, toastService) {
     var defaultData = {
       token: '',
       password: '',
@@ -17,14 +17,14 @@ angular.module('avm.auth')
 
     $scope.reset = function (form) {
       if (form.$valid) {
-//        account.reset($scope.data)
-//          .then(function (response) {
-//            $timeout(function(){
-//              toastService.showLongCenter(gettextCatalog.getString('Your password has been changed.'));
-//              $state.go('forget.reset');
-//              $scope.data = angular.copy(defaultData);
-//            });
-//          });
+        account.reset($scope.data)
+          .then(function (response) {
+            $timeout(function(){
+              $state.go('auth.login');
+              $scope.data = angular.copy(defaultData);
+              toastService.showLongCenter(gettextCatalog.getString('Your password has been changed.'));
+            });
+          });
       } else {
         var errMsg = '';
         if (form.token.$error.required) {

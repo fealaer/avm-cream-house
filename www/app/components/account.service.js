@@ -48,6 +48,14 @@ angular.module('avm.components')
       return account.all('signup').customPOST(data);
     };
 
+    self.forgot = function (data) {
+      return account.all('forgot').customPOST(data);
+    };
+
+    self.reset = function (data) {
+      return account.all('reset').customPOST(data);
+    };
+
     self.saveDrink = function (data) {
       return account.all('save/drink').customPOST(data);
     };
