@@ -142,7 +142,7 @@ angular.module('avm', [
       document.addEventListener('deviceready', function () {
         console.log('deviceready');
 
-        AdMobService.createBanner();
+        AdMobService.prepareAds();
 
         $timeout(function () {
           if (!$state.includes('auth')) {
