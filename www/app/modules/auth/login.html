@@ -7,17 +7,19 @@
 			<div class="item item-borderless full-text text-center text-block">
 				<h3 translate>AVM Cream House App helps you choose your next drink!</h3>
 			</div>
-			<label class="item item-input">
-				<i class="icon ion-at placeholder-icon"></i>
-				<input type="email" placeholder="{{'Email' | translate}}" ng-model="data.email">
-			</label>
-			<label class="item item-input">
-				<i class="icon ion-locked placeholder-icon"></i>
-				<input type="password" placeholder="{{'Password' | translate}}" ng-model="data.password">
-			</label>
+			<form name="form" novalidate>
+				<label class="item item-input">
+					<i class="icon ion-at placeholder-icon"></i>
+					<input type="email" placeholder="{{'Email' | translate}}" name="email" ng-model="data.email" ng-required="true">
+				</label>
+				<label class="item item-input">
+					<i class="icon ion-locked placeholder-icon"></i>
+					<input type="password" placeholder="{{'Password' | translate}}" name="password" ng-model="data.password" ng-minlength="4" ng-required="true">
+				</label>
+			</form>
 		</div>
 		<div class="padding">
-			<button class="button button-block button-positive" ng-click="internetCall(login)" translate>Log In</button>
+			<button class="button button-block button-positive" ng-click="internetCall(login, form)" translate>Log In</button>
 			<button class="button button-block button-clear button-stable button-small" ui-sref="auth.forget" translate>Forget your password?</button>
 		</div>
 	</ion-content>
