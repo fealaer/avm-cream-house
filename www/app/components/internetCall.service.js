@@ -1,5 +1,5 @@
 angular.module('avm.components')
-  .service('internetCallService', function (gettextCatalog, $window, cordovaHelper) {
+  .service('internetCallService', function (gettextCatalog, $window, cordovaHelper, toastService) {
     var self = this;
 
     self.call = function (cb) {
@@ -10,9 +10,7 @@ angular.module('avm.components')
           cb();
         }
       } else {
-        if ($window.plugins && $window.plugins.toast) {
-          $window.plugins.toast.showLongCenter(gettextCatalog.getString('Internet connection is not available.'));
-        }
+        toastService.showLongCenter(gettextCatalog.getString('Internet connection is not available.'));
       }
     };
   });

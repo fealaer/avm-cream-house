@@ -3,7 +3,7 @@
 angular.module('avm.components')
 
   .factory('errorResponseInterceptor',
-  function ($rootScope, account, $state, $log, gettextCatalog, $window, $ionicLoading) {
+  function ($rootScope, account, $state, $log, gettextCatalog, toastService, $ionicLoading) {
     return function (response, deferred) {
       var HTTP_BAD_REQUEST = 400,
         HTTP_UNAUTHORIZED = 401,
@@ -56,13 +56,13 @@ angular.module('avm.components')
 
       $ionicLoading.hide();
 
-      if ($window.plugins && $window.plugins.toast) {
+      if (toastService.isPluginAvailable()) {
         if (errorMessages) {
           _.each(errorMessages, function (err) {
-            $window.plugins.toast.showLongCenter(err);
+            toastService.showLongCenter(err);
           });
         } else {
-          $window.plugins.toast.showLongCenter(errorMsg);
+          toastService.showLongCenter(errorMsg);
         }
       }
 
