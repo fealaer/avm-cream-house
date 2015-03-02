@@ -1839,7 +1839,7 @@
     },
     "nutrition_facts": null,
     "properties": {
-      "flavor": []
+      "flavor": null
     }
   },
   {
@@ -1915,7 +1915,7 @@
     },
     "nutrition_facts": null,
     "properties": {
-      "flavor": []
+      "flavor": null
     }
   },
   {
@@ -1953,7 +1953,7 @@
     },
     "nutrition_facts": null,
     "properties": {
-      "flavor": []
+      "flavor": null
     }
   },
   {
@@ -1972,7 +1972,7 @@
     },
     "nutrition_facts": null,
     "properties": {
-      "flavor": []
+      "flavor": null
     }
   },
   {
@@ -1991,7 +1991,7 @@
     },
     "nutrition_facts": null,
     "properties": {
-      "flavor": []
+      "flavor": null
     }
   }
 ]

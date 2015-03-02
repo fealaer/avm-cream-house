@@ -1844,7 +1844,7 @@ angular.module('avm.components')
           },
           "nutrition_facts": null,
           "properties": {
-            "flavor": []
+            "flavor": null
           }
         },
         {
@@ -1920,7 +1920,7 @@ angular.module('avm.components')
           },
           "nutrition_facts": null,
           "properties": {
-            "flavor": []
+            "flavor": null
           }
         },
         {
@@ -1958,7 +1958,7 @@ angular.module('avm.components')
           },
           "nutrition_facts": null,
           "properties": {
-            "flavor": []
+            "flavor": null
           }
         },
         {
@@ -1977,7 +1977,7 @@ angular.module('avm.components')
           },
           "nutrition_facts": null,
           "properties": {
-            "flavor": []
+            "flavor": null
           }
         },
         {
@@ -1996,7 +1996,7 @@ angular.module('avm.components')
           },
           "nutrition_facts": null,
           "properties": {
-            "flavor": []
+            "flavor": null
           }
         }
       ];
