@@ -17,7 +17,6 @@ angular.module('avm.auth')
       if (form.$valid) {
         account.forgot($scope.data)
           .then(function (response) {
-            supersonic.logger.log(response);
             $timeout(function(){
               $state.go('auth.reset');
               $scope.data = angular.copy(defaultData);
