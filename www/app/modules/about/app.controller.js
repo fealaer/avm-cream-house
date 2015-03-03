@@ -26,4 +26,8 @@ angular.module('avm.about')
     $scope.mailTo = function (email) {
       window.open('mailTo:' + email, '_system');
     };
+
+    $scope.github = function () {
+      window.open('https://github.com/fealaer', '_system');
+    }
 	});
