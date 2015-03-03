@@ -18,5 +18,12 @@ angular.module('avm.about')
         allow: {
           logged: true
         }
+      })
+      .state('base.rules', {
+        url: "rules",
+        templateUrl: "app/modules/about/rules.html",
+        allow: {
+          logged: true
+        }
       });
 	});
