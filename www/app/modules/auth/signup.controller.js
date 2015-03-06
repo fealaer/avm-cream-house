@@ -36,7 +36,7 @@ angular.module('avm.auth')
           errMsg += addStart(errMsg) + gettextCatalog.getString('Username can contain only english letters and white spaces.');
         }
         if (form.password.$error.minlength) {
-          errMsg += addStart(errMsg) + gettextCatalog.getString('Name must be at least 3 characters long.');
+          errMsg += addStart(errMsg) + gettextCatalog.getString('Username must be at least 3 characters long.');
         }
         if (form.email.$error.required) {
           errMsg += addStart(errMsg) + gettextCatalog.getString('Email is required.');

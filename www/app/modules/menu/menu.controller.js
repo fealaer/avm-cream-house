@@ -25,7 +25,7 @@ angular.module('avm.menu')
           item.isSaved = !item.isSaved;
           account.setAccountData(response.result);
           var message = item.isSaved ?
-            gettextCatalog.getString('You have successfully add drink into bookmarks.') :
+            gettextCatalog.getString('You have successfully added drink into bookmarks.') :
             gettextCatalog.getString('You have successfully removed drink from bookmarks.');
           toastService.showLongCenter(message);
         });

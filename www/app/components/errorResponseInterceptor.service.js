@@ -68,12 +68,12 @@ angular.module('avm.components')
 
       // Server errors list
       gettextCatalog.getString('Email is not valid.');
-      gettextCatalog.getString('Account with that email address already exists.');
+      gettextCatalog.getString('Account with this email address already exists.');
       gettextCatalog.getString('Password cannot be blank.');
       gettextCatalog.getString('Password must be at least 4 characters long.');
       gettextCatalog.getString('Password reset token is invalid or has expired.');
       gettextCatalog.getString('Passwords do not match.');
-      gettextCatalog.getString('No account with that email address exists.');
+      gettextCatalog.getString('No account with this email address exists.');
       gettextCatalog.getString('Invalid email or password.');
       gettextCatalog.getString('User is not authenticated.');
 
