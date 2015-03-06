@@ -94,7 +94,7 @@
 					<div class="item item-divider" ng-show="item.totalComments">
 						<translate>Comments</translate>
 					</div>
-					<div class="item item-avatar full-text" ng-repeat="comment in item.comments" ng-show="item.totalComments">
+					<div class="item item-avatar full-text" ng-repeat="comment in item.comments | orderBy:comment.posted_at:true" ng-show="item.totalComments">
 						<img ng-src="{{account.avatar(comment)}}">
 						<div class="block">
 							<h2 class="pull-left">{{comment.profile.name}}</h2>
