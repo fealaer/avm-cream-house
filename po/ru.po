@@ -33,17 +33,21 @@ msgstr[1] "{{$count}} звезды!"
 msgstr[2] "{{$count}} звезд!"
 
 #: www/app/modules/auth/forget.html:8 www/app/modules/auth/login.html:8
-#: www/app/modules/auth/signup.html:8
-msgid "AVM Cream House App helps you choose your next drink!"
+#: www/app/modules/auth/reset.html:8 www/app/modules/auth/signup.html:8
+msgid "AVM Cream House App helps you to choose your next drink!"
 msgstr "Приложение AVM Cream House помогает вам выбрать ваш следущий напиток!"
 
-#: www/app/modules/leftMenu.html:27
+#: www/app/modules/about/app.html:1 www/app/modules/leftMenu.html:31
 msgid "About App"
 msgstr "О Приложении"
 
 #: www/app/components/errorResponseInterceptor.service.js:71
-msgid "Account with that email address already exists."
+msgid "Account with this email address already exists."
 msgstr "Пользователь с таким адресом электронной почты уже существует."
+
+#: www/app/modules/about/rules.html:16
+msgid "Additional"
+msgstr "Дополнительно"
 
 #: www/app/modules/menu/drinks/filter.html:25
 #: www/app/modules/menu/drinks/filter.html:33
@@ -78,6 +82,10 @@ msgstr "В закладках"
 msgid "Bromine"
 msgstr "Бром"
 
+#: www/app/modules/about/rules.html:1 www/app/modules/leftMenu.html:24
+msgid "Cafe's rules"
+msgstr "Правила кафе"
+
 #: www/app/components/filter.controller.js:78
 msgid "Calcium"
 msgstr "Кальций"
@@ -98,11 +106,15 @@ msgstr "Хлор"
 msgid "Comment"
 msgstr "Комментарий"
 
-#: www/app/modules/menu/drinks/item.html:81
+#: www/app/modules/menu/drinks/item.html:95
 msgid "Comments"
 msgstr "﻿Комментарии"
 
-#: www/app/modules/about/about.html:38 www/app/modules/about/app.html:25
+#: www/app/modules/auth/reset.html:21
+msgid "Confirmation"
+msgstr "Подтверждение"
+
+#: www/app/modules/about/about.html:38 www/app/modules/about/app.html:28
 msgid "Contacts"
 msgstr "﻿Контакты"
 
@@ -114,16 +126,16 @@ msgstr "Медь"
 msgid "Creamy"
 msgstr "Густой"
 
-#: www/app/modules/auth/login.html:26
+#: www/app/modules/auth/login.html:28
 msgid "Create an Account"
 msgstr "Создать Аккаунт"
 
 #: www/app/modules/menu/drinks/filter.html:44
-#: www/app/modules/menu/drinks/item.html:55
+#: www/app/modules/menu/drinks/item.html:69
 msgid "Density"
 msgstr "﻿Плотность"
 
-#: www/app/modules/menu/ingredients/item.html:47
+#: www/app/modules/menu/ingredients/item.html:44
 msgid "Description"
 msgstr "Описание"
 
@@ -147,21 +159,30 @@ msgstr ""
 "\"). В какой-то момент, я понял, что мне сложно выбрать какой новый сок "
 "попробовать, такая же проблема была у моих знакомых, потому что:"
 
-#: www/app/modules/auth/forget.html:12 www/app/modules/auth/login.html:12
-#: www/app/modules/auth/signup.html:16
+#: www/app/modules/auth/forget.html:13 www/app/modules/auth/login.html:13
+#: www/app/modules/auth/signup.html:17
 msgid "Email"
 msgstr "Email"
 
 #: www/app/components/errorResponseInterceptor.service.js:70
+#: www/app/modules/auth/forget.controller.js:32
+#: www/app/modules/auth/login.controller.js:33
+#: www/app/modules/auth/signup.controller.js:45
 msgid "Email is not valid."
-msgstr "Адрес электронной почты не валиден."
+msgstr "Неверный формат адреса электронной почты."
+
+#: www/app/modules/auth/forget.controller.js:29
+#: www/app/modules/auth/login.controller.js:30
+#: www/app/modules/auth/signup.controller.js:42
+msgid "Email is required."
+msgstr "Адрес электронной почты обязателен."
 
 #: www/app/modules/menu/ingredients/item.html:26
 msgid "Energy"
 msgstr "Энергетическая ценность"
 
 #: www/app/modules/about/about.html:24
-msgid "Everyday from 6:30 to 21:00"
+msgid "Everyday from 6:30 till 21:00"
 msgstr "﻿Ежедневно с 6:30 до 21:00"
 
 #: www/app/modules/menu/ingredients/item.html:32
@@ -179,17 +200,21 @@ msgid "Filter by"
 msgstr "Фильтровать по"
 
 #: www/app/modules/menu/drinks/filter.html:39
-#: www/app/modules/menu/drinks/item.html:52
+#: www/app/modules/menu/drinks/item.html:66
 #: www/app/modules/menu/ingredients/filter.html:19
 #: www/app/modules/menu/ingredients/item.html:20
 msgid "Flavor"
 msgstr "Вкус"
 
-#: www/app/modules/auth/login.html:21
+#: www/app/modules/auth/login.html:23
 msgid "Forget your password?"
 msgstr "Забыли пароль?"
 
-#: www/app/modules/auth/signup.html:25
+#: www/app/modules/auth/forget.html:19
+msgid "Have a token? Update password"
+msgstr "Есть ключ? Изменить пароль"
+
+#: www/app/modules/auth/signup.html:27
 msgid "Have an account? Log In"
 msgstr "Уже есть аккаунт? Войти"
 
@@ -213,15 +238,33 @@ msgstr ""
 "Я разработчик программного обеспечения, путешественник, серфер и создатель "
 "этого приложения."
 
+#: www/app/modules/about/app.html:22
+msgid "I am looking forward to receive feedback and suggestions from you."
+msgstr "Я с нетерпением жду ваших комментариев и предложений."
+
 #: www/app/modules/about/app.html:21
 msgid ""
-"I hope that the application AVM Cream House will help you choose your next "
-"juice and discover new fruits!"
+"I developed this application as an open source, so you can find complete "
+"source code on Github. I will highly appreciate if somebody decide to "
+"contribute to this application."
+msgstr ""
+"Я разработал это приложение как Открытое Программное Обеспечение, так что, "
+"вы можете найти исходный код на Github. Я буду очень рад, если кто-нибудь "
+"захочет помочь мне улучшить это приложение."
+
+#: www/app/modules/about/app.html:24
+msgid ""
+"I hope that the application AVM Cream House will help you to choose your "
+"next juice and discover new fruits!"
 msgstr ""
 "Надеюсь, что приложение AVM Cream House поможет вам выбрать ваш следующий "
 "сок и открыть для себя новые фрукты!"
 
-#: www/app/modules/menu/drinks/item.html:33
+#: www/app/modules/about/rules.html:23
+msgid "Ice cream +20Rs. per drink."
+msgstr "Мороженое +20Rs. за напиток."
+
+#: www/app/modules/menu/drinks/item.html:44
 msgid "Info"
 msgstr "Информация"
 
@@ -229,19 +272,19 @@ msgstr "Информация"
 msgid "Ingredient"
 msgstr "Ингридиент"
 
-#: www/app/modules/menu/drinks/item.html:58
+#: www/app/modules/menu/drinks/item.html:72
 #: www/app/modules/menu/ingredients/list.html:1
 #: www/app/modules/menu/menu.html:11
 msgid "Ingredients"
 msgstr "Ингридиенты"
 
-#: www/app/components/internetCall.service.js:14
+#: www/app/components/internetCall.service.js:13
 msgid "Internet connection is not available."
-msgstr "Интернет сведения не доступно."
+msgstr "Интернет соединение не доступно."
 
 #: www/app/components/errorResponseInterceptor.service.js:77
 msgid "Invalid email or password."
-msgstr "Не верный адрес электронной почты или пароль."
+msgstr "Неверный адрес электронной почты или пароль."
 
 #: www/app/components/filter.controller.js:85
 msgid "Iodine"
@@ -259,7 +302,7 @@ msgstr "Язык"
 msgid "Liquid"
 msgstr "Жидкий"
 
-#: www/app/app.js:55 www/app/app.js:98
+#: www/app/app.js:55 www/app/app.js:99
 msgid "Loading..."
 msgstr "Загрузка..."
 
@@ -267,13 +310,21 @@ msgstr "Загрузка..."
 msgid "Location"
 msgstr "Местополежение"
 
-#: www/app/modules/auth/forget.html:21 www/app/modules/auth/login.html:20
+#: www/app/modules/auth/forget.html:24 www/app/modules/auth/login.html:22
+#: www/app/modules/auth/reset.html:31
 msgid "Log In"
 msgstr "Войти"
 
 #: www/app/modules/account/profile.html:16
 msgid "Log Out"
 msgstr "Выйти"
+
+#: www/app/modules/menu/drinks/item.html:10
+#: www/app/modules/menu/drinks/item.html:12
+#: www/app/modules/menu/drinks/list.html:24
+#: www/app/modules/menu/drinks/list.html:25
+msgid "ML"
+msgstr "мл"
 
 #: www/app/components/filter.controller.js:80
 msgid "Magnesium"
@@ -288,7 +339,7 @@ msgid "Menu"
 msgstr "Меню"
 
 #: www/app/modules/menu/ingredients/filter.html:30
-#: www/app/modules/menu/ingredients/item.html:44
+#: www/app/modules/menu/ingredients/item.html:41
 msgid "Minerals"
 msgstr "Минералы"
 
@@ -296,7 +347,7 @@ msgstr "Минералы"
 msgid "Molybdenum"
 msgstr "Молибден"
 
-#: www/app/modules/menu/drinks/item.html:89
+#: www/app/modules/menu/drinks/item.html:106
 msgid "More"
 msgstr "Ещё"
 
@@ -318,10 +369,18 @@ msgid "No"
 msgstr "Нет"
 
 #: www/app/components/errorResponseInterceptor.service.js:76
-msgid "No account with that email address exists."
+msgid "No account with this email address exists."
 msgstr "Пользователя с таким адресом электронной почты не существует."
 
-#: www/app/app.js:148
+#: www/app/modules/about/rules.html:44
+msgid "No liquor."
+msgstr "Спиртные напитки."
+
+#: www/app/modules/about/rules.html:41
+msgid "No smoking."
+msgstr "Курение."
+
+#: www/app/app.js:187
 msgid "Not Online"
 msgstr "Не Онлайн"
 
@@ -349,7 +408,8 @@ msgstr "Сортировка"
 msgid "Order by"
 msgstr "Сортировать по"
 
-#: www/app/modules/auth/login.html:16 www/app/modules/auth/signup.html:20
+#: www/app/modules/auth/login.html:17 www/app/modules/auth/reset.html:17
+#: www/app/modules/auth/signup.html:21
 msgid "Password"
 msgstr "Пароль"
 
@@ -357,7 +417,16 @@ msgstr "Пароль"
 msgid "Password cannot be blank."
 msgstr "Пароль не может быть пустым."
 
+#: www/app/modules/auth/login.controller.js:36
+#: www/app/modules/auth/reset.controller.js:34
+#: www/app/modules/auth/signup.controller.js:48
+msgid "Password is required."
+msgstr "Пароль обязателен."
+
 #: www/app/components/errorResponseInterceptor.service.js:73
+#: www/app/modules/auth/login.controller.js:39
+#: www/app/modules/auth/reset.controller.js:37
+#: www/app/modules/auth/signup.controller.js:51
 msgid "Password must be at least 4 characters long."
 msgstr "Пароль должен быть не менее 4 символов."
 
@@ -366,12 +435,17 @@ msgid "Password reset token is invalid or has expired."
 msgstr "Время действия ссылки на сброс пароля истекло."
 
 #: www/app/components/errorResponseInterceptor.service.js:75
+#: www/app/modules/auth/reset.controller.js:40
 msgid "Passwords do not match."
 msgstr "Пароли не совпадают."
 
 #: www/app/components/filter.controller.js:79
 msgid "Phosphorus"
 msgstr "Фосфор"
+
+#: www/app/modules/about/rules.html:12
+msgid "Please keep in mind."
+msgstr "Пожалуйста, имейте ввиду."
 
 #: www/app/components/tryDrink.modal.html:9
 msgid ""
@@ -389,7 +463,23 @@ msgstr "Калий"
 msgid "Price"
 msgstr "Цена"
 
-#: www/app/modules/menu/drinks/item.html:49
+#: www/app/modules/about/rules.html:28
+msgid "Prices"
+msgstr "Цены"
+
+#: www/app/modules/about/rules.html:34
+msgid "Prices in printed menu are in the priority."
+msgstr "Цены в печатной версии меню в приоритете."
+
+#: www/app/modules/about/rules.html:31
+msgid "Prices may change."
+msgstr "Цены могут изменяться."
+
+#: www/app/modules/about/rules.html:38
+msgid "Prohibited"
+msgstr "Запрещено"
+
+#: www/app/modules/menu/drinks/item.html:63
 #: www/app/modules/menu/ingredients/item.html:17
 msgid "Properties"
 msgstr "Свойства"
@@ -411,7 +501,7 @@ msgstr "Рейтинг"
 msgid "Reset"
 msgstr "Сбросить"
 
-#: www/app/modules/auth/forget.html:16
+#: www/app/modules/auth/forget.html:18
 msgid "Reset password"
 msgstr "Сбросить пароль"
 
@@ -436,7 +526,7 @@ msgstr "Сохранить"
 msgid "Selenium"
 msgstr "Селен"
 
-#: www/app/modules/auth/signup.html:24
+#: www/app/modules/auth/signup.html:26
 msgid "Sign Up"
 msgstr "Зарегистрироваться"
 
@@ -450,7 +540,7 @@ msgstr "Войти с помощью"
 msgid "Sign in with Email"
 msgstr "Войти с помощью Email"
 
-#: www/app/modules/about/about.html:54 www/app/modules/about/app.html:33
+#: www/app/modules/about/about.html:54 www/app/modules/about/app.html:36
 msgid "Social"
 msgstr "Социальные"
 
@@ -466,13 +556,25 @@ msgstr "Кислый"
 msgid "Sweet"
 msgstr "Сладкий"
 
+#: www/app/modules/about/rules.html:19
+msgid "Take away +20Rs. per drink."
+msgstr "Напитки на вынос +20Rs. за напиток."
+
 #: www/app/modules/menu/drinks/filter.html:23
 msgid "Tasted"
 msgstr "Пробовал"
 
 #: www/app/modules/about/app.html:19
-msgid "Thus I got the idea to make this application."
+msgid "Thus, I got the idea to make this application."
 msgstr "Так у меня появилась идея сделать это приложение."
+
+#: www/app/modules/auth/reset.html:13
+msgid "Token"
+msgstr "Ключ"
+
+#: www/app/modules/auth/reset.controller.js:31
+msgid "Token is required."
+msgstr "Ключ обязателен."
 
 #: www/app/components/filter.controller.js:55
 msgid "Umami"
@@ -482,25 +584,37 @@ msgstr "Умами"
 msgid "Unexpected server error. Try perform this action later."
 msgstr "Произошла непредвиденная ошибка сервера. Попробуйте позже."
 
+#: www/app/modules/auth/reset.html:26
+msgid "Update password"
+msgstr "Изменить пароль"
+
 #: www/app/components/errorResponseInterceptor.service.js:78
 msgid "User is not authenticated."
 msgstr "Пользователь не авторизован."
 
-#: www/app/modules/auth/signup.html:12
+#: www/app/modules/auth/signup.html:13
 msgid "Username"
 msgstr "Имя"
+
+#: www/app/modules/auth/signup.controller.js:36
+msgid "Username can contain only english letters and white spaces."
+msgstr "Имя пользователя может содержать только английские символы и пробелы."
+
+#: www/app/modules/auth/signup.controller.js:33
+msgid "Username is required."
+msgstr "Имя пользователя обязательно."
+
+#: www/app/modules/auth/signup.controller.js:39
+msgid "Username must be at least 3 characters long."
+msgstr "Имя пользователя должно быть не короче 3 символов."
 
 #: www/app/modules/menu/ingredients/filter.html:25
 msgid "Vitamin"
 msgstr "Витамин"
 
-#: www/app/modules/menu/ingredients/item.html:41
+#: www/app/modules/menu/ingredients/item.html:38
 msgid "Vitamins"
 msgstr "Витамины"
-
-#: www/app/modules/menu/ingredients/item.html:38
-msgid "Water"
-msgstr "Вода"
 
 #: www/app/modules/menu/drinks/filter.html:26
 #: www/app/modules/menu/drinks/filter.html:34
@@ -512,30 +626,63 @@ msgstr "Да"
 msgid "You do not have permission to perform this action."
 msgstr "У вас недостаточно прав что бы выполнить это действие."
 
+#: www/app/modules/auth/forget.controller.js:23
+msgid "You have requested the reset of the password for your account."
+msgstr "Вы запросили сброс пароля для вашего аккаунта."
+
+#: www/app/modules/menu/menu.controller.js:28
+msgid "You have successfully added drink into bookmarks."
+msgstr "Вы успешно сохранили напиток в закладки."
+
+#: www/app/modules/auth/login.controller.js:22
+msgid "You have successfully logged in."
+msgstr "Вы успешно вошли в приложение."
+
+#: www/app/modules/account/profile.controller.js:13
+msgid "You have successfully logged out."
+msgstr "Вы успешно вышли из приложения."
+
+#: www/app/modules/menu/menu.controller.js:64
+msgid "You have successfully marked drink as tasted."
+msgstr "Вы успешно отметили напиток как попробованный."
+
+#: www/app/modules/auth/signup.controller.js:24
+#: www/app/modules/auth/socialSignin.controller.js:24
+msgid "You have successfully registered."
+msgstr "Вы успешно зарегестрировались."
+
+#: www/app/modules/menu/menu.controller.js:29
+msgid "You have successfully removed drink from bookmarks."
+msgstr "Вы успешно удалили напиток из закладок."
+
 #: www/app/components/tryDrink.modal.html:11
 msgid "You'll rate it with"
-msgstr "Вы оценили на"
+msgstr "Вы оцените на"
 
 #: www/app/components/tryDrink.modal.html:3
 msgid "You've just tried {{item.name[lang]}}!"
 msgstr "Вы попробовали {{item.name[lang]}}!"
 
-#: www/app/app.js:144
+#: www/app/app.js:183
 msgid ""
 "Your device has no data connection.\n"
 "App will attempt to show cached data where possible.\n"
 "Functions which use data connection disabled."
 msgstr ""
-"Ваше устройство не подключено к интернет.\n"
-"Приложение будет использовать закодированные данные, там где это возможно.\n"
-"Функционал использующий интернет соединение отключен."
+"Ваше устройство не подключено к интернету.\n"
+"Приложение будет использовать сохраненные данные, там где это возможно.\n"
+"Функционал, использующий интернет соединение, отключен."
+
+#: www/app/modules/auth/reset.controller.js:25
+msgid "Your password has been changed."
+msgstr "Ваш пароль был изменен."
 
 #: www/app/components/filter.controller.js:81
 msgid "Zinc"
 msgstr "Цинк"
 
 #: www/app/modules/about/about.html:25
-msgid "except on Fridays from 11:30 to 13:30"
+msgid "except on Fridays from 11:30 till 13:30"
 msgstr "кроме Пятницы с 11:30 до 13:30"
 
 #: www/app/modules/about/about.html:13
@@ -545,6 +692,16 @@ msgstr " - это кафе через дорогу от автобусной с�
 #: www/app/components/ratingView.directive.html:7
 msgid "total"
 msgstr "всего"
+
+#~ msgid ""
+#~ "I hope that the application AVM Cream House will help you choose your "
+#~ "next juice and discover new fruits!"
+#~ msgstr ""
+#~ "Надеюсь, что приложение AVM Cream House поможет вам выбрать ваш следующий "
+#~ "сок и открыть для себя новые фрукты!"
+
+#~ msgid "Water"
+#~ msgstr "Вода"
 
 #~ msgid "Authentication session expired"
 #~ msgstr "Ваша сессия истекла"

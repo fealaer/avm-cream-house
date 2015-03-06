@@ -20,16 +20,22 @@ msgstr[1] ""
 
 #: www/app/modules/auth/forget.html:8
 #: www/app/modules/auth/login.html:8
+#: www/app/modules/auth/reset.html:8
 #: www/app/modules/auth/signup.html:8
-msgid "AVM Cream House App helps you choose your next drink!"
+msgid "AVM Cream House App helps you to choose your next drink!"
 msgstr ""
 
-#: www/app/modules/leftMenu.html:27
+#: www/app/modules/about/app.html:1
+#: www/app/modules/leftMenu.html:31
 msgid "About App"
 msgstr ""
 
 #: www/app/components/errorResponseInterceptor.service.js:71
-msgid "Account with that email address already exists."
+msgid "Account with this email address already exists."
+msgstr ""
+
+#: www/app/modules/about/rules.html:16
+msgid "Additional"
 msgstr ""
 
 #: www/app/modules/menu/drinks/filter.html:25
@@ -65,6 +71,11 @@ msgstr ""
 msgid "Bromine"
 msgstr ""
 
+#: www/app/modules/about/rules.html:1
+#: www/app/modules/leftMenu.html:24
+msgid "Cafe's rules"
+msgstr ""
+
 #: www/app/components/filter.controller.js:78
 msgid "Calcium"
 msgstr ""
@@ -85,12 +96,16 @@ msgstr ""
 msgid "Comment"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:81
+#: www/app/modules/menu/drinks/item.html:95
 msgid "Comments"
 msgstr ""
 
+#: www/app/modules/auth/reset.html:21
+msgid "Confirmation"
+msgstr ""
+
 #: www/app/modules/about/about.html:38
-#: www/app/modules/about/app.html:25
+#: www/app/modules/about/app.html:28
 msgid "Contacts"
 msgstr ""
 
@@ -102,16 +117,16 @@ msgstr ""
 msgid "Creamy"
 msgstr ""
 
-#: www/app/modules/auth/login.html:26
+#: www/app/modules/auth/login.html:28
 msgid "Create an Account"
 msgstr ""
 
 #: www/app/modules/menu/drinks/filter.html:44
-#: www/app/modules/menu/drinks/item.html:55
+#: www/app/modules/menu/drinks/item.html:69
 msgid "Density"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:47
+#: www/app/modules/menu/ingredients/item.html:44
 msgid "Description"
 msgstr ""
 
@@ -128,14 +143,23 @@ msgstr ""
 msgid "During my trip to Sri Lanka, I spent a lot of time around Weligama and often visited the cafe AVM Cream House. At one day, I realized that it was difficult to pick a new juice to try, my friends had the same problem, because:"
 msgstr ""
 
-#: www/app/modules/auth/forget.html:12
-#: www/app/modules/auth/login.html:12
-#: www/app/modules/auth/signup.html:16
+#: www/app/modules/auth/forget.html:13
+#: www/app/modules/auth/login.html:13
+#: www/app/modules/auth/signup.html:17
 msgid "Email"
 msgstr ""
 
 #: www/app/components/errorResponseInterceptor.service.js:70
+#: www/app/modules/auth/forget.controller.js:32
+#: www/app/modules/auth/login.controller.js:33
+#: www/app/modules/auth/signup.controller.js:45
 msgid "Email is not valid."
+msgstr ""
+
+#: www/app/modules/auth/forget.controller.js:29
+#: www/app/modules/auth/login.controller.js:30
+#: www/app/modules/auth/signup.controller.js:42
+msgid "Email is required."
 msgstr ""
 
 #: www/app/modules/menu/ingredients/item.html:26
@@ -143,7 +167,7 @@ msgid "Energy"
 msgstr ""
 
 #: www/app/modules/about/about.html:24
-msgid "Everyday from 6:30 to 21:00"
+msgid "Everyday from 6:30 till 21:00"
 msgstr ""
 
 #: www/app/modules/menu/ingredients/item.html:32
@@ -161,17 +185,21 @@ msgid "Filter by"
 msgstr ""
 
 #: www/app/modules/menu/drinks/filter.html:39
-#: www/app/modules/menu/drinks/item.html:52
+#: www/app/modules/menu/drinks/item.html:66
 #: www/app/modules/menu/ingredients/filter.html:19
 #: www/app/modules/menu/ingredients/item.html:20
 msgid "Flavor"
 msgstr ""
 
-#: www/app/modules/auth/login.html:21
+#: www/app/modules/auth/login.html:23
 msgid "Forget your password?"
 msgstr ""
 
-#: www/app/modules/auth/signup.html:25
+#: www/app/modules/auth/forget.html:19
+msgid "Have a token? Update password"
+msgstr ""
+
+#: www/app/modules/auth/signup.html:27
 msgid "Have an account? Log In"
 msgstr ""
 
@@ -187,11 +215,23 @@ msgstr ""
 msgid "I am a software engineer, traveler, surfer and the creator of this application."
 msgstr ""
 
-#: www/app/modules/about/app.html:21
-msgid "I hope that the application AVM Cream House will help you choose your next juice and discover new fruits!"
+#: www/app/modules/about/app.html:22
+msgid "I am looking forward to receive feedback and suggestions from you."
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:33
+#: www/app/modules/about/app.html:21
+msgid "I developed this application as an open source, so you can find complete source code on Github. I will highly appreciate if somebody decide to contribute to this application."
+msgstr ""
+
+#: www/app/modules/about/app.html:24
+msgid "I hope that the application AVM Cream House will help you to choose your next juice and discover new fruits!"
+msgstr ""
+
+#: www/app/modules/about/rules.html:23
+msgid "Ice cream +20Rs. per drink."
+msgstr ""
+
+#: www/app/modules/menu/drinks/item.html:44
 msgid "Info"
 msgstr ""
 
@@ -199,13 +239,13 @@ msgstr ""
 msgid "Ingredient"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:58
+#: www/app/modules/menu/drinks/item.html:72
 #: www/app/modules/menu/ingredients/list.html:1
 #: www/app/modules/menu/menu.html:11
 msgid "Ingredients"
 msgstr ""
 
-#: www/app/components/internetCall.service.js:14
+#: www/app/components/internetCall.service.js:13
 msgid "Internet connection is not available."
 msgstr ""
 
@@ -230,7 +270,7 @@ msgid "Liquid"
 msgstr ""
 
 #: www/app/app.js:55
-#: www/app/app.js:98
+#: www/app/app.js:99
 msgid "Loading..."
 msgstr ""
 
@@ -238,13 +278,21 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: www/app/modules/auth/forget.html:21
-#: www/app/modules/auth/login.html:20
+#: www/app/modules/auth/forget.html:24
+#: www/app/modules/auth/login.html:22
+#: www/app/modules/auth/reset.html:31
 msgid "Log In"
 msgstr ""
 
 #: www/app/modules/account/profile.html:16
 msgid "Log Out"
+msgstr ""
+
+#: www/app/modules/menu/drinks/item.html:10
+#: www/app/modules/menu/drinks/item.html:12
+#: www/app/modules/menu/drinks/list.html:24
+#: www/app/modules/menu/drinks/list.html:25
+msgid "ML"
 msgstr ""
 
 #: www/app/components/filter.controller.js:80
@@ -260,7 +308,7 @@ msgid "Menu"
 msgstr ""
 
 #: www/app/modules/menu/ingredients/filter.html:30
-#: www/app/modules/menu/ingredients/item.html:44
+#: www/app/modules/menu/ingredients/item.html:41
 msgid "Minerals"
 msgstr ""
 
@@ -268,7 +316,7 @@ msgstr ""
 msgid "Molybdenum"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:89
+#: www/app/modules/menu/drinks/item.html:106
 msgid "More"
 msgstr ""
 
@@ -290,10 +338,18 @@ msgid "No"
 msgstr ""
 
 #: www/app/components/errorResponseInterceptor.service.js:76
-msgid "No account with that email address exists."
+msgid "No account with this email address exists."
 msgstr ""
 
-#: www/app/app.js:148
+#: www/app/modules/about/rules.html:44
+msgid "No liquor."
+msgstr ""
+
+#: www/app/modules/about/rules.html:41
+msgid "No smoking."
+msgstr ""
+
+#: www/app/app.js:187
 msgid "Not Online"
 msgstr ""
 
@@ -321,8 +377,9 @@ msgstr ""
 msgid "Order by"
 msgstr ""
 
-#: www/app/modules/auth/login.html:16
-#: www/app/modules/auth/signup.html:20
+#: www/app/modules/auth/login.html:17
+#: www/app/modules/auth/reset.html:17
+#: www/app/modules/auth/signup.html:21
 msgid "Password"
 msgstr ""
 
@@ -330,7 +387,16 @@ msgstr ""
 msgid "Password cannot be blank."
 msgstr ""
 
+#: www/app/modules/auth/login.controller.js:36
+#: www/app/modules/auth/reset.controller.js:34
+#: www/app/modules/auth/signup.controller.js:48
+msgid "Password is required."
+msgstr ""
+
 #: www/app/components/errorResponseInterceptor.service.js:73
+#: www/app/modules/auth/login.controller.js:39
+#: www/app/modules/auth/reset.controller.js:37
+#: www/app/modules/auth/signup.controller.js:51
 msgid "Password must be at least 4 characters long."
 msgstr ""
 
@@ -339,11 +405,16 @@ msgid "Password reset token is invalid or has expired."
 msgstr ""
 
 #: www/app/components/errorResponseInterceptor.service.js:75
+#: www/app/modules/auth/reset.controller.js:40
 msgid "Passwords do not match."
 msgstr ""
 
 #: www/app/components/filter.controller.js:79
 msgid "Phosphorus"
+msgstr ""
+
+#: www/app/modules/about/rules.html:12
+msgid "Please keep in mind."
 msgstr ""
 
 #: www/app/components/tryDrink.modal.html:9
@@ -358,7 +429,23 @@ msgstr ""
 msgid "Price"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:49
+#: www/app/modules/about/rules.html:28
+msgid "Prices"
+msgstr ""
+
+#: www/app/modules/about/rules.html:34
+msgid "Prices in printed menu are in the priority."
+msgstr ""
+
+#: www/app/modules/about/rules.html:31
+msgid "Prices may change."
+msgstr ""
+
+#: www/app/modules/about/rules.html:38
+msgid "Prohibited"
+msgstr ""
+
+#: www/app/modules/menu/drinks/item.html:63
 #: www/app/modules/menu/ingredients/item.html:17
 msgid "Properties"
 msgstr ""
@@ -380,7 +467,7 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-#: www/app/modules/auth/forget.html:16
+#: www/app/modules/auth/forget.html:18
 msgid "Reset password"
 msgstr ""
 
@@ -405,7 +492,7 @@ msgstr ""
 msgid "Selenium"
 msgstr ""
 
-#: www/app/modules/auth/signup.html:24
+#: www/app/modules/auth/signup.html:26
 msgid "Sign Up"
 msgstr ""
 
@@ -420,7 +507,7 @@ msgid "Sign in with Email"
 msgstr ""
 
 #: www/app/modules/about/about.html:54
-#: www/app/modules/about/app.html:33
+#: www/app/modules/about/app.html:36
 msgid "Social"
 msgstr ""
 
@@ -436,12 +523,24 @@ msgstr ""
 msgid "Sweet"
 msgstr ""
 
+#: www/app/modules/about/rules.html:19
+msgid "Take away +20Rs. per drink."
+msgstr ""
+
 #: www/app/modules/menu/drinks/filter.html:23
 msgid "Tasted"
 msgstr ""
 
 #: www/app/modules/about/app.html:19
-msgid "Thus I got the idea to make this application."
+msgid "Thus, I got the idea to make this application."
+msgstr ""
+
+#: www/app/modules/auth/reset.html:13
+msgid "Token"
+msgstr ""
+
+#: www/app/modules/auth/reset.controller.js:31
+msgid "Token is required."
 msgstr ""
 
 #: www/app/components/filter.controller.js:55
@@ -452,24 +551,36 @@ msgstr ""
 msgid "Unexpected server error. Try perform this action later."
 msgstr ""
 
+#: www/app/modules/auth/reset.html:26
+msgid "Update password"
+msgstr ""
+
 #: www/app/components/errorResponseInterceptor.service.js:78
 msgid "User is not authenticated."
 msgstr ""
 
-#: www/app/modules/auth/signup.html:12
+#: www/app/modules/auth/signup.html:13
 msgid "Username"
+msgstr ""
+
+#: www/app/modules/auth/signup.controller.js:36
+msgid "Username can contain only english letters and white spaces."
+msgstr ""
+
+#: www/app/modules/auth/signup.controller.js:33
+msgid "Username is required."
+msgstr ""
+
+#: www/app/modules/auth/signup.controller.js:39
+msgid "Username must be at least 3 characters long."
 msgstr ""
 
 #: www/app/modules/menu/ingredients/filter.html:25
 msgid "Vitamin"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:41
-msgid "Vitamins"
-msgstr ""
-
 #: www/app/modules/menu/ingredients/item.html:38
-msgid "Water"
+msgid "Vitamins"
 msgstr ""
 
 #: www/app/modules/menu/drinks/filter.html:26
@@ -482,6 +593,35 @@ msgstr ""
 msgid "You do not have permission to perform this action."
 msgstr ""
 
+#: www/app/modules/auth/forget.controller.js:23
+msgid "You have requested the reset of the password for your account."
+msgstr ""
+
+#: www/app/modules/menu/menu.controller.js:28
+msgid "You have successfully added drink into bookmarks."
+msgstr ""
+
+#: www/app/modules/auth/login.controller.js:22
+msgid "You have successfully logged in."
+msgstr ""
+
+#: www/app/modules/account/profile.controller.js:13
+msgid "You have successfully logged out."
+msgstr ""
+
+#: www/app/modules/menu/menu.controller.js:64
+msgid "You have successfully marked drink as tasted."
+msgstr ""
+
+#: www/app/modules/auth/signup.controller.js:24
+#: www/app/modules/auth/socialSignin.controller.js:24
+msgid "You have successfully registered."
+msgstr ""
+
+#: www/app/modules/menu/menu.controller.js:29
+msgid "You have successfully removed drink from bookmarks."
+msgstr ""
+
 #: www/app/components/tryDrink.modal.html:11
 msgid "You'll rate it with"
 msgstr ""
@@ -490,11 +630,15 @@ msgstr ""
 msgid "You've just tried {{item.name[lang]}}!"
 msgstr ""
 
-#: www/app/app.js:144
+#: www/app/app.js:183
 msgid ""
 "Your device has no data connection.\n"
 "App will attempt to show cached data where possible.\n"
 "Functions which use data connection disabled."
+msgstr ""
+
+#: www/app/modules/auth/reset.controller.js:25
+msgid "Your password has been changed."
 msgstr ""
 
 #: www/app/components/filter.controller.js:81
@@ -502,7 +646,7 @@ msgid "Zinc"
 msgstr ""
 
 #: www/app/modules/about/about.html:25
-msgid "except on Fridays from 11:30 to 13:30"
+msgid "except on Fridays from 11:30 till 13:30"
 msgstr ""
 
 #: www/app/modules/about/about.html:13
