@@ -1,5 +1,5 @@
 angular.module('avm.menu')
-	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state, gettextCatalog, ratingService, account, AdMobService, toastService) {
+	.controller('MenuCtrl', function($rootScope, $scope, $ionicModal, listFilter, $state, gettextCatalog, ratingService, account, AdMobService, toastService, commentsService) {
 		var defData = {
 			rate: 2,
 			comment: ''
@@ -46,18 +46,21 @@ angular.module('avm.menu')
 			$state.go('menu.drinks');
 		};
 
-    $scope.moreComments = function (item) {
+    $scope.moreComments = function (drink) {
       $rootScope.trackEvent('button', 'click', 'More comments');
-      // todo implementation
+      commentsService.loadMore(drink.id, _.last(drink.comments).posted_at)
+        .then(function (response) {
+          drink.comments = _.union(drink.comments, response.result);
+        });
     };
 
 		$scope.save = function () {
-			closeModal();
 			if ($scope.data) {
         $scope.data.id = $scope.item.id;
 
 				ratingService.rate($scope.data)
           .then(function (response) {
+            closeModal();
             toastService.showLongCenter(gettextCatalog.getString('You have successfully marked drink as tasted.'));
             $scope.item.isTried = true;
             $scope.item.rate = response.result.rate;
