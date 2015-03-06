@@ -1,9 +1,9 @@
 angular.module('avm.components')
-  .service('AdMobService', function ($q, $settings, $window) {
+  .service('AdMobService', function ($q, $settings, $window, toastService) {
     var self = this;
     var position = 8; // AdMob.AD_POSITION.BOTTOM_CENTER;
     var created = false;
-    var prepared = true;
+    var prepared = false;
     var config;
 
     if( /(android)/i.test(navigator.userAgent) ) {
@@ -14,11 +14,6 @@ angular.module('avm.components')
 
     self.isPluginAvailable = function () {
       return !!$window.AdMob;
-    };
-
-    self.prepareAds = function () {
-      self.createBanner();
-      self.prepareInterstitial();
     };
 
     self.createBanner = function () {
@@ -40,6 +35,8 @@ angular.module('avm.components')
           autoShow:false
         }, function () {
           prepared = true;
+        }, function () {
+          prepared = false;
         });
       }
     };
@@ -56,6 +53,12 @@ angular.module('avm.components')
     self.hideBanner = function () {
       if (created) {
         $window.AdMob.hideBanner();
+      }
+    };
+
+    self.removeBanner = function () {
+      if (created) {
+        $window.AdMob.removeBanner();
       }
     };
 
