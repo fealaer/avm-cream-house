@@ -45,7 +45,7 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/');
 	})
 
-	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, internetCallService, cordovaHelper, gaService) {
+	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, internetCallService, cordovaHelper, gaService, $interval) {
     supersonic.ui.navigationBar.hide();
 
     Restangular.setErrorInterceptor(errorResponseInterceptor);
@@ -134,15 +134,31 @@ angular.module('avm', [
     // Set permission check on state loading.
     accessManager.init();
 
+    // Clear $http cache every 5 minutes
+    $interval(function () {
+      $cacheFactory.get('$http').removeAll();
+    }, 1000 * 60 * 5, 0, false);
+
     if (document.addEventListener) {
       document.addEventListener('DOMContentLoaded', function() {
         FastClick.attach(document.body);
       }, false);
 
+      document.addEventListener('onAdLoaded', function(data) {
+        if (data.adType === 'banner') {
+          if (!$state.includes('auth')) {
+            AdMobService.showBanner();
+          }
+        }
+//        else if (data.adType === 'interstitial') {
+//          AdMobService.showInterstitial();
+//        }
+      }, false);
+
       document.addEventListener('deviceready', function () {
         console.log('deviceready');
 
-        AdMobService.prepareAds();
+        AdMobService.createBanner();
 
         $timeout(function () {
           if (!$state.includes('auth')) {
