@@ -16,6 +16,10 @@ angular.module('avm.components')
       return !!$window.AdMob;
     };
 
+    self.setOptions = function (options) {
+      $window.AdMob.setOptions(options);
+    };
+
     self.createBanner = function () {
       if (!created && self.isPluginAvailable()) {
         $window.AdMob.createBanner({
@@ -30,14 +34,14 @@ angular.module('avm.components')
 
     self.prepareInterstitial = function () {
       if (!prepared && self.isPluginAvailable()) {
-        $window.AdMob.prepareInterstitial({
-          adId:config.interstitial,
-          autoShow:false
-        }, function () {
-          prepared = true;
-        }, function () {
-          prepared = false;
+        self.setOptions({
+          bannerId: config.banner,
+          interstitialId: config.interstitial,
+          position: position,
+          autoShow: false
         });
+        $window.AdMob.prepareInterstitial({});
+        prepared = true;
       }
     };
 

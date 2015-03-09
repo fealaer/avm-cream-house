@@ -60,13 +60,14 @@ angular.module('avm.menu')
 
 				ratingService.rate($scope.data)
           .then(function (response) {
-            closeModal();
             toastService.showLongCenter(gettextCatalog.getString('You have successfully marked drink as tasted.'));
             $scope.item.isTried = true;
             $scope.item.rate = response.result.rate;
             $scope.item.totalComments = response.result.totalComments;
             account.tried($scope.item.id);
             $scope.item.comments = _.union(response.result.comments, $scope.item.comments);
+            closeModal();
+//            AdMobService.showInterstitial();
           });
 			}
 		};
@@ -96,6 +97,7 @@ angular.module('avm.menu')
 			// Execute action
 		});
 		function openModal () {
+//      AdMobService.prepareInterstitial();
       AdMobService.hideBanner();
 			$scope.modal.show();
 		}
