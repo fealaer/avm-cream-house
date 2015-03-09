@@ -96,10 +96,12 @@ angular.module('avm.menu')
 			// Execute action
 		});
 		function openModal () {
+      AdMobService.hideBanner();
 			$scope.modal.show();
 		}
 		function closeModal () {
 			$scope.modal.hide();
+      AdMobService.showBanner();
 		}
 
     AdMobService.showBanner();
