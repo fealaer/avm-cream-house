@@ -84,7 +84,7 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:29
+#: www/app/modules/menu/ingredients/item.html:35
 msgid "Carbohydrates"
 msgstr ""
 
@@ -96,7 +96,7 @@ msgstr ""
 msgid "Comment"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:95
+#: www/app/modules/menu/drinks/item.html:98
 msgid "Comments"
 msgstr ""
 
@@ -122,11 +122,11 @@ msgid "Create an Account"
 msgstr ""
 
 #: www/app/modules/menu/drinks/filter.html:44
-#: www/app/modules/menu/drinks/item.html:69
+#: www/app/modules/menu/drinks/item.html:72
 msgid "Density"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:44
+#: www/app/modules/menu/ingredients/item.html:50
 msgid "Description"
 msgstr ""
 
@@ -162,15 +162,20 @@ msgstr ""
 msgid "Email is required."
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:26
+#: www/app/modules/menu/ingredients/item.html:32
 msgid "Energy"
+msgstr ""
+
+#: www/app/modules/menu/drinks/item.html:60
+#: www/app/modules/menu/ingredients/item.html:17
+msgid "English name"
 msgstr ""
 
 #: www/app/modules/about/about.html:24
 msgid "Everyday from 6:30 till 21:00"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:32
+#: www/app/modules/menu/ingredients/item.html:38
 msgid "Fat"
 msgstr ""
 
@@ -185,9 +190,9 @@ msgid "Filter by"
 msgstr ""
 
 #: www/app/modules/menu/drinks/filter.html:39
-#: www/app/modules/menu/drinks/item.html:66
+#: www/app/modules/menu/drinks/item.html:69
 #: www/app/modules/menu/ingredients/filter.html:19
-#: www/app/modules/menu/ingredients/item.html:20
+#: www/app/modules/menu/ingredients/item.html:26
 msgid "Flavor"
 msgstr ""
 
@@ -239,7 +244,7 @@ msgstr ""
 msgid "Ingredient"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:72
+#: www/app/modules/menu/drinks/item.html:75
 #: www/app/modules/menu/ingredients/list.html:1
 #: www/app/modules/menu/menu.html:11
 msgid "Ingredients"
@@ -308,7 +313,7 @@ msgid "Menu"
 msgstr ""
 
 #: www/app/modules/menu/ingredients/filter.html:30
-#: www/app/modules/menu/ingredients/item.html:41
+#: www/app/modules/menu/ingredients/item.html:47
 msgid "Minerals"
 msgstr ""
 
@@ -316,7 +321,7 @@ msgstr ""
 msgid "Molybdenum"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:106
+#: www/app/modules/menu/drinks/item.html:109
 msgid "More"
 msgstr ""
 
@@ -357,7 +362,7 @@ msgstr ""
 msgid "Numbing"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:23
+#: www/app/modules/menu/ingredients/item.html:29
 msgid "Nutrition Facts"
 msgstr ""
 
@@ -365,7 +370,7 @@ msgstr ""
 msgid "Open hours"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:53
+#: www/app/modules/menu/ingredients/item.html:59
 msgid "Open on Wikipedia"
 msgstr ""
 
@@ -445,12 +450,12 @@ msgstr ""
 msgid "Prohibited"
 msgstr ""
 
-#: www/app/modules/menu/drinks/item.html:63
-#: www/app/modules/menu/ingredients/item.html:17
+#: www/app/modules/menu/drinks/item.html:66
+#: www/app/modules/menu/ingredients/item.html:23
 msgid "Properties"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:35
+#: www/app/modules/menu/ingredients/item.html:41
 msgid "Protein"
 msgstr ""
 
@@ -579,7 +584,7 @@ msgstr ""
 msgid "Vitamin"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/item.html:38
+#: www/app/modules/menu/ingredients/item.html:44
 msgid "Vitamins"
 msgstr ""
 

@@ -94,7 +94,7 @@ msgstr "Кальций"
 msgid "Cancel"
 msgstr "Отмена"
 
-#: www/app/modules/menu/ingredients/item.html:29
+#: www/app/modules/menu/ingredients/item.html:35
 msgid "Carbohydrates"
 msgstr "Углеводы"
 
@@ -106,7 +106,7 @@ msgstr "Хлор"
 msgid "Comment"
 msgstr "Комментарий"
 
-#: www/app/modules/menu/drinks/item.html:95
+#: www/app/modules/menu/drinks/item.html:98
 msgid "Comments"
 msgstr "﻿Комментарии"
 
@@ -131,11 +131,11 @@ msgid "Create an Account"
 msgstr "Создать Аккаунт"
 
 #: www/app/modules/menu/drinks/filter.html:44
-#: www/app/modules/menu/drinks/item.html:69
+#: www/app/modules/menu/drinks/item.html:72
 msgid "Density"
 msgstr "﻿Плотность"
 
-#: www/app/modules/menu/ingredients/item.html:44
+#: www/app/modules/menu/ingredients/item.html:50
 msgid "Description"
 msgstr "Описание"
 
@@ -177,15 +177,20 @@ msgstr "Неверный формат адреса электронной поч
 msgid "Email is required."
 msgstr "Адрес электронной почты обязателен."
 
-#: www/app/modules/menu/ingredients/item.html:26
+#: www/app/modules/menu/ingredients/item.html:32
 msgid "Energy"
 msgstr "Энергетическая ценность"
+
+#: www/app/modules/menu/drinks/item.html:60
+#: www/app/modules/menu/ingredients/item.html:17
+msgid "English name"
+msgstr "Английское название"
 
 #: www/app/modules/about/about.html:24
 msgid "Everyday from 6:30 till 21:00"
 msgstr "﻿Ежедневно с 6:30 до 21:00"
 
-#: www/app/modules/menu/ingredients/item.html:32
+#: www/app/modules/menu/ingredients/item.html:38
 msgid "Fat"
 msgstr "Жиры"
 
@@ -200,9 +205,9 @@ msgid "Filter by"
 msgstr "Фильтровать по"
 
 #: www/app/modules/menu/drinks/filter.html:39
-#: www/app/modules/menu/drinks/item.html:66
+#: www/app/modules/menu/drinks/item.html:69
 #: www/app/modules/menu/ingredients/filter.html:19
-#: www/app/modules/menu/ingredients/item.html:20
+#: www/app/modules/menu/ingredients/item.html:26
 msgid "Flavor"
 msgstr "Вкус"
 
@@ -272,7 +277,7 @@ msgstr "Информация"
 msgid "Ingredient"
 msgstr "Ингридиент"
 
-#: www/app/modules/menu/drinks/item.html:72
+#: www/app/modules/menu/drinks/item.html:75
 #: www/app/modules/menu/ingredients/list.html:1
 #: www/app/modules/menu/menu.html:11
 msgid "Ingredients"
@@ -339,7 +344,7 @@ msgid "Menu"
 msgstr "Меню"
 
 #: www/app/modules/menu/ingredients/filter.html:30
-#: www/app/modules/menu/ingredients/item.html:41
+#: www/app/modules/menu/ingredients/item.html:47
 msgid "Minerals"
 msgstr "Минералы"
 
@@ -347,7 +352,7 @@ msgstr "Минералы"
 msgid "Molybdenum"
 msgstr "Молибден"
 
-#: www/app/modules/menu/drinks/item.html:106
+#: www/app/modules/menu/drinks/item.html:109
 msgid "More"
 msgstr "Ещё"
 
@@ -388,7 +393,7 @@ msgstr "Не Онлайн"
 msgid "Numbing"
 msgstr "Вяжущий"
 
-#: www/app/modules/menu/ingredients/item.html:23
+#: www/app/modules/menu/ingredients/item.html:29
 msgid "Nutrition Facts"
 msgstr "Пищевая ценность"
 
@@ -396,7 +401,7 @@ msgstr "Пищевая ценность"
 msgid "Open hours"
 msgstr "Рабочие часы"
 
-#: www/app/modules/menu/ingredients/item.html:53
+#: www/app/modules/menu/ingredients/item.html:59
 msgid "Open on Wikipedia"
 msgstr "Открыть в Википедии"
 
@@ -479,12 +484,12 @@ msgstr "Цены могут изменяться."
 msgid "Prohibited"
 msgstr "Запрещено"
 
-#: www/app/modules/menu/drinks/item.html:63
-#: www/app/modules/menu/ingredients/item.html:17
+#: www/app/modules/menu/drinks/item.html:66
+#: www/app/modules/menu/ingredients/item.html:23
 msgid "Properties"
 msgstr "Свойства"
 
-#: www/app/modules/menu/ingredients/item.html:35
+#: www/app/modules/menu/ingredients/item.html:41
 msgid "Protein"
 msgstr "Белок"
 
@@ -612,7 +617,7 @@ msgstr "Имя пользователя должно быть не короче 
 msgid "Vitamin"
 msgstr "Витамин"
 
-#: www/app/modules/menu/ingredients/item.html:38
+#: www/app/modules/menu/ingredients/item.html:44
 msgid "Vitamins"
 msgstr "Витамины"
 
