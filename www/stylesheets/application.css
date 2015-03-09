@@ -105,7 +105,7 @@ ion-nav-view {
     display: block;
 }
 
-.full-text h1, .full-text h2, .full-text h3, .full-text h4, .full-text h5, .full-text h6, .full-text p {
+.full-text h1, .full-text h2, .full-text h3, .full-text h4, .full-text h5, .full-text h6, .full-text p, .full-text {
     text-overflow: clip;
     white-space: normal;
 }
