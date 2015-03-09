@@ -691,7 +691,7 @@ msgid "except Fridays from 11:30 till 13:30"
 msgstr "кроме Пятницы с 11:30 до 13:30"
 
 #: www/app/modules/about/about.html:13
-msgid "is a cafe opposite the bus station in the Weligama town centre."
+msgid "is a cafe opposite the bus station in the Weligama town center."
 msgstr " - это кафе через дорогу от автобусной станции в центре Велигамы."
 
 #: www/app/components/ratingView.directive.html:7
