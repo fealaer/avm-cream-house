@@ -36,7 +36,7 @@ angular.module('avm.components')
     function setUpLists() {
       $scope.orderBy = [
         {value: 'name.' + gettextCatalog.currentLanguage, label: gettextCatalog.getString('Name')},
-        {value: 'price', label: gettextCatalog.getString('Price')},
+        {value: 'price250', label: gettextCatalog.getString('Price')},
         {value: 'rate.rate', label: gettextCatalog.getString('Rating')}
       ];
 
