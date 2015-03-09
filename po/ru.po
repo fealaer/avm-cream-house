@@ -687,7 +687,7 @@ msgid "Zinc"
 msgstr "Цинк"
 
 #: www/app/modules/about/about.html:25
-msgid "except on Fridays from 11:30 till 13:30"
+msgid "except Fridays from 11:30 till 13:30"
 msgstr "кроме Пятницы с 11:30 до 13:30"
 
 #: www/app/modules/about/about.html:13
