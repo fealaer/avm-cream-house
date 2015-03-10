@@ -330,9 +330,7 @@ msgid "My name is Andrey Pushkarev."
 msgstr ""
 
 #: www/app/components/filter.controller.js:38
-#: www/app/modules/menu/drinks/filter.html:19
 #: www/app/modules/menu/drinks/filter.html:20
-#: www/app/modules/menu/ingredients/filter.html:15
 #: www/app/modules/menu/ingredients/filter.html:16
 msgid "Name"
 msgstr ""
@@ -374,12 +372,12 @@ msgstr ""
 msgid "Open on Wikipedia"
 msgstr ""
 
-#: www/app/modules/menu/ingredients/filter.html:6
-msgid "Order"
-msgstr ""
-
 #: www/app/modules/menu/drinks/filter.html:7
 msgid "Order by"
+msgstr ""
+
+#: www/app/modules/menu/ingredients/filter.html:6
+msgid "Ordered by name"
 msgstr ""
 
 #: www/app/modules/auth/login.html:17
@@ -614,7 +612,7 @@ msgstr ""
 msgid "You have successfully logged out."
 msgstr ""
 
-#: www/app/modules/menu/menu.controller.js:64
+#: www/app/modules/menu/menu.controller.js:63
 msgid "You have successfully marked drink as tasted."
 msgstr ""
 

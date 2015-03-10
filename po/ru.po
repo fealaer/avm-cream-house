@@ -361,9 +361,7 @@ msgid "My name is Andrey Pushkarev."
 msgstr "Моё имя Андрей Пушкарев."
 
 #: www/app/components/filter.controller.js:38
-#: www/app/modules/menu/drinks/filter.html:19
 #: www/app/modules/menu/drinks/filter.html:20
-#: www/app/modules/menu/ingredients/filter.html:15
 #: www/app/modules/menu/ingredients/filter.html:16
 msgid "Name"
 msgstr "Название"
@@ -405,13 +403,13 @@ msgstr "Рабочие часы"
 msgid "Open on Wikipedia"
 msgstr "Открыть в Википедии"
 
-#: www/app/modules/menu/ingredients/filter.html:6
-msgid "Order"
-msgstr "Сортировка"
-
 #: www/app/modules/menu/drinks/filter.html:7
 msgid "Order by"
 msgstr "Сортировать по"
+
+#: www/app/modules/menu/ingredients/filter.html:6
+msgid "Ordered by name"
+msgstr "Упорядочено по названию"
 
 #: www/app/modules/auth/login.html:17 www/app/modules/auth/reset.html:17
 #: www/app/modules/auth/signup.html:21
@@ -647,7 +645,7 @@ msgstr "Вы успешно вошли в приложение."
 msgid "You have successfully logged out."
 msgstr "Вы успешно вышли из приложения."
 
-#: www/app/modules/menu/menu.controller.js:64
+#: www/app/modules/menu/menu.controller.js:63
 msgid "You have successfully marked drink as tasted."
 msgstr "Вы успешно отметили напиток как попробованный."
 
@@ -697,6 +695,9 @@ msgstr " - это кафе через дорогу от автобусной с�
 #: www/app/components/ratingView.directive.html:7
 msgid "total"
 msgstr "всего"
+
+#~ msgid "Order"
+#~ msgstr "Сортировка"
 
 #~ msgid ""
 #~ "I hope that the application AVM Cream House will help you choose your "
