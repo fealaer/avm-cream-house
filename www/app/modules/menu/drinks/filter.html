@@ -21,18 +21,12 @@
 		<!--</label>-->
 		<label class="item item-input item-select">
 			<span class="input-label" translate>Tasted</span>
-			<select ng-model="newFilter.isTried">
-				<option value="" ng-selected translate>All</option>
-				<option value="true" translate>Yes</option>
-				<option value="false" translate>No</option>
+			<select ng-model="newFilter.isTried" ng-options="opt.value as opt.label for opt in allYesNo">
 			</select>
 		</label>
 		<label class="item item-input item-select">
 			<span class="input-label" translate>Bookmarked</span>
-			<select ng-model="newFilter.isSaved">
-				<option value="" ng-selected translate>All</option>
-				<option value="true" translate>Yes</option>
-				<option value="false" translate>No</option>
+			<select ng-model="newFilter.isSaved" ng-options="opt.value as opt.label for opt in allYesNo">
 			</select>
 		</label>
 		<label class="item item-input item-select">

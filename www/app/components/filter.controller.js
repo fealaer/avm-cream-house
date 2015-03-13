@@ -16,7 +16,9 @@ angular.module('avm.components')
 					vitamins: '',
 					minerals: ''
 				},
-				ingredients: ''
+				ingredients: '',
+        isSaved: '',
+        isTried: ''
 			},
 			order: {
 				by: 'name.' + gettextCatalog.currentLanguage,
@@ -38,6 +40,12 @@ angular.module('avm.components')
         {value: 'name.' + gettextCatalog.currentLanguage, label: gettextCatalog.getString('Name')},
         {value: 'price250', label: gettextCatalog.getString('Price')},
         {value: 'rate.rate', label: gettextCatalog.getString('Rating')}
+      ];
+
+      $scope.allYesNo = [
+        {value: '', label: gettextCatalog.getString('All')},
+        {value: true, label: gettextCatalog.getString('Yes')},
+        {value: false, label: gettextCatalog.getString('No')}
       ];
 
       $scope.densities = [
@@ -138,6 +146,7 @@ angular.module('avm.components')
 				filter: utils.cleanObject(angular.copy($scope.newFilter)),
 				order: utils.cleanObject(angular.copy($scope.newOrder))
 			};
+      steroids.logger.log(cleanFilter);
 			listFilter.set(listName, cleanFilter);
 			$ionicSideMenuDelegate.toggleRight();
 		}
