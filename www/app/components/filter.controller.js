@@ -146,7 +146,6 @@ angular.module('avm.components')
 				filter: utils.cleanObject(angular.copy($scope.newFilter)),
 				order: utils.cleanObject(angular.copy($scope.newOrder))
 			};
-      steroids.logger.log(cleanFilter);
 			listFilter.set(listName, cleanFilter);
 			$ionicSideMenuDelegate.toggleRight();
 		}
