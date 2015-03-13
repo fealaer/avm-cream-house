@@ -531,13 +531,10 @@ angular.module('avm.components')
             };
             var _drinks_ = _.sortedMergeInnerJoin(drinks, accessor, response.result, accessor);
             var user = account.getAccountData();
-            if ((user.tried && !_.isEmpty(user.tried)) ||
-              (user.saved && !_.isEmpty(user.saved))) {
-              _.each(_drinks_, function (drink) {
-                drink.isTried = _.contains(user.tried, drink.id);
-                drink.isSaved = _.contains(user.saved, drink.id);
-              });
-            }
+            _.each(_drinks_, function (drink) {
+              drink.isTried = _.contains(user.tried, drink.id);
+              drink.isSaved = _.contains(user.saved, drink.id);
+            });
             $localStorage.drinks.list = _drinks_;
             $localStorage.updated = new Date();
             callback();
