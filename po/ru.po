@@ -41,7 +41,7 @@ msgstr "Приложение AVM Cream House помогает вам выбра�
 msgid "About App"
 msgstr "О Приложении"
 
-#: www/app/components/errorResponseInterceptor.service.js:71
+#: www/app/components/errorResponseInterceptor.service.js:72
 msgid "Account with this email address already exists."
 msgstr "Пользователь с таким адресом электронной почты уже существует."
 
@@ -49,36 +49,35 @@ msgstr "Пользователь с таким адресом электронн
 msgid "Additional"
 msgstr "Дополнительно"
 
-#: www/app/modules/menu/drinks/filter.html:25
-#: www/app/modules/menu/drinks/filter.html:33
+#: www/app/components/filter.controller.js:46
 msgid "All"
 msgstr "﻿Все"
 
-#: www/app/components/filter.controller.js:44
-#: www/app/components/filter.controller.js:50
-#: www/app/components/filter.controller.js:61
-#: www/app/components/filter.controller.js:74
+#: www/app/components/filter.controller.js:52
+#: www/app/components/filter.controller.js:58
+#: www/app/components/filter.controller.js:69
+#: www/app/components/filter.controller.js:82
 msgid "Any"
 msgstr "Любой"
 
-#: www/app/modules/menu/drinks/filter.html:58
+#: www/app/modules/menu/drinks/filter.html:52
 #: www/app/modules/menu/ingredients/filter.html:39
 msgid "Apply"
 msgstr "﻿Применить"
 
-#: www/app/components/errorResponseInterceptor.service.js:25
+#: www/app/components/errorResponseInterceptor.service.js:26
 msgid "Authentication session expired."
 msgstr "Сеанс аутентификации закончился."
 
-#: www/app/components/filter.controller.js:53
+#: www/app/components/filter.controller.js:61
 msgid "Bitter"
 msgstr "Горький"
 
-#: www/app/modules/menu/drinks/filter.html:31
+#: www/app/modules/menu/drinks/filter.html:28
 msgid "Bookmarked"
 msgstr "В закладках"
 
-#: www/app/components/filter.controller.js:88
+#: www/app/components/filter.controller.js:96
 msgid "Bromine"
 msgstr "Бром"
 
@@ -86,7 +85,7 @@ msgstr "Бром"
 msgid "Cafe's rules"
 msgstr "Правила кафе"
 
-#: www/app/components/filter.controller.js:78
+#: www/app/components/filter.controller.js:86
 msgid "Calcium"
 msgstr "Кальций"
 
@@ -98,7 +97,7 @@ msgstr "Отмена"
 msgid "Carbohydrates"
 msgstr "Углеводы"
 
-#: www/app/components/filter.controller.js:76
+#: www/app/components/filter.controller.js:84
 msgid "Chlorine"
 msgstr "Хлор"
 
@@ -118,11 +117,19 @@ msgstr "Подтверждение"
 msgid "Contacts"
 msgstr "﻿Контакты"
 
-#: www/app/components/filter.controller.js:84
+#: www/app/components/filter.controller.js:92
 msgid "Copper"
 msgstr "Медь"
 
-#: www/app/components/filter.controller.js:45
+#: www/app/components/httpTimeOut.service.js:9
+msgid ""
+"Could not receive response from server in a reasonable time. Check your "
+"internet connection and try again."
+msgstr ""
+"Не удалось получить ответ от сервера в разумные сроки. Проверьте подключение "
+"к Интернету и повторите попытку."
+
+#: www/app/components/filter.controller.js:53
 msgid "Creamy"
 msgstr "Густой"
 
@@ -130,7 +137,7 @@ msgstr "Густой"
 msgid "Create an Account"
 msgstr "Создать Аккаунт"
 
-#: www/app/modules/menu/drinks/filter.html:44
+#: www/app/modules/menu/drinks/filter.html:38
 #: www/app/modules/menu/drinks/item.html:72
 msgid "Density"
 msgstr "﻿Плотность"
@@ -164,7 +171,7 @@ msgstr ""
 msgid "Email"
 msgstr "Email"
 
-#: www/app/components/errorResponseInterceptor.service.js:70
+#: www/app/components/errorResponseInterceptor.service.js:71
 #: www/app/modules/auth/forget.controller.js:32
 #: www/app/modules/auth/login.controller.js:33
 #: www/app/modules/auth/signup.controller.js:45
@@ -204,7 +211,7 @@ msgstr "﻿Фильтр"
 msgid "Filter by"
 msgstr "Фильтровать по"
 
-#: www/app/modules/menu/drinks/filter.html:39
+#: www/app/modules/menu/drinks/filter.html:33
 #: www/app/modules/menu/drinks/item.html:69
 #: www/app/modules/menu/ingredients/filter.html:19
 #: www/app/modules/menu/ingredients/item.html:26
@@ -273,7 +280,7 @@ msgstr "Мороженое +20Rs. за напиток."
 msgid "Info"
 msgstr "Информация"
 
-#: www/app/modules/menu/drinks/filter.html:49
+#: www/app/modules/menu/drinks/filter.html:43
 msgid "Ingredient"
 msgstr "Ингридиент"
 
@@ -287,15 +294,15 @@ msgstr "Ингридиенты"
 msgid "Internet connection is not available."
 msgstr "Интернет соединение не доступно."
 
-#: www/app/components/errorResponseInterceptor.service.js:77
+#: www/app/components/errorResponseInterceptor.service.js:78
 msgid "Invalid email or password."
 msgstr "Неверный адрес электронной почты или пароль."
 
-#: www/app/components/filter.controller.js:85
+#: www/app/components/filter.controller.js:93
 msgid "Iodine"
 msgstr "Йод"
 
-#: www/app/components/filter.controller.js:82
+#: www/app/components/filter.controller.js:90
 msgid "Iron"
 msgstr "Железо"
 
@@ -303,11 +310,11 @@ msgstr "Железо"
 msgid "Language"
 msgstr "Язык"
 
-#: www/app/components/filter.controller.js:46
+#: www/app/components/filter.controller.js:54
 msgid "Liquid"
 msgstr "Жидкий"
 
-#: www/app/app.js:55 www/app/app.js:99
+#: www/app/app.js:100 www/app/app.js:55
 msgid "Loading..."
 msgstr "Загрузка..."
 
@@ -331,11 +338,11 @@ msgstr "Выйти"
 msgid "ML"
 msgstr "мл"
 
-#: www/app/components/filter.controller.js:80
+#: www/app/components/filter.controller.js:88
 msgid "Magnesium"
 msgstr "Магний"
 
-#: www/app/components/filter.controller.js:83
+#: www/app/components/filter.controller.js:91
 msgid "Manganese"
 msgstr "Марганец"
 
@@ -348,7 +355,7 @@ msgstr "Меню"
 msgid "Minerals"
 msgstr "Минералы"
 
-#: www/app/components/filter.controller.js:87
+#: www/app/components/filter.controller.js:95
 msgid "Molybdenum"
 msgstr "Молибден"
 
@@ -360,18 +367,17 @@ msgstr "Ещё"
 msgid "My name is Andrey Pushkarev."
 msgstr "Моё имя Андрей Пушкарев."
 
-#: www/app/components/filter.controller.js:38
+#: www/app/components/filter.controller.js:40
 #: www/app/modules/menu/drinks/filter.html:20
 #: www/app/modules/menu/ingredients/filter.html:16
 msgid "Name"
 msgstr "Название"
 
-#: www/app/modules/menu/drinks/filter.html:27
-#: www/app/modules/menu/drinks/filter.html:35
+#: www/app/components/filter.controller.js:48
 msgid "No"
 msgstr "Нет"
 
-#: www/app/components/errorResponseInterceptor.service.js:76
+#: www/app/components/errorResponseInterceptor.service.js:77
 msgid "No account with this email address exists."
 msgstr "Пользователя с таким адресом электронной почты не существует."
 
@@ -383,11 +389,11 @@ msgstr "Спиртные напитки."
 msgid "No smoking."
 msgstr "Курение."
 
-#: www/app/app.js:187
+#: www/app/app.js:188
 msgid "Not Online"
 msgstr "Не Онлайн"
 
-#: www/app/components/filter.controller.js:57
+#: www/app/components/filter.controller.js:65
 msgid "Numbing"
 msgstr "Вяжущий"
 
@@ -416,7 +422,7 @@ msgstr "Упорядочено по названию"
 msgid "Password"
 msgstr "Пароль"
 
-#: www/app/components/errorResponseInterceptor.service.js:72
+#: www/app/components/errorResponseInterceptor.service.js:73
 msgid "Password cannot be blank."
 msgstr "Пароль не может быть пустым."
 
@@ -426,23 +432,23 @@ msgstr "Пароль не может быть пустым."
 msgid "Password is required."
 msgstr "Пароль обязателен."
 
-#: www/app/components/errorResponseInterceptor.service.js:73
+#: www/app/components/errorResponseInterceptor.service.js:74
 #: www/app/modules/auth/login.controller.js:39
 #: www/app/modules/auth/reset.controller.js:37
 #: www/app/modules/auth/signup.controller.js:51
 msgid "Password must be at least 4 characters long."
 msgstr "Пароль должен быть не менее 4 символов."
 
-#: www/app/components/errorResponseInterceptor.service.js:74
+#: www/app/components/errorResponseInterceptor.service.js:75
 msgid "Password reset token is invalid or has expired."
 msgstr "Время действия ссылки на сброс пароля истекло."
 
-#: www/app/components/errorResponseInterceptor.service.js:75
+#: www/app/components/errorResponseInterceptor.service.js:76
 #: www/app/modules/auth/reset.controller.js:40
 msgid "Passwords do not match."
 msgstr "Пароли не совпадают."
 
-#: www/app/components/filter.controller.js:79
+#: www/app/components/filter.controller.js:87
 msgid "Phosphorus"
 msgstr "Фосфор"
 
@@ -458,11 +464,11 @@ msgstr ""
 "Пожалуйста, оцените этот напиток и оставьте комментарий. Это поможет другим "
 "в их выборе!"
 
-#: www/app/components/filter.controller.js:75
+#: www/app/components/filter.controller.js:83
 msgid "Potassium"
 msgstr "Калий"
 
-#: www/app/components/filter.controller.js:39
+#: www/app/components/filter.controller.js:41
 msgid "Price"
 msgstr "Цена"
 
@@ -491,15 +497,15 @@ msgstr "Свойства"
 msgid "Protein"
 msgstr "Белок"
 
-#: www/app/components/filter.controller.js:56
+#: www/app/components/filter.controller.js:64
 msgid "Pungency"
 msgstr "Острый"
 
-#: www/app/components/filter.controller.js:40
+#: www/app/components/filter.controller.js:42
 msgid "Rating"
 msgstr "Рейтинг"
 
-#: www/app/modules/menu/drinks/filter.html:57
+#: www/app/modules/menu/drinks/filter.html:51
 #: www/app/modules/menu/ingredients/filter.html:38
 msgid "Reset"
 msgstr "Сбросить"
@@ -517,7 +523,7 @@ msgstr "Обратный порядок"
 msgid "Rich in"
 msgstr "Богат"
 
-#: www/app/components/filter.controller.js:54
+#: www/app/components/filter.controller.js:62
 msgid "Salty"
 msgstr "Соленый"
 
@@ -525,7 +531,7 @@ msgstr "Соленый"
 msgid "Save"
 msgstr "Сохранить"
 
-#: www/app/components/filter.controller.js:86
+#: www/app/components/filter.controller.js:94
 msgid "Selenium"
 msgstr "Селен"
 
@@ -547,15 +553,15 @@ msgstr "Войти с помощью Email"
 msgid "Social"
 msgstr "Социальные"
 
-#: www/app/components/filter.controller.js:77
+#: www/app/components/filter.controller.js:85
 msgid "Sodium"
 msgstr "Натрий"
 
-#: www/app/components/filter.controller.js:52
+#: www/app/components/filter.controller.js:60
 msgid "Sour"
 msgstr "Кислый"
 
-#: www/app/components/filter.controller.js:51
+#: www/app/components/filter.controller.js:59
 msgid "Sweet"
 msgstr "Сладкий"
 
@@ -579,7 +585,7 @@ msgstr "Ключ"
 msgid "Token is required."
 msgstr "Ключ обязателен."
 
-#: www/app/components/filter.controller.js:55
+#: www/app/components/filter.controller.js:63
 msgid "Umami"
 msgstr "Умами"
 
@@ -591,7 +597,7 @@ msgstr "Произошла непредвиденная ошибка серве�
 msgid "Update password"
 msgstr "Изменить пароль"
 
-#: www/app/components/errorResponseInterceptor.service.js:78
+#: www/app/components/errorResponseInterceptor.service.js:79
 msgid "User is not authenticated."
 msgstr "Пользователь не авторизован."
 
@@ -619,13 +625,12 @@ msgstr "Витамин"
 msgid "Vitamins"
 msgstr "Витамины"
 
-#: www/app/modules/menu/drinks/filter.html:26
-#: www/app/modules/menu/drinks/filter.html:34
+#: www/app/components/filter.controller.js:47
 msgid "Yes"
 msgstr "Да"
 
 #: www/app/components/accessManager.service.js:86
-#: www/app/components/errorResponseInterceptor.service.js:32
+#: www/app/components/errorResponseInterceptor.service.js:33
 msgid "You do not have permission to perform this action."
 msgstr "У вас недостаточно прав что бы выполнить это действие."
 
@@ -666,7 +671,7 @@ msgstr "Вы оцените на"
 msgid "You've just tried {{item.name[lang]}}!"
 msgstr "Вы попробовали {{item.name[lang]}}!"
 
-#: www/app/app.js:183
+#: www/app/app.js:184
 msgid ""
 "Your device has no data connection.\n"
 "App will attempt to show cached data where possible.\n"
@@ -680,7 +685,7 @@ msgstr ""
 msgid "Your password has been changed."
 msgstr "Ваш пароль был изменен."
 
-#: www/app/components/filter.controller.js:81
+#: www/app/components/filter.controller.js:89
 msgid "Zinc"
 msgstr "Цинк"
 
