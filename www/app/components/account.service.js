@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('avm.components')
-	.service('account', function ($rootScope, Restangular, $localStorage, $q, md5, cordovaHelper, gaService) {
+	.service('account', function ($rootScope, Restangular, $localStorage, $q, md5, cordovaHelper, gaService, httpTimeOut) {
     var self = this;
     var url = 'account';
     var account = Restangular.one(url);
@@ -14,7 +14,7 @@ angular.module('avm.components')
     self.login = function (data) {
       var deferred = $q.defer();
 
-      account.all('login').customPOST(data).then(function (response) {
+      account.all('login').withHttpConfig({timeout: httpTimeOut.setUp()}).customPOST(data).then(function (response) {
         self.setAccountData(response.result);
         gaService.setUserId($localStorage.account.email);
         deferred.resolve($localStorage.account);
@@ -36,7 +36,7 @@ angular.module('avm.components')
         locale: locale
       });
       gaService.setUserId('guest');
-      return account.one('logout').get();
+      return account.one('logout').withHttpConfig({timeout: httpTimeOut.setUp()}).get();
     };
 
     /**
@@ -45,19 +45,19 @@ angular.module('avm.components')
      * @returns {Promise.promise}
      */
     self.signUpEmail = function (data) {
-      return account.all('signup').customPOST(data);
+      return account.all('signup').withHttpConfig({timeout: httpTimeOut.setUp()}).customPOST(data);
     };
 
     self.forgot = function (data) {
-      return account.all('forgot').customPOST(data);
+      return account.all('forgot').withHttpConfig({timeout: httpTimeOut.setUp()}).customPOST(data);
     };
 
     self.reset = function (data) {
-      return account.all('reset').customPOST(data);
+      return account.all('reset').withHttpConfig({timeout: httpTimeOut.setUp()}).customPOST(data);
     };
 
     self.saveDrink = function (data) {
-      return account.all('save/drink').customPOST(data);
+      return account.all('save/drink').withHttpConfig({timeout: httpTimeOut.setUp()}).customPOST(data);
     };
 
 //    /**

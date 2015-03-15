@@ -3,7 +3,7 @@
 angular.module('avm.components')
 
   .factory('errorResponseInterceptor',
-  function ($rootScope, account, $state, $log, gettextCatalog, toastService, $ionicLoading) {
+  function ($rootScope, account, $state, $log, gettextCatalog, toastService, $ionicLoading, httpTimeOut) {
     return function (response, deferred) {
       var HTTP_BAD_REQUEST = 400,
         HTTP_UNAUTHORIZED = 401,
@@ -17,6 +17,7 @@ angular.module('avm.components')
         errorMessages = [];
 
       $log.error('API Error. Response: ', response);
+      httpTimeOut.cancel();
 
       switch (response.status) {
         case HTTP_UNAUTHORIZED:
