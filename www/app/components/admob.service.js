@@ -1,19 +1,29 @@
 angular.module('avm.components')
-  .service('AdMobService', function ($q, $settings, $window, toastService) {
+  .service('AdMobService', function ($q, $settings, $window) {
     var self = this;
     var position = 8; // AdMob.AD_POSITION.BOTTOM_CENTER;
     var created = false;
     var prepared = false;
+    var platform;
     var config;
 
-    if( /(android)/i.test(navigator.userAgent) ) {
-      config = $settings.adMob.android;
-    } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
-      config = $settings.adMob.ios;
-    }
+    self.setUpConfig = function () {
+      if (!platform) {
+        platform = $window.device.platform;
+        if (/(android)/i.test(platform)) {
+          config = $settings.adMob.android;
+        } else if (/(ios)/i.test(platform)) {
+          config = $settings.adMob.ios;
+        }
+      }
+    };
 
     self.isPluginAvailable = function () {
-      return !!$window.AdMob;
+      if (!!$window.AdMob && !!$window.device) {
+        self.setUpConfig();
+        return true;
+      }
+      return false;
     };
 
     self.setOptions = function (options) {
