@@ -11,7 +11,7 @@
 						class="button button-icon button-clear button-stable"
 						ng-click="drinksWith(item); $event.stopPropagation();"><i class="icon ion-ios-pint"></i></button>
 				</div>
-				<img class="card-image" ng-src="{{'/images/menu/' + item.id + '.png'}}">
+				<img class="card-image" ng-src="{{'images/menu/' + item.id + '.png'}}">
 			</div>
 			<div class="item item-divider" ng-show="lang !== 'en'">
 				<translate>English name</translate>

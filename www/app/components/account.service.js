@@ -111,7 +111,7 @@ angular.module('avm.components')
     };
 
     self.avatar = function (user) {
-      var defaultImage = '/images/common/user.png';
+      var defaultImage = 'images/common/user.png';
       if (!user) {
         return defaultImage;
       } else if (cordovaHelper.isConnected()) {

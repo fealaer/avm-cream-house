@@ -1,4 +1,7 @@
-<ion-content>
+<header align-title="center" class="bar bar-header bar-positive">
+	<h1 class="title" translate>Navigation</h1>
+</header>
+<ion-content class="has-header">
 	<div class="list">
 		<a class="item item-thumbnail-left" ui-sref="base.profile" menu-toggle="left" ng-class="{'item-positive': $state.includes('profile')}">
 			<img ng-src="{{account.avatar($storage.account)}}">

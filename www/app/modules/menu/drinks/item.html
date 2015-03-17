@@ -28,13 +28,13 @@
 					</button>
 				</div>
 				<div class="card-image-div" ng-if="item.ingredients.length === 2"
-				     style="background: url({{'/images/menu/' + item.ingredients[0] + '.png'}}),
-				      url({{'/images/menu/' + item.ingredients[1] + '.png'}});
+				     style="background: url({{'images/menu/' + item.ingredients[0] + '.png'}}),
+				      url({{'images/menu/' + item.ingredients[1] + '.png'}});
 				      background-size: 65% 65%, 65% 65%;
 				      background-repeat: no-repeat, no-repeat;
 				      background-position: 0px 100%, 100% 0px;
 				      background-origin: border-box;"></div>
-				<img class="card-image" ng-if="item.ingredients.length === 1" ng-src="{{'/images/menu/' + item.ingredients[0] + '.png'}}">
+				<img class="card-image" ng-if="item.ingredients.length === 1" ng-src="{{'images/menu/' + item.ingredients[0] + '.png'}}">
 			</div>
 			<div ng-controller="InfoTabsCtrl">
 				<div class="item tabs tabs-secondary tabs-icon-top secondary-tabs-in-item tabs-positive">
@@ -45,7 +45,7 @@
 					</a>
 					<a class="tab-item" href ng-click="setTab('rate'); trackEvent('tabs', 'change', 'Rate');"
 					   ng-class="{active: isSet('rate')}">
-						<i class="icon ion-ios7-people"></i>
+						<i class="icon ion-ios-people"></i>
 						<fa name="star"></fa>
 						{{item.rate.rate|number:1}}
 						<fa name="comment"></fa>
@@ -77,7 +77,7 @@
 					<div ng-repeat="ingredient in ingredients | filter:usedIngredients | orderBy:'name'"
 					     class="item-thumbnail-left item item-complex">
 						<a class="item-content item-80" ui-sref="menu.ingredients.item({id: ingredient.id})">
-							<img class="list-image" ng-src="{{'/images/menu/' + ingredient.id + '.png'}}">
+							<img class="list-image" ng-src="{{'images/menu/' + ingredient.id + '.png'}}">
 
 							<h2 class="vert-centred">{{ingredient.name[lang]}}</h2>
 							<p ng-show="lang !== 'en'">{{ingredient.name.en}}</p>

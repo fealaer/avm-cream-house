@@ -3,7 +3,7 @@
 		<button class="button button-icon ion-navicon" menu-toggle="left"></button>
 	</ion-nav-buttons>
 	<ion-nav-buttons side="right">
-		<button class="button button-icon icon-right ion-ios7-search-strong" menu-toggle="right"><strong>{{filtered}}</strong></button>
+		<button class="button button-icon icon-right ion-ios-search-strong" menu-toggle="right"><strong>{{filtered}}</strong></button>
 	</ion-nav-buttons>
 	<ion-content has-tabs delegate-handle="drinks-list">
 		<div class="item-thumbnail-left item item-complex item-in-list"
@@ -12,12 +12,12 @@
 		     collection-item-height="100">
 			<a class="item-content padding-5" ui-sref="menu.drinks.item({id: item.id})">
 				<div class="list-image item-image" ng-if="item.ingredients.length === 2"
-				     style="background: url({{'/images/menu/' + item.ingredients[0] + '.png'}}),
-				      url({{'/images/menu/' + item.ingredients[1] + '.png'}});
+				     style="background: url({{'images/menu/' + item.ingredients[0] + '.png'}}),
+				      url({{'images/menu/' + item.ingredients[1] + '.png'}});
 				      background-size: 65% 65%, 65% 65%;
 				      background-repeat: no-repeat, no-repeat;
 				      background-position: 0px 100%, 100% 0px;"></div>
-				<img class="list-image" ng-if="item.ingredients.length === 1" ng-src="{{'/images/menu/' + item.ingredients[0] + '.png'}}">
+				<img class="list-image" ng-if="item.ingredients.length === 1" ng-src="{{'images/menu/' + item.ingredients[0] + '.png'}}">
 				<h2>{{item.name[lang]}}</h2>
 				<h4 ng-show="lang !== 'en'">{{item.name.en}}</h4>
 				<h4><i class="icon ion-android-star"></i> {{item.rate.rate | number:1}} (<i class="icon ion-person"></i> {{item.rate.based | number}}) <i class="icon ion-ios-chatbubble"></i> {{item.totalComments | number}}</h4>
