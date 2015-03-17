@@ -10,7 +10,6 @@ angular.module('avm.libs', [
   'angular-md5'
 ]);
 /*
- "supersonic": "~1.1.1",
  "webcomponentsjs": "~0.5.4",
  "ionic": "~0.9.27",
  "lodash": "~3.2.0",
