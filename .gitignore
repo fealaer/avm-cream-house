@@ -1,17 +1,57 @@
+# OS X
 .DS_Store
+
+# Web build
 /dist
-node_modules
+
+# Node
+npm-debug.log
+/node_modules
+
+# Bower
 bower_components
 libs
 full-libs
+
+# Temp and cache
 .sass-cache/
+.tmp
+.sass-cache
+
+# Logs
 logs/
 
-.tmp
-
-.sass-cache
 *.swp
 
 # IDEA
 .idea
 *.iml
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# iOS
+platforms/ios/build/
+platforms/ios/www/
+platforms/ios/cordova/console.log
+*.xcuserdatad
+
+# android
+platforms/android/assets/www
+platforms/android/bin
+platforms/android/gen
+platforms/android/local.properties
+platforms/android/ant-build
+platforms/android/ant-gen
+platforms/android/CordovaLib/ant-build
+platforms/android/CordovaLib/ant-gen
+platforms/android/CordovaLib/bin
+platforms/android/CordovaLib/gen
+platforms/android/CordovaLib/local.properties
