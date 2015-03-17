@@ -45,9 +45,7 @@ angular.module('avm', [
 		$urlRouterProvider.otherwise('/');
 	})
 
-	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, internetCallService, cordovaHelper, gaService, $interval, httpTimeOut, backButton) {
-    supersonic.ui.navigationBar.hide();
-
+	.run(function ($rootScope, $settings, $log, $timeout, $cacheFactory, $location, $window, $state, gettextCatalog, accessManager, Restangular, errorResponseInterceptor, $localStorage, AdMobService, $ionicLoading, internetCallService, cordovaHelper, gaService, $interval, httpTimeOut, backButton, $ionicPlatform) {
     Restangular.setErrorInterceptor(errorResponseInterceptor);
 
     Restangular.addRequestInterceptor(function(element, operation, route, url) {
@@ -160,7 +158,7 @@ angular.module('avm', [
       document.addEventListener('deviceready', function () {
         console.log('deviceready');
 
-        document.addEventListener("backbutton", backButton.backButton, false);
+        $ionicPlatform.registerBackButtonAction(backButton.backButton, 100);
 
         AdMobService.createBanner();
 
