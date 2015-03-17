@@ -67,7 +67,7 @@ angular.module('avm.menu')
             account.tried($scope.item.id);
             $scope.item.comments = _.union(response.result.comments, $scope.item.comments);
             closeModal();
-//            AdMobService.showInterstitial();
+            AdMobService.showInterstitial();
           });
 			}
 		};
@@ -97,7 +97,7 @@ angular.module('avm.menu')
 			// Execute action
 		});
 		function openModal () {
-//      AdMobService.prepareInterstitial();
+      AdMobService.prepareInterstitial();
       AdMobService.hideBanner();
 			$scope.modal.show();
 		}
