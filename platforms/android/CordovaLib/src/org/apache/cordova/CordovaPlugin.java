@@ -27,6 +27,7 @@ import org.json.JSONException;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.webkit.CookieSyncManager;
 
 /**
  * Plugins must extend this class and override one of the execute methods.
@@ -49,6 +50,14 @@ public class CordovaPlugin {
         this.preferences = preferences;
         initialize(cordova, webView);
         pluginInitialize();
+        // File Transfer API implementation leverages the android.webkit.CookieManager.
+        // But trying to getinstance() of CookieManager before the webview
+        // instantiated would cause crash. In the cordova with xwalk backend,
+        // there doesn't exist webview. From the android official document
+        // (http://developer.android.com/reference/android/webkit/CookieManager.html),
+        // it requires to call following API first.
+        // TODO: add condition only for xwalk backend when dynamic switch is ready.
+        CookieSyncManager.createInstance(cordova.getActivity());
     }
 
     /**
@@ -197,35 +206,5 @@ public class CordovaPlugin {
      * Does nothing by default.
      */
     public void onReset() {
-    }
-    
-    /**
-     * Called when the system received an HTTP authentication request. Plugin can use
-     * the supplied HttpAuthHandler to process this auth challenge.
-     *
-     * @param view              The WebView that is initiating the callback
-     * @param handler           The HttpAuthHandler used to set the WebView's response
-     * @param host              The host requiring authentication
-     * @param realm             The realm for which authentication is required
-     * 
-     * @return                  Returns True if plugin will resolve this auth challenge, otherwise False
-     * 
-     */
-    public boolean onReceivedHttpAuthRequest(CordovaWebView view, ICordovaHttpAuthHandler handler, String host, String realm) {
-        return false;
-    }
-    
-    /**
-     * Called when he system received an SSL client certificate request.  Plugin can use
-     * the supplied ClientCertRequest to process this certificate challenge.
-     *
-     * @param view              The WebView that is initiating the callback
-     * @param request           The client certificate request
-     *
-     * @return                  Returns True if plugin will resolve this auth challenge, otherwise False
-     *
-     */
-    public boolean onReceivedClientCertRequest(CordovaWebView view, ICordovaClientCertRequest request) {
-        return false;
     }
 }
