@@ -1,5 +1,5 @@
 angular.module('avm.about')
-	.controller('AboutAppCtrl', function($rootScope, $scope, gettextCatalog, $localStorage) {
+	.controller('AboutAppCtrl', function($rootScope, $scope, gettextCatalog, $localStorage, appRate) {
 
     $scope.$storage = $localStorage;
 
@@ -29,5 +29,9 @@ angular.module('avm.about')
 
     $scope.github = function () {
       window.open('https://github.com/fealaer', '_system');
-    }
+    };
+
+    $scope.rateApp = function () {
+      appRate.promptForRating();
+    };
 	});
