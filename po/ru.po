@@ -37,7 +37,7 @@ msgstr[2] "{{$count}} звезд!"
 msgid "AVM Cream House App helps you to choose your next drink!"
 msgstr "Приложение AVM Cream House помогает вам выбрать ваш следущий напиток!"
 
-#: www/app/modules/about/app.html:1 www/app/modules/leftMenu.html:31
+#: www/app/modules/about/app.html:1 www/app/modules/leftMenu.html:34
 msgid "About App"
 msgstr "О Приложении"
 
@@ -81,7 +81,7 @@ msgstr "В закладках"
 msgid "Bromine"
 msgstr "Бром"
 
-#: www/app/modules/about/rules.html:1 www/app/modules/leftMenu.html:24
+#: www/app/modules/about/rules.html:1 www/app/modules/leftMenu.html:27
 msgid "Cafe's rules"
 msgstr "Правила кафе"
 
@@ -113,7 +113,7 @@ msgstr "﻿Комментарии"
 msgid "Confirmation"
 msgstr "Подтверждение"
 
-#: www/app/modules/about/about.html:38 www/app/modules/about/app.html:28
+#: www/app/modules/about/about.html:38 www/app/modules/about/app.html:32
 msgid "Contacts"
 msgstr "﻿Контакты"
 
@@ -306,7 +306,7 @@ msgstr "Йод"
 msgid "Iron"
 msgstr "Железо"
 
-#: www/app/modules/leftMenu.html:11
+#: www/app/modules/leftMenu.html:14
 msgid "Language"
 msgstr "Язык"
 
@@ -314,7 +314,7 @@ msgstr "Язык"
 msgid "Liquid"
 msgstr "Жидкий"
 
-#: www/app/app.js:100 www/app/app.js:55
+#: www/app/app.js:53 www/app/app.js:98
 msgid "Loading..."
 msgstr "Загрузка..."
 
@@ -346,7 +346,7 @@ msgstr "Магний"
 msgid "Manganese"
 msgstr "Марганец"
 
-#: www/app/modules/leftMenu.html:16
+#: www/app/modules/leftMenu.html:19
 msgid "Menu"
 msgstr "Меню"
 
@@ -373,6 +373,10 @@ msgstr "Моё имя Андрей Пушкарев."
 msgid "Name"
 msgstr "Название"
 
+#: www/app/modules/leftMenu.html:2
+msgid "Navigation"
+msgstr "Навигация"
+
 #: www/app/components/filter.controller.js:48
 msgid "No"
 msgstr "Нет"
@@ -389,7 +393,7 @@ msgstr "Спиртные напитки."
 msgid "No smoking."
 msgstr "Курение."
 
-#: www/app/app.js:188
+#: www/app/app.js:189
 msgid "Not Online"
 msgstr "Не Онлайн"
 
@@ -468,6 +472,10 @@ msgstr ""
 msgid "Potassium"
 msgstr "Калий"
 
+#: www/app/components/backButton.service.js:22
+msgid "Press again to exit."
+msgstr "Нажмите еще раз, чтобы выйти."
+
 #: www/app/components/filter.controller.js:41
 msgid "Price"
 msgstr "Цена"
@@ -500,6 +508,10 @@ msgstr "Белок"
 #: www/app/components/filter.controller.js:64
 msgid "Pungency"
 msgstr "Острый"
+
+#: www/app/modules/about/app.html:27
+msgid "Rate this App"
+msgstr "Оцените это приложение"
 
 #: www/app/components/filter.controller.js:42
 msgid "Rating"
@@ -549,7 +561,7 @@ msgstr "Войти с помощью"
 msgid "Sign in with Email"
 msgstr "Войти с помощью Email"
 
-#: www/app/modules/about/about.html:54 www/app/modules/about/app.html:36
+#: www/app/modules/about/about.html:54 www/app/modules/about/app.html:40
 msgid "Social"
 msgstr "Социальные"
 
@@ -671,7 +683,7 @@ msgstr "Вы оцените на"
 msgid "You've just tried {{item.name[lang]}}!"
 msgstr "Вы попробовали {{item.name[lang]}}!"
 
-#: www/app/app.js:184
+#: www/app/app.js:185
 msgid ""
 "Your device has no data connection.\n"
 "App will attempt to show cached data where possible.\n"
