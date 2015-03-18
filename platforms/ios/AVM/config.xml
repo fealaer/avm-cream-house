@@ -39,6 +39,9 @@
     <feature name="UniversalAnalytics">
         <param name="ios-package" value="UniversalAnalyticsPlugin" />
     </feature>
+    <feature name="AppRate">
+        <param name="ios-package" value="CDVAppRate" />
+    </feature>
     <icon height="180" src="images/icons/@3x.png" width="180" />
     <icon height="60" src="images/icons/other/Icon-60.png" width="60" />
     <icon height="120" src="images/icons/@2x.png" width="120" />
@@ -75,4 +78,5 @@
     <access origin="*" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="10000" />
+    <preference name="Orientation" value="portrait" />
 </widget>

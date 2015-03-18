@@ -60,5 +60,11 @@
             "type": "registry",
             "id": "com.danielcwilson.plugins.googleanalytics"
         }
+    },
+    "org.pushandplay.cordova.apprate": {
+        "source": {
+            "type": "registry",
+            "id": "org.pushandplay.cordova.apprate"
+        }
     }
 }

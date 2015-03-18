@@ -34,74 +34,44 @@
         <param name="id" value="com.danielcwilson.plugins.googleanalytics" />
     </feature>
     <platform name="android">
-        <!--https://github.com/phonegap/phonegap/wiki/App-Icon-Sizes#android-->
-        <!--<icon src="images/icons/36 x 36 pixels.png" density="ldpi" />-->
-        <icon src="images/icons/48 x 48 pixels.png" density="mdpi" />
-        <icon src="images/icons/72 x 72 pixels.png" density="hdpi" />
-        <icon src="images/icons/96 x 96 pixels.png" density="xhdpi" />
-
-
-        <!--https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes#android-->
-        <!--LDPI: Portrait: 200x320px. Landscape: 320x200px.-->
-        <!--MDPI: Portrait: 320x480px. Landscape: 480x320px.-->
-        <!--HDPI: Portrait: 480x800px. Landscape: 800x480px.-->
-        <!--XHDPI: Portrait: 720px1280px. Landscape: 1280x720px.-->
-        <!--<splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>-->
-        <!--<splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>-->
-        <!--<splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>-->
-        <!--<splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>-->
-
-        <!--<splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>-->
-        <splash src="images/splashscreens/320 x 480.png" density="port-mdpi"/>
-        <splash src="images/splashscreens/480 x 800.png" density="port-hdpi"/>
-        <splash src="images/splashscreens/640 x 960.png" density="port-xhdpi"/>
+        <icon density="mdpi" src="images/icons/48 x 48 pixels.png" />
+        <icon density="hdpi" src="images/icons/72 x 72 pixels.png" />
+        <icon density="xhdpi" src="images/icons/96 x 96 pixels.png" />
+        <splash density="port-mdpi" src="images/splashscreens/320 x 480.png" />
+        <splash density="port-hdpi" src="images/splashscreens/480 x 800.png" />
+        <splash density="port-xhdpi" src="images/splashscreens/640 x 960.png" />
     </platform>
-
     <platform name="ios">
-        <!--https://github.com/phonegap/phonegap/wiki/App-Icon-Sizes#ios-->
-        <!-- iOS 8.0+ -->
-        <!-- iPhone 6 Plus  -->
-        <icon src="images/icons/@3x.png" width="180" height="180" />
-        <!-- iOS 7.0+ -->
-        <!-- iPhone / iPod Touch  -->
-        <icon src="images/icons/other/Icon-60.png" width="60" height="60" />
-        <icon src="images/icons/@2x.png" width="120" height="120" />
-        <!-- iPad -->
-        <icon src="images/icons/@1x.png" width="76" height="76" />
-        <icon src="images/icons/152@2x.png" width="152" height="152" />
-        <!-- iOS 6.1 -->
-        <!-- Spotlight Icon -->
-        <icon src="images/icons/40@1x.png" width="40" height="40" />
-        <icon src="images/icons/80@2x.png" width="80" height="80" />
-        <!-- iPhone / iPod Touch -->
-        <icon src="images/icons/other/Icon.png" width="57" height="57" />
-        <icon src="images/icons/other/Icon@2x.png" width="114" height="114" />
-        <!-- iPad -->
-        <icon src="images/icons/72 x 72 pixels.png" width="72" height="72" />
-        <icon src="images/icons/other/Icon-72@2x.png" width="144" height="144" />
-        <!-- iPhone Spotlight and Settings Icon -->
-        <icon src="images/icons/29@1x.png" width="29" height="29" />
-        <icon src="images/icons/58@2x.png" width="58" height="58" />
-        <!-- iPad Spotlight and Settings Icon -->
-        <icon src="images/icons/other/Icon-Small-50.png" width="50" height="50" />
-        <icon src="images/icons/other/Icon-Small-50@2x.png" width="100" height="100" />
-
-        <!--https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes#ios-->
-        <!-- images are determined by width and height. The following are supported -->
-        <splash src="images/splashscreens/320 x 480.png" width="320" height="480"/>
-        <splash src="images/splashscreens/640 x 960.png" width="640" height="960"/>
-        <splash src="images/splashscreens/768 x 1024.png" width="768" height="1024"/>
-        <splash src="images/splashscreens/1536 x 2048.png" width="1536" height="2048"/>
-        <splash src="images/splashscreens/1024 x 768.png" width="1024" height="768"/>
-        <splash src="images/splashscreens/2048 x 1536.png" width="2048" height="1536"/>
-        <splash src="images/splashscreens/640 x 1136.png" width="640" height="1136"/>
-        <splash src="images/splashscreens/750 x 1334.png" width="750" height="1334"/>
-        <splash src="images/splashscreens/1242 x 2208.png" width="1242" height="2208"/>
-        <splash src="images/splashscreens/2208 x 1242.png" width="2208" height="1242"/>
+        <icon height="180" src="images/icons/@3x.png" width="180" />
+        <icon height="60" src="images/icons/other/Icon-60.png" width="60" />
+        <icon height="120" src="images/icons/@2x.png" width="120" />
+        <icon height="76" src="images/icons/@1x.png" width="76" />
+        <icon height="152" src="images/icons/152@2x.png" width="152" />
+        <icon height="40" src="images/icons/40@1x.png" width="40" />
+        <icon height="80" src="images/icons/80@2x.png" width="80" />
+        <icon height="57" src="images/icons/other/Icon.png" width="57" />
+        <icon height="114" src="images/icons/other/Icon@2x.png" width="114" />
+        <icon height="72" src="images/icons/72 x 72 pixels.png" width="72" />
+        <icon height="144" src="images/icons/other/Icon-72@2x.png" width="144" />
+        <icon height="29" src="images/icons/29@1x.png" width="29" />
+        <icon height="58" src="images/icons/58@2x.png" width="58" />
+        <icon height="50" src="images/icons/other/Icon-Small-50.png" width="50" />
+        <icon height="100" src="images/icons/other/Icon-Small-50@2x.png" width="100" />
+        <splash height="480" src="images/splashscreens/320 x 480.png" width="320" />
+        <splash height="960" src="images/splashscreens/640 x 960.png" width="640" />
+        <splash height="1024" src="images/splashscreens/768 x 1024.png" width="768" />
+        <splash height="2048" src="images/splashscreens/1536 x 2048.png" width="1536" />
+        <splash height="768" src="images/splashscreens/1024 x 768.png" width="1024" />
+        <splash height="1536" src="images/splashscreens/2048 x 1536.png" width="2048" />
+        <splash height="1136" src="images/splashscreens/640 x 1136.png" width="640" />
+        <splash height="1334" src="images/splashscreens/750 x 1334.png" width="750" />
+        <splash height="2208" src="images/splashscreens/1242 x 2208.png" width="1242" />
+        <splash height="1242" src="images/splashscreens/2208 x 1242.png" width="2208" />
     </platform>
-
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="10000" />
-
     <preference name="Orientation" value="portrait" />
+    <feature name="AppRate">
+        <param name="id" value="org.pushandplay.cordova.apprate" />
+    </feature>
 </widget>

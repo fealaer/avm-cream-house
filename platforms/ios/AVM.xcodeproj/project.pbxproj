@@ -70,6 +70,7 @@
 		44E6D18039B545BDB1AF829A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6B73500CE549CC8C80D6D4 /* CoreData.framework */; };
 		CED454CF314E43F0A5164CC5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7131A954A044F78C17A66F /* libz.dylib */; };
 		CB7C169A3F2F47E28E5FBB83 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E52CED9242F42FFA4D497E2 /* libsqlite3.0.dylib */; };
+		52F0D8860305492BA4FF64D5 /* CDVAppRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2FDEB2E7D5476FB5F268D2 /* CDVAppRate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,6 +191,8 @@
 		4F6B73500CE549CC8C80D6D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreData.framework"; path = "System/Library/Frameworks/CoreData.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		DB7131A954A044F78C17A66F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
 		7E52CED9242F42FFA4D497E2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.0.dylib"; path = "usr/lib/libsqlite3.0.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		9F2FDEB2E7D5476FB5F268D2 /* CDVAppRate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAppRate.m"; path = "org.pushandplay.cordova.apprate/CDVAppRate.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B426154F0554445AAAEB665A /* CDVAppRate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAppRate.h"; path = "org.pushandplay.cordova.apprate/CDVAppRate.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,6 +364,8 @@
 				B4F0BA3A8A3E45D5AB73711B /* GAIEcommerceProduct.h */,
 				957D609796BA456D8428D104 /* GAIEcommerceProductAction.h */,
 				B15BB4609B054C2DB8EEABA4 /* GAIEcommercePromotion.h */,
+				9F2FDEB2E7D5476FB5F268D2 /* CDVAppRate.m */,
+				B426154F0554445AAAEB665A /* CDVAppRate.h */,
 			);
 			name = Plugins;
 			path = "AVM/Plugins";
@@ -558,6 +563,7 @@
 				070FAD53D1AF4056A910D6E7 /* CDVAdMobPlugin.m in Sources */,
 				43B91655415A4058B188A1F0 /* AdMobMediation.m in Sources */,
 				3ABB7161628740229FFF84FE /* UniversalAnalyticsPlugin.m in Sources */,
+				52F0D8860305492BA4FF64D5 /* CDVAppRate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

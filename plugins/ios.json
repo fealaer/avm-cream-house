@@ -39,6 +39,10 @@
                         {
                             "xml": "<feature name=\"UniversalAnalytics\"><param name=\"ios-package\" value=\"UniversalAnalyticsPlugin\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AppRate\"><param name=\"ios-package\" value=\"CDVAppRate\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -122,7 +126,7 @@
                     "StoreKit.framework": [
                         {
                             "xml": false,
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "UIKit.framework": [
@@ -176,6 +180,9 @@
             "PACKAGE_NAME": "com.fealaer.avm"
         },
         "com.danielcwilson.plugins.googleanalytics": {
+            "PACKAGE_NAME": "com.fealaer.avm"
+        },
+        "org.pushandplay.cordova.apprate": {
             "PACKAGE_NAME": "com.fealaer.avm"
         }
     },

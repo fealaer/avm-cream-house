@@ -26,6 +26,9 @@
     <feature name="UniversalAnalytics">
         <param name="android-package" value="com.danielcwilson.plugins.analytics.UniversalAnalyticsPlugin" />
     </feature>
+    <feature name="AppRate">
+        <param name="android-package" value="org.pushandplay.cordova.apprate.AppRate" />
+    </feature>
     <icon density="mdpi" src="images/icons/48 x 48 pixels.png" />
     <icon density="hdpi" src="images/icons/72 x 72 pixels.png" />
     <icon density="xhdpi" src="images/icons/96 x 96 pixels.png" />
