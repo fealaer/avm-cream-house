@@ -20,7 +20,7 @@ angular.module('avm.components')
 
     self.promptForRating = function () {
       if (self.isPluginAvailable()) {
-        $window.AppRate.promptForRating();
+        $window.AppRate.promptForRating(true);
       }
     };
   });
