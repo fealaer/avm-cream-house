@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.fealaer.avm" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="Globalization">
+        <param name="ios-package" value="CDVGlobalization" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="Toast">
+        <param name="ios-package" value="Toast" />
+    </feature>
+    <feature name="AdMob">
+        <param name="ios-package" value="CDVAdMobPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="UniversalAnalytics">
+        <param name="ios-package" value="UniversalAnalyticsPlugin" />
+    </feature>
+    <icon height="180" src="images/icons/@3x.png" width="180" />
+    <icon height="60" src="images/icons/other/Icon-60.png" width="60" />
+    <icon height="120" src="images/icons/@2x.png" width="120" />
+    <icon height="76" src="images/icons/@1x.png" width="76" />
+    <icon height="152" src="images/icons/152@2x.png" width="152" />
+    <icon height="40" src="images/icons/40@1x.png" width="40" />
+    <icon height="80" src="images/icons/80@2x.png" width="80" />
+    <icon height="57" src="images/icons/other/Icon.png" width="57" />
+    <icon height="114" src="images/icons/other/Icon@2x.png" width="114" />
+    <icon height="72" src="images/icons/72 x 72 pixels.png" width="72" />
+    <icon height="144" src="images/icons/other/Icon-72@2x.png" width="144" />
+    <icon height="29" src="images/icons/29@1x.png" width="29" />
+    <icon height="58" src="images/icons/58@2x.png" width="58" />
+    <icon height="50" src="images/icons/other/Icon-Small-50.png" width="50" />
+    <icon height="100" src="images/icons/other/Icon-Small-50@2x.png" width="100" />
+    <splash height="480" src="images/splashscreens/320 x 480.png" width="320" />
+    <splash height="960" src="images/splashscreens/640 x 960.png" width="640" />
+    <splash height="1024" src="images/splashscreens/768 x 1024.png" width="768" />
+    <splash height="2048" src="images/splashscreens/1536 x 2048.png" width="1536" />
+    <splash height="768" src="images/splashscreens/1024 x 768.png" width="1024" />
+    <splash height="1536" src="images/splashscreens/2048 x 1536.png" width="2048" />
+    <splash height="1136" src="images/splashscreens/640 x 1136.png" width="640" />
+    <splash height="1334" src="images/splashscreens/750 x 1334.png" width="750" />
+    <splash height="2208" src="images/splashscreens/1242 x 2208.png" width="1242" />
+    <splash height="1242" src="images/splashscreens/2208 x 1242.png" width="2208" />
+    <name>AVM</name>
+    <description>
+        It's hybrid application for AVM Cream House - amazing place for fresh fruit juice lovers which located in Weligama, Sri Lanka
+    </description>
+    <author email="fealaer@gmail.com">
+        Andrey Pushkarev
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>

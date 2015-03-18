@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.fealaer.avm" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>AVM</name>
+    <description>
+        It's hybrid application for AVM Cream House - amazing place for fresh fruit juice lovers which located in Weligama, Sri Lanka
+    </description>
+    <author email="fealaer@gmail.com">
+        Andrey Pushkarev
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <feature name="Device">
+        <param name="id" value="org.apache.cordova.device" />
+    </feature>
+    <feature name="Notification">
+        <param name="id" value="org.apache.cordova.dialogs" />
+    </feature>
+    <feature name="Globalization">
+        <param name="id" value="org.apache.cordova.globalization" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="id" value="org.apache.cordova.inappbrowser" />
+    </feature>
+    <feature name="Network Information">
+        <param name="id" value="org.apache.cordova.network-information" />
+    </feature>
+    <feature name="Toast">
+        <param name="id" value="nl.x-services.plugins.toast" />
+    </feature>
+    <feature name="AdMob Plugin Pro">
+        <param name="id" value="com.google.cordova.admob" />
+    </feature>
+    <feature name="Google Universal Analytics Plugin">
+        <param name="id" value="com.danielcwilson.plugins.googleanalytics" />
+    </feature>
+    <platform name="android">
+        <!--https://github.com/phonegap/phonegap/wiki/App-Icon-Sizes#android-->
+        <!--<icon src="images/icons/36 x 36 pixels.png" density="ldpi" />-->
+        <icon src="images/icons/48 x 48 pixels.png" density="mdpi" />
+        <icon src="images/icons/72 x 72 pixels.png" density="hdpi" />
+        <icon src="images/icons/96 x 96 pixels.png" density="xhdpi" />
+
+
+        <!--https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes#android-->
+        <!--LDPI: Portrait: 200x320px. Landscape: 320x200px.-->
+        <!--MDPI: Portrait: 320x480px. Landscape: 480x320px.-->
+        <!--HDPI: Portrait: 480x800px. Landscape: 800x480px.-->
+        <!--XHDPI: Portrait: 720px1280px. Landscape: 1280x720px.-->
+        <!--<splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>-->
+        <!--<splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>-->
+        <!--<splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>-->
+        <!--<splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>-->
+
+        <!--<splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>-->
+        <splash src="images/splashscreens/320 x 480.png" density="port-mdpi"/>
+        <splash src="images/splashscreens/480 x 800.png" density="port-hdpi"/>
+        <splash src="images/splashscreens/640 x 960.png" density="port-xhdpi"/>
+    </platform>
+
+    <platform name="ios">
+        <!--https://github.com/phonegap/phonegap/wiki/App-Icon-Sizes#ios-->
+        <!-- iOS 8.0+ -->
+        <!-- iPhone 6 Plus  -->
+        <icon src="images/icons/@3x.png" width="180" height="180" />
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="images/icons/other/Icon-60.png" width="60" height="60" />
+        <icon src="images/icons/@2x.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="images/icons/@1x.png" width="76" height="76" />
+        <icon src="images/icons/152@2x.png" width="152" height="152" />
+        <!-- iOS 6.1 -->
+        <!-- Spotlight Icon -->
+        <icon src="images/icons/40@1x.png" width="40" height="40" />
+        <icon src="images/icons/80@2x.png" width="80" height="80" />
+        <!-- iPhone / iPod Touch -->
+        <icon src="images/icons/other/Icon.png" width="57" height="57" />
+        <icon src="images/icons/other/Icon@2x.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="images/icons/72 x 72 pixels.png" width="72" height="72" />
+        <icon src="images/icons/other/Icon-72@2x.png" width="144" height="144" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="images/icons/29@1x.png" width="29" height="29" />
+        <icon src="images/icons/58@2x.png" width="58" height="58" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="images/icons/other/Icon-Small-50.png" width="50" height="50" />
+        <icon src="images/icons/other/Icon-Small-50@2x.png" width="100" height="100" />
+
+        <!--https://github.com/phonegap/phonegap/wiki/App-Splash-Screen-Sizes#ios-->
+        <!-- images are determined by width and height. The following are supported -->
+        <splash src="images/splashscreens/320 x 480.png" width="320" height="480"/>
+        <splash src="images/splashscreens/640 x 960.png" width="640" height="960"/>
+        <splash src="images/splashscreens/768 x 1024.png" width="768" height="1024"/>
+        <splash src="images/splashscreens/1536 x 2048.png" width="1536" height="2048"/>
+        <splash src="images/splashscreens/1024 x 768.png" width="1024" height="768"/>
+        <splash src="images/splashscreens/2048 x 1536.png" width="2048" height="1536"/>
+        <splash src="images/splashscreens/640 x 1136.png" width="640" height="1136"/>
+        <splash src="images/splashscreens/750 x 1334.png" width="750" height="1334"/>
+        <splash src="images/splashscreens/1242 x 2208.png" width="1242" height="2208"/>
+        <splash src="images/splashscreens/2208 x 1242.png" width="2208" height="1242"/>
+    </platform>
+
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+
+    <preference name="Orientation" value="portrait" />
+</widget>

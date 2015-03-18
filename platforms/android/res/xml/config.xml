@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.fealaer.avm" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Toast">
+        <param name="android-package" value="nl.xservices.plugins.Toast" />
+    </feature>
+    <feature name="AdMob">
+        <param name="android-package" value="com.rjfun.cordova.admob.AdMobPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="UniversalAnalytics">
+        <param name="android-package" value="com.danielcwilson.plugins.analytics.UniversalAnalyticsPlugin" />
+    </feature>
+    <icon density="mdpi" src="images/icons/48 x 48 pixels.png" />
+    <icon density="hdpi" src="images/icons/72 x 72 pixels.png" />
+    <icon density="xhdpi" src="images/icons/96 x 96 pixels.png" />
+    <splash density="port-mdpi" src="images/splashscreens/320 x 480.png" />
+    <splash density="port-hdpi" src="images/splashscreens/480 x 800.png" />
+    <splash density="port-xhdpi" src="images/splashscreens/640 x 960.png" />
+    <name>AVM</name>
+    <description>
+        It's hybrid application for AVM Cream House - amazing place for fresh fruit juice lovers which located in Weligama, Sri Lanka
+    </description>
+    <author email="fealaer@gmail.com">
+        Andrey Pushkarev
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="Orientation" value="portrait" />
+</widget>
