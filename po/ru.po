@@ -49,6 +49,14 @@ msgstr "Пользователь с таким адресом электронн
 msgid "Additional"
 msgstr "Дополнительно"
 
+#: www/app/modules/about/app.html:26
+msgid ""
+"Additionally, I would like to say great thanks to my lovely wife Ekaterina "
+"for her support, patience and help!"
+msgstr ""
+"Кроме того, я хотел бы сказать огромное спасибо моей прекрасной жене Кате за "
+"поддержку, терпение и помощь!"
+
 #: www/app/components/filter.controller.js:46
 msgid "All"
 msgstr "﻿Все"
@@ -113,7 +121,7 @@ msgstr "﻿Комментарии"
 msgid "Confirmation"
 msgstr "Подтверждение"
 
-#: www/app/modules/about/about.html:38 www/app/modules/about/app.html:32
+#: www/app/modules/about/about.html:38 www/app/modules/about/app.html:34
 msgid "Contacts"
 msgstr "﻿Контакты"
 
@@ -509,10 +517,6 @@ msgstr "Белок"
 msgid "Pungency"
 msgstr "Острый"
 
-#: www/app/modules/about/app.html:27
-msgid "Rate this App"
-msgstr "Оцените это приложение"
-
 #: www/app/components/filter.controller.js:42
 msgid "Rating"
 msgstr "Рейтинг"
@@ -561,7 +565,7 @@ msgstr "Войти с помощью"
 msgid "Sign in with Email"
 msgstr "Войти с помощью Email"
 
-#: www/app/modules/about/about.html:54 www/app/modules/about/app.html:40
+#: www/app/modules/about/about.html:54 www/app/modules/about/app.html:42
 msgid "Social"
 msgstr "Социальные"
 
@@ -712,6 +716,9 @@ msgstr " - это кафе через дорогу от автобусной с�
 #: www/app/components/ratingView.directive.html:7
 msgid "total"
 msgstr "всего"
+
+#~ msgid "Rate this App"
+#~ msgstr "Оцените это приложение"
 
 #~ msgid "Order"
 #~ msgstr "Сортировка"
