@@ -41,6 +41,8 @@ logs/
 platforms/ios/build/
 platforms/ios/www/
 platforms/ios/cordova/console.log
+platforms/ios/AVM/Resources/icons/
+platforms/ios/AVM/Resources/splash/
 *.xcuserdatad
 
 # android
